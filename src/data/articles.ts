@@ -111,6 +111,26 @@ import denim5Ways from "@/assets/article/denim-5-ways.jpg";
 import denimDetails from "@/assets/article/denim-details.jpg";
 import denimAccessories from "@/assets/article/denim-accessories.jpg";
 
+// New articles - November 2025
+import commuteOutfitsHero from "@/assets/commute-outfits-hero.jpg";
+import weekendStyleHero from "@/assets/weekend-style-hero.jpg";
+import styleArchetypeHero from "@/assets/style-archetype-hero.jpg";
+import minimalistColorHero from "@/assets/minimalist-color-hero.jpg";
+import petiteStylingTipsHero from "@/assets/petite-styling-tips-hero.jpg";
+import luxeEleganceHero from "@/assets/luxe-elegance-hero.jpg";
+import commuteOutfit1 from "@/assets/article/commute-outfit-1.jpg";
+import commuteOutfit2 from "@/assets/article/commute-outfit-2.jpg";
+import weekendOutfit1 from "@/assets/article/weekend-outfit-1.jpg";
+import weekendOutfit2 from "@/assets/article/weekend-outfit-2.jpg";
+import styleClassic from "@/assets/article/style-classic.jpg";
+import styleModern from "@/assets/article/style-modern.jpg";
+import minimalistMono from "@/assets/article/minimalist-mono.jpg";
+import minimalistColor from "@/assets/article/minimalist-color.jpg";
+import petiteProportions from "@/assets/article/petite-proportions.jpg";
+import petiteElongating from "@/assets/article/petite-elongating.jpg";
+import luxeDesigner from "@/assets/article/luxe-designer.jpg";
+import luxeAccessories from "@/assets/article/luxe-accessories.jpg";
+
 export interface Article {
   slug: string;
   title: string;
@@ -1587,6 +1607,180 @@ export const articlesData: Article[] = [
         }
       ],
       conclusion: "Warm skin tones have a natural affinity for earth tones, warm jewel tones, and autumn colors. By understanding your undertone and choosing colors that harmonize with it, you create a wardrobe where everything flatters. Trust what makes you feel radiant—your skin will tell you which colors are right."
+    }
+  },
+  {
+    slug: "my-3-favorite-commute-outfits",
+    title: "My 3 Favorite Commute Outfits This Week",
+    date: "November 15, 2025",
+    excerpt: "Discover three polished yet practical outfit formulas that make weekday commuting both stylish and effortless...",
+    image: commuteOutfitsHero,
+    content: {
+      intro: "Commute dressing is an art—it requires looking professional while staying comfortable during your journey to work. This week, I've been rotating through three outfit formulas that strike the perfect balance between style and practicality. Each look is versatile enough to work in various professional settings while being comfortable for the commute itself.",
+      sections: [
+        {
+          heading: "Look 1: The Power Blazer Formula",
+          content: "A well-tailored dark blazer paired with white button-down and tailored trousers is my go-to for important meetings. The key is choosing a blazer with structure but not stiffness—look for quality fabrics that breathe and maintain their shape throughout the day. I style mine with pointed-toe flats for the commute (heels in my bag for the office) and minimal gold jewelry. This outfit transitions seamlessly from subway to conference room. The trick is ensuring everything fits impeccably—no pulling, no gaping, just clean lines that project confidence.",
+          image: commuteOutfit1
+        },
+        {
+          heading: "Look 2: The Elevated Casual",
+          content: "For days when you need to feel put-together but not overly formal, try a cashmere or merino wool sweater with a midi skirt and ankle boots. I love this combination because it feels comfortable but looks polished. The sweater provides warmth during the commute, while the midi length is office-appropriate and forgiving for sitting. Choose neutral colors for maximum versatility—camel, navy, or gray work beautifully. Add a structured leather bag and simple stud earrings. This outfit works for both internal meetings and client presentations, depending on how you accessorize it.",
+          image: commuteOutfit2
+        },
+        {
+          heading: "Look 3: The Modern Knit Set",
+          content: "A matching knit top and trouser set has become my secret weapon for busy days. It looks incredibly polished while feeling like pajamas. The monochrome effect creates a sleek silhouette, and the soft fabrication means comfort throughout the day. I layer mine with a tailored coat for the commute and style it with loafers or sleek sneakers. The beauty of this look is its versatility—dress it up with heels and statement jewelry for meetings, or keep it minimal for focused work days. Choose sets in charcoal, navy, or chocolate brown for professional settings. Quality is key here—invest in good knits that hold their shape."
+        }
+      ],
+      conclusion: "The secret to successful commute dressing is building a wardrobe of reliable formulas rather than one-off outfits. These three looks can be mixed and matched with different pieces to create countless variations. Focus on quality basics, perfect fit, and comfort—when you feel good in your clothes, it shows. Experiment with these formulas and adapt them to your personal style and workplace culture."
+    }
+  },
+  {
+    slug: "weekend-getaway-style-inspiration",
+    title: "Weekend Getaway Style Inspiration: Comfortable Yet Stylish",
+    date: "November 14, 2025",
+    excerpt: "Pack smart and look effortlessly chic with these weekend travel outfit ideas that prioritize both comfort and style...",
+    image: weekendStyleHero,
+    content: {
+      intro: "Weekend getaways call for a different approach to dressing—you need outfits that are comfortable for travel, versatile for various activities, and stylish enough for photos. The key is choosing pieces that work multiple ways and layer easily. Here's how to pack light while looking your best throughout your short trip.",
+      sections: [
+        {
+          heading: "Travel Day Comfort",
+          content: "Your travel outfit sets the tone for the entire trip. I always opt for soft, stretchy fabrics that look polished but feel comfortable—think quality knit sweaters, comfortable jeans or soft pants, and a long cardigan or duster coat for layering. Sneakers or loafers are ideal for airports and train stations. Choose neutral colors so you can easily mix and match with other pieces in your suitcase. The goal is to look put-together for any unexpected photos while being comfortable enough to nap on the plane. Don't forget a stylish crossbody bag that keeps your hands free while holding all essentials.",
+          image: weekendOutfit1
+        },
+        {
+          heading: "Day Trip Versatility",
+          content: "For exploring your destination, choose outfits that transition from morning coffee to afternoon sightseeing to dinner. A midi or maxi dress with a denim jacket is my favorite formula—comfortable for walking, appropriate for restaurants, and endlessly photogenic. If dresses aren't your style, try jeans with a button-down shirt and blazer, or casual trousers with a silk camisole and cardigan. The key is layering so you can adapt to changing temperatures and activities. Bring a crossbody bag, comfortable but stylish shoes (ankle boots or fashion sneakers), and minimal jewelry that won't get in the way.",
+          image: weekendOutfit2
+        },
+        {
+          heading: "Packing Strategy",
+          content: "The secret to weekend packing is choosing a cohesive color palette so everything works together. I typically pack neutrals (black, white, beige, navy) with one accent color. Bring versatile pieces: one pair of jeans, one dress, two tops, one jacket or cardigan, two pairs of shoes. This creates multiple outfit combinations in a small bag. Roll clothes to prevent wrinkles and save space. Always pack one slightly dressier option in case plans change—you can elevate a simple outfit with heels and statement jewelry. Keep accessories minimal and multi-functional."
+        }
+      ],
+      conclusion: "Weekend style is about smart packing and versatile pieces that work hard for you. By choosing comfortable, neutral basics that layer well, you can create numerous looks without overpacking. Remember, the best travel outfits are ones that make you feel confident and comfortable—when you're relaxed in your clothes, it shows in your photos and your experience. Pack with intention, travel light, and enjoy your getaway in style."
+    }
+  },
+  {
+    slug: "find-your-style-archetype",
+    title: "How to Find Your Style Archetype",
+    date: "November 13, 2025",
+    excerpt: "Unlock your personal style identity by understanding style archetypes and discovering which resonates with your authentic self...",
+    image: styleArchetypeHero,
+    content: {
+      intro: "Have you ever wondered why certain outfits feel right while others feel like you're wearing a costume? The answer lies in understanding your style archetype—a framework that helps identify your innate aesthetic preferences. Rather than chasing trends, discovering your archetype allows you to build a wardrobe that truly reflects who you are. Think of it as your style personality, the consistent thread that runs through all your favorite looks.",
+      sections: [
+        {
+          heading: "Understanding Style Archetypes",
+          content: "Style archetypes are broad categories that capture different aesthetic sensibilities. Common archetypes include Classic (timeless, elegant, refined), Modern (sleek, minimalist, architectural), Romantic (soft, feminine, detailed), Natural (relaxed, effortless, organic), Dramatic (bold, striking, statement-making), and Creative (eclectic, artistic, expressive). Most people have a primary archetype with secondary influences. The key is identifying which feels most authentic to you—not what looks good on others or what's trending, but what makes you feel most like yourself. Your archetype should feel like coming home.",
+          image: styleClassic
+        },
+        {
+          heading: "Discovering Your Archetype",
+          content: "Start by examining your closet—which pieces do you reach for repeatedly? What do they have in common? Look at your Pinterest boards or saved photos—what aesthetic threads connect them? Consider adjectives that describe how you want to feel: polished? edgy? romantic? comfortable? These clues reveal your archetype. Also think about your lifestyle and values. If you prioritize efficiency and simplicity, Modern might be your archetype. If you love self-expression and mixing patterns, Creative could be yours. Your archetype should support your life, not complicate it. Trust your instincts—they're usually right.",
+          image: styleModern
+        },
+        {
+          heading: "Building Your Archetype Wardrobe",
+          content: "Once you know your archetype, building a cohesive wardrobe becomes much easier. For Classic types, invest in timeless pieces in quality fabrics—trench coats, pencil skirts, white shirts. Modern types should focus on clean lines and monochrome palettes. Romantics need soft fabrics, delicate details, and feminine silhouettes. When shopping, ask yourself: does this align with my archetype? Does it feel authentic? If the answer is yes, it's probably a good purchase. If you're trying to force a trend that doesn't fit your archetype, skip it. Your archetype is your personal style filter, helping you make decisions that build a wardrobe you'll actually love wearing."
+        }
+      ],
+      conclusion: "Discovering your style archetype is liberating—it gives you permission to stop following trends that don't serve you and start building a wardrobe that feels authentic. Your archetype isn't limiting; it's clarifying. It helps you make faster, better decisions about what to buy, wear, and keep. Remember, your archetype may evolve as you do, and that's perfectly normal. The goal isn't to box yourself in, but to have a framework that supports confident, authentic dressing. When you dress in alignment with your true style, everything becomes easier and more enjoyable."
+    }
+  },
+  {
+    slug: "minimalist-style-color-palette",
+    title: "Minimalist Style Doesn't Mean Boring: Color Palette Explained",
+    date: "November 12, 2025",
+    excerpt: "Discover how to embrace minimalism while incorporating sophisticated color choices that elevate your entire wardrobe...",
+    image: minimalistColorHero,
+    content: {
+      intro: "Minimalist style is often misunderstood as wearing only black and white. In reality, minimalism is about intentionality—choosing fewer, better pieces that work harmoniously together. A thoughtful color palette is central to this philosophy. By selecting colors strategically, you can create a minimalist wardrobe that's both versatile and visually interesting, proving that minimalism is anything but boring.",
+      sections: [
+        {
+          heading: "The Monochrome Foundation",
+          content: "Start with a neutral base—black, white, gray, beige, navy, or camel. These form the foundation of a minimalist wardrobe because they're versatile, timeless, and easy to mix and match. But here's the secret: even within neutrals, there's variety. Warm beiges differ from cool grays; soft whites differ from stark whites. Choose neutrals that complement your skin tone and personal aesthetic. A monochrome outfit in varying shades of one color creates a sophisticated, elongating effect. This approach is elegant, easy to style, and never boring. The key is playing with different textures and tones within your chosen neutral to add depth and interest.",
+          image: minimalistMono
+        },
+        {
+          heading: "Strategic Color Accents",
+          content: "Once you have your neutral foundation, add strategic pops of color. Choose 2-3 accent colors that work with your neutrals and each other. These might be jewel tones like emerald or sapphire, earth tones like terracotta or olive, or even brights like red or cobalt blue. The key is consistency—use the same accent colors throughout your wardrobe so everything coordinates. A minimalist approach to color isn't about having every color; it's about having the right colors that all work together. This creates endless outfit combinations from relatively few pieces. Your accent colors should feel intentional and personal—choose what makes you feel confident.",
+          image: minimalistColor
+        },
+        {
+          heading: "The Power of Tonal Dressing",
+          content: "Tonal dressing—wearing varying shades of the same color—is a minimalist's secret weapon. It creates visual interest through subtle gradation while maintaining the clean aesthetic minimalism is known for. Try all-camel, all-navy, or all-gray outfits with pieces in slightly different shades. This technique is incredibly sophisticated and photographs beautifully. It also proves that minimalism offers plenty of room for creativity and personal expression. The beauty of tonal dressing is its simplicity—no need to worry about whether colors match, because they're all related. It's effortless elegance at its finest."
+        }
+      ],
+      conclusion: "Minimalist style isn't about deprivation or boredom—it's about clarity and intention. A well-planned color palette makes getting dressed easier, shopping more focused, and your wardrobe more cohesive. By building around neutral foundations, adding strategic accent colors, and experimenting with tonal dressing, you create a minimalist wardrobe that's both practical and beautiful. Remember, the goal of minimalism isn't to own as little as possible, but to own only what serves you well. Choose your colors thoughtfully, invest in quality, and watch your wardrobe transform."
+    }
+  },
+  {
+    slug: "petite-styling-tips-5-tricks",
+    title: "5 Styling Tips for Petite Fashion",
+    date: "November 11, 2025",
+    excerpt: "Master the art of dressing for a petite frame with these five essential styling techniques that create proportion and presence...",
+    image: petiteStylingTipsHero,
+    content: {
+      intro: "Petite fashion isn't about making yourself look taller—it's about creating proportion and balance that flatters your frame. At 5'4\" and under, the rules of dressing shift slightly, not because petite is less than, but because proportions matter. These five styling tips will help you dress with confidence, creating looks that feel authentically you while working with your natural proportions.",
+      sections: [
+        {
+          heading: "1. Master the High-Waisted Bottom",
+          content: "High-waisted pants, skirts, and jeans are your best friends. They create the illusion of longer legs by shortening the torso and extending the leg line. Pair high-waisted bottoms with cropped or tucked-in tops to emphasize your waist and create clear proportions. This simple trick visually elongates your frame without requiring heels. The key is finding the right rise for your body—it should sit at your natural waist, not above or below. When proportions are right, everything else falls into place. High-waisted styles also create a polished, put-together look that works for any occasion.",
+          image: petiteProportions
+        },
+        {
+          heading: "2. Embrace Monochrome and Tonal Dressing",
+          content: "Wearing one color from head to toe creates an unbroken vertical line that elongates your silhouette. This doesn't mean only black—try all-navy, all-camel, or all-white for equally flattering effects. Tonal dressing (varying shades of the same color) works similarly while adding visual interest. Avoid heavy color blocking that cuts your frame into segments—these horizontal lines can make you appear shorter. Instead, create vertical lines through color continuity. This technique is sophisticated, easy to execute, and incredibly flattering. Plus, it simplifies getting dressed—no need to worry about whether colors match.",
+          image: petiteElongating
+        },
+        {
+          heading: "3. Proportion Is Everything",
+          content: "When choosing clothing, pay attention to proportions. Avoid oversized pieces that overwhelm your frame—choose fitted or tailored options instead. If you love the oversized trend, balance it by keeping other pieces fitted. For example, pair an oversized blazer with fitted pants and heels, or wear an oversized sweater with skinny jeans. Midi and maxi lengths can work for petites, but make sure they hit at the right spot—midi skirts should end at the slimmest part of your calf, not mid-calf where they shorten legs. Hemming is your friend—don't be afraid to tailor pieces for perfect proportions."
+        },
+        {
+          heading: "4. Strategic Heel Use",
+          content: "While you don't need heels to look great, they do create a longer leg line when you want extra polish or presence. Nude heels in particular extend the leg line by matching your skin tone. Pointed-toe shoes (flats or heels) also elongate more than round toes. For everyday wear, consider low block heels or kitten heels—comfortable enough for all-day wear while providing subtle height. Ankle straps can cut the leg line, so if you wear them, choose straps that match your shoe or leg color. Remember, confidence matters more than height—wear what makes you feel great."
+        },
+        {
+          heading: "5. V-Necklines and Vertical Details",
+          content: "V-necklines create a vertical line that draws the eye up and down, elongating your torso. This works for tops, dresses, and even coats. Similarly, vertical details—pinstripes, vertical seams, long necklaces, open cardigans—all create lengthening lines. Avoid horizontal stripes and details that cut your frame into sections. Instead, look for pieces with vertical interest. Long necklaces, long scarves, and open outerwear all create vertical lines. These small details add up to significant visual impact, creating proportion and presence."
+        }
+      ],
+      conclusion: "Petite styling is about understanding proportion and using it to your advantage. These five tips—high-waisted bottoms, monochrome dressing, careful proportions, strategic heels, and vertical lines—will transform how you dress and how you feel in your clothes. Remember, the goal isn't to look taller; it's to look balanced and feel confident. Embrace your frame and dress it well. When proportions are right, you'll feel amazing regardless of height. Style is about confidence, and confidence looks good at any height."
+    }
+  },
+  {
+    slug: "how-to-style-luxe-elegance",
+    title: "How to Style 'Luxe Elegance'",
+    date: "November 10, 2025",
+    excerpt: "Learn the secrets to achieving an expensive, elegant look through quality, fit, and thoughtful styling choices...",
+    image: luxeEleganceHero,
+    content: {
+      intro: "Luxe elegance isn't about wearing designer labels or spending thousands on your wardrobe. It's about looking polished, sophisticated, and expensive regardless of your budget. The secret lies in quality fabrics, impeccable fit, thoughtful color choices, and refined details. When these elements come together, you create a presence that speaks of taste, confidence, and sophistication. Here's how to achieve this coveted look.",
+      sections: [
+        {
+          heading: "Invest in Quality Fabrics",
+          content: "The fastest way to elevate your look is through fabric quality. Natural fibers—silk, cashmere, merino wool, cotton, linen—always look and feel more luxurious than synthetics. They drape better, wear longer, and photograph beautifully. Look for fabrics with substance and structure, not limp or flimsy materials. Quality fabrics move with you gracefully and maintain their appearance throughout the day. Even a simple white shirt looks expensive in good cotton with a structured weave. When shopping, touch everything—your hands will tell you which fabrics feel luxurious. This is where it's worth investing more for pieces you'll wear repeatedly.",
+          image: luxeDesigner
+        },
+        {
+          heading: "Perfect Fit Is Non-Negotiable",
+          content: "Nothing says luxury like clothing that fits impeccably. Invest in tailoring to adjust shoulders, hemlines, and waistlines for your body. Clothing should skim your body without pulling or gaping—not too tight, not too loose. Pay special attention to shoulder seams (should sit exactly on your shoulder), sleeve length (should end at your wrist bone), and pant hems (should hit the top of your shoe). A perfectly fitted basic piece looks far more expensive than an ill-fitting designer item. Make friends with a good tailor—they'll transform your wardrobe. Remember, even models get clothes tailored for photo shoots; you deserve the same.",
+          image: luxeAccessories
+        },
+        {
+          heading: "The Power of Accessories",
+          content: "Accessories are where you can truly express luxe elegance. Invest in classic, well-made accessories—a quality leather handbag, simple gold or silver jewelry, a silk scarf, elegant shoes. These don't need to be trendy; they should be timeless. Choose leather goods with clean lines and minimal hardware. For jewelry, less is more—delicate chains, simple hoops, classic watches. Avoid anything plastic, overly embellished, or trendy. Quality accessories elevate even basic outfits and last for years. They're often the best investment you can make in your wardrobe. A beautiful bag paired with jeans and a white tee looks inherently luxurious."
+        },
+        {
+          heading: "Refined Color Palette",
+          content: "Luxe elegance gravitates toward sophisticated color combinations. Think neutrals—black, white, camel, navy, gray—with strategic pops of rich color like burgundy, forest green, or sapphire blue. Avoid neon or overly bright colors; instead, choose saturated, deep tones. Monochromatic outfits in one sophisticated color look incredibly elegant. Stick to a cohesive color palette so everything in your wardrobe works together. This creates visual harmony and makes getting dressed easier. Expensive-looking style is often about restraint—letting quality and cut speak rather than loud colors or patterns."
+        }
+      ],
+      conclusion: "Luxe elegance is achievable at any budget when you focus on quality over quantity, perfect fit, refined accessories, and sophisticated colors. It's not about labels; it's about looking polished and put-together. Invest in timeless pieces that work hard in your wardrobe, get everything tailored to fit beautifully, and choose accessories thoughtfully. Remember, true elegance is understated—it whispers rather than shouts. When you look expensive, you feel confident, and that confidence is the ultimate luxury. Build your wardrobe intentionally, and you'll create a style that looks effortlessly elegant."
     }
   }
 ];
