@@ -255,7 +255,7 @@ export const articlesData: Article[] = [
     excerpt: "厌倦了满街的大牌logo？这些小众品牌的包包同样精致考究，而且更能彰显你的独特品味...",
     image: autumnBagsHero,
     content: {
-      intro: "2025年秋季，时尚界吹起了一股"quiet luxury"风潮。与其追逐那些logo明显的大牌包包，越来越多时髦精开始关注那些design独特、工艺精湛但relatively niche的品牌。这些包包不仅quality上乘，更重要的是——它们能让你stand out from the crowd，展现真正的个人品味。",
+      intro: "2025年秋季，时尚界吹起了一股\"quiet luxury\"风潮。与其追逐那些logo明显的大牌包包，越来越多时髦精开始关注那些design独特、工艺精湛但relatively niche的品牌。这些包包不仅quality上乘，更重要的是——它们能让你stand out from the crowd，展现真正的个人品味。",
       sections: [
         {
           heading: "1. Sculptural Shoulder Bag：建筑感的艺术品",
@@ -353,7 +353,7 @@ export const articlesData: Article[] = [
           content: "Start small if you're nervous about color——a colorful scarf, bag或shoes with neutral outfit。Once comfortable, try colorful tops（easier than colorful pants for most people）。Then progress to full colored suits或dresses。Remember：lighter, brighter colors draw attention（use near your face to brighten complexion），darker, richer colors recede（slimming effect）。If wearing bold color near your face, keep makeup simple。If your outfit is neutral, you can go bolder with makeup or accessories。Most importantly, choose colors that make you feel good。If you feel confident and happy in a color, that positive energy will project to others。That's the real secret to using color to enhance your elegance。"
         }
       ],
-      conclusion: "Color is one of the most powerful tools in your style arsenal，但它requires understanding and confidence to use well。Start by understanding your color season，experiment with different shades，pay attention to how colors make you feel，and gradually build a wardrobe that includes both versatile neutrals and statement colors。Remember，fashion rules are meant to be broken——if a color makes you happy and confident, wear it，regardless of whether it's "your" color theoretically。True elegance comes from confidence，and confidence comes from feeling good in what you wear。Use color as your ally in expressing your unique personality and elevating your presence。"
+      conclusion: "Color is one of the most powerful tools in your style arsenal，但它requires understanding and confidence to use well。Start by understanding your color season，experiment with different shades，pay attention to how colors make you feel，and gradually build a wardrobe that includes both versatile neutrals and statement colors。Remember，fashion rules are meant to be broken——if a color makes you happy and confident, wear it，regardless of whether it\\'s \\\"your\\\" color theoretically。True elegance comes from confidence，and confidence comes from feeling good in what you wear。Use color as your ally in expressing your unique personality and elevating your presence。"
     }
   },
   {
@@ -367,7 +367,7 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "Look 1: Polished Office (Jeans + Blazer + Heels)",
-          content: "是的，牛仔裤可以去office！关键是how you style it。Choose dark wash jeans（越接近black越formal），straight leg或slight flare（更polished than skinny），no distressing（rips和holes are too casual for office）。Pair with crisp white blazer（structured, perfectly tailored），simple white tank或silk cami underneath。Pointed-toe pumps（burgundy adds a pop of color但still professional）instantly elevate the look。Accessories keep minimal——simple studs, delicate necklace, structured tote。This look says "I mean business但I understand modern dress codes。" Perfect for creative industries或casual Fridays。",
+          content: "是的，牛仔裤可以去office！关键是how you style it。Choose dark wash jeans（越接近black越formal），straight leg或slight flare（更polished than skinny），no distressing（rips和holes are too casual for office）。Pair with crisp white blazer（structured, perfectly tailored），simple white tank或silk cami underneath。Pointed-toe pumps（burgundy adds a pop of color但still professional）instantly elevate the look。Accessories keep minimal——simple studs, delicate necklace, structured tote。This look says \\\"I mean business但I understand modern dress codes。\\\" Perfect for creative industries或casual Fridays。",
           image: denim5Ways
         },
         {
@@ -381,7 +381,7 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Look 4: Edgy Cool (Jeans + Leather Jacket + Sneakers)",
-          content: "Channel your inner rockstar with same jeans, black leather jacket, and chunky white sneakers。This is effortlessly cool——the kind of look that says "I woke up like this"（even though it's actually carefully considered）。Under the leather jacket, simple white tee或tank（keep it simple让jacket shine）。White sneakers（whether designer or not）are key——they add street style edge while keeping look youthful and现代。Accessories can be edgier here——chain necklaces, crossbody bag with hardware, aviator sunglasses。This look is perfect for concerts, casual hangouts, shopping days, or任何时候when you want to feel cool and confident。"
+          content: "Channel your inner rockstar with same jeans, black leather jacket, and chunky white sneakers。This is effortlessly cool——the kind of look that says \\\"I woke up like this\\\"（even though it\\'s actually carefully considered）。Under the leather jacket, simple white tee或tank（keep it simple让jacket shine）。White sneakers（whether designer or not）are key——they add street style edge while keeping look youthful and现代。Accessories can be edgier here——chain necklaces, crossbody bag with hardware, aviator sunglasses。This look is perfect for concerts, casual hangouts, shopping days, or任何时候when you want to feel cool and confident。"
         },
         {
           heading: "Look 5: Feminine Chic (Jeans + Wrap Top + Statement Jewelry)",
