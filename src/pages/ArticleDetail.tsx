@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -9,6 +10,10 @@ import { articlesData } from "@/data/articles";
 const ArticleDetail = () => {
   const { slug } = useParams();
   const article = articlesData.find(a => a.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   if (!article) {
     return (
