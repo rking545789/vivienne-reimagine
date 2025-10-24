@@ -75,9 +75,11 @@ const Sidebar = () => {
           </Button>
         </form>
         <p className="text-xs text-center mt-3 text-muted-foreground">
-          <Button variant="link" className="text-xs h-auto p-0 text-muted-foreground hover:text-primary">
-            Privacy Policy
-          </Button>
+          <Link to="/privacy-policy">
+            <Button variant="link" className="text-xs h-auto p-0 text-muted-foreground hover:text-primary">
+              Privacy Policy
+            </Button>
+          </Link>
         </p>
       </div>
     </aside>
