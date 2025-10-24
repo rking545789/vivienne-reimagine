@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import logoNew from "@/assets/logo-new.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col items-center gap-4">
           <img 
-            src={logo} 
+            src={logoNew} 
             alt="The Style Chronicles" 
             className="h-12 w-auto"
           />

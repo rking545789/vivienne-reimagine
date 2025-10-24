@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/logo.png";
 import logoNew from "@/assets/logo-new.png";
 import SearchDialog from "@/components/SearchDialog";
 
@@ -31,7 +30,7 @@ const Header = () => {
             </Link>
             <Link to="/" className="flex-1 flex justify-center">
               <img 
-                src={logo} 
+                src={logoNew} 
                 alt="The Style Chronicles" 
                 className="h-16"
               />
