@@ -136,12 +136,21 @@ const Sidebar = () => {
                 className="block group"
               >
                 <div className="pb-4 border-b border-border last:border-0 hover:bg-muted/30 p-2 rounded transition-colors">
-                  <h4 className="text-sm font-medium leading-tight mb-2 group-hover:text-primary transition-colors line-clamp-2">
-                    {article.title}
-                  </h4>
-                  <p className="text-xs text-muted-foreground">
-                    {article.date}
-                  </p>
+                  <div className="flex gap-3">
+                    <img 
+                      src={article.image} 
+                      alt={article.title}
+                      className="w-16 h-16 object-cover rounded flex-shrink-0"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <h4 className="text-sm font-medium leading-tight mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                        {article.title}
+                      </h4>
+                      <p className="text-xs text-muted-foreground">
+                        {article.date}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </Link>
             ))}
