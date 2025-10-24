@@ -30,6 +30,16 @@ import sleeveStyling from "@/assets/sleeve-styling.jpg";
 import springTransition from "@/assets/spring-transition.jpg";
 import textureMixing from "@/assets/texture-mixing.jpg";
 import weekendCasual from "@/assets/weekend-casual.jpg";
+import colorTheoryHero from "@/assets/color-theory-hero.jpg";
+import petiteStylingHero from "@/assets/petite-styling-hero.jpg";
+import tallStylingHero from "@/assets/tall-styling-hero.jpg";
+import curvyStylingHero from "@/assets/curvy-styling-hero.jpg";
+import deepSkintoneHero from "@/assets/deep-skintone-hero.jpg";
+import fairSkintoneHero from "@/assets/fair-skintone-hero.jpg";
+import neutralHarmonyHero from "@/assets/neutral-harmony-hero.jpg";
+import rectangleBodyHero from "@/assets/rectangle-body-hero.jpg";
+import pearShapeHero from "@/assets/pear-shape-hero.jpg";
+import warmSkintoneHero from "@/assets/warm-skintone-hero.jpg";
 
 // Detail images
 import trenchDetails from "@/assets/article/trench-details.jpg";
@@ -64,6 +74,16 @@ import spring2026White from "@/assets/article/spring-2026-white.jpg";
 import spring2026Blue from "@/assets/article/spring-2026-blue.jpg";
 import spring2026Pink from "@/assets/article/spring-2026-pink.jpg";
 import spring2026Beige from "@/assets/article/spring-2026-beige.jpg";
+import colorWheelDemo from "@/assets/article/color-wheel-demo.jpg";
+import petiteDetails from "@/assets/article/petite-details.jpg";
+import tallProportions from "@/assets/article/tall-proportions.jpg";
+import flatteringSilhouettes from "@/assets/article/flattering-silhouettes.jpg";
+import jewelTonesDeep from "@/assets/article/jewel-tones-deep.jpg";
+import pastelsFair from "@/assets/article/pastels-fair.jpg";
+import neutralLayering from "@/assets/article/neutral-layering.jpg";
+import waistDefinition from "@/assets/article/waist-definition.jpg";
+import balanceProportions from "@/assets/article/balance-proportions.jpg";
+import warmEarthTones from "@/assets/article/warm-earth-tones.jpg";
 
 export interface Article {
   slug: string;
@@ -1025,6 +1045,306 @@ export const articlesData: Article[] = [
         }
       ],
       conclusion: "Weekend casual style is about finding the sweet spot between comfort and polish. By investing in quality basics, paying attention to fit and fabric, and adding small polished touches, you create a weekend wardrobe that makes you feel confident and comfortable. Remember, looking good on weekends isn't about dressing up—it's about dressing well, even when you're dressing down."
+    }
+  },
+  {
+    slug: "color-theory-masterclass",
+    title: "Color Theory Masterclass: The Science of Looking Good",
+    date: "September 24, 2025",
+    excerpt: "Learn the color combinations that create harmonious, eye-catching outfits...",
+    image: colorTheoryHero,
+    content: {
+      intro: "Color theory isn't just for artists—it's a powerful tool for creating stylish outfits. Understanding how colors work together, which combinations create harmony, and how to use the color wheel can transform your wardrobe. Whether you want to create bold, attention-grabbing looks or subtle, sophisticated outfits, mastering color theory gives you the confidence to mix and match with intention.",
+      sections: [
+        {
+          heading: "The Color Wheel Basics",
+          content: "The color wheel is your roadmap to successful color combinations. Complementary colors (opposites on the wheel, like blue and orange) create high contrast and energy. Analogous colors (next to each other, like blue, teal, and green) offer harmony and flow. Triadic colors (evenly spaced, like red, yellow, and blue) provide balance with vibrancy. Understanding these relationships helps you create intentional, cohesive looks.",
+          image: colorWheelDemo
+        },
+        {
+          heading: "Complementary Color Blocking",
+          content: "Complementary colors create the most dramatic, eye-catching combinations. Royal blue with burnt orange, purple with yellow, red with green—these pairings demand attention. The key is balancing the proportions: use one color as the dominant shade (60-70%) and the other as an accent (30-40%). For example, an orange blazer with blue pants, or a purple dress with yellow accessories. This technique works best when both colors are equally saturated."
+        },
+        {
+          heading: "Analogous Harmony",
+          content: "Analogous color schemes create sophisticated, harmonious looks that feel cohesive and intentional. Think navy, teal, and emerald green, or burgundy, rust, and coral. These combinations work beautifully because the colors share undertones. They're easier to wear than complementary schemes and create elegant, pulled-together outfits. This is perfect for those who want color without boldness."
+        },
+        {
+          heading: "Neutral Anchoring",
+          content: "Neutrals (black, white, gray, beige, navy) act as anchors that allow you to experiment with color combinations. Use neutrals to separate bold colors, create breathing room in busy outfits, and ground statement pieces. A red dress with black shoes, a yellow top with navy pants, or a green jacket over a white tee—neutrals make any color combination wearable. They're the secret to making color theory practical for everyday dressing."
+        }
+      ],
+      conclusion: "Mastering color theory empowers you to create intentional, stylish outfits with confidence. By understanding the color wheel, experimenting with different color relationships, and using neutrals strategically, you develop an eye for combinations that work. Color is one of fashion's most powerful tools—learning to wield it effectively elevates your entire wardrobe."
+    }
+  },
+  {
+    slug: "petite-dressing-guide",
+    title: "Petite Styling: Dressing for Shorter Frames",
+    date: "September 23, 2025",
+    excerpt: "Discover proportion tricks and styling techniques for petite women...",
+    image: petiteStylingHero,
+    content: {
+      intro: "Being petite (typically 5'4\" and under) comes with unique styling challenges. Standard proportions don't always work, clothes can overwhelm smaller frames, and finding the right fit requires strategy. However, with the right techniques—focusing on proportion, fit, and clever styling—petite women can create beautifully balanced, flattering looks that celebrate their frame.",
+      sections: [
+        {
+          heading: "The Golden Rules of Petite Styling",
+          content: "For petite frames, proportion is everything. Create long, unbroken lines from head to toe. Avoid overwhelming your frame with oversized pieces. Pay attention to hem lengths—they should hit at the right spots to elongate, not truncate. Choose fitted over boxy. Opt for cropped jackets that show more leg. These fundamentals create the illusion of height and prevent clothes from wearing you.",
+          image: petiteDetails
+        },
+        {
+          heading: "Vertical Lines and Monochrome",
+          content: "Vertical lines are your best friend. Monochromatic outfits (head-to-toe in one color) create an unbroken vertical line that elongates. Vertical stripes, center seams, and long cardigans all draw the eye up and down. Avoid horizontal lines, color blocking at the waist, and busy patterns that cut your silhouette into sections. The goal is creating one long, lean line."
+        },
+        {
+          heading: "Perfect Proportions",
+          content: "High-waisted bottoms are essential—they make legs look longer and create better proportions. Cropped jackets (hitting at the waist or just above) work better than long coats. Ankle-length pants are more flattering than full-length. V-necks elongate more than crew necks. Small accessories maintain scale—oversized bags and chunky jewelry can overwhelm petite frames. Every detail matters when you're working with less height."
+        },
+        {
+          heading: "Tailoring is Essential",
+          content: "Petite women benefit most from tailoring. Hem pants to the perfect length. Shorten sleeves that are too long. Take in waists that gap. Even inexpensive clothes look expensive when they fit perfectly. Many brands offer petite lines, but even those often need minor adjustments. A good tailor is a petite woman's best friend—proper fit is non-negotiable."
+        }
+      ],
+      conclusion: "Petite styling is about understanding proportion and using it to your advantage. By creating long lines, maintaining proper proportions, and ensuring perfect fit, you can create a wardrobe that flatters your frame beautifully. Being petite doesn't limit your style options—it just requires more intentional choices."
+    }
+  },
+  {
+    slug: "tall-women-styling",
+    title: "Styling for Tall Women: Embracing Your Height",
+    date: "September 22, 2025",
+    excerpt: "Learn how to dress your tall frame with confidence and style...",
+    image: tallStylingHero,
+    content: {
+      intro: "Tall women (typically 5'8\" and above) have their own set of styling considerations. While height is often envied, finding clothes that fit properly, avoiding looking too elongated, and creating balanced proportions requires specific strategies. The key is embracing your height while ensuring your outfits are proportionate and flattering.",
+      sections: [
+        {
+          heading: "Breaking Up the Vertical Line",
+          content: "Unlike petite women who seek to elongate, tall women benefit from breaking up vertical lines. Horizontal stripes, color blocking, and contrasting tops and bottoms all work well. Cropped tops with high-waisted bottoms create natural breaks. Layering also helps—a belt at the waist, a cardigan over a dress, or a jacket that hits at the hip all add visual interest and proportion.",
+          image: tallProportions
+        },
+        {
+          heading: "Midi and Maxi Lengths",
+          content: "Tall women can wear midi and maxi lengths beautifully—lengths that can overwhelm shorter frames look elegant on taller bodies. Midi skirts, maxi dresses, wide-leg pants, and long coats all work well. These pieces balance tall frames and look sophisticated. Don't shy away from length—embrace it. Just ensure proper proportions elsewhere (fitted tops with flowing bottoms, structured pieces with soft pieces)."
+        },
+        {
+          heading: "Statement Pieces and Patterns",
+          content: "Tall frames carry bold patterns and statement pieces beautifully. Large prints, oversized outerwear, and dramatic silhouettes don't overwhelm taller bodies the way they might shorter ones. Use this to your advantage—experiment with bold colors, large-scale patterns, and architectural pieces. Your height allows you to wear pieces others can't pull off."
+        },
+        {
+          heading: "Fit Challenges and Solutions",
+          content: "Tall women often struggle with sleeve length, rise in pants, and dress lengths. Look for tall-specific lines (many brands offer them now). Embrace three-quarter sleeves when full-length is too short. Try ankle pants intentionally rather than settling for regular pants that look unintentionally cropped. Sometimes showing a bit of ankle and wrist is more stylish than struggling to find pieces long enough."
+        }
+      ],
+      conclusion: "Being tall is an asset in fashion, even though finding proper fit can be challenging. By understanding how to proportion your outfits, embracing lengths that work for your frame, and seeking out tall-specific options, you create a wardrobe that celebrates your height. Tall women have unique style opportunities—take advantage of them."
+    }
+  },
+  {
+    slug: "curvy-body-styling",
+    title: "Dressing Curvy Bodies: Celebrating Your Shape",
+    date: "September 21, 2025",
+    excerpt: "Flattering styling techniques for curvier figures...",
+    image: curvyStylingHero,
+    content: {
+      intro: "Curvy bodies deserve clothes that celebrate their shape, not hide it. Whether you carry weight in specific areas or have an hourglass figure, the goal is finding pieces that fit well, flatter your proportions, and make you feel confident. This isn't about dressing to look thinner—it's about dressing to look and feel your best.",
+      sections: [
+        {
+          heading: "Embracing Your Curves",
+          content: "The most important rule: wear clothes that fit your body now, not the body you wish you had. Clothes that are too tight create unflattering lines. Clothes that are too loose hide your shape entirely. Proper fit means clothes that skim your body, showing your silhouette without clinging. Celebrate your curves—they're beautiful and deserve to be dressed well.",
+          image: flatteringSilhouettes
+        },
+        {
+          heading: "Flattering Silhouettes",
+          content: "Certain styles are universally flattering for curvier bodies. Wrap dresses define the waist while skimming everywhere else. A-line skirts balance proportions beautifully. V-necklines elongate and flatter fuller busts. Empire waists create definition without constriction. Structured fabrics provide support and shape. These styles work because they work with your body, not against it."
+        },
+        {
+          heading: "Strategic Draping and Ruching",
+          content: "Draping and ruching aren't about hiding—they're about creating beautiful lines and texture. Side ruching on a dress or top draws the eye inward, creating a slimming effect. Draped fabrics move beautifully and skim the body rather than clinging. Strategic gathering creates visual interest while maintaining smooth lines. These details are your friends—they add sophistication while flattering your figure."
+        },
+        {
+          heading: "Foundation and Structure",
+          content: "Good foundations make everything look better. Well-fitting undergarments create smooth lines and proper support. Structured pieces (blazers, tailored coats) provide framework and polish. Don't be afraid of structure—it creates beautiful silhouettes. Combine structured pieces with softer pieces for balance. A tailored blazer with a flowing dress, structured pants with a soft top—this contrast creates dimension and interest."
+        }
+      ],
+      conclusion: "Dressing a curvier body is about celebration, not concealment. By finding proper fit, choosing flattering silhouettes, and using strategic details, you create a wardrobe that makes you feel confident and beautiful. Your curves are part of your unique beauty—dress them well and wear them proudly."
+    }
+  },
+  {
+    slug: "deep-skin-tone-colors",
+    title: "Colors for Deep Skin Tones: Your Ultimate Palette",
+    date: "September 20, 2025",
+    excerpt: "Discover the most flattering colors for darker skin tones...",
+    image: deepSkintoneHero,
+    content: {
+      intro: "Deep skin tones have the beautiful advantage of being able to carry rich, vibrant colors that might overwhelm lighter skin. From jewel tones to earthy hues, understanding which colors complement darker skin creates a wardrobe that makes you glow. This isn't about rules—it's about discovering which shades make you feel radiant.",
+      sections: [
+        {
+          heading: "Jewel Tones: Your Power Colors",
+          content: "Jewel tones are stunning on deep skin. Emerald green, sapphire blue, ruby red, amethyst purple—these rich, saturated colors create beautiful contrast and make skin glow. They're sophisticated, elegant, and universally flattering for darker skin tones. Invest in jewel-toned pieces in silks, satins, and other luxe fabrics. These colors elevate any outfit instantly.",
+          image: jewelTonesDeep
+        },
+        {
+          heading: "Warm Earth Tones",
+          content: "Warm earth tones complement the golden undertones in many deep skin tones beautifully. Think burnt orange, terracotta, warm camel, rich chocolate brown, and olive green. These colors create a harmonious, sophisticated palette that works for any occasion. They're especially beautiful in fall and winter but work year-round when styled correctly."
+        },
+        {
+          heading: "Bold Brights and Neons",
+          content: "Deep skin can carry bold, bright colors that might overwhelm lighter skin. Hot pink, electric blue, vibrant yellow, and even neons look stunning against darker skin. These colors create dramatic, eye-catching looks perfect for making statements. Don't shy away from color—lean into it. Your skin tone is your superpower when it comes to wearing bold hues."
+        },
+        {
+          heading: "Unexpected Pastels",
+          content: "While jewel tones and brights are obvious choices, don't overlook pastels. Deep pastels (think rich lavender, deep mint, coral) look beautiful on darker skin, creating an unexpected, sophisticated contrast. Avoid washed-out pastels—choose versions with depth and saturation. These softer colors offer versatility while still flattering your skin tone."
+        }
+      ],
+      conclusion: "Deep skin tones have incredible versatility when it comes to color. From rich jewel tones to bold brights to unexpected pastels, you have a wider color palette than almost anyone. Experiment fearlessly, trust what makes you feel radiant, and remember—your skin tone is beautiful, and the right colors make it even more so."
+    }
+  },
+  {
+    slug: "fair-skin-color-guide",
+    title: "Perfect Colors for Fair Skin Tones",
+    date: "September 19, 2025",
+    excerpt: "Find the most flattering shades for lighter complexions...",
+    image: fairSkintoneHero,
+    content: {
+      intro: "Fair skin tones have their own unique beauty and color considerations. While you might think you can't wear certain colors, the truth is about finding the right shades and undertones. Soft pastels, cool tones, and strategic use of color can create looks that enhance your natural coloring and make you glow.",
+      sections: [
+        {
+          heading: "Soft Pastels: Your Signature Palette",
+          content: "Pastels are magical on fair skin. Powder blue, blush pink, lavender, mint green, and soft coral all create beautiful, harmonious looks. These colors don't compete with your skin tone—they complement it. They're soft, romantic, and universally flattering. Build your wardrobe foundation around these shades, and you'll always look polished and put-together.",
+          image: pastelsFair
+        },
+        {
+          heading: "Cool Tones and True Colors",
+          content: "Fair skin often has cool undertones (pink or blue-based). Colors that complement these undertones include true red (blue-based), navy blue, emerald green, and royal purple. These colors create beautiful contrast against fair skin. Avoid warm oranges and yellows, which can make fair skin look washed out. Stick to cool or true versions of colors for the most flattering effect."
+        },
+        {
+          heading: "Strategic Use of Neutrals",
+          content: "Not all neutrals work equally well on fair skin. Navy, gray, and soft white are more flattering than stark black or bright white, which can create harsh contrast. Camel, cream, and soft beige work beautifully. When wearing darker neutrals, add color near your face (through scarves, necklaces, or colorful tops) to prevent looking washed out."
+        },
+        {
+          heading: "Jewel Tones for Impact",
+          content: "While pastels are your base, don't shy away from jewel tones. Deep emerald, sapphire, ruby, and amethyst all look stunning on fair skin, creating beautiful contrast and sophistication. These colors work especially well for evening or when you want to make a statement. The key is choosing saturated versions rather than muddy shades."
+        }
+      ],
+      conclusion: "Fair skin tones have a beautiful, delicate quality that deserves colors that enhance rather than overwhelm. By focusing on soft pastels, cool tones, and strategic use of jewel tones, you create a wardrobe that makes you look radiant. Remember, your fair skin is beautiful—the right colors simply help it shine."
+    }
+  },
+  {
+    slug: "neutral-color-harmony",
+    title: "The Art of Neutral Dressing: Beyond Basic",
+    date: "September 18, 2025",
+    excerpt: "Master the sophisticated art of neutral color combinations...",
+    image: neutralHarmonyHero,
+    content: {
+      intro: "Neutral dressing is often dismissed as boring, but when done well, it's the epitome of sophisticated style. The key lies in understanding undertones, mixing textures, and creating depth through layering similar shades. A well-executed neutral palette is refined, elegant, and surprisingly versatile—the foundation of a truly timeless wardrobe.",
+      sections: [
+        {
+          heading: "Understanding Neutral Undertones",
+          content: "Not all neutrals work together. Warm neutrals (camel, cream, tan) have yellow undertones. Cool neutrals (gray, navy, pure white) have blue undertones. Mixing warm and cool neutrals often creates discord. For harmonious looks, stick to one temperature family. Layer shades within that family—warm camel with cream and beige, or cool gray with navy and charcoal. This creates cohesive, sophisticated outfits.",
+          image: neutralLayering
+        },
+        {
+          heading: "Texture is Everything",
+          content: "When color is minimal, texture becomes crucial. Mix smooth leather with chunky knits, soft cashmere with crisp cotton, matte wool with shiny silk. These contrasts create visual interest and prevent neutral outfits from looking flat. An all-beige outfit becomes compelling when you combine different textures. This is where neutral dressing becomes art—it's not about the colors, it's about how they interact through different materials."
+        },
+        {
+          heading: "Layering Neutral Shades",
+          content: "The most sophisticated neutral outfits layer multiple shades of the same color family. Think cream turtleneck, beige blazer, camel coat, and tan accessories. Or charcoal sweater, gray blazer, heather gray pants, and black shoes. This tonal approach creates depth and dimension while maintaining elegant simplicity. It's more interesting than matchy-matchy but more cohesive than random neutrals thrown together."
+        },
+        {
+          heading: "Adding Subtle Accent",
+          content: "Pure neutral outfits work beautifully, but sometimes adding one subtle accent elevates them further. A burgundy bag with camel and cream, navy accents with gray, or cognac leather with blacks and whites. These accents should be understated—they add depth without disrupting the neutral harmony. Think of them as punctuation, not exclamation points."
+        }
+      ],
+      conclusion: "Neutral dressing is an art form that requires understanding undertones, masterful texture mixing, and careful layering. When executed well, it's sophisticated, timeless, and incredibly chic. Invest in quality neutral pieces, learn to layer them thoughtfully, and discover that neutral dressing is anything but boring."
+    }
+  },
+  {
+    slug: "rectangle-body-styling",
+    title: "Styling Rectangle Body Shapes: Creating Curves",
+    date: "September 17, 2025",
+    excerpt: "Learn to create definition and shape for straight body types...",
+    image: rectangleBodyHero,
+    content: {
+      intro: "Rectangle body shapes (also called straight or athletic) have shoulders, waist, and hips of similar width. While this creates a naturally balanced silhouette, many women with this shape want to create more definition and curves. The good news? Strategic styling can create the illusion of a more defined waist and curvier silhouette while celebrating your naturally balanced proportions.",
+      sections: [
+        {
+          heading: "Creating Waist Definition",
+          content: "The goal is creating the appearance of a more defined waist. Belts are your best friend—use them over dresses, cardigans, and jackets. Peplum styles add curves at the hip. Wrap dresses create waist definition through their structure. High-waisted bottoms paired with crop tops or tucked-in shirts also define the waist. The key is breaking up the straight line from shoulder to hip.",
+          image: waistDefinition
+        },
+        {
+          heading: "Adding Volume Strategically",
+          content: "Add volume at the bust or hips to create curves. Ruffles, embellishments, or details at the bust add dimension up top. A-line skirts and flared pants add volume at the hips. Avoid boxy, straight-cut pieces that emphasize the straight silhouette. Instead, choose pieces with shape—fitted at some points, flowing at others. This creates visual interest and curves."
+        },
+        {
+          heading: "Structured Pieces for Shape",
+          content: "Structured blazers with nipped waists, fit-and-flare dresses, and tailored coats all create shape where your body is naturally straight. These pieces impose structure and definition. Pair structured pieces with softer ones for contrast—a fitted blazer with flowing pants, a structured dress with a soft cardigan. This combination creates dimension and interest."
+        },
+        {
+          heading: "Avoiding Common Pitfalls",
+          content: "Straight, boxy cuts emphasize your natural straightness—avoid shapeless tunics and straight-cut dresses. Drop-waist styles and empire waists can make you look shapeless. Horizontal stripes at the waist draw attention to the lack of definition. Instead, choose styles with built-in shape, use vertical details down the center, and embrace styles that create curves where you want them."
+        }
+      ],
+      conclusion: "Rectangle body shapes are naturally balanced and proportionate—a great foundation for style. By strategically creating waist definition, adding volume where you want curves, and choosing structured pieces, you can create the illusion of a curvier silhouette while celebrating your athletic build. Remember, the goal isn't to change your body—it's to dress it beautifully."
+    }
+  },
+  {
+    slug: "pear-shape-styling",
+    title: "Dressing Pear-Shaped Bodies: Balance and Proportion",
+    date: "September 16, 2025",
+    excerpt: "Styling tips for balancing narrower shoulders with fuller hips...",
+    image: pearShapeHero,
+    content: {
+      intro: "Pear-shaped bodies (narrow shoulders and bust with fuller hips and thighs) are beautifully feminine and incredibly common. The styling goal is creating balance by drawing attention upward and choosing bottoms that flatter your lower half. This isn't about hiding your hips—it's about creating proportional balance throughout your silhouette.",
+      sections: [
+        {
+          heading: "Drawing Attention Upward",
+          content: "The key to flattering pear shapes is balancing proportions by adding visual interest on top. Detailed necklines, statement sleeves, interesting collars, and embellishments all draw the eye upward. Bright colors and patterns on top paired with darker, solid bottoms create balance. V-necks and scoop necks elongate and broaden the upper body. Off-shoulder styles add width to shoulders, balancing wider hips.",
+          image: balanceProportions
+        },
+        {
+          heading: "Flattering Bottom Styles",
+          content: "For bottoms, choose styles that skim rather than cling. A-line skirts, wide-leg pants, and boot-cut jeans all balance pear shapes beautifully. Dark colors on the bottom are universally flattering. Avoid skinny jeans, tight pencil skirts, and light-colored bottoms—these emphasize the hip-to-shoulder difference. Instead, choose pieces with some flow that move gracefully over hips and thighs."
+        },
+        {
+          heading: "Strategic Layering",
+          content: "Longer tops, tunics, and jackets that hit below the hipbone create a streamlined silhouette. Avoid cropped jackets that end right at your widest point—they emphasize what you're trying to balance. Instead, choose jackets that end at mid-hip or below. Layer longer pieces over fitted ones to create length and smooth lines."
+        },
+        {
+          heading: "Fit and Proportion",
+          content: "Buy bottoms to fit your hips and have waists taken in if needed. Gaping waistbands are unflattering and common for pear shapes. A simple alteration makes all the difference. Ensure tops fit well in shoulders and bust—avoid oversized tops that add bulk on top (you want structure and definition, not volume). Proper fit creates the balanced, proportional look you're after."
+        }
+      ],
+      conclusion: "Pear-shaped bodies are beautifully feminine, and styling them well is about creating balance, not hiding your natural shape. By drawing attention upward, choosing flattering bottom styles, and ensuring proper fit, you create outfits that celebrate your curves while creating beautiful proportion. Your shape is gorgeous—dress it with confidence."
+    }
+  },
+  {
+    slug: "warm-undertone-colors",
+    title: "Perfect Colors for Warm Skin Undertones",
+    date: "September 15, 2025",
+    excerpt: "Discover which colors make warm-toned skin glow...",
+    image: warmSkintoneHero,
+    content: {
+      intro: "If you have warm undertones (golden, peachy, or yellow-based), certain colors will make you glow while others wash you out. Understanding your undertone and choosing colors that harmonize with it is the secret to always looking radiant. Warm-toned skin has an advantage—earth tones, warm jewel tones, and rich autumn colors all work beautifully.",
+      sections: [
+        {
+          heading: "Earth Tones: Your Natural Palette",
+          content: "Warm earth tones are made for warm skin. Terracotta, rust, burnt orange, warm camel, olive green, and rich browns all complement golden undertones beautifully. These colors create harmonious, sophisticated looks that feel natural and effortless. Build your wardrobe foundation around these shades—they'll always make you look polished and put-together.",
+          image: warmEarthTones
+        },
+        {
+          heading: "Warm Jewel Tones",
+          content: "While cool jewel tones might clash, warm versions work beautifully. Warm emerald (with yellow undertones), warm ruby, topaz, and golden yellows all complement warm skin. These rich colors add sophistication and elegance while harmonizing with your natural coloring. They're especially beautiful for evening or when you want to make a statement."
+        },
+        {
+          heading: "Avoiding Cool Tones",
+          content: "Cool colors with blue undertones—icy pink, cool blue, pure white, gray—can make warm skin look sallow or washed out. If you love these colors, wear them away from your face or layer them with warmer tones. For example, a cool blue jacket over a warm orange top, or cool gray pants with a warm camel sweater. This allows you to wear the full spectrum while staying flattering."
+        },
+        {
+          heading: "Warm Neutrals",
+          content: "For neutrals, choose warm versions. Cream over white, camel over gray, warm brown over black. These colors complement rather than contrast with your skin tone. They create a cohesive, harmonious look that feels natural and polished. Warm neutrals should be the foundation of your wardrobe—they work with everything and always flatter."
+        }
+      ],
+      conclusion: "Warm skin tones have a natural affinity for earth tones, warm jewel tones, and autumn colors. By understanding your undertone and choosing colors that harmonize with it, you create a wardrobe where everything flatters. Trust what makes you feel radiant—your skin will tell you which colors are right."
     }
   }
 ];
