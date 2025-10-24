@@ -28,13 +28,11 @@ const Header = () => {
                 className="h-16"
               />
             </Link>
-            <Link to="/" className="flex-1 flex justify-center">
-              <img 
-                src={logoNew} 
-                alt="The Style Chronicles" 
-                className="h-16"
-              />
-            </Link>
+            <div className="flex-1 flex justify-center">
+              <h1 className="font-playfair text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent italic">
+                Elevate Your Look, Elevate Your Life
+              </h1>
+            </div>
             <div className="w-16 flex-shrink-0"></div>
           </div>
 
