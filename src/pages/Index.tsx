@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import ArticleCard from "@/components/ArticleCard";
 import heroImage from "@/assets/hero-wardrobe.jpg";
+import { articlesData } from "@/data/articles";
 import outfitCamel from "@/assets/outfit-camel.jpg";
 import outfitNavy from "@/assets/outfit-navy.jpg";
 import outfitBlack from "@/assets/outfit-black.jpg";
@@ -34,7 +35,15 @@ import textureMixing from "@/assets/texture-mixing.jpg";
 import weekendCasual from "@/assets/weekend-casual.jpg";
 
 const Index = () => {
-  const articles = [
+  const articles = articlesData.slice(0, 12).map(article => ({
+    title: article.title,
+    date: article.date,
+    excerpt: article.excerpt,
+    image: article.image,
+    slug: article.slug
+  }));
+
+  const displayArticles = [
     {
       title: "The Timeless Trench Coat: Your Ultimate Investment Piece",
       date: "October 24, 2025",
@@ -272,7 +281,7 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-12">
-            {articles.map((article, index) => (
+            {displayArticles.map((article, index) => (
               <ArticleCard key={index} {...article} />
             ))}
           </div>
