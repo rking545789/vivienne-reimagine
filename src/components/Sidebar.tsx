@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Facebook, Instagram, Twitter, Share2, Rss } from "lucide-react";
+import { Facebook, Instagram, Twitter, Share2, Rss, BookOpen } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Link } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
+import { articlesData } from "@/data/articles";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Sidebar = () => {
   const [email, setEmail] = useState("");
@@ -115,6 +117,36 @@ const Sidebar = () => {
             </Button>
           </Link>
         </p>
+      </div>
+
+      {/* Article Directory */}
+      <div className="bg-card border border-border p-6 rounded-lg">
+        <div className="flex items-center justify-center gap-2 mb-4">
+          <BookOpen className="w-5 h-5 text-primary" />
+          <h3 className="text-center text-lg font-medium tracking-wide">
+            ARTICLE DIRECTORY
+          </h3>
+        </div>
+        <ScrollArea className="h-[500px] pr-4">
+          <div className="space-y-4">
+            {articlesData.map((article) => (
+              <Link 
+                key={article.slug} 
+                to={`/article/${article.slug}`}
+                className="block group"
+              >
+                <div className="pb-4 border-b border-border last:border-0 hover:bg-muted/30 p-2 rounded transition-colors">
+                  <h4 className="text-sm font-medium leading-tight mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                    {article.title}
+                  </h4>
+                  <p className="text-xs text-muted-foreground">
+                    {article.date}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </ScrollArea>
       </div>
     </aside>
   );
