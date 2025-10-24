@@ -1,4 +1,5 @@
 // Article images
+import cny2026Hero from "@/assets/cny-2026-hero.jpg";
 import outfitTrench from "@/assets/outfit-trench.jpg";
 import outfitBlazer from "@/assets/outfit-blazer.jpg";
 import outfitCamel from "@/assets/outfit-camel.jpg";
@@ -57,6 +58,11 @@ import sleeveDetails from "@/assets/article/sleeve-details.jpg";
 import springLayers from "@/assets/article/spring-layers.jpg";
 import textureDetails from "@/assets/article/texture-details.jpg";
 import weekendOutfit from "@/assets/article/weekend-outfit.jpg";
+import cnyGoldLook from "@/assets/article/cny-gold-look.jpg";
+import cnyRedSuit from "@/assets/article/cny-red-suit.jpg";
+import cnyJadeGown from "@/assets/article/cny-jade-gown.jpg";
+import cnyFusionStyle from "@/assets/article/cny-fusion-style.jpg";
+import cnyBurgundyGold from "@/assets/article/cny-burgundy-gold.jpg";
 
 export interface Article {
   slug: string;
@@ -76,6 +82,48 @@ export interface Article {
 }
 
 export const articlesData: Article[] = [
+  {
+    slug: "chinese-new-year-2026-trends",
+    title: "2026 Spring Festival Fashion: Redefining Luxury & Tradition",
+    date: "January 28, 2026",
+    excerpt: "As we welcome the Year of the Horse, discover how global fashion icons are reimagining Chinese New Year style with breathtaking modern elegance...",
+    image: cny2026Hero,
+    content: {
+      intro: "The 2026 Spring Festival marks a revolutionary moment in fashion history. No longer confined to traditional red and gold, today's style visionaries are creating spectacular looks that honor cultural heritage while pushing boundaries into bold new territories. From the runways of Paris to the red carpets of Shanghai, a new aesthetic is emerging—one that celebrates prosperity, confidence, and fearless individuality.",
+      sections: [
+        {
+          heading: "The Power of Red Reimagined",
+          content: "This season, red takes center stage with unprecedented sophistication. Forget the predictable—think luxurious silk gowns with daring cutouts, architectural power suits in crimson, and statement pieces that command attention. Celebrities worldwide are embracing bold red silhouettes that blend traditional symbolism with contemporary design. The key is confidence: wear red as a declaration of strength and ambition for the year ahead.",
+          image: cnyRedSuit
+        },
+        {
+          heading: "Golden Hour: The New Luxury",
+          content: "Gold has evolved from accent to statement. This year's most stunning looks feature champagne satins, metallic brocades, and shimmering gold fabrics that catch the light with every movement. The modern approach? Mix gold with cream and ivory for an understated opulence that feels both regal and refreshingly contemporary. Think flowing gowns with gold embellishments, tailored pieces with metallic accents, and accessories that sparkle without overwhelming.",
+          image: cnyGoldLook
+        },
+        {
+          heading: "Jade Green: The Color of Prosperity",
+          content: "Emerald and jade tones are emerging as the unexpected stars of 2026. Representing growth, wealth, and harmony, these rich greens offer a sophisticated alternative to traditional palettes. Fashion leaders are showcasing exquisite jade-colored evening wear with intricate gold embroidery, creating looks that are both culturally resonant and utterly modern. The result is breathtaking: a fresh interpretation that honors tradition while feeling completely current.",
+          image: cnyJadeGown
+        },
+        {
+          heading: "East Meets West: Fusion Fashion",
+          content: "The most exciting trend of 2026 is the seamless blend of Eastern and Western aesthetics. Picture structured Western blazers paired with traditional Chinese collars, contemporary silhouettes adorned with delicate embroidery, or sleek modern cuts in luxurious traditional fabrics. This fusion represents the global nature of modern fashion—celebrating heritage while embracing innovation. It's about creating something entirely new that respects both worlds.",
+          image: cnyFusionStyle
+        },
+        {
+          heading: "Opulent Details & Statement Accessories",
+          content: "This year is all about the details. Intricate embroidery featuring phoenixes and peonies, dramatic sleeves that make a statement, and accessories that elevate every look. From chandelier earrings in gold and ruby to embellished clutches and statement belts, the finishing touches are what transform an outfit into a work of art. The message is clear: go bold, be fearless, and let your style tell your story.",
+          image: cnyBurgundyGold
+        },
+        {
+          heading: "How to Wear the Trends",
+          content: "The key to mastering 2026's Spring Festival style is balance. If you choose a bold colored piece, keep accessories elegant and minimal. If your outfit features intricate details, let them shine against a simple silhouette. Mix traditional elements with contemporary pieces—a modern dress with heritage jewelry, or a classic qipao collar on a cutting-edge design. Most importantly, wear everything with confidence. This year's fashion is about celebrating who you are while honoring where you come from."
+        }
+      ],
+      conclusion: "The 2026 Chinese New Year fashion landscape represents more than just beautiful clothing—it's a celebration of cultural evolution, creative courage, and the power of fashion to bridge tradition and innovation. Whether you embrace dramatic reds, luminous golds, elegant jades, or daring fusion styles, let this Spring Festival be the moment you step into your most confident, authentic self. After all, fashion is not just what we wear—it's how we choose to present ourselves to the world. Make it count."
+    }
+  },
   {
     slug: "timeless-trench-coat",
     title: "The Timeless Trench Coat: Your Ultimate Investment Piece",
