@@ -2642,7 +2642,7 @@ export const articlesData: Article[] = [
     title: "Fashion and Mindset: What You Wear Is a Choice",
     date: "December 13, 2025",
     excerpt: "The psychological relationship between clothing and identity. How intentional dressing shapes confidence, mood, and how you show up in the world...",
-    image: heroWardrobe,
+    image: workWardrobe,
     content: {
       intro: "What you wear is never just about fashion—it's a psychological tool that shapes your mindset, affects your behavior, and communicates your internal state to the world. Research in 'enclothed cognition' reveals that clothing directly impacts psychological processes—what you wear literally changes how you think and act. Yet most women approach their wardrobe reactively, grabbing whatever is clean or comfortable without considering the psychological impact. Understanding the clothing-mindset connection transforms getting dressed from mundane routine into intentional practice—one that supports your goals, elevates your mood, and aligns your external presentation with your internal aspirations. Let's explore how what you wear is fundamentally a choice about who you want to be.",
       sections: [
