@@ -151,6 +151,32 @@ import bootsGuideHero from "@/assets/boots-guide-hero.jpg";
 import bootsAnkle from "@/assets/article/boots-ankle.jpg";
 import bootsKneeHigh from "@/assets/article/boots-knee-high.jpg";
 
+// Style System Articles - December 2025
+import personalStyleSystemHero from "@/assets/personal-style-system-hero.jpg";
+import styleEvolution1 from "@/assets/article/style-evolution-1.jpg";
+import styleEvolution2 from "@/assets/article/style-evolution-2.jpg";
+import styleEvolution3 from "@/assets/article/style-evolution-3.jpg";
+import styleArchetypesHero from "@/assets/style-archetypes-hero.jpg";
+import archetypeNatural from "@/assets/article/archetype-natural.jpg";
+import archetypeClassic from "@/assets/article/archetype-classic.jpg";
+import archetypeDramatic from "@/assets/article/archetype-dramatic.jpg";
+import wardrobeColorSystemHero from "@/assets/wardrobe-color-system-hero.jpg";
+import colorCoordination1 from "@/assets/article/color-coordination-1.jpg";
+import colorCoordination2 from "@/assets/article/color-coordination-2.jpg";
+import colorCoordination3 from "@/assets/article/color-coordination-3.jpg";
+import minimalistLayeringHero from "@/assets/minimalist-layering-hero.jpg";
+import minimalistLayers1 from "@/assets/article/minimalist-layers-1.jpg";
+import minimalistLayers2 from "@/assets/article/minimalist-layers-2.jpg";
+import minimalistLayers3 from "@/assets/article/minimalist-layers-3.jpg";
+import knitCardiganStylingHero from "@/assets/knit-cardigan-styling-hero.jpg";
+import cardiganCasual from "@/assets/article/cardigan-casual.jpg";
+import cardiganProfessional from "@/assets/article/cardigan-professional.jpg";
+import cardiganEvening from "@/assets/article/cardigan-evening.jpg";
+import basicsDesignerLookHero from "@/assets/basics-designer-look-hero.jpg";
+import basicsStyling1 from "@/assets/article/basics-styling-1.jpg";
+import basicsStyling2 from "@/assets/article/basics-styling-2.jpg";
+import basicsStyling3 from "@/assets/article/basics-styling-3.jpg";
+
 export interface Article {
   slug: string;
   title: string;
@@ -1991,6 +2017,214 @@ export const articlesData: Article[] = [
         }
       ],
       conclusion: "Both ankle and knee-high boots deserve space in your wardrobe—the key is understanding when and how to wear each style. Consider your body proportions, the occasion, and how each style makes you feel. Ankle boots offer versatility and work across seasons, while knee-high boots make a dramatic statement and provide extra warmth. Invest in quality boots in neutral colors for maximum wearability, and pay attention to fit—boots should be comfortable and flattering, never restrictive or sloppy. With the right boots styled thoughtfully, you'll stride confidently through autumn and winter looking polished, proportioned, and effortlessly chic."
+    }
+  },
+  {
+    slug: "personal-style-system-building",
+    title: "From 'Looking Good' to 'Having Style': Building Your Personal Style System",
+    date: "December 1, 2025",
+    excerpt: "True style isn't about following trends—it's about developing a personal system that reflects who you are. Learn how to evolve from simply looking good to having a distinctive, authentic style...",
+    image: personalStyleSystemHero,
+    content: {
+      intro: "There's a profound difference between looking good and having style. Anyone can follow trends, wear expensive brands, and receive compliments. But true style—the kind that turns heads and lingers in memory—comes from something deeper. It's a personal system, a visual language you've developed to express who you are. This transformation from trend-follower to style-creator is one of fashion's most rewarding journeys. It requires self-awareness, experimentation, confidence, and time. But once you've built your personal style system, getting dressed becomes effortless, and every outfit feels authentically you.",
+      sections: [
+        {
+          heading: "Stage 1: Understanding the Difference",
+          content: "Looking good means wearing things that are conventionally attractive. Having style means wearing things that are distinctively you. Someone who looks good might receive the compliment 'That's a nice dress.' Someone with style hears 'Only you could pull that off' or 'That's so you.' The difference lies in intentionality and consistency. Style isn't about perfection—it's about coherence. It's a visual signature that remains recognizable across different outfits and occasions. Begin by asking yourself: Can people identify my outfits as 'me' even without seeing my face? Would my closest friends be able to pick out my outfit from a lineup? If not, you're likely still in the 'looking good' phase, which is perfectly fine—it's where everyone starts.",
+          image: styleEvolution1
+        },
+        {
+          heading: "Stage 2: Self-Discovery Through Experimentation",
+          content: "Building a personal style system starts with understanding yourself beyond fashion. What are your values? Your lifestyle? Your personality traits? Someone who values sustainability might gravitate toward natural fabrics and timeless pieces. An extrovert might favor bold colors and statement pieces. Start keeping a style journal—photograph outfits you love and analyze what they have in common. Look beyond individual pieces to identify patterns: Is there a consistent color palette? A preference for structure or fluidity? Minimal or maximal accessories? This analysis reveals your natural inclinations. Don't rush this phase—it might take a year or more of conscious experimentation. Try different aesthetics, even those that initially feel uncomfortable. You're gathering data about what feels authentically you versus what you think you should like.",
+          image: styleEvolution2
+        },
+        {
+          heading: "Stage 3: Identifying Your Style Constants",
+          content: "After experimentation, patterns emerge—these are your style constants. They might include: specific color combinations you return to repeatedly, certain silhouettes that make you feel powerful, particular fabrics you prefer, signature accessories you rarely remove, or styling details you always incorporate. For example, you might discover you always feel best in high-waisted bottoms, monochromatic outfits, gold jewelry, and tailored pieces with one unexpected element. These constants become your style framework. They're not rules—they're guidelines that simplify decision-making while maintaining your signature. When shopping, ask: 'Does this fit within my style constants, or am I being swayed by trends?' This doesn't mean never trying new things—it means being intentional about when and how you deviate from your established framework.",
+          image: styleEvolution3
+        },
+        {
+          heading: "Stage 4: Building Your Wardrobe System",
+          content: "Once you've identified your constants, build a wardrobe that reflects them. This doesn't require replacing everything at once. Start with key pieces that embody your style most clearly—perhaps a perfectly cut blazer in your signature color, or boots in your preferred silhouette. Gradually phase out pieces that don't align with your style system, replacing them thoughtfully. Your wardrobe should feel cohesive, with most pieces working together in multiple combinations. This is the power of a personal style system: because everything reflects the same aesthetic principles, getting dressed becomes intuitive. You don't need a massive wardrobe—you need the right wardrobe. Ten pieces that perfectly express your style are more valuable than a hundred that vaguely fit."
+        },
+        {
+          heading: "Stage 5: Confidence and Evolution",
+          content: "The final stage is confidence—wearing your style choices unapologetically, even when they diverge from current trends or social expectations. True style requires courage because it means being seen as yourself rather than hiding behind fashion's consensus. But remember: style isn't static. It evolves as you do. What felt right at 25 might feel inauthentic at 35. The key is maintaining awareness: Are these changes genuine evolution or am I losing connection with my style identity? Revisit your style journal annually. Update your constants as needed. The goal isn't to lock yourself into a rigid aesthetic but to maintain a coherent visual identity that grows with you. This ongoing process—of self-awareness, expression, and evolution—is what transforms you from someone who looks good into someone with unmistakable personal style."
+        }
+      ],
+      conclusion: "Developing a personal style system is one of fashion's greatest gifts to yourself. It transforms the daily challenge of getting dressed into a creative expression of identity. It saves time, money, and mental energy while allowing you to present your most authentic self to the world. Most importantly, it's yours—immune to the fickleness of trends and the opinions of others. Start where you are, experiment fearlessly, listen to your instincts, and trust the process. Your signature style is already within you, waiting to be discovered and refined. The journey from looking good to having style isn't always quick, but it's always worthwhile."
+    }
+  },
+  {
+    slug: "style-archetypes-analysis",
+    title: "Analyzing Your Style Archetype: Natural, Classic, Dramatic & More",
+    date: "December 2, 2025",
+    excerpt: "Understanding your style archetype is the foundation of building a cohesive wardrobe. Discover whether you're a Natural, Classic, Dramatic, or blend of multiple archetypes...",
+    image: styleArchetypesHero,
+    content: {
+      intro: "Why do some outfits feel perfectly 'you' while others, despite being beautiful and well-made, never quite work? The answer often lies in style archetypes—fundamental aesthetic categories that align with different personalities, body types, and personal presentations. While no one fits perfectly into a single archetype, understanding which resonate with you provides a powerful framework for building a wardrobe that feels authentic and cohesive. Unlike trendy style labels that change with the seasons, these archetypes are timeless, rooted in art, design, and human perception. Let's explore the main archetypes and discover which might be yours.",
+      sections: [
+        {
+          heading: "The Natural Archetype: Effortless and Organic",
+          content: "The Natural archetype embodies relaxed, uncontrived beauty. Think of sun-bleached linen, tousled hair, minimal makeup, and an overall sense of ease. Naturals gravitate toward soft, flowing fabrics like cotton, linen, and lightweight knits. Their color palette typically includes earth tones, soft neutrals, and muted colors that could be found in nature. Silhouettes are relaxed rather than structured—wide-leg pants, oversized shirts, flowy dresses. Accessories are minimal and often feature natural materials like wood, leather, or woven fibers. Natural types look uncomfortable in anything too polished or constructed. Their style philosophy: 'It shouldn't look like I tried too hard.' Famous Naturals include Carolyn Bessette-Kennedy, Jane Birkin, and Sienna Miller. If you prefer a beachy aesthetic, hate feeling constricted by clothing, and receive compliments when you're dressed casually, you might be a Natural.",
+          image: archetypeNatural
+        },
+        {
+          heading: "The Classic Archetype: Timeless Elegance",
+          content: "Classics embody refined, enduring style. They're drawn to traditional, quality pieces that transcend trends—the perfect white shirt, tailored navy blazer, straight-leg trousers, and simple pumps. The Classic wardrobe emphasizes craftsmanship, proper fit, and restrained elegance. Colors tend toward neutrals: black, white, navy, camel, grey. Silhouettes are balanced and moderate—neither too tight nor too loose, neither too trendy nor outdated. Classics avoid extremes in accessories, preferring simple gold hoops, delicate watches, and structured leather bags. They look polished without appearing overdone, professional without seeming boring. Their style philosophy: 'If it's not broken, don't fix it. And invest in quality.' Famous Classics include Grace Kelly, Kate Middleton, and Amal Clooney. If you gravitate toward traditional pieces, value quality over quantity, and prefer evolution over revolution in your wardrobe, you might be a Classic.",
+          image: archetypeClassic
+        },
+        {
+          heading: "The Dramatic Archetype: Bold and Striking",
+          content: "Dramatics command attention through bold choices and strong silhouettes. They embrace extremes—very structured or extremely fluid, monochromatic or highly contrasting, minimal or maximal. The Dramatic wardrobe features statement pieces: sculptural coats, architectural silhouettes, bold patterns, or striking monochromes. They're comfortable with sharp lines, high contrast, and attention-grabbing details. Colors are often black and white with pops of saturated, pure hues. Accessories make statements—oversized jewelry, dramatic sunglasses, or distinctive bags. Dramatics look diluted in anything too safe or conventional. Their style philosophy: 'If you're going to do it, commit fully.' Famous Dramatics include Tilda Swinton, Zendaya, and Diana Vreeland. If you're drawn to avant-garde fashion, love making bold statements, and feel most yourself when pushing boundaries, you might be a Dramatic.",
+          image: archetypeDramatic
+        },
+        {
+          heading: "Finding Your Archetype Blend",
+          content: "Most people aren't pure archetypes but combinations—perhaps Classic-Natural (polished basics in relaxed silhouettes) or Natural-Dramatic (effortless pieces with unexpected edge). Identifying your primary and secondary archetypes helps refine your personal style. Start by analyzing outfits where you felt most confident: What elements did they share? Then consider what feels inauthentic: Structured blazers might feel constricting (you're not Classic), or casual t-shirts might feel too undone (you need some structure). Look at your Pinterest boards or saved Instagram posts—do they lean toward one archetype? Remember, your archetype might differ from your lifestyle needs. A lawyer might be a Natural at heart but need Classic pieces for work. The key is understanding both, finding ways to incorporate your authentic archetype into required contexts."
+        },
+        {
+          heading: "Using Archetypes to Build Your Wardrobe",
+          content: "Once you've identified your archetype, use it as a shopping filter. A Natural shouldn't force herself into stiff, formal pieces. A Dramatic won't feel satisfied with safe, middle-ground choices. A Classic will waste money on trendy pieces that don't align with timeless style. When considering a purchase, ask: 'Does this align with my archetype?' If it doesn't, it should be either a very intentional deviation or passed over. Building a wardrobe around your archetype creates coherence, making getting dressed easier and ensuring everything works together. But remember—archetypes are frameworks, not prisons. You can borrow from others occasionally, especially as your life circumstances require different presentations. The goal is understanding your authentic aesthetic home base, the place you naturally return to when you feel most yourself."
+        }
+      ],
+      conclusion: "Style archetypes aren't about limiting yourself—they're about understanding yourself. They explain why certain aesthetics resonate while others fall flat, why some pieces sit unworn while others get constant rotation. By identifying your primary archetype, you gain clarity about what truly serves your personal style versus what you think you should wear. This knowledge transforms shopping from overwhelming to strategic, ensures wardrobe coherence, and helps you build a collection that genuinely reflects who you are. Take time to explore each archetype honestly, identify your blend, and use this understanding as a foundation for all your style decisions. When you dress in harmony with your authentic archetype, you don't just look good—you look unmistakably yourself."
+    }
+  },
+  {
+    slug: "wardrobe-color-strategy-system",
+    title: "Wardrobe Color Strategy: Creating Your Personal Palette",
+    date: "December 3, 2025",
+    excerpt: "A strategic color palette is the secret to a cohesive wardrobe where everything works together. Learn how to build your signature color system...",
+    image: wardrobeColorSystemHero,
+    content: {
+      intro: "One of the biggest challenges in building a functional wardrobe is ensuring everything coordinates. You might have beautiful individual pieces that never quite work together, resulting in an overflowing closet but nothing to wear. The solution? A strategic color palette. By intentionally limiting and organizing your wardrobe colors, you create a system where nearly every piece works with every other. This doesn't mean wearing the same colors forever—it means building a foundation that simplifies decisions, maximizes outfit combinations, and creates visual coherence across your entire wardrobe. Let's explore how to develop your personal color strategy.",
+      sections: [
+        {
+          heading: "Understanding Color Categories",
+          content: "A strategic wardrobe palette consists of three color categories: neutrals (your foundation), core colors (your personality), and accent colors (your variety). Neutrals are the workhorses—black, white, grey, navy, beige, camel. Most wardrobes should be 60-70% neutrals because they coordinate with everything and transcend trends. Core colors (20-25% of wardrobe) are the colors that best reflect your personality and suit your coloring—perhaps burgundy, forest green, or dusty blue. These appear regularly but not overwhelmingly. Accent colors (5-15% of wardrobe) provide variety and fun—maybe a pop of coral, mustard, or rich purple. They appear in smaller doses through accessories, tops, or statement pieces. This 60/20/20 or 70/20/10 ratio creates balance—coherent enough to mix-and-match effortlessly, varied enough to avoid monotony.",
+          image: colorCoordination1
+        },
+        {
+          heading: "Choosing Your Neutrals",
+          content: "Start by selecting 2-3 primary neutrals that will dominate your wardrobe. These should coordinate with each other and suit your personal coloring. Common combinations include: black + grey + white (modern, urban), navy + camel + cream (classic, warm), charcoal + taupe + ivory (sophisticated, soft), or black + brown + cream (contemporary, natural). Once chosen, commit—buy major pieces (coats, suits, shoes, bags) primarily in these neutrals. This creates automatic coordination. A navy coat works with both navy and camel trousers. Grey shoes work with everything. You can mix your neutrals freely without concern. Then add 1-2 secondary neutrals for variety—perhaps a pop of white if your primaries are dark, or denim as a casual neutral. But keep your neutral palette limited—too many competing neutrals (black and navy and brown and grey) creates coordination chaos.",
+          image: colorCoordination2
+        },
+        {
+          heading: "Selecting Your Core Colors",
+          content: "Core colors should meet three criteria: they suit your coloring (refer to seasonal color analysis if needed), they reflect your personality, and they coordinate with your neutrals. If your neutrals are cool-toned (black, grey, navy), choose cool core colors (burgundy, forest green, true blue). Warm neutrals (camel, brown, cream) pair with warm cores (rust, olive, mustard). Select 2-4 core colors maximum. More than that becomes difficult to coordinate and dilutes your signature. These colors should appear in key pieces—blazers, dresses, quality knits—and become associated with your personal style. Someone might think 'She always looks great in that deep green' or 'He owns every shade of blue.' This consistency builds your visual identity while maintaining variety through different pieces in your core shades.",
+          image: colorCoordination3
+        },
+        {
+          heading: "Adding Accent Colors Strategically",
+          content: "Accent colors prevent color-palette fatigue and allow trend participation without wardrobe chaos. Choose 1-3 accent colors per season, appearing primarily in accessories, layering pieces, or easily-replaced items. An accent might be this season's trendy shade, a color you love but don't want to dominate, or simply variety for mood. The key: accent pieces must work with your neutrals even if they don't coordinate with each other. A coral scarf and emerald bag don't need to work together—both just need to work with your navy blazer. This approach lets you embrace color fearlessly because you've created boundaries. Want to try millennial pink? Add it as an accent through a blouse or bag. If you tire of it, only a few pieces need replacing, not your entire wardrobe."
+        },
+        {
+          heading: "Implementing Your Color System",
+          content: "Once you've defined your palette (neutrals + cores + accents), audit your current wardrobe. Identify pieces that don't fit your system—these are prime candidates for donation or creative styling challenges. When shopping, your color palette becomes a powerful filter: 'I love this dress, but it's not in my palette—pass.' Or 'This matches my core colors and fills a gap—invest.' Over time, your wardrobe naturally becomes more cohesive. Maintain a digital record of your palette on your phone—helpful when shopping. Review annually: Are these colors still serving you? Do you need to evolve your palette as your life or coloring changes? A strategic color system isn't restrictive—it's liberating, eliminating decision fatigue and ensuring you always love what you wear."
+        }
+      ],
+      conclusion: "A strategic wardrobe color palette is fashion's best-kept secret. It's how fashion editors travel with carry-on luggage yet look impeccably styled, how minimalists create variety from fewer pieces, and how anyone can build a wardrobe that actually works. By thoughtfully selecting your neutrals, cores, and accents, you create a system where getting dressed is effortless and every combination looks intentional. Start today: photograph everything in your closet, group by color, identify patterns and gaps, and define your palette. Then commit to it for one season and observe the transformation. You'll wonder how you ever managed without this clarity."
+    }
+  },
+  {
+    slug: "minimalist-layering-dimension",
+    title: "How to Create Layers in Minimalist Style",
+    date: "December 4, 2025",
+    excerpt: "Minimalist style doesn't have to be flat or boring. Discover how to add depth and interest through strategic layering, texture, and proportion...",
+    image: minimalistLayeringHero,
+    content: {
+      intro: "The biggest misconception about minimalist style is that it's boring—simple neutrals, clean lines, nothing to see here. But true minimalism isn't about absence; it's about essentialism. It's removing the unnecessary to highlight what remains. When done well, minimalist style is anything but flat. It has depth, dimension, and visual interest achieved through subtle means: layering, texture contrast, proportional play, and thoughtful details. The challenge—and the art—is creating complexity within simplicity. Let's explore how to add layers and dimension to minimalist outfits without compromising their essential aesthetic.",
+      sections: [
+        {
+          heading: "Mastering Texture Contrast",
+          content: "When color is minimal, texture becomes paramount. The difference between boring and beautiful minimalism often lies in fabric mixing. Pair smooth with rough: a silk slip dress under a chunky knit cardigan. Combine matte with shine: wool trousers with a satin blouse. Mix weights: lightweight cotton tee layered under a structured leather jacket. These textural contrasts create visual interest without adding color or pattern. The key is intentional variety—ensure each piece brings something texturally distinct. A cotton tee, cotton shirt, and cotton trousers together is monotonous. But a cotton tee, silk shirt, and wool trousers create depth. When shopping for minimalist pieces, think beyond silhouette to texture. Choose pieces in materials that photograph differently, catch light uniquely, and feel interesting to touch. Your wardrobe should read like a textile sample book, even if every piece is beige.",
+          image: minimalistLayers1
+        },
+        {
+          heading: "Playing with Proportions",
+          content: "Proportion play is minimalism's secret weapon for creating visual interest. The formula: balance oversized with fitted, long with short, structured with fluid. An oversized blazer over fitted trousers. Wide-leg pants with a cropped, slim top. A long duster coat over a mini dress. These proportion contrasts create dynamic silhouettes that feel modern and intentional. They also add dimension by creating gaps, overlaps, and varying lengths—your eye travels across different planes rather than taking in one flat surface. The minimalist approach to proportion is restrained but deliberate. You're not mixing all extremes simultaneously (that veers into maximalism) but choosing one proportion statement per outfit—either top or bottom, never both at extreme. This maintains the clean, uncluttered aesthetic while ensuring your silhouette has shape and interest.",
+          image: minimalistLayers2
+        },
+        {
+          heading: "Strategic Layering Techniques",
+          content: "Layering adds literal dimension while expanding outfit possibilities. The minimalist approach: start simple and add thoughtfully. Begin with a base (tee or bodysuit), add a mid-layer (shirt, sweater, or vest), and top with an outer layer (blazer, coat, or cardigan). Each layer should have a slightly different length—not dramatically so, but enough to be visible. A longline blazer over a tucked shirt over a longer tank creates three visible levels. Use layers to play with necklines too: a turtleneck under a V-neck sweater under a scoop-neck coat. This creates visual interest at the neckline while maintaining monochromatic simplicity. The trick: each layer should enhance, not compete. If your blazer has interesting details, keep underlayers simple. If you're wearing a statement coat, simplify what's beneath. In minimalism, every element should have a reason to exist.",
+          image: minimalistLayers3
+        },
+        {
+          heading: "The Power of Subtle Details",
+          content: "Minimalist style makes room for details to shine. A perfect collar, interesting seaming, unique button placement, or unexpected hem—these become focal points when not competing with color or pattern. Seek pieces with architectural details: princess seams, asymmetric closures, statement shoulders, or interesting back details. These create visual interest while maintaining clean simplicity. Hardware also matters in minimalism—the right metal finish, distinctive zipper pulls, or unique fastenings add subtle luxury. Even in basics, look for pieces with thoughtful construction: a white shirt with perfect collar points, jeans with flattering topstitching, a sweater with interesting ribbing. These details elevate minimalism from plain to refined, from basic to beautiful. Your eye might not immediately identify what makes the outfit interesting, but it registers quality and intentionality."
+        },
+        {
+          heading: "Creating Depth Through Tone-on-Tone",
+          content: "Minimalists often embrace monochromatic dressing, but the key to avoiding flatness is tonal variation. Don't wear the same shade head to toe—create depth by varying tones within one color family. Pair a cream turtleneck with ecru trousers and an ivory coat. Style charcoal with slate grey and soft black. These subtle variations create dimension while maintaining cohesion. The effect is sophisticated and intentional, proving you've curated rather than defaulted to matching. Tone-on-tone also allows you to mix textures more freely since color isn't competing. A charcoal cashmere sweater, slate wool trousers, and grey leather shoes work because they're united by color family but distinguished by material and tone. This technique is particularly effective in neutrals—beiges, greys, and whites offer endless tonal possibilities."
+        }
+      ],
+      conclusion: "Minimalist style, when executed thoughtfully, is far from boring—it's refined, sophisticated, and endlessly interesting to those who understand subtlety. By focusing on texture contrast, proportion play, strategic layering, subtle details, and tonal variation, you create depth and dimension without abandoning minimalist principles. The result is a wardrobe that looks effortless yet considered, simple yet complex, quiet yet confident. This is the true art of minimalism: proving that less really can be more, that restraint creates impact, and that sometimes the most interesting style choices are the most subtle ones. Embrace these techniques and transform your minimalist wardrobe from potentially plain to undeniably powerful."
+    }
+  },
+  {
+    slug: "knit-cardigan-three-ways",
+    title: "Three Ways to Style a Knit Cardigan",
+    date: "December 5, 2025",
+    excerpt: "One cardigan, endless possibilities. Master three distinct styling approaches that take this wardrobe staple from casual to professional to elegant...",
+    image: knitCardiganStylingHero,
+    content: {
+      intro: "The knit cardigan might be fashion's most underestimated piece. Often relegated to 'basic' or 'boring' status, a quality cardigan is actually one of the most versatile items in your wardrobe—capable of looking completely different depending on how you style it. The secret is understanding that a cardigan isn't just outerwear—it's a styling tool that can be casual, professional, or elegant depending on what you pair it with and how you wear it. Let's explore three completely different approaches to styling the same cardigan, proving its worth as a wardrobe MVP.",
+      sections: [
+        {
+          heading: "Look 1: Casual Weekend Comfort",
+          content: "For relaxed weekend styling, embrace the cardigan's cozy nature. Wear it open and oversized over a simple white tee or ribbed tank. Pair with your favorite jeans—straight leg or wide leg work best as they balance the cardigan's volume. Keep it relaxed by not tucking in your shirt; let everything hang loose and effortless. Complete with white sneakers or casual loafers for easy, comfortable style. Accessories should be minimal: simple stud earrings, a delicate necklace, maybe a crossbody bag. This look says 'I woke up like this' even though it's carefully considered. The key to nailing weekend cardigan style: ensure good quality basics underneath—a great tee and perfect jeans—because simplicity reveals quality. Roll the sleeves slightly for a more relaxed vibe, and don't overthink the proportions. This is comfort-first styling that still looks put-together enough for coffee shops, errands, or casual lunches with friends.",
+          image: cardiganCasual
+        },
+        {
+          heading: "Look 2: Business Casual Polish",
+          content: "Transform the same cardigan into office-appropriate attire by treating it as a blazer alternative. Layer it over a silk or poplin button-down shirt, buttoning the cardigan to create structure (or leaving open if it's a longer style, belt it to define your waist). Pair with tailored trousers in a complementary neutral—if your cardigan is camel, try chocolate or navy trousers. Tuck your shirt fully for a polished silhouette. Complete with pointed-toe flats or low heels and a structured leather bag. Accessories should lean professional: simple gold or silver jewelry, a classic watch, understated earrings. Hair should be neat—either down and styled or in a polished low bun. This approach works beautifully in business casual or creative office environments where full suiting isn't required but professionalism is expected. The cardigan provides warmth and comfort while maintaining appropriate polish. The secret: fit matters here more than in casual styling—ensure your cardigan isn't too oversized or it loses the structured, professional effect.",
+          image: cardiganProfessional
+        },
+        {
+          heading: "Look 3: Elegant Evening Styling",
+          content: "Yes, you can wear a cardigan for evening—when styled right, it becomes unexpectedly chic. The key is treating it like a luxe layer over something special. Wear it over a slip dress or silky cami and midi skirt combo. Belt the cardigan to create waist definition and a more finished silhouette—a leather or chain belt works beautifully. Choose dressier bottoms in luxe fabrics: satin, silk, or quality knit. Complete with heeled boots or strappy heels and a small clutch or elegant shoulder bag. Accessories can be more statement here: chandelier earrings, layered necklaces, or statement rings. Hair and makeup should be elevated—think glossy, styled hair and a bold lip or smokey eye. This look works for dinner dates, cocktails, gallery openings, or any occasion that's not strictly formal. The unexpected combination of casual cardigan with dressy pieces creates that coveted 'high-low' mix that fashion insiders love. The cardigan adds warmth and interest while preventing the overall look from being too try-hard.",
+          image: cardiganEvening
+        }
+      ],
+      conclusion: "One cardigan, three completely different aesthetics—that's the power of styling. By changing what you pair with your cardigan, how you wear it, and how you accessorize, you transform its entire character. This versatility is exactly why quality cardigans deserve space in every wardrobe. Don't relegate yours to purely casual wear. Experiment with different styling approaches, push beyond your comfort zone, and discover how this humble piece can work across nearly every aspect of your life. The best purchases are those that earn their place through versatility, and a well-styled cardigan certainly qualifies. Invest in quality, buy in colors that work with your wardrobe palette, and most importantly—style it intentionally rather than defaulting to the same look every time."
+    }
+  },
+  {
+    slug: "basics-designer-styling",
+    title: "How to Make Basic Pieces Look Designer",
+    date: "December 6, 2025",
+    excerpt: "The secret to expensive-looking style isn't a designer wardrobe—it's knowing how to elevate basics. Learn the styling techniques that make simple pieces look luxe...",
+    image: basicsDesignerLookHero,
+    content: {
+      intro: "Fashion's most valuable lesson isn't about what to buy—it's about how to wear what you have. The difference between someone who looks expensively dressed and someone who looks ordinary often has nothing to do with their budget. It's about styling technique, proportion understanding, and attention to detail. A simple white shirt can look basic or it can look like a million dollars—the difference is in how you wear it. This is empowering: you don't need designer labels to look designer. You need to master the art of elevation—taking simple, affordable basics and styling them with sophistication, intention, and that elusive quality that makes people do a double-take.",
+      sections: [
+        {
+          heading: "Perfect the Fit and Tailoring",
+          content: "Nothing screams 'expensive' like perfect fit, and nothing kills a look faster than poor fit. This is non-negotiable: basics must fit impeccably. A $30 tee that fits perfectly looks more luxurious than a $300 designer tee that doesn't. Invest in tailoring for your basics—have your jeans hemmed to exactly the right length, take in that blazer at the waist, adjust sleeve lengths to hit precisely at your wrist bone. These small adjustments transform ordinary pieces into custom-looking garments. When buying basics, look for pieces that fit your best feature perfectly—you can alter other areas, but starting with the right shoulders on a blazer or the right hip fit on trousers makes all the difference. Also pay attention to fabric quality even in basics: choose natural fibers when possible, look for pieces with some weight and structure, avoid anything that pills or looks cheap after one wash. Quality basics are worth the investment because they're the foundation of every elevated outfit.",
+          image: basicsStyling1
+        },
+        {
+          heading: "Master the Art of Proportion",
+          content: "Designer styling is largely about proportion play—mixing volumes, lengths, and silhouettes in interesting ways. Take a simple outfit: white tee and jeans. Basic version: regular tee tucked into regular jeans. Designer version: oversized tee half-tucked into high-waisted, wide-leg jeans with the cuffs hitting exactly at the ankle bone, creating an elongated leg line. The pieces are the same, the proportion creates the difference. Learn to play with: volume (pair oversized with fitted, never match volumes), lengths (varying hemlines create visual interest), and tuck styles (half-tuck, side-tuck, full tuck—each creates different effects). Front-tuck a shirt while leaving the back loose for a relaxed-yet-intentional look. Cuff your sleeves to show watch or bracelets. Roll your jeans to showcase great shoes. These small proportion adjustments signal that you understand styling, immediately elevating your look from basic to considered.",
+          image: basicsStyling2
+        },
+        {
+          heading: "Invest in Statement Accessories",
+          content: "The fastest way to elevate basics is through accessories—and this is where you can splurge strategically. A basic outfit (white tee, black trousers) becomes designer-level with: quality leather shoes, a structured leather bag, and statement jewelry. Even if everything else is high street, these key accessories create a halo effect of luxury. Prioritize: bags (visible and impactful), shoes (people notice), watches (subtle but powerful), and one category of statement jewelry (perhaps earrings or necklaces). Choose classic styles in quality materials that transcend trends. A great leather bag serves you for decades; a trendy design looks dated quickly. Similarly, invest in shoe basics in excellent quality—black boots, nude heels, white sneakers—that you'll wear repeatedly. The math works: $500 boots worn 200 times cost $2.50 per wear; $50 boots worn 10 times cost $5 per wear. Quality accessories are visible investments that elevate every basic outfit you own.",
+          image: basicsStyling3
+        },
+        {
+          heading: "Perfect Your Styling Details",
+          content: "Designer styling is in the details—small touches that demonstrate care and intention. Learn to: properly steam or iron basics (wrinkles look sloppy and cheap), fold sleeves correctly (there's an art to the perfect cuff), style hair and makeup intentionally (polished overall presentation matters), maintain clothing properly (remove pills, fix loose threads, keep things fresh), and coordinate metals (gold or silver, not mixed randomly). Also master the 'undone-done' aesthetic—looking effortlessly pulled together. This means: leaving the bottom button of cardigans unbuttoned, rolling sleeves to exact three-quarter length, wearing sunglasses pushed back as a headband, leaving a shirt collar slightly open and relaxed. These calculated casual elements prevent outfits from looking too stiff while maintaining sophistication. The goal: looking like you effortlessly achieved polish, not like you tried too hard."
+        },
+        {
+          heading: "Develop Your Styling Signature",
+          content: "Designer styling isn't about copying trends—it's about having a consistent point of view. Develop signature styling moves you return to repeatedly: maybe you always do a half-tuck, or you layer delicate necklaces, or you add a belt to everything, or you roll your sleeves a specific way. These consistent details become your visual signature, making even basics identifiable as 'your' look. This consistency signals intention and confidence—key elements of designer-level styling. Study fashion editors and stylists: they often wear basics but style them distinctively. Notice their repeated styling tricks and adapt ideas that resonate with you. Build your own rulebook: 'I always half-tuck with high-waisted bottoms,' 'I never wear a blazer without the sleeves pushed up,' 'I always add one metallic element to neutrals.' These personal styling rules simplify getting dressed while ensuring consistency and polish across all outfits."
+        }
+      ],
+      conclusion: "Making basics look designer isn't about deception—it's about understanding that true style transcends price tags. It's about fit, proportion, quality accessories, attention to detail, and consistent personal styling. Master these elements and you'll look expensive regardless of your wardrobe's cost. This is fashion democracy at its best: style isn't gatekept by wealth but accessible to anyone willing to learn and apply these principles. Start today: take your favorite basic pieces and apply these techniques. Perfect the fit, play with proportions, add quality accessories, refine the details, and develop your signature. Watch how transformative these changes are. You'll discover that looking designer was always within reach—you just needed to know the styling secrets."
     }
   }
 ];
