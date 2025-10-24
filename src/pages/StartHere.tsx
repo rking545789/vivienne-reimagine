@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import capsuleWardrobe from "@/assets/capsule-wardrobe.jpg";
 
@@ -100,6 +101,7 @@ const StartHere = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

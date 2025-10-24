@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
 import { articlesData } from "@/data/articles";
@@ -100,6 +101,7 @@ const ArticleDetail = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

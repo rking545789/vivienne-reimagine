@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import ArticleCard from "@/components/ArticleCard";
 import { articlesData } from "@/data/articles";
@@ -120,6 +121,7 @@ const Articles = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
