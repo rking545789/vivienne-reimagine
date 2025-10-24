@@ -85,33 +85,6 @@ import waistDefinition from "@/assets/article/waist-definition.jpg";
 import balanceProportions from "@/assets/article/balance-proportions.jpg";
 import warmEarthTones from "@/assets/article/warm-earth-tones.jpg";
 
-// Autumn/Winter Layering images
-import winterLayeringHero from "@/assets/winter-layering-hero.jpg";
-import winterVertical from "@/assets/article/winter-vertical.jpg";
-import winterStructured from "@/assets/article/winter-structured.jpg";
-
-// Tailoring images  
-import tailoringFitHero from "@/assets/tailoring-fit-hero.jpg";
-import coatWool from "@/assets/article/coat-wool.jpg";
-import coatTrench from "@/assets/article/coat-trench.jpg";
-
-// Affordable Luxury images
-import luxeEleganceHero from "@/assets/luxe-elegance-hero.jpg";
-import luxeAccessories from "@/assets/article/luxe-accessories.jpg";
-import luxeDesigner from "@/assets/article/luxe-designer.jpg";
-
-// Color Psychology images
-import colorPower from "@/assets/article/color-power.jpg";
-import neutralHarmony from "@/assets/article/neutral-harmony.jpg";
-import colorPsychology from "@/assets/article/color-psychology.jpg";
-
-// Body Optimization images
-import winterSlimmingHero from "@/assets/winter-slimming-hero.jpg";
-
-// Fashion Mindset images
-import colorTransformationHero from "@/assets/color-transformation-hero.jpg";
-import colorTransformation from "@/assets/article/color-transformation.jpg";
-
 // New article images
 import autumnWorkWardrobeHero from "@/assets/autumn-work-wardrobe-hero.jpg";
 import frenchStyleHero from "@/assets/french-style-hero.jpg";
