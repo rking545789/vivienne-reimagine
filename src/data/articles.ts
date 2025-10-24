@@ -85,6 +85,32 @@ import waistDefinition from "@/assets/article/waist-definition.jpg";
 import balanceProportions from "@/assets/article/balance-proportions.jpg";
 import warmEarthTones from "@/assets/article/warm-earth-tones.jpg";
 
+// New article images
+import autumnWorkWardrobeHero from "@/assets/autumn-work-wardrobe-hero.jpg";
+import frenchStyleHero from "@/assets/french-style-hero.jpg";
+import autumnBagsHero from "@/assets/autumn-bags-hero.jpg";
+import jennieAirportHero from "@/assets/jennie-airport-hero.jpg";
+import colorEleganceHero from "@/assets/color-elegance-hero.jpg";
+import denimStylingHero from "@/assets/denim-styling-hero.jpg";
+import workOutfit1 from "@/assets/article/work-outfit-1.jpg";
+import workOutfit2 from "@/assets/article/work-outfit-2.jpg";
+import workCapsule from "@/assets/article/work-capsule.jpg";
+import frenchStripes from "@/assets/article/french-stripes.jpg";
+import frenchTrench from "@/assets/article/french-trench.jpg";
+import frenchAccessories from "@/assets/article/french-accessories.jpg";
+import bagsDisplay1 from "@/assets/article/bags-display-1.jpg";
+import bagDetails from "@/assets/article/bag-details.jpg";
+import bagsStyling from "@/assets/article/bags-styling.jpg";
+import jennieLook1 from "@/assets/article/jennie-look-1.jpg";
+import jennieAccessories from "@/assets/article/jennie-accessories.jpg";
+import airportFlatlay from "@/assets/article/airport-flatlay.jpg";
+import colorPower from "@/assets/article/color-power.jpg";
+import colorPsychology from "@/assets/article/color-psychology.jpg";
+import colorTransformation from "@/assets/article/color-transformation.jpg";
+import denim5Ways from "@/assets/article/denim-5-ways.jpg";
+import denimDetails from "@/assets/article/denim-details.jpg";
+import denimAccessories from "@/assets/article/denim-accessories.jpg";
+
 export interface Article {
   slug: string;
   title: string;
@@ -148,6 +174,222 @@ export const articlesData: Article[] = [
         }
       ],
       conclusion: "Spring 2026 represents a pivotal moment in fashion history. As European designers push boundaries while honoring timeless elegance, they're creating a blueprint for modern dressing that's inclusive, sustainable, and deeply personal. Whether you gravitate toward bold colors, romantic silhouettes, or minimalist power dressing, this season offers something for everyone. The message is clear: fashion is not about following rules—it's about discovering your own voice and expressing it fearlessly. This spring, embrace the trends that resonate with you, and make them your own."
+    }
+  },
+  {
+    slug: "autumn-work-wardrobe-guide",
+    title: "秋冬衣橱指南：5套通勤穿搭思路",
+    date: "November 10, 2025",
+    excerpt: "秋冬季节的通勤穿搭既要保暖又要时髦。掌握这5套实用穿搭公式，让你在寒冷季节依然优雅自信...",
+    image: autumnWorkWardrobeHero,
+    content: {
+      intro: "秋冬通勤穿搭的难点在于如何在保暖和时髦之间找到平衡。职场环境要求我们穿得得体专业，而寒冷的天气又需要层次分明的搭配。本篇指南将为你提供5套实用的秋冬通勤穿搭思路，让你在整个寒冷季节都能保持优雅和自信。",
+      sections: [
+        {
+          heading: "套装1：经典驼色大衣 + 高领针织衫",
+          content: "驼色大衣是秋冬衣橱的必备单品，搭配米白色高领针织衫和黑色西裤，营造出温暖而专业的形象。这套组合的关键在于颜色的层次感——驼色、米白色和黑色形成了从浅到深的自然过渡。选择质感好的大衣很重要，它能提升整体造型的档次。配上一只棕色皮革手袋和简约的金色饰品，就能完成一套既保暖又优雅的通勤look。",
+          image: workOutfit1
+        },
+        {
+          heading: "套装2：黑色西装套装的进阶穿法",
+          content: "黑色西装套装不必总是刻板严肃。选择oversized款式的西装外套，内搭丝质衬衫或高领衫，配上阔腿西裤，既专业又不失时髦感。关键在于比例的把握——宽松的上装搭配修长的裤型，能营造出高级的轮廓感。这套look的精髓在于细节：一双尖头高跟鞋拉长腿部线条，一款结构感强的手袋增添职业气场。秋冬季节可以在外面套一件长款大衣，层次更加丰富。",
+          image: workOutfit2
+        },
+        {
+          heading: "套装3：温柔知性的针织套装",
+          content: "驼色针织开衫配巧克力色半身裙，是秋冬最温暖舒适的通勤选择。这套look展现出温柔知性的一面，非常适合创意类或相对宽松的职场环境。选择高质量的羊绒或美丽诺羊毛针织品，不仅保暖还很有质感。配上同色系的短靴和皮革手袋，整体造型和谐统一。这种色调搭配非常显气质，是秋冬季节的经典组合。记得腰线的重要性——用腰带或将上衣半塞进裙子里，都能优化身材比例。"
+        },
+        {
+          heading: "套装4：职场胶囊衣橱的搭配智慧",
+          content: "建立一个精简但万能的职场胶囊衣橱，是通勤穿搭的终极解决方案。核心单品包括：黑色、米色、灰色的西装外套，白色、黑色、驼色的衬衫或针织衫，黑色西裤和铅笔裙，以及一件quality trench coat或羊毛大衣。这些基础款可以互相组合出无数套look，关键是选择经典的版型和优质的面料。通过配饰来增加变化——不同的围巾、包包、鞋子和首饰，就能让基础款焕发新意。",
+          image: workCapsule
+        },
+        {
+          heading: "套装5：周五休闲通勤装",
+          content: "许多公司周五允许casual Friday着装。这时候可以尝试更放松的搭配：质感好的牛仔裤配针织衫和西装外套，或是连衣裙配靴子和大衣。关键是保持整体的精致感——即使是休闲装，也要选择质感好、版型优的单品。一件cashmere针织衫比普通毛衣更有质感，一双Chelsea boots比运动鞋更得体。周五的穿搭是展示个人风格的好机会，在保持职业感的前提下，可以加入一些个性化的元素。"
+        }
+      ],
+      conclusion: "秋冬通勤穿搭的核心在于建立一个versatile的衣橱，选择quality over quantity。投资几件经典的高质量单品，学会layer和mix & match，你就能在整个寒冷季节保持优雅。记住，最好的穿搭是让你感到自信和舒适的穿搭。根据这些思路创造属于你自己的通勤风格，让每个工作日都充满自信！"
+    }
+  },
+  {
+    slug: "french-style-secrets",
+    title: "法式穿搭的关键元素是什么？",
+    date: "November 9, 2025",
+    excerpt: "法式风格的精髓不在于复杂的搭配，而在于对经典单品的把握和effortless chic的态度。让我们揭秘那些让法国女人永远时髦的秘密...",
+    image: frenchStyleHero,
+    content: {
+      intro: "提到法式风格，我们脑海中总会浮现出优雅、不费力和永恒的画面。但法式穿搭的魅力究竟来自哪里？是那些标志性的单品，还是巴黎女人们独特的穿衣态度？实际上，法式风格是一种生活哲学的体现，它强调quality over quantity，timeless over trendy，以及最重要的——自信和authenticity。",
+      sections: [
+        {
+          heading: "元素1：条纹衫是永恒的经典",
+          content: "说到法式风格，第一个浮现的单品就是Breton striped shirt（布列塔尼条纹衫）。这件起源于法国海军的单品，已经成为法式衣橱的标志。经典的海军蓝白条纹既casual又chic，可以搭配高腰牛仔裤打造周末look，也可以配西装裤穿去上班。法国女人的秘密在于——她们买最好quality的条纹衫，穿很多年，而不是追逐快时尚。选择pure cotton或cotton blend的材质，稍微宽松的fit，boat neck的领口，就是最authentic的法式条纹衫。",
+          image: frenchStripes
+        },
+        {
+          heading: "元素2：Trench Coat是终极investment piece",
+          content: "一件quality trench coat是法式衣橱的基石。最经典的是米色或卡其色，timeless的颜色意味着你可以穿它十年甚至更久。法国女人会投资一件Burberry或A.P.C.的trench，perfectly tailored，然后with everything——牛仔裤、连衣裙、西装——外面都套这件trench。The beauty在于它的versatility：系上腰带是elegant，不系腰带是casual，卷起袖子是effortless。一件好的trench coat是你衣橱中最hard-working的单品，值得投资最好的quality。",
+          image: frenchTrench
+        },
+        {
+          heading: "元素3：配饰的less is more哲学",
+          content: "法式风格的精髓在于restraint——不会过度accessorize，但每一件配饰都精心选择。一双classic的leather ballet flats或loafers，一只简约的leather tote或basket bag，一条silk scarf，几件delicate的gold jewelry——这就足够了。法国女人相信投资timeless pieces，而不是追逐trends。她们的包包、鞋子和珠宝可能用了很多年，但因为quality和classic design，看起来永远不会过时。记住：与其买很多cheap的配饰，不如投资几件quality pieces that will last。",
+          image: frenchAccessories
+        },
+        {
+          heading: "元素4：The Art of Effortless Styling",
+          content: "法式风格最难模仿的部分是那种effortless的态度。法国女人的穿搭看起来毫不费力，但实际上是deeply considered的。她们的秘密包括：slightly undone的发型（messy bun或natural waves），minimal但perfect的妆容（red lips, barely-there base），mix high and low（Hermès包配Zara牛仔裤），以及最重要的——confidence。她们穿衣服是为了自己，而不是为了impress别人。这种自信和authenticity，才是法式风格真正的essence。"
+        },
+        {
+          heading: "元素5：The Capsule Wardrobe Mentality",
+          content: "法国女人的衣橱通常比美国女人小很多，但她们的穿搭却总是impeccable。原因是她们践行capsule wardrobe的理念——只买真正爱的、quality的、可以mix and match的单品。Core pieces包括：white shirt, black trousers, cashmere sweater, trench coat, little black dress, quality denim, leather loafers。然后通过scarves, jewelry, bags来add personality。这种approach不仅sustainable，还能让你每天的穿搭变得so much easier。Less choices, more style——这就是法式哲学。"
+        }
+      ],
+      conclusion: "法式风格不是一套可以照搬的rules，而是一种approach to dressing和life。它关于投资quality，珍惜classics，保持confidence，以及most importantly——be yourself。你不需要是法国人才能拥有法式风格，你只需要adopt这种less is more、quality over quantity的mindset。Start with a few key pieces，build a curated wardrobe，and most importantly，wear everything with confidence and joy。C'est ça, le style français！"
+    }
+  },
+  {
+    slug: "autumn-2025-niche-bags",
+    title: "2025秋季必入的5款小众包包",
+    date: "November 8, 2025",
+    excerpt: "厌倦了满街的大牌logo？这些小众品牌的包包同样精致考究，而且更能彰显你的独特品味...",
+    image: autumnBagsHero,
+    content: {
+      intro: "2025年秋季，时尚界吹起了一股"quiet luxury"风潮。与其追逐那些logo明显的大牌包包，越来越多时髦精开始关注那些design独特、工艺精湛但relatively niche的品牌。这些包包不仅quality上乘，更重要的是——它们能让你stand out from the crowd，展现真正的个人品味。",
+      sections: [
+        {
+          heading: "1. Sculptural Shoulder Bag：建筑感的艺术品",
+          content: "今年最火的包型之一就是sculptural shoulder bag——那种有着architectural lines和organic shapes的肩背包。cognac色的皮革温暖而sophisticated，完美match秋季的wardrobe。这种包的beauty在于它本身就是一件art piece，即使是简单的outfit，加上这样一只包立刻变得editorial。关键是选择genuine leather，随着使用会develop beautiful patina。这只包的size刚好——既可以装日常必需品，又不会overwhelm你的整体look。",
+          image: bagsDisplay1
+        },
+        {
+          heading: "2. Quilted Crossbody：永恒优雅的绗缝包",
+          content: "quilted leather永远不会过时，尤其是在秋冬季节。这款深绿色的quilted crossbody bag有着vintage charm和modern sensibility。金色的hardware adds a touch of luxury，而crossbody的设计makes it incredibly practical for everyday use。选择这种包的tips：确保quilting是hand-stitched或者quality machine work，check链条的weight（太轻的说明quality不够），以及确保可以调节strap length。这种包可以dress up或dress down，是investment piece的perfect example。",
+          image: bagDetails
+        },
+        {
+          heading: "3. Minimalist Tote：Less is More的美学",
+          content: "Simple black leather tote是every woman's workhorse，但finding the right one是关键。Look for clean lines，quality leather（full-grain is best），sturdy construction，以及合适的size。这种包的beauty在于its versatility——commute to work，weekend errands，甚至travel，都perfectly适用。Minimalist不意味着boring——quality speaks for itself。Invest in一只真正好的tote，它会serve you for decades。Choose a design with内袋或者organizer，makes life so much easier。"
+        },
+        {
+          heading: "4. Slouchy Hobo Bag：Effortless Chic的代表",
+          content: "Slouchy hobo bag是那种instantly makes any outfit look effortless的包型。Soft leather随着body movement而自然drape，creates a relaxed yet put-together vibe。这种包特别适合weekend或者casual occasions，但也可以搭配tailored pieces来create interesting contrast。Choosing tips：确保leather quality（太便宜的会lose shape），check hardware（zipper, snaps要quality reliable），以及consider链条还是leather strap（链条更dressed-up，皮质strap更casual）。秋季color like cognac, chocolate, or deep burgundy都是perfect choices。",
+          image: bagsStyling
+        },
+        {
+          heading: "5. Vintage-Inspired Frame Bag：复古的魅力回归",
+          content: "Frame bags带我们回到了优雅的vintage era，但with modern updates。金属frame closure不仅是functional也是decorative，adds a touch of nostalgia和sophistication。这种包通常size较小，perfect for evening out或者when you want to dress up your daytime look。选择时pay attention to：frame的quality（应该smoothly open and close），lining的质量，以及overall construction。这种包是statement piece，所以don't be afraid to choose interesting colors或textures。Pair with simple outfits让包成为focal point。"
+        }
+      ],
+      conclusion: "Investing in niche brand bags不仅是about owning something unique，更是about supporting craftsmanship和artisanal work。这些小众品牌往往更注重quality over quantity，每一只包都是carefully made。记住，best investment不是最expensive的或最hyped的，而是那些真正适合你lifestyle、reflect你的personal style、并且quality excellent的pieces。这个秋季，choose quality over logo，individuality over trends，build一个真正属于你的包包collection。"
+    }
+  },
+  {
+    slug: "jennie-airport-style-breakdown",
+    title: "Jennie机场穿搭拆解",
+    date: "November 7, 2025",
+    excerpt: "BLACKPINK的Jennie每次机场出现都是fashion moment。让我们分析她的穿搭秘诀，学习如何打造既舒适又时髦的airport style...",
+    image: jennieAirportHero,
+    content: {
+      intro: "Jennie的机场look总能成为热搜话题，不是没有道理的。她perfectly掌握了如何在长途飞行的comfort requirements和fashion statement之间找到平衡。无论是oversized leather jacket搭配crop top，还是designer hoodie配baggy jeans，她总能create那种effortless cool的vibe。让我们break down她的style secrets，学习如何achieve那种K-pop idol的机场时尚。",
+      sections: [
+        {
+          heading: "Signature Look 1：Leather Jacket + Crop Top + Baggy Jeans",
+          content: "这是Jennie最标志性的机场look之一。Oversized black leather jacket gives edge and attitude，cropped white tee或tank top shows just a hint of skin（既sexy又不过分），high-waisted baggy jeans balances the proportions perfectly。这套look的genius在于层次感和proportions——oversized top, fitted middle, relaxed bottom。再加上chunky sneakers（通常是designer品牌），designer crossbody bag（小巧但statement），还有必不可少的sunglasses。整体look是那种\"I'm not trying but I look amazing\"的vibe。",
+          image: jennieLook1
+        },
+        {
+          heading: "Accessories是Game Changer",
+          content: "Jennie的机场look之所以总是standout，accessories起了关键作用。她的must-haves包括：oversized designer sunglasses（通常是square或cat-eye shape），chunky gold jewelry（layered necklaces or statement rings），designer mini bags（Chanel, Celine等），还有经常出现的baseball cap或beanie。这些accessories不仅practical（sunglasses for privacy, hat for bad hair day），也instantly elevate整个look。The key是mix high-end pieces（Chanel bag）with more accessible items（simple crop top），create那种high-low mix that\\'s very modern。",
+          image: jennieAccessories
+        },
+        {
+          heading: "The Art of Comfortable Yet Stylish",
+          content: "长途飞行需要comfort，但Jennie从不sacrifice style。她的secrets包括：选择soft, breathable fabrics（cotton hoodies, jersey tees），但with great fit；wear layers（可以在飞机上调节温度）；choose shoes that are easy to take off at security但still stylish（chunky sneakers or platform shoes）；bring a oversized coat或jacket（既保暖又是statement piece）。Most importantly，她always looks put-together但not overdressed。这种balance是airport style的essence。",
+          image: airportFlatlay
+        },
+        {
+          heading: "Color Palette: Black, White and Neutrals",
+          content: "注意观察就会发现，Jennie的机场look通常stick to一个简约的color palette——black, white, grey, beige。这不仅makes mixing and matching easier，也creates a cohesive, sophisticated look。Occasional pops of color来自accessories（红色包包，彩色sneakers），但base outfit总是neutral。这个approach非常smart——neutrals are timeless and versatile，而且在travel时更practical（stains less visible, easier to mix pieces）。"
+        },
+        {
+          heading: "How to Recreate Jennie's Airport Style",
+          content: "你不需要designer wardrobe来achieve Jennie的style。Keys are：invest in一件quality leather jacket（可以是real leather或good faux leather），买几件perfect-fitting crop tops和oversized hoodies，找到最适合你身材的baggy jeans（high-waisted是必须的），invest in一双comfortable但stylish的chunky sneakers，以及upgrade你的accessories（especially sunglasses and bag）。Most importantly，wear everything with confidence。Jennie的style不只是about the clothes——it's about the attitude。Own your look，add your personal touch，别怕experiment。"
+        }
+      ],
+      conclusion: "Jennie的机场style teaches us that you can be comfortable and fashionable at the same time。The secrets are：know your body and what silhouettes flatter you，invest in quality basics，pay attention to proportions，accessorize smartly，and most importantly——own your style with confidence。下次travel时，channel your inner Jennie，create一个既practical又stylish的airport look。Remember，best style comes from being真实的yourself，而不是blindly copying。Use Jennie's looks as inspiration，但add your own personality和preferences。That's what true style is about。"
+    }
+  },
+  {
+    slug: "color-elegance-guide",
+    title: "如何用色彩提升气质",
+    date: "November 6, 2025",
+    excerpt: "色彩是最powerful的style tool，但很多人不知道如何正确运用它。掌握这些color secrets，让你的气质瞬间提升...",
+    image: colorEleganceHero,
+    content: {
+      intro: "Color psychology在fashion中的作用常被低估。正确的颜色不仅能enhance你的natural beauty，还能convey confidence, professionalism, creativity或任何你想要project的qualities。但how do you choose the right colors for you？How do you wear bold colors without looking overdone？让我们dive into色彩的秘密，learn how to使用color来elevate你的entire presence。",
+      sections: [
+        {
+          heading: "Understanding Your Color Season",
+          content: "Color analysis的第一步是了解你的color season——spring, summer, autumn或winter。这基于你的skin undertones, hair color和eye color。Warm undertones（gold, peach, yellow）通常suit autumn或spring colors（warm earth tones, coral, olive）。Cool undertones（pink, blue, red）look better in summer或winter colors（jewel tones, icy pastels, true blue）。Find your season不意味着你只能wear那些colors，但它helps you understand which shades most flatter you。Start with online tests或professional color analysis to find your season。",
+          image: colorPower
+        },
+        {
+          heading: "Power of Bold Colors",
+          content: "Bold colors like burgundy, emerald green, navy blue和camel有incredible power to enhance your presence。Burgundy suit projects confidence and sophistication——perfect for important meetings或events。Emerald green conveys creativity and vitality。Navy blue is professional yet更interesting than black。Camel monochrome creates elegant, pulled-together look。The key to wearing bold colors是confidence and simplicity——let the color be the star。Keep styling minimal, accessories simple, makeup neutral。当你wear a bold color, you don't need much else。The color does the work for you。",
+          image: colorPsychology
+        },
+        {
+          heading: "The Transformative Power of Color",
+          content: "同样的人，wearing neutral colors vs bold colors can look completely different。Neutrals are safe and elegant，但sometimes they can wash you out或make you blend in。Bold colors, on the other hand, can instantly uplift your complexion, brighten your face, and make you stand out。Before and after examples show this dramatically——a person in beige looks sophisticated but quiet；the same person in bold blue and orange looks vibrant, confident, and memorable。This doesn't mean you should abandon neutrals——it means understand when to用neutrals（professional settings, wanting to appear approachable）and when to用bold colors（want to make an impact, special occasions, days when you need confidence boost）。",
+          image: colorTransformation
+        },
+        {
+          heading: "Color Combinations That Always Work",
+          content: "Certain color combinations are foolproof and always sophisticated：Navy + White（classic and crisp），Black + Camel（elegant contrast），Burgundy + Grey（rich and refined），Emerald + Gold（luxurious），Olive + Cream（earthy chic）。These combinations work because of their balance——usually one bold color paired with one neutral，或two colors with similar intensity。When combining colors, follow the 60-30-10 rule：60% dominant color，30% secondary color，10% accent color（usually through accessories）。This creates visual harmony and prevents overwhelming the eye。"
+        },
+        {
+          heading: "Practical Tips for Wearing Color",
+          content: "Start small if you're nervous about color——a colorful scarf, bag或shoes with neutral outfit。Once comfortable, try colorful tops（easier than colorful pants for most people）。Then progress to full colored suits或dresses。Remember：lighter, brighter colors draw attention（use near your face to brighten complexion），darker, richer colors recede（slimming effect）。If wearing bold color near your face, keep makeup simple。If your outfit is neutral, you can go bolder with makeup or accessories。Most importantly, choose colors that make you feel good。If you feel confident and happy in a color, that positive energy will project to others。That's the real secret to using color to enhance your elegance。"
+        }
+      ],
+      conclusion: "Color is one of the most powerful tools in your style arsenal，但它requires understanding and confidence to use well。Start by understanding your color season，experiment with different shades，pay attention to how colors make you feel，and gradually build a wardrobe that includes both versatile neutrals and statement colors。Remember，fashion rules are meant to be broken——if a color makes you happy and confident, wear it，regardless of whether it's "your" color theoretically。True elegance comes from confidence，and confidence comes from feeling good in what you wear。Use color as your ally in expressing your unique personality and elevating your presence。"
+    }
+  },
+  {
+    slug: "denim-styling-five-ways",
+    title: "同一条牛仔裤的5种穿法",
+    date: "November 5, 2025",
+    excerpt: "一条quality的牛仔裤可以变化出无数种look。掌握这5种经典穿法，让你的牛仔裤发挥最大价值...",
+    image: denimStylingHero,
+    content: {
+      intro: "Good denim is an investment that pays dividends every time you wear it。但很多人觉得牛仔裤只能casual wear，或者总是穿同样的搭配而感到boring。实际上，一条well-fitted jeans是最versatile的wardrobe staple之一——从weekend casual到business casual，从day to night，denim可以适应几乎any occasion。让我们explore同一条classic blue jeans的5种完全不同的穿法，unlock your denim's full potential。",
+      sections: [
+        {
+          heading: "Look 1: Polished Office (Jeans + Blazer + Heels)",
+          content: "是的，牛仔裤可以去office！关键是how you style it。Choose dark wash jeans（越接近black越formal），straight leg或slight flare（更polished than skinny），no distressing（rips和holes are too casual for office）。Pair with crisp white blazer（structured, perfectly tailored），simple white tank或silk cami underneath。Pointed-toe pumps（burgundy adds a pop of color但still professional）instantly elevate the look。Accessories keep minimal——simple studs, delicate necklace, structured tote。This look says "I mean business但I understand modern dress codes。" Perfect for creative industries或casual Fridays。",
+          image: denim5Ways
+        },
+        {
+          heading: "Look 2: Cozy Weekend (Jeans + Sweater + Boots)",
+          content: "Weekend calls for comfort但doesn't mean sacrificing style。The same jeans with oversized beige sweater creates perfect cozy-chic vibe。Key is proportions——oversized top需要balance with fitted bottom（这就是为什么high-waisted jeans works so well）。Cognac ankle boots add warmth and完成the earthy, autumn aesthetic。This look is about relaxed elegance——舒适但put-together。Accessories can be minimal（simple watch, stud earrings）or你可以add interest with layered necklaces或statement bag。Throw on a trench coat or wool coat，你就ready for weekend errands, coffee with friends, or casual lunch dates。",
+          image: denimDetails
+        },
+        {
+          heading: "Look 3: Date Night (Jeans + Silk Blouse + Heels)",
+          content: "Denim可以absolutely wear on dates——when styled right, it's sexy and effortless。Same jeans with pink silk blouse（slightly tucked in front for relaxed elegance），black pointed-toe heels（sleek and lengthening），and you've got a date-night look that's sophisticated但not trying too hard。The silk adds luxe和femininity，contrasting beautifully with casual denim。This is the epitome of high-low dressing——mixing expensive-looking pieces with everyday basics。Accessories: small crossbody bag（hands-free is smart for dates），delicate jewelry, subtle makeup with bold lip。This look works for dinner dates, cocktails, theater, or any occasion where you want to look chic但not overdressed。"
+        },
+        {
+          heading: "Look 4: Edgy Cool (Jeans + Leather Jacket + Sneakers)",
+          content: "Channel your inner rockstar with same jeans, black leather jacket, and chunky white sneakers。This is effortlessly cool——the kind of look that says "I woke up like this"（even though it's actually carefully considered）。Under the leather jacket, simple white tee或tank（keep it simple让jacket shine）。White sneakers（whether designer or not）are key——they add street style edge while keeping look youthful and现代。Accessories can be edgier here——chain necklaces, crossbody bag with hardware, aviator sunglasses。This look is perfect for concerts, casual hangouts, shopping days, or任何时候when you want to feel cool and confident。"
+        },
+        {
+          heading: "Look 5: Feminine Chic (Jeans + Wrap Top + Statement Jewelry)",
+          content: "谁说牛仔裤不能feminine？Same jeans with beige wrap top（或any wrap style——它's universally flattering），nude or white heels, and statement necklace创造了a perfectly balanced look——casual从bottom, dressy on top。The wrap detail adds femininity and sophistication，while jeans keep it approachable和comfortable。This is great for lunch dates, daytime events, or when you need to look put-together但also need to be comfortable（because let's face it, heels with jeans is more comfortable than heels with a tight skirt）。Accessories here shine——statement necklace, bangles, clutch或elegant tote。This look proves denim can be just as chic as a dress。",
+          image: denimAccessories
+        }
+      ],
+      conclusion: "一条perfect jeans是wardrobe MVP——它可以be dressed up or down, work for almost any occasion, and never goes out of style。The key is investing in quality denim（good fit, classic wash, quality fabric），然后learning how to style it differently。With just one pair of jeans and strategic wardrobe staples（blazer, silk blouse, leather jacket, cozy sweater, variety of shoes），you can create endless looks。这不仅makes getting dressed easier，也makes your wardrobe more sustainable and cost-effective。Remember，fashion is about creativity and self-expression。These 5 looks are starting points——mix, match, add your personality，create your own signature way of wearing denim。The best style is the one that makes you feel like the best version of yourself。"
     }
   },
   {
