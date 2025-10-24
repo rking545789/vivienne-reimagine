@@ -86,7 +86,7 @@ export const articlesData: Article[] = [
   {
     slug: "spring-2026-european-fashion-trends",
     title: "Spring 2026: The European Fashion Revolution",
-    date: "February 15, 2026",
+    date: "November 2, 2025",
     excerpt: "From Paris to Milan, discover the breathtaking trends defining Spring 2026 as fashion's most influential voices unveil their boldest visions yet...",
     image: spring2026Hero,
     content: {
