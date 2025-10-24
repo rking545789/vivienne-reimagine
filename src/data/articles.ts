@@ -131,6 +131,26 @@ import petiteElongating from "@/assets/article/petite-elongating.jpg";
 import luxeDesigner from "@/assets/article/luxe-designer.jpg";
 import luxeAccessories from "@/assets/article/luxe-accessories.jpg";
 
+// Autumn-Winter 2025 Articles
+import autumnCoatsHero from "@/assets/autumn-coats-hero.jpg";
+import coatTrench from "@/assets/article/coat-trench.jpg";
+import coatWool from "@/assets/article/coat-wool.jpg";
+import whiteShirtStylingHero from "@/assets/white-shirt-styling-hero.jpg";
+import whiteShirtOffice from "@/assets/article/white-shirt-office.jpg";
+import whiteShirtCasual from "@/assets/article/white-shirt-casual.jpg";
+import idealWardrobeHero from "@/assets/ideal-wardrobe-hero.jpg";
+import wardrobeBasics from "@/assets/article/wardrobe-basics.jpg";
+import wardrobeOrganize from "@/assets/article/wardrobe-organize.jpg";
+import winterSlimmingHero from "@/assets/winter-slimming-hero.jpg";
+import winterVertical from "@/assets/article/winter-vertical.jpg";
+import winterStructured from "@/assets/article/winter-structured.jpg";
+import christmasPartyHero from "@/assets/christmas-party-hero.jpg";
+import christmasRedDress from "@/assets/article/christmas-red-dress.jpg";
+import christmasSequin from "@/assets/article/christmas-sequin.jpg";
+import bootsGuideHero from "@/assets/boots-guide-hero.jpg";
+import bootsAnkle from "@/assets/article/boots-ankle.jpg";
+import bootsKneeHigh from "@/assets/article/boots-knee-high.jpg";
+
 export interface Article {
   slug: string;
   title: string;
@@ -1781,6 +1801,196 @@ export const articlesData: Article[] = [
         }
       ],
       conclusion: "Luxe elegance is achievable at any budget when you focus on quality over quantity, perfect fit, refined accessories, and sophisticated colors. It's not about labels; it's about looking polished and put-together. Invest in timeless pieces that work hard in your wardrobe, get everything tailored to fit beautifully, and choose accessories thoughtfully. Remember, true elegance is understated—it whispers rather than shouts. When you look expensive, you feel confident, and that confidence is the ultimate luxury. Build your wardrobe intentionally, and you'll create a style that looks effortlessly elegant."
+    }
+  },
+  {
+    slug: "autumn-winter-coat-recommendations",
+    title: "Autumn-Winter Coat Recommendations",
+    date: "November 11, 2025",
+    excerpt: "Discover the essential coat styles that combine warmth with sophistication for the cold season ahead...",
+    image: autumnCoatsHero,
+    content: {
+      intro: "As temperatures drop, your coat becomes the centerpiece of your outfit—the first thing people see and the key to staying warm without sacrificing style. But with so many options, how do you choose? This guide breaks down the essential coat styles every wardrobe needs, from classic trenches to luxurious wool overcoats. Understanding which styles work for your lifestyle and body type will transform your autumn-winter wardrobe.",
+      sections: [
+        {
+          heading: "The Timeless Trench Coat",
+          content: "The trench coat is the ultimate transitional piece—sophisticated, versatile, and endlessly chic. A classic beige trench works with everything from jeans to dresses, making it one of the hardest-working pieces in your wardrobe. Look for quality details: a structured shoulder, a belted waist for definition, and a length that falls just below the knee. The beauty of a trench is its ability to work across seasons—light enough for autumn, layerable for winter. Style it belted for a defined silhouette or open for a more relaxed look. Invest in a quality trench in a neutral color, and it will serve you for decades.",
+          image: coatTrench
+        },
+        {
+          heading: "The Luxurious Wool Overcoat",
+          content: "For true winter warmth, nothing beats a wool overcoat. Look for high wool content (at least 80%) for optimal warmth and longevity. A deep navy or charcoal gray offers versatility while feeling more modern than black. The key is the cut—an overcoat should have structure in the shoulders while allowing room for layering underneath. The length should be midi or longer for maximum warmth and elegance. This is an investment piece that gets better with age, developing character while maintaining its shape. Style it over your work suits, casual weekend looks, or evening outfits—it elevates everything instantly.",
+          image: coatWool
+        },
+        {
+          heading: "Choosing the Right Coat for Your Lifestyle",
+          content: "Consider your daily needs when selecting coats. If you commute daily, prioritize warmth and durability—a wool blend coat with a structured cut. For weekend wear, a more relaxed trench or casual parka works beautifully. Think about your climate—northern winters need heavier weights, while milder climates can stick with lighter options. Also consider your existing wardrobe—what colors and styles will complement what you already own? A well-chosen coat should work with at least 80% of your wardrobe."
+        },
+        {
+          heading: "Styling Your Coats Throughout the Season",
+          content: "The same coat can look completely different based on how you style it. With a trench, try belting it tight over a dress for polished femininity, or wearing it open over jeans and a sweater for casual chic. For wool coats, experiment with scarves—a silk scarf adds elegance, while a chunky knit brings coziness. Don't forget accessories: quality leather gloves, a structured handbag, and boots that complement your coat's color all enhance the overall look. Remember, your coat is often visible the longest during the day, so style it thoughtfully."
+        }
+      ],
+      conclusion: "Investing in quality coats transforms your autumn-winter wardrobe. A classic trench and a luxurious wool overcoat cover all your bases—professional, casual, elegant, and warm. Choose timeless styles in neutral colors, prioritize quality construction, and ensure proper fit. With the right coats, you'll look forward to bundling up, knowing you look effortlessly chic no matter the weather. These pieces aren't expenses; they're investments in feeling confident and stylish throughout the coldest months of the year."
+    }
+  },
+  {
+    slug: "white-shirt-styling-guide",
+    title: "Multiple Ways to Style a Basic White Shirt",
+    date: "November 11, 2025",
+    excerpt: "Transform your basic white shirt from office staple to style statement with these versatile styling techniques...",
+    image: whiteShirtStylingHero,
+    content: {
+      intro: "The white button-down shirt is arguably the most versatile piece in any wardrobe. Yet many of us wear it the same way day after day, missing its incredible potential for transformation. A quality white shirt can be professional, casual, romantic, or edgy—all depending on how you style it. This guide shows you how to maximize this wardrobe essential, taking it from the boardroom to the weekend and everywhere in between.",
+      sections: [
+        {
+          heading: "Professional Office Styling",
+          content: "For the office, tuck your white shirt into high-waisted trousers and add a structured blazer. This creates clean lines and a polished silhouette perfect for professional settings. Keep accessories minimal but impactful—simple gold hoops, a classic watch, and a quality leather bag. The key is crisp presentation: ensure your shirt is well-pressed, buttons are secure, and the collar sits properly. This look works for client meetings, presentations, and important days when you need to project confidence and competence. Consider adding a silk scarf tied at the neck for extra sophistication, or roll up the sleeves slightly for a more modern, approachable vibe.",
+          image: whiteShirtOffice
+        },
+        {
+          heading: "Casual Weekend Look",
+          content: "Transform the same shirt for weekends by wearing it unbuttoned over a camisole or tank, paired with your favorite jeans. Leave it untucked for a relaxed silhouette, or do a French tuck (tucking just the front) for a more polished casual look. This is where you can have fun with accessories—layer delicate necklaces, add statement earrings, stack bracelets, or wear a bold ring. The oversized white shirt looks incredibly chic with slim jeans and ankle boots, or try it with cut-off denim shorts and sneakers for a laid-back summer vibe. This versatility is what makes the white shirt so valuable.",
+          image: whiteShirtCasual
+        },
+        {
+          heading: "Creative Styling Techniques",
+          content: "Get creative with how you wear your white shirt. Try the shirt-as-dress look: wear it oversized and belted at the waist with tall boots. Or layer it under a slip dress for an unexpected contrast of masculine and feminine elements. For a modern twist, tie the front into a knot at your waist and pair with high-waisted bottoms. You can also try wearing it backwards, with buttons down your back, for an interesting neckline variation. Don't be afraid to experiment—the white shirt is forgiving and always looks intentional when styled with confidence."
+        },
+        {
+          heading: "Quality and Fit Considerations",
+          content: "Not all white shirts are created equal. Invest in quality cotton with a slight stretch for comfort and longevity. The collar should sit properly against your neck without gaping. Shoulders should fit precisely—not too tight or loose. Sleeve length should end at your wrist bone. Consider having your shirt tailored if needed; a well-fitted white shirt is worth the investment. Buy at least two—one for professional styling and one for casual wear. With proper care (washing in cold water, hanging to dry, pressing when needed), a quality white shirt lasts for years."
+        }
+      ],
+      conclusion: "The white button-down shirt proves that true style isn't about quantity—it's about knowing how to work with versatile basics. This single piece can carry you through countless occasions when styled thoughtfully. Master these styling techniques, invest in quality shirts that fit well, and you'll find yourself reaching for this classic piece again and again. The white shirt's enduring appeal lies in its simplicity and endless potential for reinvention. Make it work for your lifestyle, and it will become one of the most valuable pieces in your wardrobe."
+    }
+  },
+  {
+    slug: "building-ideal-wardrobe-five-stages",
+    title: "5 Stages to Building Your Ideal Wardrobe",
+    date: "November 11, 2025",
+    excerpt: "A strategic approach to creating a wardrobe that truly serves your life, from decluttering to thoughtful curation...",
+    image: idealWardrobeHero,
+    content: {
+      intro: "Building an ideal wardrobe doesn't happen overnight. It's a process of discovery, refinement, and intentional choices. Many of us have closets full of clothes yet feel we have nothing to wear—the problem isn't quantity but quality and cohesion. This guide walks you through five essential stages of wardrobe building, helping you create a collection that truly serves your lifestyle, reflects your style, and makes getting dressed a pleasure rather than a chore.",
+      sections: [
+        {
+          heading: "Stage 1: The Honest Edit",
+          content: "Begin with a thorough closet audit. Remove everything from your wardrobe and try each piece on. Be ruthlessly honest: Does it fit properly? Do you feel confident wearing it? Is it in good condition? Create three piles: keep, maybe, and let go. The 'keep' pile should be items you wear regularly and love. The 'maybe' pile is for pieces you're unsure about—store these separately for three months. If you don't reach for them, let them go. This stage is about creating space and clarity. Don't let guilt about money spent or sentimental attachment keep clothes you don't wear. A smaller wardrobe of pieces you love is infinitely more valuable than a large collection you ignore.",
+          image: wardrobeBasics
+        },
+        {
+          heading: "Stage 2: Define Your Style Identity",
+          content: "With a cleaner closet, identify your style preferences. Look at your 'keep' pile—what patterns emerge? Are most pieces classic, trendy, minimalist, or romantic? Create a style mood board with images that resonate with you. Define your lifestyle needs: what percentage is work versus casual versus special occasions? This clarity guides future purchases. Consider your color preferences—do you gravitate toward neutrals, brights, or a mix? Understanding your style identity prevents impulse purchases that don't align with who you are. Write down 5-10 words that describe your ideal style. This becomes your shopping filter."
+        },
+        {
+          heading: "Stage 3: Build Your Foundation",
+          content: "Every functional wardrobe needs solid basics: well-fitting jeans, classic white and black tees, a white button-down, a blazer, black trousers, a little black dress, and quality outerwear. These are your everyday essentials—pieces that work hard and mix easily. Invest more in basics since you'll wear them frequently. Prioritize fit and quality over trends. These foundation pieces should be in neutral colors that work together effortlessly. Once you have strong basics, you can add personality through statement pieces, accessories, and trend items. But without a solid foundation, even the most exciting pieces won't serve you well.",
+          image: wardrobeOrganize
+        },
+        {
+          heading: "Stage 4: Add Strategic Statement Pieces",
+          content: "With foundations in place, layer in personality through statement pieces—a colorful coat, unique jewelry, a printed dress, interesting shoes. These pieces reflect your style identity and make outfits feel special. The key word is 'strategic'—each statement piece should work with multiple basics. Avoid one-hit wonders that only work with one specific outfit. A beautiful silk scarf can transform five different looks; a neon pink jacket might only work once. Statement pieces should excite you but also earn their place through versatility. Quality statement pieces become signature elements of your personal style."
+        },
+        {
+          heading: "Stage 5: Maintain and Refine",
+          content: "An ideal wardrobe requires ongoing maintenance. Every season, do a mini-audit: What did you wear most? What never made it off the hanger? Adjust accordingly. Replace worn basics promptly—a frayed hem or pilling fabric undermines your entire look. Before buying something new, ask: Do I have something similar? Will this work with my existing pieces? Does this align with my style identity? Adopt a 'one in, one out' rule to prevent closet creep. This stage is about refinement rather than accumulation. Your wardrobe should evolve with you, but thoughtfully and intentionally."
+        }
+      ],
+      conclusion: "Building your ideal wardrobe is a journey, not a destination. It requires honesty, self-knowledge, and intentionality. By following these five stages—editing ruthlessly, defining your style, building foundations, adding strategic statements, and maintaining thoughtfully—you create a wardrobe that truly serves you. The result isn't just a collection of clothes; it's a curated selection that makes you feel confident, authentic, and put-together every single day. Remember, the goal isn't perfection but functionality and joy. When your wardrobe works for you, getting dressed becomes effortless and inspiring."
+    }
+  },
+  {
+    slug: "winter-slimming-styling-tips",
+    title: "Winter Slimming Styling Tips",
+    date: "November 11, 2025",
+    excerpt: "Stay warm while maintaining a sleek silhouette with these strategic winter styling techniques...",
+    image: winterSlimmingHero,
+    content: {
+      intro: "Winter dressing presents a unique challenge: how to stay warm without adding visual bulk. Heavy layers and bulky coats can overwhelm your silhouette if not styled thoughtfully. But with the right techniques, you can be both cozy and chic, creating a streamlined appearance even in the coldest weather. These strategic styling tips help you maintain a sleek silhouette while staying perfectly warm throughout winter.",
+      sections: [
+        {
+          heading: "Create Vertical Lines",
+          content: "Vertical elements elongate the body and create a slimmer appearance. Choose long coats that fall past your hips rather than shorter puffer jackets that cut your silhouette in half. Wear monochromatic outfits in head-to-toe dark colors—black, charcoal, navy—to create one continuous vertical line. Long scarves worn straight down, rather than wrapped bulkily, add length. Opt for single-breasted coats rather than double-breasted styles. Wear boots in the same color as your pants or tights to extend your leg line. Even simple choices like leaving a long coat unbuttoned creates a slimming center panel. Think vertical, and you'll create length and streamline your winter look.",
+          image: winterVertical
+        },
+        {
+          heading: "Strategic Layering Techniques",
+          content: "Layer thin, quality fabrics rather than bulky knits. Start with thermal undergarments—modern versions are sleek and warm. Add a thin cashmere or merino sweater rather than a chunky knit. Choose structured coats with defined waistlines rather than shapeless parkas. The key is creating warmth through multiple thin layers rather than one thick layer. This approach provides insulation without bulk. Use the 'rule of slimming layers': fitted base layer, slightly relaxed middle layer, structured outer layer. Each layer should be progressively more structured, creating definition rather than volume. Pay attention to fabric weight—heavy fabrics add bulk, while lightweight technical materials provide warmth without weight.",
+          image: winterStructured
+        },
+        {
+          heading: "Define Your Waist",
+          content: "Adding definition at your waist creates instant shape, even under heavy coats. Belt your coat at the waist, or choose coats with built-in waist definition. Wear high-waisted pants or skirts with your tops tucked in to create a waist point before adding layers. Even under an open coat, a defined waist creates structure and prevents a boxy silhouette. Avoid oversized coats worn completely loose—they overwhelm petite frames and add visual weight to all body types. A belted coat or one with a slightly cinched waist maintains femininity and shape while still providing warmth. This single technique transforms your winter silhouette from shapeless to chic."
+        },
+        {
+          heading: "Choose Flattering Proportions",
+          content: "Balance is key to winter styling. If you're wearing a voluminous coat, pair it with slim-fitting pants and sleek boots. Conversely, if you prefer looser pants, choose a more fitted coat. Avoid pairing oversized with oversized—it creates shapelessness. Pay attention to coat length relative to your height and leg length. Midi-length coats are universally flattering, hitting mid-calf to elongate while still being warm. Very short or very long coats can overwhelm unless proportioned carefully with the rest of your outfit. The goal is balanced proportions that create harmony rather than adding visual weight in any one area."
+        }
+      ],
+      conclusion: "Winter doesn't mean sacrificing style for warmth. By creating vertical lines, layering strategically, defining your waist, and balancing proportions, you can stay toasty while maintaining a sleek, elegant silhouette. The secret is thoughtful choices—choosing structured pieces over shapeless ones, creating definition where bulk typically accumulates, and using color and line to elongate rather than overwhelm. These techniques work for every body type and every winter situation. With these strategies, you'll look forward to bundling up, knowing you look just as polished and put-together as you do in warmer months."
+    }
+  },
+  {
+    slug: "christmas-party-style-inspiration",
+    title: "Christmas Party Style Inspiration",
+    date: "November 11, 2025",
+    excerpt: "Shine bright this holiday season with glamorous outfit ideas that celebrate festive elegance...",
+    image: christmasPartyHero,
+    content: {
+      intro: "The holiday party season is the perfect time to embrace glamour, sparkle, and festive elegance. Whether you're attending an office celebration, a formal dinner, or a casual gathering, dressing for the occasion should be fun and memorable. This guide provides style inspiration for creating show-stopping Christmas party looks that feel authentic to you while capturing the magic of the season. From classic elegance to modern glam, find your perfect holiday party style.",
+      sections: [
+        {
+          heading: "Classic Red Velvet Elegance",
+          content: "Nothing says Christmas like a stunning red velvet dress. This timeless choice embodies holiday glamour while remaining sophisticated and elegant. Look for rich, deep red tones rather than bright cherry—they're more universally flattering and photograph beautifully. A red velvet dress with a modest neckline and elegant silhouette needs minimal styling—let the dress be the star. Add statement gold jewelry for luxurious contrast, keep makeup classic with red lips and defined eyes, and style hair in soft waves or a sleek updo. Finish with black or nude heels and a simple clutch. This look is perfect for formal holiday events where you want to look polished and festive without trying too hard.",
+          image: christmasRedDress
+        },
+        {
+          heading: "Sequin Glamour Done Right",
+          content: "Sequins are synonymous with party season, but they require balance to avoid looking costume-y. Try a sequined top paired with sleek trousers and heels for a modern, sophisticated take on sparkle. The key is mixing textures—pairing something glittery with something matte grounds the look. Choose sequins in sophisticated colors like champagne, rose gold, or deep emerald rather than bright silver or gold. Keep the rest of your outfit simple to let the sequins shine. Minimal jewelry (sequins create their own sparkle), sleek hair, and neutral makeup balance the shimmer. This approach to sequins feels current and elegant rather than over-the-top, perfect for modern holiday celebrations.",
+          image: christmasSequin
+        },
+        {
+          heading: "Modern Minimalist Holiday Glam",
+          content: "Not everyone loves sparkle and color—and that's okay. A minimalist approach to holiday dressing can be equally stunning. Think sleek black dress with interesting details—an asymmetric neckline, beautiful back detail, or unique sleeve. Elevate the simplicity through luxurious fabric (silk, velvet, quality crepe) and impeccable fit. Add interest through statement jewelry—bold earrings, a striking necklace, or an architectural ring. This look proves you don't need red or sequins to look festive—sophistication and intentional styling create their own magic. Perfect for those who prefer understated elegance or want to stand out by not following the sparkle crowd."
+        },
+        {
+          heading: "Styling Tips for Any Party Look",
+          content: "Regardless of which direction you go, certain principles ensure party-ready success. First, ensure perfect fit—party clothes should make you feel confident, not self-conscious about pulling, tugging, or adjusting. Second, consider the event context—work parties call for more coverage than friend gatherings. Third, comfort matters—you'll be standing, mingling, maybe dancing, so choose shoes you can actually wear all evening. Fourth, have fun with your styling—this is the time for bold lips, dramatic eyes, or statement jewelry. Finally, carry yourself with confidence—the best accessory is feeling great in what you're wearing."
+        }
+      ],
+      conclusion: "Holiday party season is your opportunity to dress up, have fun, and celebrate. Whether you love classic red elegance, modern sequin glamour, or sophisticated minimalism, there's a style that fits your personality. The key is choosing something that makes you feel amazing—comfortable, confident, and festive. Remember, the most memorable party looks aren't always the most elaborate; they're the ones worn with genuine joy and confidence. This season, choose a look that excites you, style it thoughtfully, and enjoy every festive moment feeling like your most glamorous self."
+    }
+  },
+  {
+    slug: "ankle-boots-vs-knee-high-boots",
+    title: "Ankle Boots vs Knee-High Boots: Choosing for Your Leg Shape",
+    date: "November 11, 2025",
+    excerpt: "Learn which boot style flatters your leg shape best and how to style each for maximum impact...",
+    image: bootsGuideHero,
+    content: {
+      intro: "The eternal boot question: ankle or knee-high? Both styles have their place in a well-rounded wardrobe, but understanding which works best for your leg shape transforms your autumn-winter styling. The right boot choice can elongate your legs, balance your proportions, and make you feel confident in any outfit. This guide helps you understand the pros and cons of each style and how to choose based on your unique body proportions.",
+      sections: [
+        {
+          heading: "Understanding Ankle Boot Proportions",
+          content: "Ankle boots are incredibly versatile but require careful consideration of proportions. They work beautifully when styled with the right hemlines and silhouettes. For the most flattering look, avoid cutting your leg line at the widest part of your calf—this visually shortens legs. Instead, pair ankle boots with midi skirts or dresses that hit below the knee, creating a small gap of exposed leg. This gap creates an elongating effect. With pants, ensure they either tuck into the boot or end just above the boot shaft—no bunching at the ankle. Ankle boots in neutral colors that blend with your skin tone or tights extend your leg line further. They're perfect for petite frames when styled with proper proportions.",
+          image: bootsAnkle
+        },
+        {
+          heading: "Maximizing Knee-High Boot Impact",
+          content: "Knee-high boots are powerful style statements that can dramatically elongate legs when worn correctly. They work especially well for those who want to create a streamlined silhouette. The key is ensuring the boot hits just below your knee—not mid-calf where it shortens the leg, and not too far above the knee where it looks costume-y. Pair knee-high boots with short skirts or dresses for maximum leg elongation. The boots create one continuous line with tights (choose matching colors for the most dramatic effect). With jeans or pants, tuck everything in—the seamless line from waist to toe visually adds inches. Knee-high boots are particularly flattering on taller frames who can carry the proportion easily.",
+          image: bootsKneeHigh
+        },
+        {
+          heading: "Boot Selection for Different Body Types",
+          content: "Your body proportions guide boot choice. Petite frames: opt for ankle boots with pointed toes and slender heels to maximize leg length. Avoid chunky, wide boot shafts that overwhelm. Tall frames: both styles work, but knee-high boots are particularly stunning as you have the height to carry them. Curvy legs: choose boots with stretch panels for comfortable fit without gaping. Look for V-shaped boot openings that create a lengthening effect. Slim legs: both styles work well, but ensure knee-high boots fit close to prevent slouching. Athletic builds: sleek ankle boots or structured knee-high boots with minimal embellishment create elegant lines. Consider calf width when shopping—many brands now offer multiple calf widths for better fit."
+        },
+        {
+          heading: "Styling Each Boot Style Successfully",
+          content: "For ankle boots: pair with straight-leg jeans and a tucked-in top for balanced proportions. Try them with midi dresses and bare legs for transitional weather. Wear with tailored trousers that hit just above the boot shaft for office-appropriate style. For knee-high boots: style with mini skirts and oversized sweaters for casual chic. Pair with skinny jeans fully tucked in for streamlined elegance. Try them with shirt dresses belted at the waist for sophisticated polish. Both styles benefit from attention to proportion—ensure your topline ends where the boot begins or create intentional gaps. Never let fabric bunch where boot meets leg."
+        }
+      ],
+      conclusion: "Both ankle and knee-high boots deserve space in your wardrobe—the key is understanding when and how to wear each style. Consider your body proportions, the occasion, and how each style makes you feel. Ankle boots offer versatility and work across seasons, while knee-high boots make a dramatic statement and provide extra warmth. Invest in quality boots in neutral colors for maximum wearability, and pay attention to fit—boots should be comfortable and flattering, never restrictive or sloppy. With the right boots styled thoughtfully, you'll stride confidently through autumn and winter looking polished, proportioned, and effortlessly chic."
     }
   }
 ];
