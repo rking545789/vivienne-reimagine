@@ -178,156 +178,156 @@ export const articlesData: Article[] = [
   },
   {
     slug: "autumn-work-wardrobe-guide",
-    title: "秋冬衣橱指南：5套通勤穿搭思路",
+    title: "Autumn Work Wardrobe Guide: 5 Commute Outfit Ideas",
     date: "November 10, 2025",
-    excerpt: "秋冬季节的通勤穿搭既要保暖又要时髦。掌握这5套实用穿搭公式，让你在寒冷季节依然优雅自信...",
+    excerpt: "Master these 5 practical outfit formulas for autumn and winter commuting that balance warmth with style, keeping you elegant and confident throughout the cold season...",
     image: autumnWorkWardrobeHero,
     content: {
-      intro: "秋冬通勤穿搭的难点在于如何在保暖和时髦之间找到平衡。职场环境要求我们穿得得体专业，而寒冷的天气又需要层次分明的搭配。本篇指南将为你提供5套实用的秋冬通勤穿搭思路，让你在整个寒冷季节都能保持优雅和自信。",
+      intro: "The challenge of autumn-winter commute dressing lies in finding the perfect balance between warmth and style. Professional environments demand polished appearances, while cold weather requires thoughtful layering. This guide provides 5 practical autumn-winter outfit formulas to keep you elegant and confident throughout the entire cold season.",
       sections: [
         {
-          heading: "套装1：经典驼色大衣 + 高领针织衫",
-          content: "驼色大衣是秋冬衣橱的必备单品，搭配米白色高领针织衫和黑色西裤，营造出温暖而专业的形象。这套组合的关键在于颜色的层次感——驼色、米白色和黑色形成了从浅到深的自然过渡。选择质感好的大衣很重要，它能提升整体造型的档次。配上一只棕色皮革手袋和简约的金色饰品，就能完成一套既保暖又优雅的通勤look。",
+          heading: "Outfit 1: Classic Camel Coat + Turtleneck Sweater",
+          content: "The camel coat is an autumn-winter wardrobe essential. Paired with an ivory turtleneck sweater and black trousers, it creates a warm yet professional image. The key to this combination is color layering—camel, ivory, and black create a natural transition from light to deep tones. Choosing a quality coat is crucial as it elevates the entire look. Complete the ensemble with a brown leather bag and minimalist gold accessories for a commute outfit that's both warm and elegant.",
           image: workOutfit1
         },
         {
-          heading: "套装2：黑色西装套装的进阶穿法",
-          content: "黑色西装套装不必总是刻板严肃。选择oversized款式的西装外套，内搭丝质衬衫或高领衫，配上阔腿西裤，既专业又不失时髦感。关键在于比例的把握——宽松的上装搭配修长的裤型，能营造出高级的轮廓感。这套look的精髓在于细节：一双尖头高跟鞋拉长腿部线条，一款结构感强的手袋增添职业气场。秋冬季节可以在外面套一件长款大衣，层次更加丰富。",
+          heading: "Outfit 2: Elevated Black Suit Styling",
+          content: "A black suit doesn't have to be stiff and formal. Choose an oversized blazer, layer it with a silk blouse or turtleneck, and pair with wide-leg trousers for a look that's both professional and fashion-forward. The key is proportion—loose top with elongated pants creates a sophisticated silhouette. The essence of this look lies in details: pointed-toe heels elongate the legs, while a structured handbag adds professional presence. In autumn-winter, add a long coat over the ensemble for even more dimension.",
           image: workOutfit2
         },
         {
-          heading: "套装3：温柔知性的针织套装",
-          content: "驼色针织开衫配巧克力色半身裙，是秋冬最温暖舒适的通勤选择。这套look展现出温柔知性的一面，非常适合创意类或相对宽松的职场环境。选择高质量的羊绒或美丽诺羊毛针织品，不仅保暖还很有质感。配上同色系的短靴和皮革手袋，整体造型和谐统一。这种色调搭配非常显气质，是秋冬季节的经典组合。记得腰线的重要性——用腰带或将上衣半塞进裙子里，都能优化身材比例。"
+          heading: "Outfit 3: Soft and Sophisticated Knit Set",
+          content: "A camel knit cardigan paired with a chocolate midi skirt is the warmest, most comfortable commute choice for autumn-winter. This look showcases a gentle, intellectual side, perfect for creative or more relaxed professional environments. Choose high-quality cashmere or merino wool knits—they're not only warm but luxurious in texture. Complete with tonal ankle boots and a leather handbag for a harmonious look. This color combination is incredibly elegant, a classic autumn-winter pairing. Remember the importance of waistline definition—use a belt or half-tuck your top to optimize proportions.",
         },
         {
-          heading: "套装4：职场胶囊衣橱的搭配智慧",
-          content: "建立一个精简但万能的职场胶囊衣橱，是通勤穿搭的终极解决方案。核心单品包括：黑色、米色、灰色的西装外套，白色、黑色、驼色的衬衫或针织衫，黑色西裤和铅笔裙，以及一件quality trench coat或羊毛大衣。这些基础款可以互相组合出无数套look，关键是选择经典的版型和优质的面料。通过配饰来增加变化——不同的围巾、包包、鞋子和首饰，就能让基础款焕发新意。",
+          heading: "Outfit 4: Work Capsule Wardrobe Wisdom",
+          content: "Building a streamlined yet versatile work capsule wardrobe is the ultimate solution for commute dressing. Core pieces include: black, beige, and gray blazers; white, black, and camel shirts or knits; black trousers and pencil skirts; plus a quality trench coat or wool coat. These basics can be mixed and matched into countless looks—the key is choosing classic silhouettes and premium fabrics. Add variety through accessories—different scarves, bags, shoes, and jewelry can transform basics into fresh outfits.",
           image: workCapsule
         },
         {
-          heading: "套装5：周五休闲通勤装",
-          content: "许多公司周五允许casual Friday着装。这时候可以尝试更放松的搭配：质感好的牛仔裤配针织衫和西装外套，或是连衣裙配靴子和大衣。关键是保持整体的精致感——即使是休闲装，也要选择质感好、版型优的单品。一件cashmere针织衫比普通毛衣更有质感，一双Chelsea boots比运动鞋更得体。周五的穿搭是展示个人风格的好机会，在保持职业感的前提下，可以加入一些个性化的元素。"
+          heading: "Outfit 5: Casual Friday Commute Style",
+          content: "Many companies allow casual Friday dressing. This is your chance to try more relaxed combinations: quality jeans with a knit sweater and blazer, or a dress with boots and a coat. The key is maintaining overall polish—even casual pieces should be well-made with great fit. A cashmere sweater has more presence than a basic knit, Chelsea boots are more refined than sneakers. Friday dressing is an opportunity to showcase personal style while maintaining professionalism, allowing room for individualized elements.",
         }
       ],
-      conclusion: "秋冬通勤穿搭的核心在于建立一个versatile的衣橱，选择quality over quantity。投资几件经典的高质量单品，学会layer和mix & match，你就能在整个寒冷季节保持优雅。记住，最好的穿搭是让你感到自信和舒适的穿搭。根据这些思路创造属于你自己的通勤风格，让每个工作日都充满自信！"
+      conclusion: "The core of autumn-winter commute dressing lies in building a versatile wardrobe, choosing quality over quantity. Invest in a few classic high-quality pieces, master layering and mix-and-match techniques, and you'll maintain elegance throughout the cold season. Remember, the best outfit is one that makes you feel confident and comfortable. Use these formulas to create your own commute style and approach every workday with confidence!"
     }
   },
   {
     slug: "french-style-secrets",
-    title: "法式穿搭的关键元素是什么？",
+    title: "What Are the Key Elements of French Style?",
     date: "November 9, 2025",
-    excerpt: "法式风格的精髓不在于复杂的搭配，而在于对经典单品的把握和effortless chic的态度。让我们揭秘那些让法国女人永远时髦的秘密...",
+    excerpt: "The essence of French style isn't about complex outfits, but mastering classic pieces and the effortless chic attitude. Let's unveil the secrets that keep French women forever stylish...",
     image: frenchStyleHero,
     content: {
-      intro: "提到法式风格，我们脑海中总会浮现出优雅、不费力和永恒的画面。但法式穿搭的魅力究竟来自哪里？是那些标志性的单品，还是巴黎女人们独特的穿衣态度？实际上，法式风格是一种生活哲学的体现，它强调quality over quantity，timeless over trendy，以及最重要的——自信和authenticity。",
+      intro: "When we think of French style, images of elegance, effortlessness, and timelessness come to mind. But where does the charm of French dressing truly come from? Is it the iconic pieces or the unique dressing attitude of Parisian women? In reality, French style embodies a life philosophy emphasizing quality over quantity, timeless over trendy, and most importantly—confidence and authenticity.",
       sections: [
         {
-          heading: "元素1：条纹衫是永恒的经典",
-          content: "说到法式风格，第一个浮现的单品就是Breton striped shirt（布列塔尼条纹衫）。这件起源于法国海军的单品，已经成为法式衣橱的标志。经典的海军蓝白条纹既casual又chic，可以搭配高腰牛仔裤打造周末look，也可以配西装裤穿去上班。法国女人的秘密在于——她们买最好quality的条纹衫，穿很多年，而不是追逐快时尚。选择pure cotton或cotton blend的材质，稍微宽松的fit，boat neck的领口，就是最authentic的法式条纹衫。",
+          heading: "Element 1: The Striped Shirt is Timeless",
+          content: "When it comes to French style, the first piece that comes to mind is the Breton striped shirt. This garment originating from the French navy has become a hallmark of the French wardrobe. The classic navy and white stripes are both casual and chic, pairing perfectly with high-waisted jeans for weekend looks or trousers for the office. The French secret? They invest in the highest quality striped shirts and wear them for years, rather than chasing fast fashion. Choose pure cotton or cotton blend fabrics, a slightly relaxed fit, and a boat neck—that's the most authentic French striped shirt.",
           image: frenchStripes
         },
         {
-          heading: "元素2：Trench Coat是终极investment piece",
-          content: "一件quality trench coat是法式衣橱的基石。最经典的是米色或卡其色，timeless的颜色意味着你可以穿它十年甚至更久。法国女人会投资一件Burberry或A.P.C.的trench，perfectly tailored，然后with everything——牛仔裤、连衣裙、西装——外面都套这件trench。The beauty在于它的versatility：系上腰带是elegant，不系腰带是casual，卷起袖子是effortless。一件好的trench coat是你衣橱中最hard-working的单品，值得投资最好的quality。",
+          heading: "Element 2: The Trench Coat is the Ultimate Investment Piece",
+          content: "A quality trench coat is the cornerstone of a French wardrobe. The most classic is beige or khaki—timeless colors you can wear for ten years or more. French women invest in a Burberry or A.P.C. trench, perfectly tailored, then wear it with everything—jeans, dresses, suits. The beauty lies in its versatility: belted is elegant, unbelted is casual, sleeves rolled is effortless. A good trench coat is the hardest-working piece in your closet, worthy of investing in the best quality.",
           image: frenchTrench
         },
         {
-          heading: "元素3：配饰的less is more哲学",
-          content: "法式风格的精髓在于restraint——不会过度accessorize，但每一件配饰都精心选择。一双classic的leather ballet flats或loafers，一只简约的leather tote或basket bag，一条silk scarf，几件delicate的gold jewelry——这就足够了。法国女人相信投资timeless pieces，而不是追逐trends。她们的包包、鞋子和珠宝可能用了很多年，但因为quality和classic design，看起来永远不会过时。记住：与其买很多cheap的配饰，不如投资几件quality pieces that will last。",
+          heading: "Element 3: The Less Is More Philosophy of Accessories",
+          content: "The essence of French style lies in restraint—never over-accessorizing, but carefully selecting each piece. A pair of classic leather ballet flats or loafers, a simple leather tote or basket bag, a silk scarf, a few delicate gold jewelry pieces—that's enough. French women believe in investing in timeless pieces rather than chasing trends. Their bags, shoes, and jewelry may be years old, but because of their quality and classic design, they never look dated. Remember: rather than buying many cheap accessories, invest in a few quality pieces that will last.",
           image: frenchAccessories
         },
         {
-          heading: "元素4：The Art of Effortless Styling",
-          content: "法式风格最难模仿的部分是那种effortless的态度。法国女人的穿搭看起来毫不费力，但实际上是deeply considered的。她们的秘密包括：slightly undone的发型（messy bun或natural waves），minimal但perfect的妆容（red lips, barely-there base），mix high and low（Hermès包配Zara牛仔裤），以及最重要的——confidence。她们穿衣服是为了自己，而不是为了impress别人。这种自信和authenticity，才是法式风格真正的essence。"
+          heading: "Element 4: The Art of Effortless Styling",
+          content: "The hardest part of French style to replicate is that effortless attitude. French women's outfits look completely natural, yet they're deeply considered. Their secrets include: slightly undone hair (messy bun or natural waves), minimal yet perfect makeup (red lips, barely-there base), mixing high and low (Hermès bag with Zara jeans), and most importantly—confidence. They dress for themselves, not to impress others. This confidence and authenticity is the true essence of French style.",
         },
         {
-          heading: "元素5：The Capsule Wardrobe Mentality",
-          content: "法国女人的衣橱通常比美国女人小很多，但她们的穿搭却总是impeccable。原因是她们践行capsule wardrobe的理念——只买真正爱的、quality的、可以mix and match的单品。Core pieces包括：white shirt, black trousers, cashmere sweater, trench coat, little black dress, quality denim, leather loafers。然后通过scarves, jewelry, bags来add personality。这种approach不仅sustainable，还能让你每天的穿搭变得so much easier。Less choices, more style——这就是法式哲学。"
+          heading: "Element 5: The Capsule Wardrobe Mentality",
+          content: "French women's closets are typically much smaller than American women's, yet their outfits are always impeccable. The reason? They practice the capsule wardrobe philosophy—only buying pieces they truly love, that are quality, and that can mix and match. Core pieces include: white shirt, black trousers, cashmere sweater, trench coat, little black dress, quality denim, leather loafers. Then add personality through scarves, jewelry, and bags. This approach is not only sustainable but makes daily dressing so much easier. Less choices, more style—that's the French philosophy.",
         }
       ],
-      conclusion: "法式风格不是一套可以照搬的rules，而是一种approach to dressing和life。它关于投资quality，珍惜classics，保持confidence，以及most importantly——be yourself。你不需要是法国人才能拥有法式风格，你只需要adopt这种less is more、quality over quantity的mindset。Start with a few key pieces，build a curated wardrobe，and most importantly，wear everything with confidence and joy。C'est ça, le style français！"
+      conclusion: "French style isn't a set of rules to copy, but an approach to dressing and life. It's about investing in quality, cherishing classics, maintaining confidence, and most importantly—being yourself. You don't need to be French to have French style; you just need to adopt this less is more, quality over quantity mindset. Start with a few key pieces, build a curated wardrobe, and most importantly, wear everything with confidence and joy. C'est ça, le style français!"
     }
   },
   {
     slug: "autumn-2025-niche-bags",
-    title: "2025秋季必入的5款小众包包",
+    title: "5 Must-Have Niche Bags for Autumn 2025",
     date: "November 8, 2025",
-    excerpt: "厌倦了满街的大牌logo？这些小众品牌的包包同样精致考究，而且更能彰显你的独特品味...",
+    excerpt: "Tired of mainstream designer logos? These niche brand bags are equally refined and exquisite, while better showcasing your unique taste...",
     image: autumnBagsHero,
     content: {
-      intro: "2025年秋季，时尚界吹起了一股\"quiet luxury\"风潮。与其追逐那些logo明显的大牌包包，越来越多时髦精开始关注那些design独特、工艺精湛但relatively niche的品牌。这些包包不仅quality上乘，更重要的是——它们能让你stand out from the crowd，展现真正的个人品味。",
+      intro: "Autumn 2025 brings a wave of quiet luxury to the fashion world. Instead of chasing logo-heavy designer bags, more fashion insiders are turning to brands with unique designs, exceptional craftsmanship, yet relatively niche recognition. These bags not only offer superior quality but, more importantly—they help you stand out from the crowd and showcase true personal taste.",
       sections: [
         {
-          heading: "1. Sculptural Shoulder Bag：建筑感的艺术品",
-          content: "今年最火的包型之一就是sculptural shoulder bag——那种有着architectural lines和organic shapes的肩背包。cognac色的皮革温暖而sophisticated，完美match秋季的wardrobe。这种包的beauty在于它本身就是一件art piece，即使是简单的outfit，加上这样一只包立刻变得editorial。关键是选择genuine leather，随着使用会develop beautiful patina。这只包的size刚好——既可以装日常必需品，又不会overwhelm你的整体look。",
+          heading: "1. Sculptural Shoulder Bag: Architectural Art Piece",
+          content: "One of this year's hottest bag styles is the sculptural shoulder bag—featuring architectural lines and organic shapes. Cognac leather is warm and sophisticated, perfectly matching autumn wardrobes. The beauty of this bag lies in being an art piece itself—even simple outfits instantly become editorial with such a bag. The key is choosing genuine leather that develops a beautiful patina with use. This bag's size is just right—holding daily essentials without overwhelming your look.",
           image: bagsDisplay1
         },
         {
-          heading: "2. Quilted Crossbody：永恒优雅的绗缝包",
-          content: "quilted leather永远不会过时，尤其是在秋冬季节。这款深绿色的quilted crossbody bag有着vintage charm和modern sensibility。金色的hardware adds a touch of luxury，而crossbody的设计makes it incredibly practical for everyday use。选择这种包的tips：确保quilting是hand-stitched或者quality machine work，check链条的weight（太轻的说明quality不够），以及确保可以调节strap length。这种包可以dress up或dress down，是investment piece的perfect example。",
+          heading: "2. Quilted Crossbody: Timeless Elegant Quilted Bag",
+          content: "Quilted leather never goes out of style, especially in autumn-winter. This deep green quilted crossbody bag has vintage charm and modern sensibility. Gold hardware adds a touch of luxury, while the crossbody design makes it incredibly practical for everyday use. Choosing tips: ensure quilting is hand-stitched or quality machine work, check the chain weight (too light indicates poor quality), and verify adjustable strap length. This bag can dress up or down, a perfect investment piece example.",
           image: bagDetails
         },
         {
-          heading: "3. Minimalist Tote：Less is More的美学",
-          content: "Simple black leather tote是every woman's workhorse，但finding the right one是关键。Look for clean lines，quality leather（full-grain is best），sturdy construction，以及合适的size。这种包的beauty在于its versatility——commute to work，weekend errands，甚至travel，都perfectly适用。Minimalist不意味着boring——quality speaks for itself。Invest in一只真正好的tote，它会serve you for decades。Choose a design with内袋或者organizer，makes life so much easier。"
+          heading: "3. Minimalist Tote: Less Is More Aesthetic",
+          content: "A simple black leather tote is every woman's workhorse, but finding the right one is crucial. Look for clean lines, quality leather (full-grain is best), sturdy construction, and appropriate size. This bag's beauty lies in its versatility—perfect for work commutes, weekend errands, even travel. Minimalist doesn't mean boring—quality speaks for itself. Invest in one truly good tote, and it will serve you for decades. Choose designs with interior pockets or organizers to make life easier.",
         },
         {
-          heading: "4. Slouchy Hobo Bag：Effortless Chic的代表",
-          content: "Slouchy hobo bag是那种instantly makes any outfit look effortless的包型。Soft leather随着body movement而自然drape，creates a relaxed yet put-together vibe。这种包特别适合weekend或者casual occasions，但也可以搭配tailored pieces来create interesting contrast。Choosing tips：确保leather quality（太便宜的会lose shape），check hardware（zipper, snaps要quality reliable），以及consider链条还是leather strap（链条更dressed-up，皮质strap更casual）。秋季color like cognac, chocolate, or deep burgundy都是perfect choices。",
+          heading: "4. Slouchy Hobo Bag: Effortless Chic Representative",
+          content: "The slouchy hobo bag instantly makes any outfit look effortless. Soft leather naturally drapes with body movement, creating a relaxed yet put-together vibe. This bag is especially suitable for weekends or casual occasions, but can also pair with tailored pieces to create interesting contrast. Choosing tips: ensure leather quality (cheap versions lose shape), check hardware (zippers, snaps should be quality and reliable), and consider chains versus leather straps (chains are dressier, leather straps more casual). Autumn colors like cognac, chocolate, or deep burgundy are perfect choices.",
           image: bagsStyling
         },
         {
-          heading: "5. Vintage-Inspired Frame Bag：复古的魅力回归",
-          content: "Frame bags带我们回到了优雅的vintage era，但with modern updates。金属frame closure不仅是functional也是decorative，adds a touch of nostalgia和sophistication。这种包通常size较小，perfect for evening out或者when you want to dress up your daytime look。选择时pay attention to：frame的quality（应该smoothly open and close），lining的质量，以及overall construction。这种包是statement piece，所以don't be afraid to choose interesting colors或textures。Pair with simple outfits让包成为focal point。"
+          heading: "5. Vintage-Inspired Frame Bag: Nostalgic Charm Returns",
+          content: "Frame bags transport us back to an elegant vintage era, but with modern updates. The metal frame closure is both functional and decorative, adding a touch of nostalgia and sophistication. These bags are typically smaller, perfect for evening outings or when you want to dress up daytime looks. When choosing, pay attention to: frame quality (should smoothly open and close), lining quality, and overall construction. This bag is a statement piece, so don't be afraid to choose interesting colors or textures. Pair with simple outfits to let the bag become the focal point.",
         }
       ],
-      conclusion: "Investing in niche brand bags不仅是about owning something unique，更是about supporting craftsmanship和artisanal work。这些小众品牌往往更注重quality over quantity，每一只包都是carefully made。记住，best investment不是最expensive的或最hyped的，而是那些真正适合你lifestyle、reflect你的personal style、并且quality excellent的pieces。这个秋季，choose quality over logo，individuality over trends，build一个真正属于你的包包collection。"
+      conclusion: "Investing in niche brand bags isn't just about owning something unique—it's about supporting craftsmanship and artisanal work. These niche brands often focus on quality over quantity, with each bag carefully made. Remember, the best investment isn't the most expensive or most hyped, but pieces that truly suit your lifestyle, reflect your personal style, and offer excellent quality. This autumn, choose quality over logo, individuality over trends, and build a bag collection that's truly yours."
     }
   },
   {
     slug: "jennie-airport-style-breakdown",
-    title: "Jennie机场穿搭拆解",
+    title: "Jennie Airport Style Breakdown",
     date: "November 7, 2025",
-    excerpt: "BLACKPINK的Jennie每次机场出现都是fashion moment。让我们分析她的穿搭秘诀，学习如何打造既舒适又时髦的airport style...",
+    excerpt: "Every airport appearance by BLACKPINK's Jennie is a fashion moment. Let's analyze her styling secrets and learn how to create airport style that's both comfortable and chic...",
     image: jennieAirportHero,
     content: {
-      intro: "Jennie的机场look总能成为热搜话题，不是没有道理的。她perfectly掌握了如何在长途飞行的comfort requirements和fashion statement之间找到平衡。无论是oversized leather jacket搭配crop top，还是designer hoodie配baggy jeans，她总能create那种effortless cool的vibe。让我们break down她的style secrets，学习如何achieve那种K-pop idol的机场时尚。",
+      intro: "Jennie's airport looks consistently trend for good reason. She perfectly masters the balance between long-flight comfort requirements and fashion statements. Whether it's an oversized leather jacket with a crop top or a designer hoodie with baggy jeans, she always creates that effortlessly cool vibe. Let's break down her style secrets and learn how to achieve that K-pop idol airport fashion.",
       sections: [
         {
-          heading: "Signature Look 1：Leather Jacket + Crop Top + Baggy Jeans",
-          content: "这是Jennie最标志性的机场look之一。Oversized black leather jacket gives edge and attitude，cropped white tee或tank top shows just a hint of skin（既sexy又不过分），high-waisted baggy jeans balances the proportions perfectly。这套look的genius在于层次感和proportions——oversized top, fitted middle, relaxed bottom。再加上chunky sneakers（通常是designer品牌），designer crossbody bag（小巧但statement），还有必不可少的sunglasses。整体look是那种\"I'm not trying but I look amazing\"的vibe。",
+          heading: "Signature Look 1: Leather Jacket + Crop Top + Baggy Jeans",
+          content: "This is one of Jennie's most iconic airport looks. An oversized black leather jacket gives edge and attitude, a cropped white tee or tank top shows just a hint of skin (sexy yet not over the top), high-waisted baggy jeans balance the proportions perfectly. The genius of this look lies in layering and proportions—oversized top, fitted middle, relaxed bottom. Add chunky sneakers (usually designer brands), a designer crossbody bag (small but statement), and essential sunglasses. The overall vibe is that \"I'm not trying but I look amazing\" aesthetic.",
           image: jennieLook1
         },
         {
-          heading: "Accessories是Game Changer",
-          content: "Jennie的机场look之所以总是standout，accessories起了关键作用。她的must-haves包括：oversized designer sunglasses（通常是square或cat-eye shape），chunky gold jewelry（layered necklaces or statement rings），designer mini bags（Chanel, Celine等），还有经常出现的baseball cap或beanie。这些accessories不仅practical（sunglasses for privacy, hat for bad hair day），也instantly elevate整个look。The key是mix high-end pieces（Chanel bag）with more accessible items（simple crop top），create那种high-low mix that\\'s very modern。",
+          heading: "Accessories Are Game Changers",
+          content: "Jennie's airport looks always stand out because accessories play a crucial role. Her must-haves include: oversized designer sunglasses (usually square or cat-eye shapes), chunky gold jewelry (layered necklaces or statement rings), designer mini bags (Chanel, Celine, etc.), and frequently appearing baseball caps or beanies. These accessories aren't just practical (sunglasses for privacy, hats for bad hair days)—they instantly elevate the entire look. The key is mixing high-end pieces (Chanel bag) with more accessible items (simple crop top), creating that high-low mix that's very modern.",
           image: jennieAccessories
         },
         {
           heading: "The Art of Comfortable Yet Stylish",
-          content: "长途飞行需要comfort，但Jennie从不sacrifice style。她的secrets包括：选择soft, breathable fabrics（cotton hoodies, jersey tees），但with great fit；wear layers（可以在飞机上调节温度）；choose shoes that are easy to take off at security但still stylish（chunky sneakers or platform shoes）；bring a oversized coat或jacket（既保暖又是statement piece）。Most importantly，她always looks put-together但not overdressed。这种balance是airport style的essence。",
+          content: "Long-haul flights require comfort, but Jennie never sacrifices style. Her secrets include: choosing soft, breathable fabrics (cotton hoodies, jersey tees) but with great fit; wearing layers (adjustable for airplane temperature); choosing shoes easy to remove at security but still stylish (chunky sneakers or platform shoes); bringing an oversized coat or jacket (both warm and a statement piece). Most importantly, she always looks put-together but not overdressed. This balance is the essence of airport style.",
           image: airportFlatlay
         },
         {
           heading: "Color Palette: Black, White and Neutrals",
-          content: "注意观察就会发现，Jennie的机场look通常stick to一个简约的color palette——black, white, grey, beige。这不仅makes mixing and matching easier，也creates a cohesive, sophisticated look。Occasional pops of color来自accessories（红色包包，彩色sneakers），但base outfit总是neutral。这个approach非常smart——neutrals are timeless and versatile，而且在travel时更practical（stains less visible, easier to mix pieces）。"
+          content: "Notice that Jennie's airport looks typically stick to a simple color palette—black, white, gray, beige. This not only makes mixing and matching easier but also creates a cohesive, sophisticated look. Occasional pops of color come from accessories (red bags, colorful sneakers), but the base outfit is always neutral. This approach is very smart—neutrals are timeless and versatile, and more practical when traveling (stains less visible, easier to mix pieces).",
         },
         {
           heading: "How to Recreate Jennie's Airport Style",
-          content: "你不需要designer wardrobe来achieve Jennie的style。Keys are：invest in一件quality leather jacket（可以是real leather或good faux leather），买几件perfect-fitting crop tops和oversized hoodies，找到最适合你身材的baggy jeans（high-waisted是必须的），invest in一双comfortable但stylish的chunky sneakers，以及upgrade你的accessories（especially sunglasses and bag）。Most importantly，wear everything with confidence。Jennie的style不只是about the clothes——it's about the attitude。Own your look，add your personal touch，别怕experiment。"
+          content: "You don't need a designer wardrobe to achieve Jennie's style. The keys are: invest in one quality leather jacket (can be real leather or good faux leather), buy a few perfect-fitting crop tops and oversized hoodies, find the baggy jeans that best suit your body (high-waisted is a must), invest in a pair of comfortable but stylish chunky sneakers, and upgrade your accessories (especially sunglasses and bags). Most importantly, wear everything with confidence. Jennie's style isn't just about the clothes—it's about the attitude. Own your look, add your personal touch, and don't be afraid to experiment.",
         }
       ],
-      conclusion: "Jennie的机场style teaches us that you can be comfortable and fashionable at the same time。The secrets are：know your body and what silhouettes flatter you，invest in quality basics，pay attention to proportions，accessorize smartly，and most importantly——own your style with confidence。下次travel时，channel your inner Jennie，create一个既practical又stylish的airport look。Remember，best style comes from being真实的yourself，而不是blindly copying。Use Jennie's looks as inspiration，但add your own personality和preferences。That's what true style is about。"
+      conclusion: "Jennie's airport style teaches us that you can be comfortable and fashionable at the same time. The secrets are: know your body and what silhouettes flatter you, invest in quality basics, pay attention to proportions, accessorize smartly, and most importantly—own your style with confidence. Next time you travel, channel your inner Jennie and create an airport look that's both practical and stylish. Remember, the best style comes from being your authentic self, not blindly copying. Use Jennie's looks as inspiration but add your own personality and preferences. That's what true style is about."
     }
   },
   {
     slug: "color-elegance-guide",
-    title: "如何用色彩提升气质",
+    title: "How to Elevate Your Presence with Color",
     date: "November 6, 2025",
-    excerpt: "色彩是最powerful的style tool，但很多人不知道如何正确运用它。掌握这些color secrets，让你的气质瞬间提升...",
+    excerpt: "Color is the most powerful style tool, yet many don't know how to use it correctly. Master these color secrets to instantly elevate your presence...",
     image: colorEleganceHero,
     content: {
-      intro: "Color psychology在fashion中的作用常被低估。正确的颜色不仅能enhance你的natural beauty，还能convey confidence, professionalism, creativity或任何你想要project的qualities。但how do you choose the right colors for you？How do you wear bold colors without looking overdone？让我们dive into色彩的秘密，learn how to使用color来elevate你的entire presence。",
+      intro: "Color psychology in fashion is often underestimated. The right colors not only enhance your natural beauty but also convey confidence, professionalism, creativity, or any qualities you want to project. But how do you choose the right colors for you? How do you wear bold colors without looking overdone? Let's dive into color secrets and learn how to use color to elevate your entire presence.",
       sections: [
         {
           heading: "Understanding Your Color Season",
