@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useState } from "react";
 import logo from "@/assets/logo.png";
+import logoNew from "@/assets/logo-new.png";
 import SearchDialog from "@/components/SearchDialog";
 
 const Header = () => {
@@ -20,13 +21,23 @@ const Header = () => {
     <>
       <header className="border-b border-border bg-background sticky top-0 z-50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 py-6">
-          <Link to="/" className="block text-center mb-6">
-            <img 
-              src={logo} 
-              alt="The Style Chronicles" 
-              className="h-16 mx-auto"
-            />
-          </Link>
+          <div className="flex items-center justify-between mb-6">
+            <Link to="/" className="flex-shrink-0">
+              <img 
+                src={logoNew} 
+                alt="The Style Chronicles" 
+                className="h-16"
+              />
+            </Link>
+            <Link to="/" className="flex-1 flex justify-center">
+              <img 
+                src={logo} 
+                alt="The Style Chronicles" 
+                className="h-16"
+              />
+            </Link>
+            <div className="w-16 flex-shrink-0"></div>
+          </div>
 
           <nav className="flex items-center justify-center gap-8 text-sm tracking-wider">
             {navItems.map((item) => (
