@@ -37,6 +37,26 @@ import neutralPalette from "@/assets/article/neutral-palette.jpg";
 import knitTextures from "@/assets/article/knit-textures.jpg";
 import navyWhiteStyling from "@/assets/article/navy-white-styling.jpg";
 import silkFabric from "@/assets/article/silk-fabric.jpg";
+import lbdCollection from "@/assets/article/lbd-collection.jpg";
+import monochromeTextures from "@/assets/article/monochrome-textures.jpg";
+import capsuleEssentials from "@/assets/article/capsule-essentials.jpg";
+import shoeDisplay from "@/assets/article/shoe-display.jpg";
+import denimCollection from "@/assets/article/denim-collection.jpg";
+import proportionBalance from "@/assets/article/proportion-balance.jpg";
+import beltCollection from "@/assets/article/belt-collection.jpg";
+import tailoringProcess from "@/assets/article/tailoring-process.jpg";
+import patternCoordination from "@/assets/article/pattern-coordination.jpg";
+import colorBlockOutfit from "@/assets/article/color-block-outfit.jpg";
+import winterLayers from "@/assets/article/winter-layers.jpg";
+import workCloset from "@/assets/article/work-closet.jpg";
+import eveningGown from "@/assets/article/evening-gown.jpg";
+import linenLifestyle from "@/assets/article/linen-lifestyle.jpg";
+import necklineVariety from "@/assets/article/neckline-variety.jpg";
+import pantsStyles from "@/assets/article/pants-styles.jpg";
+import sleeveDetails from "@/assets/article/sleeve-details.jpg";
+import springLayers from "@/assets/article/spring-layers.jpg";
+import textureDetails from "@/assets/article/texture-details.jpg";
+import weekendOutfit from "@/assets/article/weekend-outfit.jpg";
 
 export interface Article {
   slug: string;
@@ -247,7 +267,8 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "Finding Your Perfect LBD",
-          content: "The right little black dress depends on your lifestyle and body type. Consider these factors: length (mini for legs, midi for versatility, maxi for drama), neckline (V-neck elongates, crew neck is classic, off-shoulder adds romance), sleeve style (sleeveless for summer, long sleeves for year-round wear), and fit (bodycon for curves, A-line for universally flattering, shift for comfort). You might need more than one LBD to cover all occasions."
+          content: "The right little black dress depends on your lifestyle and body type. Consider these factors: length (mini for legs, midi for versatility, maxi for drama), neckline (V-neck elongates, crew neck is classic, off-shoulder adds romance), sleeve style (sleeveless for summer, long sleeves for year-round wear), and fit (bodycon for curves, A-line for universally flattering, shift for comfort). You might need more than one LBD to cover all occasions.",
+          image: lbdCollection
         },
         {
           heading: "Styling Your LBD for Different Occasions",
@@ -280,7 +301,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Creating Interest Through Texture",
-          content: "The key to compelling all-black outfits is mixing textures. Combine smooth leather with chunky knits, pair matte cotton with glossy silk, layer structured wool with flowing chiffon. These textural contrasts create visual interest and depth that prevents the outfit from looking flat. Consider mixing finishes too—matte, satin, and patent leather all read as different shades of black and add dimension."
+          content: "The key to compelling all-black outfits is mixing textures. Combine smooth leather with chunky knits, pair matte cotton with glossy silk, layer structured wool with flowing chiffon. These textural contrasts create visual interest and depth that prevents the outfit from looking flat. Consider mixing finishes too—matte, satin, and patent leather all read as different shades of black and add dimension.",
+          image: monochromeTextures
         },
         {
           heading: "Playing with Proportions",
@@ -367,7 +389,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Building Your Core Wardrobe",
-          content: "Start by identifying your lifestyle needs. What do you actually do every day? Build around that reality. A typical minimalist wardrobe includes: 5-7 tops in neutral colors, 3-4 bottoms that mix and match, 2-3 dresses, 2 jackets or blazers, 1-2 coats, 4-5 pairs of shoes, and minimal accessories. These numbers aren't rigid—adjust based on your climate, profession, and personal needs. The key is that everything coordinates."
+          content: "Start by identifying your lifestyle needs. What do you actually do every day? Build around that reality. A typical minimalist wardrobe includes: 5-7 tops in neutral colors, 3-4 bottoms that mix and match, 2-3 dresses, 2 jackets or blazers, 1-2 coats, 4-5 pairs of shoes, and minimal accessories. These numbers aren't rigid—adjust based on your climate, profession, and personal needs. The key is that everything coordinates.",
+          image: capsuleEssentials
         },
         {
           heading: "The One In, One Out Rule",
@@ -425,7 +448,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Building Your Color Palette",
-          content: "Start by choosing 2-3 neutral base colors (black, white, grey, navy, beige, camel). These form the foundation of your capsule. Add 2-3 accent colors that complement your base and suit your coloring. These might be jewel tones, pastels, or earth tones—whatever you're drawn to and feel confident wearing. Finally, include 1-2 statement colors for personality. This limited palette ensures everything coordinates while still offering variety."
+          content: "Start by choosing 2-3 neutral base colors (black, white, grey, navy, beige, camel). These form the foundation of your capsule. Add 2-3 accent colors that complement your base and suit your coloring. These might be jewel tones, pastels, or earth tones—whatever you're drawn to and feel confident wearing. Finally, include 1-2 statement colors for personality. This limited palette ensures everything coordinates while still offering variety.",
+          image: capsuleEssentials
         },
         {
           heading: "Essential Pieces for Every Capsule",
@@ -450,7 +474,8 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "The Seven Essential Styles",
-          content: "Every complete shoe wardrobe needs these foundations: white sneakers (the most versatile casual shoe), black ankle boots (work for three seasons), nude pumps (elongate legs and work with everything), black heels (for formal occasions), loafers or oxfords (polished casual), sandals (summer essential), and weather-appropriate boots (tall boots for cold climates, rain boots for wet areas). These seven styles cover casual, professional, formal, and seasonal needs."
+          content: "Every complete shoe wardrobe needs these foundations: white sneakers (the most versatile casual shoe), black ankle boots (work for three seasons), nude pumps (elongate legs and work with everything), black heels (for formal occasions), loafers or oxfords (polished casual), sandals (summer essential), and weather-appropriate boots (tall boots for cold climates, rain boots for wet areas). These seven styles cover casual, professional, formal, and seasonal needs.",
+          image: shoeDisplay
         },
         {
           heading: "Investing in Quality",
@@ -483,7 +508,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Understanding Denim Washes",
-          content: "Wash affects versatility and formality. Dark indigo denim is most versatile and can be dressed up for professional settings. Medium wash is classic casual—perfect for weekends. Light wash has a relaxed, vintage vibe but is harder to style formally. Black denim bridges the gap between jeans and trousers—very versatile. White or cream denim is summery and fresh but requires careful styling. Build your denim wardrobe starting with dark wash, then add others based on your lifestyle."
+          content: "Wash affects versatility and formality. Dark indigo denim is most versatile and can be dressed up for professional settings. Medium wash is classic casual—perfect for weekends. Light wash has a relaxed, vintage vibe but is harder to style formally. Black denim bridges the gap between jeans and trousers—very versatile. White or cream denim is summery and fresh but requires careful styling. Build your denim wardrobe starting with dark wash, then add others based on your lifestyle.",
+          image: denimCollection
         },
         {
           heading: "Elevating Denim for Different Occasions",
@@ -508,7 +534,8 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "The Basic Principle of Balance",
-          content: "The fundamental rule of proportion is balance: fitted with loose, long with short, voluminous with sleek. If you're wearing wide-leg pants, balance them with a fitted top. An oversized sweater looks best with slim-fitting bottoms. A midi skirt pairs beautifully with a tucked-in or cropped top. This balance creates a pleasing silhouette and prevents your outfit from overwhelming your frame or looking shapeless."
+          content: "The fundamental rule of proportion is balance: fitted with loose, long with short, voluminous with sleek. If you're wearing wide-leg pants, balance them with a fitted top. An oversized sweater looks best with slim-fitting bottoms. A midi skirt pairs beautifully with a tucked-in or cropped top. This balance creates a pleasing silhouette and prevents your outfit from overwhelming your frame or looking shapeless.",
+          image: proportionBalance
         },
         {
           heading: "The Power of the Waist",
@@ -537,7 +564,8 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "Essential Belt Styles",
-          content: "Every wardrobe needs these belt basics: a classic leather belt in black and brown (for jeans and trousers), a statement belt with an interesting buckle (for adding personality), a wide belt (for cinching dresses and oversized pieces), a chain belt (for adding edge), and a fabric or woven belt (for casual summer looks). These five styles cover all your belting needs from practical to decorative."
+          content: "Every wardrobe needs these belt basics: a classic leather belt in black and brown (for jeans and trousers), a statement belt with an interesting buckle (for adding personality), a wide belt (for cinching dresses and oversized pieces), a chain belt (for adding edge), and a fabric or woven belt (for casual summer looks). These five styles cover all your belting needs from practical to decorative.",
+          image: beltCollection
         },
         {
           heading: "Belting Techniques",
@@ -570,7 +598,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Finding Your Tailor",
-          content: "A good tailor is worth their weight in gold. Ask well-dressed friends for recommendations. Look for someone who specializes in the type of alterations you need—some excel at formal wear, others at casual pieces. Bring a garment for a simple alteration first to test their work. A good tailor will tell you when something can't or shouldn't be altered. They should understand fit and be able to suggest improvements you might not have considered."
+          content: "A good tailor is worth their weight in gold. Ask well-dressed friends for recommendations. Look for someone who specializes in the type of alterations you need—some excel at formal wear, others at casual pieces. Bring a garment for a simple alteration first to test their work. A good tailor will tell you when something can't or shouldn't be altered. They should understand fit and be able to suggest improvements you might not have considered.",
+          image: tailoringProcess
         },
         {
           heading: "When Tailoring is Worth It",
@@ -599,7 +628,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Easy Pattern Combinations",
-          content: "Some pattern combinations are naturally harmonious: stripes and florals (classic and feminine), polka dots and stripes (playful and chic), plaid and solid (preppy and polished), geometric and organic prints (modern and interesting), and animal print with stripes (surprisingly sophisticated). Start with these tried-and-true combinations before experimenting with more adventurous pairings. Remember, confidence sells any outfit—if you feel good, you'll look good."
+          content: "Some pattern combinations are naturally harmonious: stripes and florals (classic and feminine), polka dots and stripes (playful and chic), plaid and solid (preppy and polished), geometric and organic prints (modern and interesting), and animal print with stripes (surprisingly sophisticated). Start with these tried-and-true combinations before experimenting with more adventurous pairings. Remember, confidence sells any outfit—if you feel good, you'll look good.",
+          image: patternCoordination
         },
         {
           heading: "Using Color to Unify Patterns",
@@ -628,7 +658,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Proportion in Color Blocking",
-          content: "Not all colors should occupy equal space in your outfit. Use the 60-30-10 rule: 60% dominant color, 30% secondary color, 10% accent color. This creates visual hierarchy and prevents the look from feeling chaotic. Alternatively, use 50-50 for a bold, graphic effect—think a color-blocked dress with equal parts of two colors. Consider where colors fall on your body—place your favorite color near your face."
+          content: "Not all colors should occupy equal space in your outfit. Use the 60-30-10 rule: 60% dominant color, 30% secondary color, 10% accent color. This creates visual hierarchy and prevents the look from feeling chaotic. Alternatively, use 50-50 for a bold, graphic effect—think a color-blocked dress with equal parts of two colors. Consider where colors fall on your body—place your favorite color near your face.",
+          image: colorBlockOutfit
         },
         {
           heading: "Easy Color Blocking Formulas",
@@ -661,7 +692,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Essential Winter Layering Pieces",
-          content: "Build your winter wardrobe around these key items: thin cashmere or merino sweaters (layer under everything), turtlenecks in various weights (the ultimate base layer), long-sleeve silk or cotton tees (invisible under sweaters), quality wool coat (your outer layer workhorse), down vest (adds warmth without bulk), and scarves in various weights (adjust warmth and add style). These pieces mix and match to create countless warm, stylish combinations."
+          content: "Build your winter wardrobe around these key items: thin cashmere or merino sweaters (layer under everything), turtlenecks in various weights (the ultimate base layer), long-sleeve silk or cotton tees (invisible under sweaters), quality wool coat (your outer layer workhorse), down vest (adds warmth without bulk), and scarves in various weights (adjust warmth and add style). These pieces mix and match to create countless warm, stylish combinations.",
+          image: winterLayers
         },
         {
           heading: "Accessorizing Winter Layers",
@@ -686,7 +718,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "The Professional Capsule",
-          content: "Build your work wardrobe around these essentials: 2-3 blazers in neutral colors, 4-5 tops (blouses, shells, thin sweaters), 3-4 bottoms (trousers, pencil skirt, A-line skirt), 2 dresses, 1-2 cardigans, professional shoes (pumps, loafers, ankle boots), and a quality work bag. Choose a cohesive color palette so everything mixes and matches. This capsule creates weeks of outfits while keeping your closet manageable."
+          content: "Build your work wardrobe around these essentials: 2-3 blazers in neutral colors, 4-5 tops (blouses, shells, thin sweaters), 3-4 bottoms (trousers, pencil skirt, A-line skirt), 2 dresses, 1-2 cardigans, professional shoes (pumps, loafers, ankle boots), and a quality work bag. Choose a cohesive color palette so everything mixes and matches. This capsule creates weeks of outfits while keeping your closet manageable.",
+          image: workCloset
         },
         {
           heading: "Balancing Professional and Personal Style",
@@ -715,7 +748,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Building Your Evening Wardrobe",
-          content: "You don't need a closet full of gowns. Start with: one little black dress that can be dressed up or down, one floor-length gown in a classic silhouette, one cocktail dress in a jewel tone, dressy separates (silk top, velvet blazer, dressy trousers), and versatile evening shoes in black and nude. With these pieces and strategic accessorizing, you can handle most evening invitations."
+          content: "You don't need a closet full of gowns. Start with: one little black dress that can be dressed up or down, one floor-length gown in a classic silhouette, one cocktail dress in a jewel tone, dressy separates (silk top, velvet blazer, dressy trousers), and versatile evening shoes in black and nude. With these pieces and strategic accessorizing, you can handle most evening invitations.",
+          image: eveningGown
         },
         {
           heading: "The Power of Accessories",
@@ -744,7 +778,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Essential Linen Pieces",
-          content: "Build your summer linen wardrobe around these items: linen trousers in white or neutral (the ultimate summer staple), linen shirt or blouse (works for casual and dressy occasions), linen dress in a simple silhouette (throw-on-and-go ease), linen blazer (surprisingly versatile), and linen-blend pieces (less wrinkling, easier care). Start with neutral colors—white, beige, navy—then add colors like soft blue, sage green, or terracotta."
+          content: "Build your summer linen wardrobe around these items: linen trousers in white or neutral (the ultimate summer staple), linen shirt or blouse (works for casual and dressy occasions), linen dress in a simple silhouette (throw-on-and-go ease), linen blazer (surprisingly versatile), and linen-blend pieces (less wrinkling, easier care). Start with neutral colors—white, beige, navy—then add colors like soft blue, sage green, or terracotta.",
+          image: linenLifestyle
         },
         {
           heading: "Styling Linen Successfully",
@@ -773,7 +808,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Necklines for Different Occasions",
-          content: "Professional settings call for modest necklines: crew necks, boat necks, or subtle V-necks. Avoid anything too low or revealing. Casual wear offers more flexibility—try scoop necks, V-necks, or crew necks. Evening events are perfect for dramatic necklines: deep V-necks, off-shoulder, or halter styles. Consider the occasion's formality and your comfort level. You should feel confident, not self-conscious about your neckline."
+          content: "Professional settings call for modest necklines: crew necks, boat necks, or subtle V-necks. Avoid anything too low or revealing. Casual wear offers more flexibility—try scoop necks, V-necks, or crew necks. Evening events are perfect for dramatic necklines: deep V-necks, off-shoulder, or halter styles. Consider the occasion's formality and your comfort level. You should feel confident, not self-conscious about your neckline.",
+          image: necklineVariety
         },
         {
           heading: "Necklines and Jewelry",
@@ -802,7 +838,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Different Pants Styles for Different Bodies",
-          content: "No single pants style works for everyone. Straight-leg pants are universally flattering and very current. Wide-leg pants create elegance but require height or heels. Skinny pants elongate legs but require confidence. Bootcut pants balance hips. Cropped pants work best on taller frames. Try multiple styles to find what works for your proportions. Don't assume you know what will work—try it on. Bodies are unique, and so are pants."
+          content: "No single pants style works for everyone. Straight-leg pants are universally flattering and very current. Wide-leg pants create elegance but require height or heels. Skinny pants elongate legs but require confidence. Bootcut pants balance hips. Cropped pants work best on taller frames. Try multiple styles to find what works for your proportions. Don't assume you know what will work—try it on. Bodies are unique, and so are pants.",
+          image: pantsStyles
         },
         {
           heading: "The Importance of Rise",
@@ -835,7 +872,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Statement Sleeve Styles",
-          content: "Interesting sleeves add personality to simple pieces. Bell sleeves create drama and movement. Puff sleeves add romance and volume. Bishop sleeves offer vintage charm. Cold-shoulder styles provide edge. Balloon sleeves make a bold statement. When wearing statement sleeves, keep the rest of your outfit simple—let the sleeves be the focal point. Statement sleeves work best in solid colors or subtle patterns."
+          content: "Interesting sleeves add personality to simple pieces. Bell sleeves create drama and movement. Puff sleeves add romance and volume. Bishop sleeves offer vintage charm. Cold-shoulder styles provide edge. Balloon sleeves make a bold statement. When wearing statement sleeves, keep the rest of your outfit simple—let the sleeves be the focal point. Statement sleeves work best in solid colors or subtle patterns.",
+          image: sleeveDetails
         },
         {
           heading: "Sleeve Styling for Different Occasions",
@@ -856,7 +894,8 @@ export const articlesData: Article[] = [
       sections: [
         {
           heading: "The Transitional Coat",
-          content: "A lightweight coat is spring's most essential piece. The classic trench coat is ideal—water-resistant, structured, and timeless. Alternatively, consider a denim jacket for casual versatility or a lightweight wool coat for polish. Your transitional coat should work over sweaters and tees alike, pair with jeans and dresses, and be substantial enough for cool days but not so heavy that you overheat. Neutral colors offer maximum versatility."
+          content: "A lightweight coat is spring's most essential piece. The classic trench coat is ideal—water-resistant, structured, and timeless. Alternatively, consider a denim jacket for casual versatility or a lightweight wool coat for polish. Your transitional coat should work over sweaters and tees alike, pair with jeans and dresses, and be substantial enough for cool days but not so heavy that you overheat. Neutral colors offer maximum versatility.",
+          image: springLayers
         },
         {
           heading: "Layering Basics",
@@ -889,7 +928,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Easy Texture Combinations",
-          content: "Some texture combinations are naturally harmonious: leather with knits (edgy meets cozy), silk with denim (dressy meets casual), velvet with cotton (luxe meets practical), suede with wool (soft meets structured), and satin with matte jersey (shiny meets subtle). Start with these tried-and-true combinations before experimenting with more adventurous pairings. The key is creating contrast while maintaining cohesion."
+          content: "Some texture combinations are naturally harmonious: leather with knits (edgy meets cozy), silk with denim (dressy meets casual), velvet with cotton (luxe meets practical), suede with wool (soft meets structured), and satin with matte jersey (shiny meets subtle). Start with these tried-and-true combinations before experimenting with more adventurous pairings. The key is creating contrast while maintaining cohesion.",
+          image: textureDetails
         },
         {
           heading: "Texture Mixing in Monochrome",
@@ -918,7 +958,8 @@ export const articlesData: Article[] = [
         },
         {
           heading: "Elevating Casual Pieces",
-          content: "The difference between sloppy casual and elevated casual lies in the details. Choose jeans without distressing or excessive fading. Opt for tees in quality fabrics that hold their shape. Add structure through a jacket or blazer. Wear real shoes instead of flip-flops. Include one polished element—a leather bag, nice watch, or quality sunglasses. These small upgrades transform casual outfits from 'just rolled out of bed' to 'effortlessly chic.'"
+          content: "The difference between sloppy casual and elevated casual lies in the details. Choose jeans without distressing or excessive fading. Opt for tees in quality fabrics that hold their shape. Add structure through a jacket or blazer. Wear real shoes instead of flip-flops. Include one polished element—a leather bag, nice watch, or quality sunglasses. These small upgrades transform casual outfits from 'just rolled out of bed' to 'effortlessly chic.'",
+          image: weekendOutfit
         },
         {
           heading: "Weekend Outfit Formulas",
