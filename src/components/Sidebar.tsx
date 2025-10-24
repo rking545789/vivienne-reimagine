@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Facebook, Instagram, Twitter, Share2, Rss } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [email, setEmail] = useState("");
@@ -29,9 +30,11 @@ const Sidebar = () => {
         <p className="text-sm leading-relaxed text-foreground mb-4">
           The Style Chronicles is a unique personal style blog with carefully-selected capsule wardrobes based on color palettes drawn from works of art, nature, and more. It helps women buy less clothing, and to love what they buy.
         </p>
-        <Button variant="link" className="text-primary hover:text-primary/80">
-          Read more...
-        </Button>
+        <Link to="/about">
+          <Button variant="link" className="text-primary hover:text-primary/80">
+            Read more...
+          </Button>
+        </Link>
       </div>
 
       {/* Social Media */}
