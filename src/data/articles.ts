@@ -1,5 +1,5 @@
 // Article images
-import cny2026Hero from "@/assets/cny-2026-hero.jpg";
+import spring2026Hero from "@/assets/spring-2026-hero.jpg";
 import outfitTrench from "@/assets/outfit-trench.jpg";
 import outfitBlazer from "@/assets/outfit-blazer.jpg";
 import outfitCamel from "@/assets/outfit-camel.jpg";
@@ -58,11 +58,12 @@ import sleeveDetails from "@/assets/article/sleeve-details.jpg";
 import springLayers from "@/assets/article/spring-layers.jpg";
 import textureDetails from "@/assets/article/texture-details.jpg";
 import weekendOutfit from "@/assets/article/weekend-outfit.jpg";
-import cnyGoldLook from "@/assets/article/cny-gold-look.jpg";
-import cnyRedSuit from "@/assets/article/cny-red-suit.jpg";
-import cnyJadeGown from "@/assets/article/cny-jade-gown.jpg";
-import cnyFusionStyle from "@/assets/article/cny-fusion-style.jpg";
-import cnyBurgundyGold from "@/assets/article/cny-burgundy-gold.jpg";
+import spring2026Yellow from "@/assets/article/spring-2026-yellow.jpg";
+import spring2026Sage from "@/assets/article/spring-2026-sage.jpg";
+import spring2026White from "@/assets/article/spring-2026-white.jpg";
+import spring2026Blue from "@/assets/article/spring-2026-blue.jpg";
+import spring2026Pink from "@/assets/article/spring-2026-pink.jpg";
+import spring2026Beige from "@/assets/article/spring-2026-beige.jpg";
 
 export interface Article {
   slug: string;
@@ -83,45 +84,50 @@ export interface Article {
 
 export const articlesData: Article[] = [
   {
-    slug: "chinese-new-year-2026-trends",
-    title: "2026 Spring Festival Fashion: Redefining Luxury & Tradition",
-    date: "January 28, 2026",
-    excerpt: "As we welcome the Year of the Horse, discover how global fashion icons are reimagining Chinese New Year style with breathtaking modern elegance...",
-    image: cny2026Hero,
+    slug: "spring-2026-european-fashion-trends",
+    title: "Spring 2026: The European Fashion Revolution",
+    date: "February 15, 2026",
+    excerpt: "From Paris to Milan, discover the breathtaking trends defining Spring 2026 as fashion's most influential voices unveil their boldest visions yet...",
+    image: spring2026Hero,
     content: {
-      intro: "The 2026 Spring Festival marks a revolutionary moment in fashion history. No longer confined to traditional red and gold, today's style visionaries are creating spectacular looks that honor cultural heritage while pushing boundaries into bold new territories. From the runways of Paris to the red carpets of Shanghai, a new aesthetic is emerging—one that celebrates prosperity, confidence, and fearless individuality.",
+      intro: "Spring 2026 marks a seismic shift in European fashion. As the fashion capitals of Paris, Milan, London, and Copenhagen unveil their latest collections, a clear narrative emerges: this season is about fearless self-expression, sustainable luxury, and the celebration of individuality. Gone are the days of rigid rules—today's fashion is fluid, personal, and unapologetically bold. From the runways to the streets, here's everything you need to know about the trends shaping the season.",
       sections: [
         {
-          heading: "The Power of Red Reimagined",
-          content: "This season, red takes center stage with unprecedented sophistication. Forget the predictable—think luxurious silk gowns with daring cutouts, architectural power suits in crimson, and statement pieces that command attention. Celebrities worldwide are embracing bold red silhouettes that blend traditional symbolism with contemporary design. The key is confidence: wear red as a declaration of strength and ambition for the year ahead.",
-          image: cnyRedSuit
+          heading: "Butter Yellow: The Color of Optimism",
+          content: "Sunshine yellow dominates Spring 2026 with an unprecedented intensity. But this isn't your typical bright yellow—think rich, creamy butter tones that exude sophistication. Oversized blazers in this hue paired with crisp white trousers create an instantly elevated look. Fashion insiders from Stockholm to Barcelona are embracing this optimistic shade as a statement of confidence and renewal. The key? Keep the silhouette clean and let the color do the talking. Pair with minimalist accessories and natural makeup for maximum impact.",
+          image: spring2026Yellow
         },
         {
-          heading: "Golden Hour: The New Luxury",
-          content: "Gold has evolved from accent to statement. This year's most stunning looks feature champagne satins, metallic brocades, and shimmering gold fabrics that catch the light with every movement. The modern approach? Mix gold with cream and ivory for an understated opulence that feels both regal and refreshingly contemporary. Think flowing gowns with gold embellishments, tailored pieces with metallic accents, and accessories that sparkle without overwhelming.",
-          image: cnyGoldLook
+          heading: "Ethereal Romance: Sage and Soft Greens",
+          content: "Romantic, flowing silhouettes in sage green and soft mint tones are everywhere this season. These dreamy, nature-inspired hues evoke a sense of calm and connection to the earth—a reflection of fashion's ongoing commitment to sustainability. Think billowing maxi dresses with delicate layering, sheer fabrics that catch the light, and garden-party elegance reimagined for the modern woman. This trend is perfect for those who want to channel effortless femininity with an eco-conscious edge. Style with natural textures like raffia bags and wooden jewelry.",
+          image: spring2026Sage
         },
         {
-          heading: "Jade Green: The Color of Prosperity",
-          content: "Emerald and jade tones are emerging as the unexpected stars of 2026. Representing growth, wealth, and harmony, these rich greens offer a sophisticated alternative to traditional palettes. Fashion leaders are showcasing exquisite jade-colored evening wear with intricate gold embroidery, creating looks that are both culturally resonant and utterly modern. The result is breathtaking: a fresh interpretation that honors tradition while feeling completely current.",
-          image: cnyJadeGown
+          heading: "Power Minimalism: The White Statement",
+          content: "White is back, but not as you know it. This season's take on white is all about structure, volume, and architectural details. Oversized white shirt dresses cinched with statement belts create powerful, clean-lined silhouettes that command attention. The European fashion set is pairing crisp white with oversized sunglasses and sculptural jewelry for a look that's both minimalist and dramatic. This is power dressing for the modern era—understated yet unforgettable. The secret is in the proportions and the confidence with which you wear it.",
+          image: spring2026White
         },
         {
-          heading: "East Meets West: Fusion Fashion",
-          content: "The most exciting trend of 2026 is the seamless blend of Eastern and Western aesthetics. Picture structured Western blazers paired with traditional Chinese collars, contemporary silhouettes adorned with delicate embroidery, or sleek modern cuts in luxurious traditional fabrics. This fusion represents the global nature of modern fashion—celebrating heritage while embracing innovation. It's about creating something entirely new that respects both worlds.",
-          image: cnyFusionStyle
+          heading: "Sky Blue Elegance: Mediterranean Dreams",
+          content: "Inspired by the azure coasts of the Mediterranean, sky blue emerges as the season's most sophisticated neutral. Relaxed linen suits in this serene shade capture the essence of European summer—effortless, refined, and impossibly chic. This trend bridges the gap between menswear-inspired tailoring and vacation-ready ease. The look works equally well in coastal settings and urban environments, making it one of the most versatile trends of the season. Style with minimal accessories and let the beautiful blue speak for itself.",
+          image: spring2026Blue
         },
         {
-          heading: "Opulent Details & Statement Accessories",
-          content: "This year is all about the details. Intricate embroidery featuring phoenixes and peonies, dramatic sleeves that make a statement, and accessories that elevate every look. From chandelier earrings in gold and ruby to embellished clutches and statement belts, the finishing touches are what transform an outfit into a work of art. The message is clear: go bold, be fearless, and let your style tell your story.",
-          image: cnyBurgundyGold
+          heading: "Blush Power Suits: Feminine Strength",
+          content: "The power suit gets a feminine makeover in soft blush pink with exaggerated, sculptural shoulders. This isn't about looking soft—it's about redefining strength through a feminine lens. European designers are proving that pink can be just as powerful as traditional corporate colors. The oversized silhouettes add drama and presence, while the romantic color palette brings warmth and approachability. Pair with bold statement earrings and sleek hair for a look that means business while celebrating femininity.",
+          image: spring2026Pink
         },
         {
-          heading: "How to Wear the Trends",
-          content: "The key to mastering 2026's Spring Festival style is balance. If you choose a bold colored piece, keep accessories elegant and minimal. If your outfit features intricate details, let them shine against a simple silhouette. Mix traditional elements with contemporary pieces—a modern dress with heritage jewelry, or a classic qipao collar on a cutting-edge design. Most importantly, wear everything with confidence. This year's fashion is about celebrating who you are while honoring where you come from."
+          heading: "Timeless Beige: Classic Reinvented",
+          content: "Beige trench dresses with contemporary cuts prove that classics never die—they just evolve. This season's neutral tones are anything but boring. Modern silhouettes, unexpected details, and luxurious fabrics transform traditional beige into something fresh and exciting. The European approach to neutrals is all about quality, fit, and subtle innovation. These pieces work year-round and serve as the foundation for a truly timeless wardrobe. Invest in quality, focus on fit, and these pieces will serve you for years to come.",
+          image: spring2026Beige
+        },
+        {
+          heading: "How to Wear Spring 2026 Trends",
+          content: "The beauty of this season's trends is their versatility and accessibility. Start with one statement piece—whether it's a butter yellow blazer or a sage green dress—and build around it with basics. Don't be afraid to mix trends: pair your power suit with minimalist accessories, or dress down your ethereal dress with urban sneakers. The European fashion philosophy has always been about personal style over trend-chasing. Use these trends as inspiration, not rules. Most importantly, wear everything with confidence and authenticity."
         }
       ],
-      conclusion: "The 2026 Chinese New Year fashion landscape represents more than just beautiful clothing—it's a celebration of cultural evolution, creative courage, and the power of fashion to bridge tradition and innovation. Whether you embrace dramatic reds, luminous golds, elegant jades, or daring fusion styles, let this Spring Festival be the moment you step into your most confident, authentic self. After all, fashion is not just what we wear—it's how we choose to present ourselves to the world. Make it count."
+      conclusion: "Spring 2026 represents a pivotal moment in fashion history. As European designers push boundaries while honoring timeless elegance, they're creating a blueprint for modern dressing that's inclusive, sustainable, and deeply personal. Whether you gravitate toward bold colors, romantic silhouettes, or minimalist power dressing, this season offers something for everyone. The message is clear: fashion is not about following rules—it's about discovering your own voice and expressing it fearlessly. This spring, embrace the trends that resonate with you, and make them your own."
     }
   },
   {
