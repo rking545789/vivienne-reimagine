@@ -4,18 +4,52 @@ import { Facebook, Instagram, Twitter, Share2, Rss } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Link } from "react-router-dom";
+import { supabase } from "@/integrations/supabase/client";
 
 const Sidebar = () => {
   const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Successfully subscribed!",
-      description: "Thank you for joining our style community.",
-    });
-    setEmail("");
+    
+    if (!email.trim()) {
+      toast({
+        title: "Error",
+        description: "Please enter a valid email address.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const { error } = await supabase.functions.invoke("send-contact-email", {
+        body: {
+          type: "subscription",
+          email: email.trim(),
+        },
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Successfully subscribed!",
+        description: "Thank you for joining our style community.",
+      });
+      setEmail("");
+    } catch (error) {
+      console.error("Error subscribing:", error);
+      toast({
+        title: "Error",
+        description: "Failed to subscribe. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -70,8 +104,8 @@ const Sidebar = () => {
             required
             className="text-center"
           />
-          <Button type="submit" className="w-full bg-muted hover:bg-muted-foreground/20">
-            SUBSCRIBE
+          <Button type="submit" className="w-full bg-muted hover:bg-muted-foreground/20" disabled={isSubmitting}>
+            {isSubmitting ? "SUBSCRIBING..." : "SUBSCRIBE"}
           </Button>
         </form>
         <p className="text-xs text-center mt-3 text-muted-foreground">

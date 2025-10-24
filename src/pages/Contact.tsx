@@ -5,22 +5,58 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message sent!",
-      description: "Thank you for contacting us. We'll get back to you soon.",
-    });
-    setName("");
-    setEmail("");
-    setMessage("");
+    
+    if (!name.trim() || !email.trim() || !message.trim()) {
+      toast({
+        title: "Error",
+        description: "Please fill in all fields.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const { error } = await supabase.functions.invoke("send-contact-email", {
+        body: {
+          type: "contact",
+          name: name.trim(),
+          email: email.trim(),
+          message: message.trim(),
+        },
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Message sent!",
+        description: "Thank you for contacting us. We'll get back to you soon.",
+      });
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.error("Error sending message:", error);
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -87,8 +123,9 @@ const Contact = () => {
                   <Button 
                     type="submit" 
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
+                    disabled={isSubmitting}
                   >
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </div>
