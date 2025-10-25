@@ -99,6 +99,7 @@ import athleisureFlatlay1 from "@/assets/article/athleisure-flatlay-1.jpg";
 import autumnCoatsHero from "@/assets/autumn-coats-hero.jpg";
 import winterLayeringHero from "@/assets/winter-layering-hero.jpg";
 import springTransition from "@/assets/spring-transition.jpg";
+import mensSpringLayersHero from "@/assets/mens-spring-layers-hero.jpg";
 import minimalistColorHero from "@/assets/minimalist-color-hero.jpg";
 import frenchStyleHero from "@/assets/french-style-hero.jpg";
 
@@ -215,7 +216,7 @@ export const mensArticlesData: MensArticle[] = [
     title: "Spring Refresh: Layering Ideas to Upgrade Your Look This Season",
     date: "January 3, 2026",
     excerpt: "Transition your wardrobe into spring with smart layering techniques that handle unpredictable weather while keeping you stylish...",
-    image: springTransition,
+    image: mensSpringLayersHero,
     content: {
       intro: "Spring weather is notoriously unpredictable—warm afternoons follow chilly mornings. Mastering spring layering means creating outfits that adapt throughout the day. The secret is choosing pieces that work well together and can be easily removed or added as temperatures change. Let's explore layering strategies that keep you comfortable and stylish all spring long.",
       sections: [
