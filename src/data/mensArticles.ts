@@ -61,277 +61,277 @@ export interface MensArticle {
 export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-suit-styling-guide",
-    title: "男士西装完美穿搭指南",
-    date: "2025年12月18日",
-    excerpt: "从面料选择到细节搭配，掌握让你在任何场合都自信出众的西装穿搭艺术...",
+    title: "The Perfect Men's Suit Styling Guide",
+    date: "December 18, 2025",
+    excerpt: "From fabric selection to detail coordination, master the art of suit styling that makes you stand out confidently in any occasion...",
     image: mensSuitGuideHero,
     content: {
-      intro: "西装是每个男士衣橱中最重要的投资之一。一套合身的西装不仅能提升你的专业形象，更能展现你对细节的追求和个人品味。在现代商务环境中，懂得如何正确选择和穿着西装已成为成功人士的必备技能。本指南将带你深入了解西装穿搭的方方面面。",
+      intro: "A suit is one of the most important investments in any man's wardrobe. A well-fitted suit not only elevates your professional image but also demonstrates your attention to detail and personal taste. In today's business environment, knowing how to properly select and wear a suit has become an essential skill for successful individuals. This guide will take you through every aspect of suit styling.",
       sections: [
         {
-          heading: "西装细节决定成败",
-          content: "西装的魅力在于细节。口袋巾的折叠方式、领带的颜色选择、袖扣的设计——这些看似微小的元素共同构成了你的整体形象。白色口袋巾是最经典安全的选择，搭配深蓝色领带展现稳重专业。银色袖扣则为整体造型增添一抹精致的光泽。记住，西装衬衫的袖口应露出约1.5厘米，这是绅士风度的标志。",
+          heading: "Details Make or Break the Suit",
+          content: "The charm of a suit lies in its details. The fold of the pocket square, the color choice of the tie, the design of the cufflinks—these seemingly minor elements collectively form your overall image. A white pocket square is the most classic and safe choice, paired with a navy blue tie to convey stability and professionalism. Silver cufflinks add a touch of refined elegance to the entire look. Remember, your dress shirt cuffs should show about 1.5 cm beyond the suit sleeves—this is the hallmark of gentlemanly sophistication.",
           image: mensSuitDetails
         },
         {
-          heading: "灰色西装的现代魅力",
-          content: "灰色西装是现代商务着装的新宠。相比传统的海军蓝，灰色更显年轻和时尚。选择修身剪裁的三件套西装，搭配白色衬衫和深蓝色领带，既保持了正式感，又展现出现代审美。灰色西装的多功能性在于它既适合正式商务会议，也可以在轻松的商务社交场合穿着。记得选择优质的羊毛面料，良好的面料是西装品质的基础。",
+          heading: "The Modern Appeal of Grey Suits",
+          content: "The grey suit is the new favorite in modern business attire. Compared to traditional navy blue, grey appears more youthful and fashionable. Choose a slim-fit three-piece suit, paired with a white shirt and navy tie, maintaining formality while showcasing modern aesthetics. The versatility of a grey suit lies in its suitability for both formal business meetings and relaxed business social occasions. Remember to select quality wool fabric—good fabric is the foundation of suit quality.",
           image: mensGreySuit
         },
         {
-          heading: "正装鞋履的艺术",
-          content: "优质的皮鞋是西装造型的点睛之笔。牛津鞋是最正式的选择，适合重要商务场合；布洛克鞋则增添了一丝英伦风情；僧侣鞋凭借其独特的搭扣设计成为时尚人士的新宠。投资一双优质的皮鞋胜过拥有十双廉价的。定期保养、擦拭鞋油，让你的鞋履永远保持最佳状态。棕色皮鞋可搭配灰色和米色西装，而黑色则是深色西装的经典搭配。",
+          heading: "The Art of Dress Shoes",
+          content: "Quality leather shoes are the finishing touch to a suit ensemble. Oxford shoes are the most formal choice, perfect for important business occasions; brogues add a touch of British flair; monk straps have become favorites among fashion enthusiasts with their unique buckle design. Investing in one pair of quality shoes is better than owning ten cheap ones. Regular maintenance and shoe polish keep your footwear in optimal condition. Brown shoes pair with grey and beige suits, while black is the classic match for dark suits.",
           image: mensDressShoes
         }
       ],
-      conclusion: "西装穿搭是一门艺术，需要时间和经验的累积。投资高品质的基础款西装，注重细节的呈现，随着时间推移不断完善自己的风格。记住，真正的优雅不在于炫耀，而在于自然和自信。一套合身的西装配上得体的配饰，将让你在任何场合都成为焦点。"
+      conclusion: "Suit styling is an art that requires time and experience to master. Invest in high-quality basic suits, pay attention to details, and continuously refine your style over time. Remember, true elegance is not about showing off, but about naturalness and confidence. A well-fitted suit with appropriate accessories will make you the center of attention in any setting."
     }
   },
   {
     slug: "mens-business-casual-guide",
-    title: "商务休闲风格完全指南",
-    date: "2025年12月17日",
-    excerpt: "在专业与舒适之间找到完美平衡，打造现代职场男士的理想着装...",
+    title: "The Complete Business Casual Style Guide",
+    date: "December 17, 2025",
+    excerpt: "Find the perfect balance between professionalism and comfort, creating the ideal wardrobe for modern workplace men...",
     image: mensBusinessCasualHero,
     content: {
-      intro: "商务休闲是现代职场最流行的着装风格，它在保持专业形象的同时提供了更多的舒适度和灵活性。随着工作环境变得更加轻松，传统的正装已不再是唯一选择。掌握商务休闲穿搭的艺术，让你在展现专业素养的同时保持个人风格。",
+      intro: "Business casual is the most popular dress code in modern workplaces, providing greater comfort and flexibility while maintaining a professional image. As work environments become more relaxed, traditional formal wear is no longer the only option. Mastering the art of business casual dressing allows you to showcase professional competence while maintaining personal style.",
       sections: [
         {
-          heading: "商务休闲的核心单品",
-          content: "商务休闲的关键在于选择合适的单品组合。米色斜纹棉布裤配浅蓝色牛津衬衫是最经典的搭配，既正式又不失轻松。棕色皮腰带和乐福鞋完善整体造型，简约的腕表增添精致感。这套搭配适用于大多数办公环境，也可轻松过渡到午餐会议或下班后的社交活动。选择透气的纯棉面料，确保全天舒适。",
+          heading: "Core Business Casual Pieces",
+          content: "The key to business casual lies in choosing the right combination of pieces. Beige chinos paired with a light blue Oxford shirt is the most classic match, being both formal and relaxed. Brown leather belt and loafers complete the overall look, while a minimalist watch adds sophistication. This outfit works for most office environments and easily transitions to lunch meetings or after-work social activities. Choose breathable cotton fabrics to ensure all-day comfort.",
           image: mensCasualFlatlay
         },
         {
-          heading: "智慧休闲的平衡艺术",
-          content: "智慧休闲风格将西装外套与休闲单品巧妙结合。深蓝色西装外套搭配驼色T恤和深色牛仔裤，创造出既专业又亲切的形象。这种搭配特别适合创意行业或科技公司的工作环境。关键在于保持单品的质感——选择高品质的基础款而非花哨的设计。确保西装外套合身，T恤整洁，牛仔裤干净无破洞。",
+          heading: "The Art of Smart Casual Balance",
+          content: "Smart casual style cleverly combines blazers with casual pieces. A navy blazer paired with a beige t-shirt and dark jeans creates an image that is both professional and approachable. This combination is particularly suitable for creative industries or tech company work environments. The key is maintaining the quality of pieces—choose high-quality basics rather than flashy designs. Ensure the blazer fits well, the t-shirt is clean, and the jeans are free of rips.",
           image: mensSmartCasual
         }
       ],
-      conclusion: "商务休闲穿搭的精髓在于平衡。它既不过分正式也不过于随意，而是在两者之间找到了完美的中间地带。通过投资高质量的基础单品，学会巧妙搭配，你可以创造出既专业又舒适的着装风格。记住，商务休闲不是降低标准，而是用更现代的方式展现专业素养。"
+      conclusion: "The essence of business casual dressing is balance. It is neither overly formal nor too casual, but finds the perfect middle ground between the two. By investing in high-quality basic pieces and learning clever combinations, you can create a dress style that is both professional and comfortable. Remember, business casual is not about lowering standards, but about demonstrating professionalism in a more modern way."
     }
   },
   {
     slug: "mens-weekend-casual-style",
-    title: "周末休闲装完美攻略",
-    date: "2025年12月16日",
-    excerpt: "工作日结束，是时候展现你的个人风格。轻松打造既舒适又有型的周末造型...",
+    title: "Perfect Weekend Casual Style Guide",
+    date: "December 16, 2025",
+    excerpt: "The workweek is over—time to showcase your personal style. Effortlessly create weekend looks that are both comfortable and stylish...",
     image: mensWeekendStyleHero,
     content: {
-      intro: "周末是展现个人风格的最佳时机。脱下工作装，换上轻松自在的休闲服，让自己真正放松。但休闲不等于邋遢——即使在周末，保持良好的穿着品味仍然很重要。本指南将教你如何在保持舒适的同时展现你的时尚品味。",
+      intro: "Weekends are the perfect time to showcase your personal style. Take off your work clothes, put on relaxed casual wear, and truly unwind. But casual doesn't mean sloppy—even on weekends, maintaining good dress sense remains important. This guide will teach you how to display your fashion taste while staying comfortable.",
       sections: [
         {
-          heading: "经典周末休闲",
-          content: "周末休闲的基础是舒适的牛仔裤和简单的T恤或衬衫。浅色牛仔衬衫搭配深色牛仔裤是永不过时的组合，展现轻松随性的态度。这套搭配适合几乎所有周末活动——从咖啡店聚会到户外散步都游刃有余。选择合身的剪裁而非过于宽松的款式，即使是休闲装也要展现良好的身材比例。",
+          heading: "Classic Weekend Casual",
+          content: "The foundation of weekend casual is comfortable jeans and a simple t-shirt or shirt. A light-colored denim shirt paired with dark jeans is a timeless combination, displaying a relaxed and carefree attitude. This outfit suits almost all weekend activities—from coffee shop gatherings to outdoor walks. Choose fitted cuts rather than overly loose styles; even casual wear should showcase good body proportions.",
           image: mensWeekendCasual
         },
         {
-          heading: "运动休闲的魅力",
-          content: "白色运动鞋配卷起裤脚的深色牛仔裤，简约的上衣和简约腕表——这就是现代运动休闲风格的精髓。这种搭配既舒适又时尚，非常适合年轻活力的生活方式。关键是保持简洁，避免过多的品牌标识和花哨设计。选择经典的白色或黑色运动鞋，它们可以搭配任何造型。",
+          heading: "The Appeal of Athleisure",
+          content: "White sneakers with rolled-up dark jeans, a simple top, and a minimalist watch—this is the essence of modern athleisure style. This combination is both comfortable and fashionable, perfect for a youthful and energetic lifestyle. The key is keeping it simple, avoiding excessive brand logos and flashy designs. Choose classic white or black sneakers that can match any outfit.",
           image: mensSneakerStyle
         },
         {
-          heading: "皮夹克的酷感",
-          content: "黑色皮夹克是为休闲造型增添个性的完美单品。搭配白色T恤和深色牛仔裤，创造出永恒的摇滚风格。皮夹克不仅提供温暖，更展现出男性的阳刚魅力。选择修身但不紧身的款式，确保肩线位置正确。优质的皮革会随着穿着变得更加柔软和有质感，成为你衣橱中最珍贵的投资之一。",
+          heading: "The Cool Factor of Leather Jackets",
+          content: "A black leather jacket is the perfect piece to add personality to casual outfits. Paired with a white t-shirt and dark jeans, it creates a timeless rock style. Leather jackets not only provide warmth but also showcase masculine charm. Choose a fitted but not tight style, ensuring correct shoulder line placement. Quality leather becomes softer and more textured with wear, becoming one of your wardrobe's most valuable investments.",
           image: mensLeatherJacket
         }
       ],
-      conclusion: "周末休闲装是展现真实自我的机会。无需过分追求潮流，找到适合自己风格和生活方式的单品最重要。投资几件高质量的基础休闲单品，通过不同的搭配方式创造多种造型。记住，真正的风格来自于自信和舒适，而不是盲目跟随潮流。"
+      conclusion: "Weekend casual wear is an opportunity to show your true self. There's no need to chase trends excessively; finding pieces that suit your style and lifestyle is most important. Invest in several high-quality basic casual pieces and create multiple looks through different combinations. Remember, true style comes from confidence and comfort, not blindly following trends."
     }
   },
   {
     slug: "mens-winter-coat-styling",
-    title: "冬季大衣穿搭秘籍",
-    date: "2025年12月15日",
-    excerpt: "寒冬季节，让优雅的大衣成为你的标志性单品，展现成熟男士的魅力...",
+    title: "Winter Coat Styling Secrets",
+    date: "December 15, 2025",
+    excerpt: "In the cold winter season, let an elegant coat become your signature piece, showcasing the charm of a mature gentleman...",
     image: mensCoatStylingHero,
     content: {
-      intro: "冬季大衣是男士衣橱中最重要的外套之一。它不仅提供温暖，更是个人品味和风格的体现。一件合适的大衣可以立即提升整体造型，让你在寒冷的冬日也能保持优雅得体。本指南将帮你选择和搭配适合自己的冬季大衣。",
+      intro: "A winter coat is one of the most important outerwear pieces in a man's wardrobe. It not only provides warmth but also reflects personal taste and style. An appropriate coat can immediately elevate your overall look, allowing you to maintain elegance and sophistication even in the cold winter days. This guide will help you choose and style the right winter coat for yourself.",
       sections: [
         {
-          heading: "驼色大衣的经典魅力",
-          content: "驼色羊毛大衣是冬季着装的终极选择。搭配深色西装、酒红色围巾和皮手套，展现出精致的绅士风范。驼色是最百搭的颜色，可以搭配几乎所有服装。选择过膝长度的款式，既保暖又显气质。高品质的羊毛面料是必须的——它应该感觉厚重而柔软，有良好的保暖性和垂坠感。",
+          heading: "The Classic Appeal of Camel Coats",
+          content: "A camel wool coat is the ultimate choice for winter dressing. Paired with a dark suit, burgundy scarf, and leather gloves, it showcases refined gentleman's style. Camel is the most versatile color, matching almost any outfit. Choose an above-the-knee length style that is both warm and elegant. High-quality wool fabric is essential—it should feel heavy yet soft, with excellent warmth and drape.",
           image: mensCoatDetails
         },
         {
-          heading: "冬季分层穿搭",
-          content: "冬季穿搭的秘诀在于巧妙的分层。大衣内搭针织衫、衬衫和内衣，创造温暖又有型的造型。深色大衣搭配灰色围巾和棕色手套，展现出层次丰富的视觉效果。记住，每一层都应该合身——过于宽松的衣服会显得臃肿。选择不同质感的面料进行搭配，创造视觉趣味。",
+          heading: "Winter Layering",
+          content: "The secret to winter dressing lies in clever layering. Layer a coat over knitwear, shirts, and undershirts to create a warm and stylish look. A dark coat paired with a grey scarf and brown gloves creates a richly layered visual effect. Remember, each layer should fit well—overly loose clothing will appear bulky. Choose fabrics with different textures for pairing to create visual interest.",
           image: mensWinterLayers
         },
         {
-          heading: "风衣的英伦风情",
-          content: "米色风衣是永恒的经典，搭配西装展现出优雅的英伦风格。这种搭配特别适合秋冬过渡季节或多雨的天气。风衣的经典设计——双排扣、腰带、背部褶皱——赋予它独特的魅力。选择防水处理的面料，既实用又时尚。风衣的长度应该到膝盖附近，保持最佳比例。",
+          heading: "The British Charm of Trench Coats",
+          content: "A beige trench coat is a timeless classic, showcasing elegant British style when paired with a suit. This combination is particularly suitable for autumn-winter transition seasons or rainy weather. The classic design of a trench coat—double-breasted, belt, back vents—gives it unique charm. Choose water-repellent treated fabric that is both practical and fashionable. The trench coat length should reach near the knees, maintaining optimal proportions.",
           image: mensTrenchCoat
         }
       ],
-      conclusion: "投资一件优质的冬季大衣是明智的选择。它不仅能陪伴你多个冬季，更会随着时间推移变得更有韵味。选择经典款式和中性色彩，确保它能搭配你衣橱中的大多数服装。记住，真正的优雅在于简约和质感，而不是追逐短暂的潮流。"
+      conclusion: "Investing in a quality winter coat is a wise choice. It will not only accompany you through multiple winters but will also become more characterful over time. Choose classic styles and neutral colors to ensure it matches most items in your wardrobe. Remember, true elegance lies in simplicity and quality, not chasing fleeting trends."
     }
   },
   {
     slug: "mens-athleisure-style-guide",
-    title: "运动休闲风完美指南",
-    date: "2025年12月14日",
-    excerpt: "运动与时尚的完美结合，打造现代都市男士的活力造型...",
+    title: "The Perfect Athleisure Style Guide",
+    date: "December 14, 2025",
+    excerpt: "The perfect blend of sport and fashion, creating energetic looks for modern urban men...",
     image: mensAthleisureHero,
     content: {
-      intro: "运动休闲风（Athleisure）是当今最流行的着装风格之一。它将运动服饰的舒适性与街头时尚完美融合，创造出既实用又时尚的造型。无论是去健身房、跑腿办事还是休闲聚会，运动休闲风都能让你保持活力和型格。",
+      intro: "Athleisure is one of today's most popular dress styles. It perfectly merges the comfort of athletic wear with street fashion, creating looks that are both practical and stylish. Whether heading to the gym, running errands, or casual gatherings, athleisure keeps you energized and stylish.",
       sections: [
         {
-          heading: "运动单品的细节",
-          content: "优质的运动服饰注重面料科技和剪裁。灰色连帽衫配黑色运动裤和高性能跑鞋，展现出简约而精致的运动风格。选择具有吸湿排汗功能的技术面料，确保运动和日常穿着都舒适。注意单品的合身度——运动休闲不等于宽松，修身的剪裁能更好地展现身材线条。",
+          heading: "Athletic Piece Details",
+          content: "Quality athletic wear focuses on fabric technology and tailoring. Grey hoodie paired with black joggers and high-performance running shoes showcases a minimalist yet refined athletic style. Choose technical fabrics with moisture-wicking properties to ensure comfort during workouts and daily wear. Pay attention to the fit of pieces—athleisure doesn't mean loose; fitted tailoring better showcases body lines.",
           image: mensAthleticDetails
         },
         {
-          heading: "都市运动造型",
-          content: "深色bomber夹克搭配运动裤和白色运动鞋，创造出都市运动风格。添加健身包和太阳镜等配饰，完善整体造型。这套搭配既适合运动，也可以直接去咖啡店或购物。关键是保持整洁——即使是运动风格也要注重细节和质感。选择有设计感的单品，展现你的时尚品味。",
+          heading: "Urban Athletic Styling",
+          content: "Dark bomber jacket paired with joggers and white sneakers creates an urban athletic style. Add accessories like gym bags and sunglasses to complete the overall look. This outfit works for workouts and can go straight to coffee shops or shopping. The key is staying neat—even athletic style should emphasize details and quality. Choose pieces with design elements that showcase your fashion taste.",
           image: mensAthleisureOutfit
         },
         {
-          heading: "运动服饰系列",
-          content: "建立一个完整的运动休闲衣橱需要精心挑选。从基础的连帽衫、运动裤到功能性外套，每一件都应该精心选择。深色调为主的色彩搭配既实用又时尚，可以轻松混搭。投资高品质的运动服饰品牌，它们通常有更好的面料和剪裁，穿着更舒适也更耐用。",
+          heading: "Athletic Wardrobe Collection",
+          content: "Building a complete athleisure wardrobe requires careful selection. From basic hoodies and joggers to functional outerwear, each piece should be carefully chosen. Color schemes dominated by dark tones are both practical and fashionable, easily mixed and matched. Invest in quality athletic wear brands that typically offer better fabrics and tailoring, providing greater comfort and durability.",
           image: mensSportswear
         }
       ],
-      conclusion: "运动休闲风格代表了现代生活方式的转变——我们追求健康、活力和自在。通过选择高质量的运动单品，巧妙地将它们融入日常着装，你可以创造出既舒适又时尚的造型。记住，运动休闲不是随意，而是一种精心策划的时尚态度。"
+      conclusion: "Athleisure style represents a shift in modern lifestyle—we pursue health, vitality, and ease. By selecting high-quality athletic pieces and cleverly incorporating them into daily dress, you can create looks that are both comfortable and fashionable. Remember, athleisure isn't about being casual, but rather a carefully curated fashion attitude."
     }
   },
   {
     slug: "mens-accessories-essentials",
-    title: "男士配饰终极指南",
-    date: "2025年12月13日",
-    excerpt: "细节决定品味，掌握这些配饰搭配技巧，让你的造型更加精致完美...",
+    title: "Essential Men's Accessories Guide",
+    date: "December 13, 2025",
+    excerpt: "Details determine taste—master these accessory pairing techniques to make your look more refined and perfect...",
     image: mensAccessoriesHero,
     content: {
-      intro: "配饰是展现个人品味和细节关注的最佳方式。一块精致的腕表、一条优质的皮带、一副合适的太阳镜——这些看似小的单品能够完全改变整体造型的质感。本指南将带你了解男士必备的配饰单品及其搭配技巧。",
+      intro: "Accessories are the best way to showcase personal taste and attention to detail. A refined watch, a quality belt, an appropriate pair of sunglasses—these seemingly small pieces can completely transform the quality of your overall look. This guide will introduce you to essential men's accessories and their styling techniques.",
       sections: [
         {
-          heading: "腕表的艺术",
-          content: "一块精致的腕表是男士最重要的配饰。它不仅是时间工具，更是品味和地位的象征。机械表展现对传统工艺的欣赏，适合正式场合；运动表则更适合日常穿着。选择表盘大小要适合你的手腕尺寸，表带颜色要能搭配你的服装。棕色皮革表带配正装，不锈钢或橡胶表带配运动休闲装。",
+          heading: "The Art of Watches",
+          content: "A refined watch is a man's most important accessory. It is not just a timekeeping tool but also a symbol of taste and status. Mechanical watches showcase appreciation for traditional craftsmanship, suitable for formal occasions; sports watches are better for daily wear. Choose a dial size that fits your wrist, and a strap color that matches your clothing. Brown leather straps pair with formal wear, while stainless steel or rubber straps match athletic casual wear.",
           image: mensLuxuryWatch
         },
         {
-          heading: "皮具的品质",
-          content: "优质的皮革配饰展现出成熟男士的品味。棕色皮腰带、钱包、卡包和钥匙扣应该质感统一，展现协调的整体感。选择全粒面皮革，它会随时间推移变得更加漂亮。定期保养你的皮具，使用皮革护理产品保持其光泽和柔软。记住，一个破旧的钱包比一个廉价的新钱包更有品味。",
+          heading: "Quality Leather Goods",
+          content: "Quality leather accessories showcase a mature man's taste. Brown leather belt, wallet, card holder, and key holder should have unified quality, displaying cohesive overall appeal. Choose full-grain leather that becomes more beautiful over time. Regularly maintain your leather goods, using leather care products to keep them lustrous and supple. Remember, a well-worn wallet has more taste than a cheap new one.",
           image: mensLeatherAccessories
         },
         {
-          heading: "太阳镜的选择",
-          content: "太阳镜是功能性和时尚性兼具的配饰。飞行员款是经典选择，适合大多数脸型；威灵顿款展现复古魅力；圆框则增添文艺气息。选择适合你脸型的款式——方脸适合圆润的镜框，圆脸则适合棱角分明的款式。投资一副高质量的太阳镜，提供良好的UV保护，保护眼睛健康。",
+          heading: "Choosing Sunglasses",
+          content: "Sunglasses are accessories that combine functionality and fashion. Aviators are a classic choice suitable for most face shapes; Wayfarers showcase vintage charm; round frames add an artistic touch. Choose styles that suit your face shape—square faces suit rounded frames, while round faces suit angular styles. Invest in a high-quality pair of sunglasses that provide good UV protection for eye health.",
           image: mensSunglasses
         }
       ],
-      conclusion: "配饰虽小，却能产生巨大的影响。通过精心选择和搭配配饰，你可以为任何造型增添个性和精致感。记住，少即是多——不要佩戴过多配饰。选择几件高质量的经典单品，用心搭配，就能创造出完美的造型。真正的优雅在于细节的关注，而不是数量的堆砌。"
+      conclusion: "Though small, accessories can make a huge impact. Through careful selection and pairing of accessories, you can add personality and refinement to any look. Remember, less is more—don't wear too many accessories. Choose several high-quality classic pieces and pair them thoughtfully to create the perfect look. True elegance lies in attention to detail, not quantity accumulation."
     }
   },
   {
     slug: "mens-denim-styling-guide",
-    title: "牛仔单品穿搭全攻略",
-    date: "2025年12月12日",
-    excerpt: "从经典到创新，探索牛仔单品的无限可能，打造属于你的牛仔风格...",
+    title: "Complete Denim Styling Guide",
+    date: "December 12, 2025",
+    excerpt: "From classic to innovative, explore the endless possibilities of denim pieces and create your own denim style...",
     image: mensDenimStyleHero,
     content: {
-      intro: "牛仔面料是男士衣橱中最百搭的材质之一。从牛仔裤到牛仔夹克，这些单品既耐穿又时尚，可以适应各种场合和风格。牛仔的魅力在于它随着穿着会变得更有个性，成为你独一无二的单品。本指南将教你如何充分发挥牛仔单品的潜力。",
+      intro: "Denim fabric is one of the most versatile materials in a man's wardrobe. From jeans to denim jackets, these pieces are both durable and fashionable, adapting to various occasions and styles. The charm of denim lies in how it becomes more personalized with wear, becoming your unique item. This guide will teach you how to fully leverage the potential of denim pieces.",
       sections: [
         {
-          heading: "牛仔裤的选择",
-          content: "选择合适的牛仔裤是关键。修身直筒是最百搭的款式，适合大多数体型。深色水洗适合正式场合，可以搭配衬衫和皮鞋；浅色水洗则更休闲，适合周末穿着。注意裤长——裤脚应该刚好触及鞋面，或者稍微堆叠。原色牛仔裤会随着穿着产生独特的褪色效果，展现个人风格。",
+          heading: "Choosing Jeans",
+          content: "Choosing the right jeans is key. Slim straight is the most versatile style, suitable for most body types. Dark wash is appropriate for formal occasions, pairing with shirts and leather shoes; light wash is more casual, suitable for weekend wear. Pay attention to length—pant legs should just touch the shoe surface or stack slightly. Raw denim jeans will produce unique fading effects with wear, showcasing personal style.",
           image: mensDenimCollection
         },
         {
-          heading: "全套牛仔的技巧",
-          content: "全套牛仔（Canadian Tuxedo）需要技巧。关键是选择不同深浅的水洗——牛仔夹克和牛仔裤应该有明显的色差。浅色夹克配深色裤子是最安全的选择。内搭白色T恤打破牛仔的单调，棕色靴子增添温暖质感。保持剪裁合身，避免过于宽松的款式，这样才能展现出精致的街头风格。",
+          heading: "Double Denim Techniques",
+          content: "Double denim (Canadian Tuxedo) requires technique. The key is choosing different wash depths—denim jacket and jeans should have obvious color contrast. Light jacket with dark pants is the safest choice. Layer with a white t-shirt to break up the denim monotony, and brown boots add warm texture. Maintain fitted tailoring and avoid overly loose styles to showcase refined street style.",
           image: mensDoubleDenim
         },
         {
-          heading: "牛仔的细节",
-          content: "优质牛仔的魅力在于细节。赤耳边、铜质铆钉、皮革标签——这些细节展现了牛仔工艺的精髓。日本和意大利的高端牛仔品牌特别注重这些细节，使用传统织机和染色技术。虽然价格较高，但这些牛仔裤会陪伴你多年，随着穿着变得越来越有个性。",
+          heading: "Denim Details",
+          content: "The charm of quality denim lies in details. Selvedge edges, copper rivets, leather labels—these details showcase the essence of denim craftsmanship. High-end Japanese and Italian denim brands particularly emphasize these details, using traditional looms and dyeing techniques. Though pricier, these jeans will accompany you for years, becoming increasingly personalized with wear.",
           image: mensDenimDetails
         }
       ],
-      conclusion: "牛仔单品的魅力在于它的永恒性和个性化。一件优质的牛仔单品会随着时间推移变得更加珍贵，记录你的生活痕迹。投资几件高质量的基础牛仔单品，学会巧妙搭配，你就能创造出无数种时尚造型。记住，牛仔不仅是一种面料，更是一种生活态度。"
+      conclusion: "The charm of denim pieces lies in their timelessness and personalization. A quality denim piece becomes more precious over time, recording traces of your life. Invest in several high-quality basic denim pieces, learn clever pairings, and you can create countless fashionable looks. Remember, denim is not just a fabric but a lifestyle attitude."
     }
   },
   {
     slug: "mens-shirt-styling-guide",
-    title: "衬衫穿搭完全手册",
-    date: "2025年12月11日",
-    excerpt: "从正式到休闲，掌握衬衫穿搭的所有技巧，打造多变的男士风格...",
+    title: "Complete Shirt Styling Manual",
+    date: "December 11, 2025",
+    excerpt: "From formal to casual, master all shirt styling techniques to create versatile men's styles...",
     image: mensShirtsGuideHero,
     content: {
-      intro: "衬衫是男士衣橱中最versatile的单品之一。无论是商务会议、休闲聚会还是正式晚宴，合适的衬衫都能让你应对自如。掌握衬衫的选择和搭配技巧，你就能创造出适合任何场合的完美造型。",
+      intro: "Shirts are one of the most versatile pieces in a man's wardrobe. Whether for business meetings, casual gatherings, or formal dinners, the right shirt allows you to handle any situation with ease. Master shirt selection and pairing techniques, and you can create perfect looks suitable for any occasion.",
       sections: [
         {
-          heading: "衬衫的基础系列",
-          content: "每个男士都需要几件基础衬衫。白色衬衫是必备——它适合所有场合，可以搭配任何西装。浅蓝色衬衫次之，既正式又不失亲和力。粉色衬衫展现时尚品味，条纹衬衫增添视觉趣味。选择优质的纯棉面料，确保舒适和透气。注意衬衫的合身度——肩线应该正好在肩膀边缘，衣身要略微修身但不紧绷。",
+          heading: "Basic Shirt Collection",
+          content: "Every man needs several basic shirts. A white shirt is essential—it suits all occasions and can pair with any suit. Light blue shirt comes next, being both formal and approachable. Pink shirts showcase fashion taste, while striped shirts add visual interest. Choose quality pure cotton fabrics to ensure comfort and breathability. Pay attention to shirt fit—shoulder seams should sit right at shoulder edges, and the body should be slightly fitted but not tight.",
           image: mensShirtCollection
         },
         {
-          heading: "衬衫的细节搭配",
-          content: "衬衫的细节搭配展现品味。领撑保持领子挺括，袖扣增添精致感，领带和口袋巾协调配色。法式袖口配袖扣是最正式的选择，适合重要商务场合。记住，衬衫袖子应该比西装袖子长出约1.5厘米，这是绅士着装的标志。领带长度应该刚好触及腰带扣，太长或太短都会影响整体比例。",
+          heading: "Shirt Detail Pairings",
+          content: "Shirt detail pairings showcase taste. Collar stays keep collars crisp, cufflinks add refinement, and ties and pocket squares coordinate colors. French cuffs with cufflinks are the most formal choice, suitable for important business occasions. Remember, shirt sleeves should extend about 1.5 cm beyond suit sleeves—this is a hallmark of gentlemanly dressing. Tie length should just touch the belt buckle; too long or short affects overall proportions.",
           image: mensShirtDetails
         },
         {
-          heading: "休闲衬衫搭配",
-          content: "休闲衬衫提供更多搭配可能。牛津布衬衫配斜纹棉布裤是经典的商务休闲搭配。卷起袖子展现轻松态度，配棕色皮腰带和简约腕表完善造型。休闲衬衫可以不扎进裤子，但要确保长度合适——下摆应该刚好遮住臀部。选择有点设计感的款式，如不同质感的面料或微妙的图案。",
+          heading: "Casual Shirt Pairings",
+          content: "Casual shirts offer more pairing possibilities. Oxford cloth shirts paired with chinos are a classic business casual combination. Roll up sleeves to show a relaxed attitude, pair with brown leather belt and minimalist watch to complete the look. Casual shirts can be worn untucked, but ensure proper length—the hem should just cover the hips. Choose styles with some design elements, such as different textured fabrics or subtle patterns.",
           image: mensCasualShirt
         }
       ],
-      conclusion: "衬衫是展现个人风格的画布。通过投资高质量的基础款衬衫，学会巧妙搭配领带、西装和配饰，你可以创造出无数种造型。记住，真正的elegance在于简约和品质，而不是复杂和花哨。一件合身的高质量衬衫胜过十件廉价的普通款。"
+      conclusion: "Shirts are a canvas for showcasing personal style. By investing in high-quality basic shirts and learning to cleverly pair them with ties, suits, and accessories, you can create countless looks. Remember, true elegance lies in simplicity and quality, not complexity and flashiness. One well-fitted quality shirt beats ten cheap ordinary ones."
     }
   },
   {
     slug: "mens-formal-wear-guide",
-    title: "正式场合着装指南",
-    date: "2025年12月10日",
-    excerpt: "婚礼、晚宴、颁奖礼...掌握正装礼仪，在重要场合展现完美风范...",
+    title: "Formal Occasion Dress Guide",
+    date: "December 10, 2025",
+    excerpt: "Weddings, galas, award ceremonies... Master formal wear etiquette to showcase perfect presence at important occasions...",
     image: mensFormalWearHero,
     content: {
-      intro: "正式场合着装有其独特的规则和传统。无论是黑领晚宴、白领婚礼还是鸡尾酒会，了解正确的着装规范能让你在重要场合保持得体和自信。本指南将带你了解各种正式场合的着装要求和搭配技巧。",
+      intro: "Formal occasion dressing has its unique rules and traditions. Whether it's a black-tie gala, white-tie wedding, or cocktail party, understanding proper dress codes allows you to maintain appropriateness and confidence at important occasions. This guide will introduce you to dress requirements and styling techniques for various formal occasions.",
       sections: [
         {
-          heading: "燕尾服的细节",
-          content: "燕尾服是最正式的晚装。黑色缎面翻领、领结、白色礼服衬衫配衬衫钉——每个细节都有其意义。燕尾服通常配黑色漆皮鞋和黑色礼服袜。口袋巾应该是白色，简单折叠展现低调优雅。这种装束适用于最正式的场合，如国宴、歌剧首演或最隆重的晚宴。",
+          heading: "Tuxedo Details",
+          content: "The tuxedo is the most formal evening wear. Black satin lapels, bow tie, white dress shirt with studs—every detail has its meaning. Tuxedos are typically paired with black patent leather shoes and black dress socks. The pocket square should be white, simply folded to display understated elegance. This attire is appropriate for the most formal occasions, such as state dinners, opera premieres, or the most grand galas.",
           image: mensTuxedoDetails
         },
         {
-          heading: "黑领礼服搭配",
-          content: "黑领礼服（Black Tie）是最常见的正式着装要求。单排扣或双排扣燕尾服配缎面翻领，黑色领结和白色礼服衬衫。确保燕尾服合身——肩线要正确，衣身要修身但不紧绷。裤子应该有缎面侧条，配漆皮鞋。白色口袋巾是必须的，简约折叠即可。记住，黑领礼服是晚上六点后的着装，白天不应穿着。",
+          heading: "Black Tie Pairings",
+          content: "Black Tie is the most common formal dress requirement. Single or double-breasted tuxedo with satin lapels, black bow tie and white dress shirt. Ensure the tuxedo fits well—shoulder lines should be correct, body should be fitted but not tight. Pants should have satin side stripes, paired with patent leather shoes. White pocket square is essential, simply folded. Remember, Black Tie is evening wear for after 6 PM, not to be worn during the day.",
           image: mensBlackTie
         },
         {
-          heading: "正装配饰",
-          content: "正装配饰展现细节关注。袖扣、领结夹、怀表——这些传统配饰增添优雅气息。选择简约设计的金属配饰，避免过于花哨。领结应该自己系，而不是用预系好的款式。如果穿三件套，怀表链可以从背心口袋中垂出。这些细节虽小，却能展现你对传统和品质的尊重。",
+          heading: "Formal Accessories",
+          content: "Formal accessories showcase attention to detail. Cufflinks, bow tie clips, pocket watches—these traditional accessories add elegant atmosphere. Choose minimalist metal accessories, avoiding overly flashy designs. Bow ties should be self-tied, not pre-tied styles. If wearing a three-piece suit, the pocket watch chain can hang from the vest pocket. Though small, these details showcase your respect for tradition and quality.",
           image: mensFormalAccessories
         }
       ],
-      conclusion: "正式场合着装是对主办方和场合的尊重。通过了解规则、投资高质量的正装单品、注重细节，你可以在任何正式场合都保持得体和优雅。记住，真正的elegance不在于炫耀，而在于对传统的尊重和对细节的关注。一套合身的正装配上得体的举止，将让你成为任何场合的焦点。"
+      conclusion: "Formal occasion dressing is respect for hosts and occasions. By understanding rules, investing in quality formal wear pieces, and paying attention to details, you can maintain appropriateness and elegance at any formal occasion. Remember, true elegance is not about showing off, but about respecting tradition and paying attention to details. A well-fitted formal outfit with proper demeanor will make you the center of attention at any occasion."
     }
   },
   {
     slug: "mens-summer-style-guide",
-    title: "夏日清爽造型指南",
-    date: "2025年12月9日",
-    excerpt: "炎炎夏日，如何在保持清凉的同时展现优雅品味？掌握这些夏季穿搭技巧...",
+    title: "Summer Fresh Style Guide",
+    date: "December 9, 2025",
+    excerpt: "In the scorching summer, how to stay cool while showcasing elegant taste? Master these summer styling techniques...",
     image: mensSummerStyleHero,
     content: {
-      intro: "夏季着装的挑战在于平衡舒适和风格。在炎热的天气中，选择合适的面料和款式既能保持清凉，又能展现良好的品味。夏季是展现轻松优雅风格的最佳时机，通过巧妙的搭配，你可以在任何场合都保持清爽得体。",
+      intro: "The challenge of summer dressing lies in balancing comfort and style. In hot weather, choosing appropriate fabrics and styles allows you to stay cool while displaying good taste. Summer is the best time to showcase relaxed elegant style; through clever pairings, you can maintain fresh appropriateness in any setting.",
       sections: [
         {
-          heading: "亚麻的清凉魅力",
-          content: "亚麻是夏季最理想的面料。白色亚麻短袖衬衫配米色亚麻长裤，创造出完美的度假风格。亚麻的自然褶皱赋予它独特的魅力——不要试图熨烫得太平整，自然的质感更有品味。搭配棕色皮腰带、简约腕表和草编帽，完善整体造型。选择浅色调，它们反射阳光，帮助保持凉爽。",
+          heading: "The Cool Charm of Linen",
+          content: "Linen is the ideal fabric for summer. White linen short-sleeve shirt paired with beige linen pants creates the perfect vacation style. Linen's natural wrinkles give it unique charm—don't try to iron it too flat; natural texture has more taste. Pair with brown leather belt, minimalist watch, and straw hat to complete the overall look. Choose light tones that reflect sunlight, helping maintain coolness.",
           image: mensSummerLinen
         },
         {
-          heading: "度假风格搭配",
-          content: "度假着装可以更加轻松随性。灰色Polo衫配米色短裤和船鞋，展现出优雅的海滨风格。太阳镜和腕表是必备配饰，既实用又增添型格。选择高质量的Polo衫——领子应该挺括，纽扣位置合适。短裤长度应该到膝盖上方几厘米，既不会太短也不会显得老气。",
+          heading: "Vacation Style Pairings",
+          content: "Vacation dressing can be more relaxed and casual. Grey polo shirt paired with beige shorts and boat shoes showcases elegant seaside style. Sunglasses and watches are essential accessories, both practical and adding style. Choose high-quality polo shirts—collars should be crisp, button placement appropriate. Shorts length should reach a few centimeters above the knees, neither too short nor appearing dated.",
           image: mensResortWear
         },
         {
-          heading: "夏季配饰",
-          content: "夏季配饰应该轻便实用。草编巴拿马帽提供防晒保护，皮革凉鞋既舒适又时尚，帆布手提包轻便又有型，飞行员太阳镜保护眼睛。选择天然材质的配饰，它们透气且环保。记住，夏季配饰应该简约——避免过多的金属配饰，它们在阳光下会变得很热。",
+          heading: "Summer Accessories",
+          content: "Summer accessories should be lightweight and practical. Woven Panama hat provides sun protection, leather sandals are both comfortable and fashionable, canvas tote bag is lightweight and stylish, aviator sunglasses protect eyes. Choose natural material accessories that are breathable and eco-friendly. Remember, summer accessories should be minimalist—avoid excessive metal accessories that become hot in sunlight.",
           image: mensSummerAccessories
         }
       ],
-      conclusion: "夏季着装的精髓在于简约和舒适。通过选择合适的面料、浅色调和透气的款式，你可以在炎热的天气中保持清爽优雅。投资几件高质量的夏季基础单品，它们会陪伴你多个夏季。记住，真正的夏日风格不在于复杂的搭配，而在于自然和轻松的态度。"
+      conclusion: "The essence of summer dressing lies in simplicity and comfort. By choosing appropriate fabrics, light tones, and breathable styles, you can maintain fresh elegance in hot weather. Invest in several high-quality summer basic pieces that will accompany you through multiple summers. Remember, true summer style is not about complex pairings but about natural and relaxed attitude."
     }
   }
 ];

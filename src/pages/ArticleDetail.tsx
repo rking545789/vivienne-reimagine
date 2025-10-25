@@ -6,10 +6,11 @@ import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
 import { articlesData } from "@/data/articles";
+import { mensArticlesData } from "@/data/mensArticles";
 
 const ArticleDetail = () => {
   const { slug } = useParams();
-  const article = articlesData.find(a => a.slug === slug);
+  const article = articlesData.find(a => a.slug === slug) || mensArticlesData.find(a => a.slug === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);

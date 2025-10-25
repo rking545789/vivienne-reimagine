@@ -71,10 +71,10 @@ const MensFashion = () => {
       <main className="flex-1 max-w-7xl mx-auto px-4 py-12 w-full">
         <div className="mb-12 text-center">
           <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            男士时尚穿搭
+            Men's Fashion Style
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            探索男士穿搭的无限可能，从商务正装到休闲街头，打造属于你的独特风格
+            Explore endless possibilities in men's styling, from business formal to casual street wear, creating your unique style
           </p>
         </div>
 
