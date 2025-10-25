@@ -95,6 +95,37 @@ import athleisureLuxury1 from "@/assets/article/athleisure-luxury-1.jpg";
 import athleisureMinimal1 from "@/assets/article/athleisure-minimal-1.jpg";
 import athleisureFlatlay1 from "@/assets/article/athleisure-flatlay-1.jpg";
 
+// Seasonal Essentials & International Style - Hero Images
+import autumnCoatsHero from "@/assets/autumn-coats-hero.jpg";
+import winterLayeringHero from "@/assets/winter-layering-hero.jpg";
+import springTransition from "@/assets/spring-transition.jpg";
+import minimalistColorHero from "@/assets/minimalist-color-hero.jpg";
+import frenchStyleHero from "@/assets/french-style.jpg";
+
+// Seasonal Essentials & International Style - Detail Images
+import springLayers from "@/assets/article/spring-layers.jpg";
+import winterStructured from "@/assets/article/winter-structured.jpg";
+import winterLayers from "@/assets/article/winter-layers.jpg";
+import coatWool from "@/assets/article/coat-wool.jpg";
+import winterVertical from "@/assets/article/winter-vertical.jpg";
+import summerLinen from "@/assets/article/summer-linen.jpg";
+import minimalistMono from "@/assets/article/minimalist-mono.jpg";
+import minimalistColor from "@/assets/article/minimalist-color.jpg";
+import minimalistLayers1 from "@/assets/article/minimalist-layers-1.jpg";
+import minimalistLayers2 from "@/assets/article/minimalist-layers-2.jpg";
+import frenchStripes from "@/assets/article/french-stripes.jpg";
+import frenchTrench from "@/assets/article/french-trench.jpg";
+import frenchAccessories from "@/assets/article/french-accessories.jpg";
+import navyWhiteStyling from "@/assets/article/navy-white-styling.jpg";
+import coatTrench from "@/assets/article/coat-trench.jpg";
+import whiteShirtOffice from "@/assets/article/white-shirt-office.jpg";
+import minimalistLayers3 from "@/assets/article/minimalist-layers-3.jpg";
+import bagsDisplay1 from "@/assets/article/bags-display-1.jpg";
+import weekendOutfit from "@/assets/article/weekend-outfit.jpg";
+import denimCollection from "@/assets/article/denim-collection.jpg";
+import styleClassic from "@/assets/article/style-classic.jpg";
+import styleModern from "@/assets/article/style-modern.jpg";
+
 export interface MensArticle {
   slug: string;
   title: string;
@@ -113,6 +144,336 @@ export interface MensArticle {
 }
 
 export const mensArticlesData: MensArticle[] = [
+  {
+    slug: "fall-winter-coats-scarves",
+    title: "Fall/Winter Essentials: 10 Ways to Pair Coats and Scarves Like a Pro",
+    date: "January 5, 2026",
+    excerpt: "Master the art of layering with coats and scarves. Discover 10 sophisticated combinations that keep you warm while looking effortlessly stylish...",
+    image: autumnCoatsHero,
+    content: {
+      intro: "As temperatures drop, mastering the art of pairing coats with scarves becomes essential. This classic combination offers endless styling possibilities—from casual weekend wear to business-appropriate outfits. The key is understanding how different coat styles work with various scarf materials and wrapping techniques. Let's explore ten professional ways to elevate your cold-weather style.",
+      sections: [
+        {
+          heading: "The Classic Camel and Plaid",
+          content: "A camel wool coat paired with a traditional plaid scarf creates timeless elegance. This combination works beautifully for both casual and business settings. Choose a lightweight wool or cashmere scarf in complementary earth tones—burgundy, forest green, or navy blue. The Parisian knot wrapping style adds sophistication while providing warmth. Pair with dark jeans or tailored trousers for a polished look that transitions seamlessly from office to evening.",
+          image: mensTrenchCoat
+        },
+        {
+          heading: "Luxury Coat Collection",
+          content: "Building a quality coat collection requires investment in versatile pieces. A classic wool overcoat in charcoal or navy serves as your foundation. Add a camel trench for transitional weather and a structured parka for extreme cold. Quality matters—look for 100% wool or wool-cashmere blends that will last for years. Each coat should fit perfectly through the shoulders with enough room for layering underneath. Proper care, including regular dry cleaning and proper storage, extends their lifespan.",
+          image: mensCoatDetails
+        },
+        {
+          heading: "Layering Mastery",
+          content: "The secret to cold-weather style is strategic layering. Start with a quality base layer, add a wool sweater or cardigan, then finish with your coat. Your scarf should complement this combination while adding a pop of color or pattern. Practice the drape method for casual occasions and the European loop for business settings. The key is ensuring each layer fits properly—bulky clothes underneath ruin the silhouette of even the finest coats.",
+          image: mensWinterLayers
+        },
+        {
+          heading: "Accessory Excellence",
+          content: "Complete your winter look with coordinated accessories. Leather gloves in brown or black match your shoes and belt. A wool beanie or felt fedora adds personality while providing warmth. Quality matters in accessories—invest in genuine leather and natural fibers. Store them properly during warmer months to maintain their condition. These finishing touches transform a basic coat-and-scarf combination into a complete, sophisticated outfit.",
+          image: mensLeatherAccessories
+        }
+      ],
+      conclusion: "Mastering coat and scarf combinations is about understanding proportion, color, and occasion. Start with quality basics and build your collection gradually. Pay attention to how different materials work together—heavy wool coats with lightweight silk scarves, casual denim jackets with chunky knit scarves. With these ten combinations as your foundation, you'll navigate every cold-weather situation with confidence and style."
+    }
+  },
+  {
+    slug: "mens-summer-style-guide",
+    title: "Stay Cool & Stylish: Men's Summer Outfits That Actually Work",
+    date: "January 4, 2026",
+    excerpt: "Beat the heat without sacrificing style. Explore practical summer outfit ideas that keep you comfortable and looking sharp in warm weather...",
+    image: mensSummerStyleHero,
+    content: {
+      intro: "Summer dressing presents a unique challenge: staying cool while looking polished. The key is choosing the right fabrics, fits, and combinations. Lightweight materials, breathable weaves, and smart layering make all the difference. These summer outfit ideas prove you don't have to choose between comfort and style—you can have both.",
+      sections: [
+        {
+          heading: "Linen Luxury",
+          content: "Linen is summer's best friend. A white linen shirt paired with beige linen pants creates a sophisticated, breathable outfit perfect for hot days. The natural fabric regulates temperature while looking effortlessly elegant. Embrace linen's natural wrinkles—they're part of its charm. Brown leather loafers and a simple watch complete this Mediterranean-inspired look. This combination works for beach vacations, outdoor weddings, or upscale casual summer events.",
+          image: mensSummerLinen
+        },
+        {
+          heading: "Resort Perfection",
+          content: "Master resort wear with a crisp polo shirt and tailored shorts in complementary colors. Choose performance fabrics that wick moisture while maintaining a polished appearance. This look works for golf outings, boat parties, or poolside lunches. Leather boat shoes or refined sandals keep things sophisticated. A quality watch and sunglasses elevate the entire ensemble. The key is ensuring your shorts hit just above the knee and your polo fits well through the shoulders.",
+          image: mensResortWear
+        },
+        {
+          heading: "Summer Accessories Essential",
+          content: "Summer accessories make or break your look. Quality sunglasses protect your eyes while adding style—choose classic aviators or wayfarers. A leather watch with a light-colored strap suits warm weather better than heavy metal bracelets. A straw panama hat adds character to casual outfits. Keep accessories minimal and functional—less is more in heat. Invest in a quality leather belt and matching shoes in tan or cognac brown for maximum versatility.",
+          image: mensSunglasses
+        },
+        {
+          heading: "Active Summer Style",
+          content: "Summer activities demand functional fashion. Performance polo shirts in breathable fabrics keep you cool during active days. Pair with lightweight shorts or moisture-wicking pants for ultimate comfort. Athletic shoes have evolved—modern options offer both performance and style. This athletic-casual fusion works for everything from morning runs to casual weekend activities. Choose neutral colors for maximum versatility and ensure everything fits properly for a put-together appearance.",
+          image: mensSportswear
+        }
+      ],
+      conclusion: "Summer style is about smart choices and quality materials. Invest in breathable fabrics, proper fits, and versatile pieces that mix and match easily. Remember that looking good in summer means staying comfortable—forced style in oppressive heat never works. Master these fundamental combinations and adapt them to your personal taste and lifestyle. Your summer wardrobe should make getting dressed easy while keeping you cool and confident all season long."
+    }
+  },
+  {
+    slug: "spring-layering-refresh",
+    title: "Spring Refresh: Layering Ideas to Upgrade Your Look This Season",
+    date: "January 3, 2026",
+    excerpt: "Transition your wardrobe into spring with smart layering techniques that handle unpredictable weather while keeping you stylish...",
+    image: springTransition,
+    content: {
+      intro: "Spring weather is notoriously unpredictable—warm afternoons follow chilly mornings. Mastering spring layering means creating outfits that adapt throughout the day. The secret is choosing pieces that work well together and can be easily removed or added as temperatures change. Let's explore layering strategies that keep you comfortable and stylish all spring long.",
+      sections: [
+        {
+          heading: "The Cardigan Solution",
+          content: "A quality cardigan is spring's MVP. Layer it over a simple t-shirt or button-down with jeans for versatile style. Choose neutral colors like grey, navy, or camel that work with everything. The cardigan provides warmth during cooler moments and looks intentional when draped over shoulders during warmer hours. Fit matters—the cardigan should follow your body line without being tight. Pair with minimal white sneakers for a clean, modern spring look.",
+          image: springLayers
+        },
+        {
+          heading: "Lightweight Jacket Mastery",
+          content: "Spring demands lightweight outer layers. A bomber jacket or Harrington jacket in neutral tones works over almost anything—dress shirts, t-shirts, or sweaters. These versatile pieces provide just enough warmth without bulk. The key is choosing quality materials that drape well and resist wrinkles. Modern fits should be trim through the body with sleeves ending at your wrist bone. This layer works for everything from weekend errands to casual Friday at the office.",
+          image: mensLeatherJacket
+        },
+        {
+          heading: "Smart Casual Spring",
+          content: "Master smart casual spring dressing with a blazer over a casual shirt and chinos. This combination handles temperature changes beautifully—remove the blazer when warm, add it back when cool. Choose unstructured blazers in cotton or linen blends for a relaxed spring feel. Loafers or clean leather sneakers keep the look polished without being too formal. This outfit works for outdoor events, casual work days, or spring social occasions.",
+          image: mensSmartCasual
+        },
+        {
+          heading: "Building Your Spring Wardrobe",
+          content: "A functional spring wardrobe requires strategic pieces. Start with quality basics: lightweight jackets in neutral colors, versatile cardigans, and well-fitted shirts. Add seasonal colors—soft pastels or fresh whites—to brighten winter-weary wardrobes. Everything should layer well together, allowing multiple combinations from few pieces. Focus on transitional items that work in various temperatures. Proper layering means you're prepared for any spring weather surprise.",
+          image: mensCasualFlatlay
+        }
+      ],
+      conclusion: "Spring layering is about flexibility and foresight. Build your wardrobe around versatile pieces that work together seamlessly. Quality matters more than quantity—five perfect pieces create more outfits than twenty mediocre ones. Master these layering techniques and you'll navigate spring's weather challenges with ease and style. Remember, the best-dressed people aren't those with the most clothes, but those who understand how to combine what they have effectively."
+    }
+  },
+  {
+    slug: "winter-layering-warm-stylish",
+    title: "Winter Layers Done Right: Stay Warm Without Losing Style",
+    date: "January 2, 2026",
+    excerpt: "Conquer winter weather with expert layering techniques that maintain your style while providing maximum warmth...",
+    image: winterLayeringHero,
+    content: {
+      intro: "Winter layering is an art form. Done correctly, it keeps you warm while maintaining a streamlined silhouette. The challenge is adding warmth without bulk. The secret lies in understanding fabric weights, proper fit, and strategic combinations. Master these winter layering principles and you'll stay warm and stylish even in the coldest weather.",
+      sections: [
+        {
+          heading: "The Foundation of Warmth",
+          content: "Successful winter layering starts with a quality base. A fitted merino wool turtleneck provides warmth without bulk, creating a smooth foundation for additional layers. Add a quilted vest for core warmth—this provides insulation where you need it most. Top with a structured wool overcoat that completes the silhouette. This combination keeps you warm while maintaining clean lines. Choose colors that work together—navy, grey, and black create sophisticated combinations.",
+          image: winterStructured
+        },
+        {
+          heading: "Texture and Material Mastery",
+          content: "Understanding fabric properties transforms winter dressing. Merino wool regulates temperature while remaining breathable. Cashmere provides luxury and warmth. Down or synthetic insulation offers maximum warmth with minimal weight. Layer these strategically—base layers wick moisture, mid-layers insulate, outer layers protect from elements. Quality materials make all the difference—invest in the best you can afford. Proper care extends their lifespan and maintains their insulating properties.",
+          image: winterLayers
+        },
+        {
+          heading: "The Perfect Winter Coat",
+          content: "Your winter coat is your most important investment. A quality wool overcoat in charcoal or navy serves multiple purposes—business meetings, formal events, or weekend wear. Ensure proper fit through the shoulders with enough room for layers underneath. Length should hit mid-thigh for optimal coverage and proportion. Pair with a coordinating scarf and leather gloves. Quality construction means this piece lasts for years, making the investment worthwhile.",
+          image: coatWool
+        },
+        {
+          heading: "Accessorizing for Function",
+          content: "Winter accessories serve both purpose and style. A quality wool scarf protects against cold while adding visual interest. Leather gloves keep hands warm while maintaining sophistication. Choose accessories that complement your coat rather than compete with it. Everything should coordinate—black coat with black gloves, brown shoes with brown belt. These details elevate your winter wardrobe from functional to fashionable.",
+          image: winterVertical
+        }
+      ],
+      conclusion: "Winter layering success requires planning and quality pieces. Invest in versatile items that work together seamlessly. Focus on fit—even the warmest layers fail if they don't fit properly. Master these techniques and winter becomes an opportunity to showcase sophisticated style rather than a challenge to overcome. Remember, the best winter outfits keep you warm without looking bulky—it's about smart choices, not more clothes."
+    }
+  },
+  {
+    slug: "summer-head-to-toe-guide",
+    title: "Head-to-Toe Summer Style Guide for the Modern Man",
+    date: "January 1, 2026",
+    excerpt: "A comprehensive guide to summer dressing, from sunglasses to shoes, ensuring you look polished in every detail...",
+    image: mensAccessoriesHero,
+    content: {
+      intro: "Complete summer style requires attention to every detail. From your sunglasses to your shoes, each element contributes to your overall look. This head-to-toe approach ensures consistency and sophistication. Let's break down every component of a well-dressed summer look, providing practical guidance for each element.",
+      sections: [
+        {
+          heading: "The Complete Package",
+          content: "A perfect summer outfit starts from the top. Quality sunglasses protect your eyes while defining your style—classic aviators or wayfarers work with most face shapes. A printed shirt in breathable fabric adds personality without being overwhelming. Tailored shorts in neutral tones keep things sophisticated. Finish with leather sandals or canvas espadrilles. This combination works for beach vacations, outdoor dining, or summer social events. The key is ensuring each element complements the others.",
+          image: mensCasualShirt
+        },
+        {
+          heading: "Elevated Summer Essentials",
+          content: "Take summer style to the next level with refined details. A straw panama hat adds character and sun protection. A linen shirt in crisp white or soft blue provides breathability and style. Well-fitted linen pants in beige or light grey complete the sophisticated look. Brown leather loafers elevate the entire outfit. Carry a quality leather tote bag for functionality without sacrificing style. This elevated approach works for upscale summer events or resort wear.",
+          image: summerLinen
+        },
+        {
+          heading: "Footwear Foundations",
+          content: "Summer shoes range from casual to refined. Canvas espadrilles work for beach settings, leather loafers suit upscale occasions, and quality boat shoes bridge casual and smart-casual. Invest in versatile pieces in neutral colors—tan, navy, or white work with most summer outfits. Ensure proper fit—summer shoes often mean bare feet or no-show socks, so comfort is crucial. Clean, well-maintained footwear elevates any summer look.",
+          image: mensDressShoes
+        },
+        {
+          heading: "Essential Accessories",
+          content: "Summer accessories should be minimal but impactful. A quality leather watch with a light strap suits warm weather. Sunglasses are non-negotiable—protect your eyes with polarized lenses. A simple leather bracelet adds personality without overwhelming. Choose a structured leather bag for carrying essentials. Everything should coordinate with your overall color palette. Less is more in summer—choose quality pieces that make a statement through craftsmanship rather than quantity.",
+          image: mensLuxuryWatch
+        }
+      ],
+      conclusion: "Complete summer style comes from coordinating every element of your outfit. Pay attention to proportions, colors, and quality at every level. Invest in versatile pieces that work across multiple outfits. Remember that details matter—clean shoes, well-maintained accessories, and proper grooming complete any look. Master this head-to-toe approach and you'll look polished and put-together throughout the entire summer season."
+    }
+  },
+  {
+    slug: "japanese-minimalist-style",
+    title: "The Clean Japanese Look: Minimalism Meets Elegance",
+    date: "December 31, 2025",
+    excerpt: "Discover the principles of Japanese minimalist fashion—where simplicity, quality, and attention to detail create effortlessly elegant style...",
+    image: minimalistColorHero,
+    content: {
+      intro: "Japanese minimalist fashion embodies the principle that less is more. This approach to dressing focuses on quality, fit, and subtle details rather than bold statements. Clean lines, neutral colors, and impeccable tailoring create a sophisticated aesthetic that transcends trends. Let's explore how to adopt this refined approach to personal style.",
+      sections: [
+        {
+          heading: "Monochrome Mastery",
+          content: "Japanese minimalism often embraces monochrome palettes. A simple white shirt with straight black pants creates a clean, powerful silhouette. The key is ensuring perfect fit—minimalist style leaves no room for sloppy tailoring. Minimal white sneakers complete the look without distraction. This approach works for both casual and semi-formal settings. The beauty lies in simplicity—no logos, no patterns, just pure form and function working in harmony.",
+          image: minimalistMono
+        },
+        {
+          heading: "Quality Over Quantity",
+          content: "Japanese minimalism prioritizes quality materials and construction. A wardrobe of 20 perfect pieces beats 100 mediocre ones. Focus on natural fabrics—quality cotton, linen, and wool in neutral tones. Each piece should be versatile enough to combine with multiple items. This curated approach simplifies getting dressed while elevating your overall style. Invest in timeless basics that last for years rather than trendy pieces that quickly date.",
+          image: minimalistColor
+        },
+        {
+          heading: "Structured Simplicity",
+          content: "Japanese style balances structure with comfort. An oversized coat over a simple turtleneck creates interesting proportions while maintaining clean lines. Wide-leg trousers paired with fitted tops demonstrate understanding of balance. This approach to styling shows sophistication through silhouette rather than decoration. Everything should appear effortless while being carefully considered. The goal is looking put-together without appearing like you tried too hard.",
+          image: minimalistLayers1
+        },
+        {
+          heading: "Minimal Accessories",
+          content: "In Japanese minimalism, accessories should be functional and refined. A simple watch, quality leather wallet, and minimal keychain suffice. Choose pieces with clean design and superior craftsmanship. Everything should have purpose—nothing decorative or excessive. This restraint demonstrates confidence and understanding of true style. Focus on natural materials and simple forms. The absence of unnecessary items allows essential pieces to shine.",
+          image: minimalistLayers2
+        }
+      ],
+      conclusion: "Japanese minimalist style teaches us that true elegance comes from restraint and quality. It's not about having less—it's about having exactly what you need in the best possible quality. This approach simplifies your wardrobe while elevating your style. Master these principles and you'll discover that fewer, better choices lead to more confidence and more sophisticated personal style. Embrace simplicity as strength, not limitation."
+    }
+  },
+  {
+    slug: "french-effortless-sophistication",
+    title: "French Men's Style: The Secret to Effortless Sophistication",
+    date: "December 30, 2025",
+    excerpt: "Unlock the secrets of French men's style—where casual elegance, quality basics, and subtle confidence create timeless appeal...",
+    image: frenchStyleHero,
+    content: {
+      intro: "French men's style is synonymous with effortless sophistication. The French approach to dressing emphasizes quality over quantity, perfect fit over following trends, and confidence over costume. This style philosophy creates looks that appear casual yet polished, simple yet sophisticated. Let's explore the fundamental principles that make French men's style so universally appealing.",
+      sections: [
+        {
+          heading: "The Breton Stripe Foundation",
+          content: "Nothing says French style like the classic Breton stripe shirt. This versatile piece works under blazers for smart-casual occasions or alone with chinos for relaxed elegance. The key is choosing quality—look for substantial cotton that holds its shape. Pair with a navy blazer and beige chinos for quintessential French style. Brown leather loafers or minimal white sneakers complete the look. This combination epitomizes effortless French sophistication—simple, timeless, and always appropriate.",
+          image: frenchStripes
+        },
+        {
+          heading: "The Trench Coat Icon",
+          content: "Every French wardrobe includes a classic trench coat. This versatile piece works over suits for business or casual wear for weekends. Choose a neutral color—beige, navy, or olive. Proper fit is crucial—the coat should follow your body line without being tight. Pair with a white shirt and dark jeans for casual sophistication, or with a suit for business elegance. The trench coat represents French style's ability to be both practical and elegant.",
+          image: frenchTrench
+        },
+        {
+          heading: "Quality Accessories",
+          content: "French men understand that details matter. A quality leather watch, simple jewelry, and well-maintained shoes complete any outfit. Accessories should be understated but impeccable—no flashy logos or excessive decoration. Choose classic designs in quality materials that improve with age. A leather watch strap beats metal bracelets. Simple design beats elaborate complications. This restraint demonstrates confidence and understanding of true style.",
+          image: frenchAccessories
+        },
+        {
+          heading: "The Art of Casual Elegance",
+          content: "French style's genius lies in combining casual items with refined pieces. A white shirt worn untucked with rolled sleeves paired with navy pants demonstrates this perfectly. The shirt should be quality cotton with perfect fit through the shoulders. Navy pants should be well-tailored but comfortable. Brown leather loafers complete the look. This outfit works for everything from lunch meetings to evening drinks. It's professional without being stuffy, casual without being sloppy.",
+          image: navyWhiteStyling
+        }
+      ],
+      conclusion: "French men's style teaches us that true sophistication comes from confidence, quality, and restraint. It's not about following fashion—it's about knowing yourself and dressing accordingly. The French approach prioritizes timeless pieces over trends, perfect fit over fashion statements, and subtle elegance over obvious luxury. Master these principles and you'll develop a personal style that's both distinctive and timeless. Remember: the goal is to look like you didn't try too hard while looking effortlessly put-together."
+    }
+  },
+  {
+    slug: "korean-fresh-polished-style",
+    title: "Korean Men's Fashion Guide: The Power of a Fresh, Polished Look",
+    date: "December 29, 2025",
+    excerpt: "Explore Korean men's fashion aesthetics—where modern silhouettes, layered styling, and fresh details create sophisticated contemporary looks...",
+    image: mensCoatStylingHero,
+    content: {
+      intro: "Korean men's fashion has gained global recognition for its fresh, polished aesthetic. This style combines modern silhouettes with traditional tailoring, oversized fits with structured pieces, and streetwear elements with refined details. The result is contemporary fashion that feels both accessible and sophisticated. Let's explore the key elements that define Korean men's style.",
+      sections: [
+        {
+          heading: "Oversized Sophistication",
+          content: "Korean fashion embraces oversized silhouettes. A structured coat worn over a hoodie with wide-leg pants creates interesting proportions while maintaining sophistication. The key is ensuring the oversized pieces are intentional, not sloppy—structured shoulders and quality fabrics make all the difference. This look works for creative industries and fashion-forward settings. Finish with minimal sneakers or chelsea boots. The oversized approach challenges traditional proportions while maintaining polished appearance.",
+          image: coatTrench
+        },
+        {
+          heading: "Fresh and Clean",
+          content: "Korean style emphasizes freshness and cleanliness. A crisp white shirt with well-tailored trousers creates a polished, modern look. Everything should be impeccably clean and pressed. Fit should be modern—slightly tapered pants, fitted through the torso. This clean aesthetic works for professional and casual settings. Add quality sunglasses and a minimal watch for sophistication. The beauty of this look lies in its simplicity and attention to detail.",
+          image: whiteShirtOffice
+        },
+        {
+          heading: "Strategic Layering",
+          content: "Korean fashion masters layering. A turtleneck under a vest, topped with a structured coat demonstrates this perfectly. Each layer should be visible and intentional, creating depth and visual interest. Colors should coordinate—stick to neutral palettes for sophistication. This approach to layering works in transitional seasons and adds style to simple basics. The key is maintaining proportions—fitted base layers, structured outer layers.",
+          image: minimalistLayers3
+        },
+        {
+          heading: "Modern Accessories",
+          content: "Korean style accessories blend function and fashion. A structured crossbody bag or minimal backpack provides practicality without sacrificing style. Choose clean designs in quality materials. Minimal jewelry—simple chain necklace or classic watch—adds personality without overwhelming. Everything should feel modern and fresh. Accessories in Korean style serve purpose while contributing to the overall aesthetic. Quality and design matter more than brand names.",
+          image: bagsDisplay1
+        }
+      ],
+      conclusion: "Korean men's fashion offers a fresh perspective on contemporary style. It challenges traditional proportions while maintaining sophistication, blends streetwear with formal elements, and prioritizes freshness and modernity. This approach to dressing feels current and forward-thinking while remaining accessible. Master these principles to develop a contemporary style that stands out while remaining refined. Remember, Korean fashion is about confidence in your choices and expressing personality through modern silhouettes and clean aesthetics."
+    }
+  },
+  {
+    slug: "american-casual-street-style",
+    title: "American Casual Comeback: How to Nail the Easygoing Street Look",
+    date: "December 28, 2025",
+    excerpt: "Rediscover American casual style—where denim, t-shirts, and classic sneakers create the relaxed, confident look that defined a generation...",
+    image: mensWeekendStyleHero,
+    content: {
+      intro: "American casual style is making a major comeback. This relaxed approach to dressing emphasizes comfort, durability, and effortless cool. Denim jackets, classic t-shirts, and quality sneakers form the foundation of this timeless aesthetic. It's about looking good without trying too hard, expressing individuality through authentic choices, and embracing the laid-back confidence that defines American style.",
+      sections: [
+        {
+          heading: "Denim Foundation",
+          content: "American style is built on denim. A classic denim jacket paired with a graphic t-shirt and chinos creates the quintessential American casual look. Choose a well-fitted jacket—not too tight, not too loose. Quality denim improves with age, developing character through wear. Pair with clean white sneakers for modern appeal or leather boots for rugged style. This combination works for everything from weekend errands to casual social occasions.",
+          image: mensWeekendCasual
+        },
+        {
+          heading: "Relaxed Weekend Style",
+          content: "Master weekend wear with a plaid flannel shirt over a white tee and jeans. This classic American combination balances casual comfort with put-together style. The flannel should be quality cotton with substantial weight. Jeans should fit well without being tight. Add work boots or casual sneakers depending on the occasion. This look represents American casual at its best—functional, comfortable, and effortlessly stylish. Perfect for outdoor activities or relaxed social settings.",
+          image: weekendOutfit
+        },
+        {
+          heading: "The Denim Collection",
+          content: "Build a versatile denim collection. Include classic blue jeans, a denim jacket, and perhaps a chambray shirt. These pieces work individually or together (breaking the old no-denim-on-denim rule). Quality matters—look for durable construction and substantial denim. Proper fit is crucial. Everything should coordinate with basic tees, sneakers, and casual accessories. This curated approach to denim creates multiple outfits from few pieces.",
+          image: denimCollection
+        },
+        {
+          heading: "Sneaker Culture",
+          content: "Sneakers are central to American casual style. Quality leather sneakers in white or classic colorways work with almost any casual outfit. They should be clean and well-maintained—scuffed shoes ruin even great outfits. Choose timeless designs over trendy styles. Proper fit ensures comfort and style. Sneakers elevate casual looks while maintaining the relaxed American aesthetic. Invest in quality pairs that last and remain style-relevant for years.",
+          image: mensSneakerStyle
+        }
+      ],
+      conclusion: "American casual style represents confidence, comfort, and authenticity. It's not about following rules—it's about knowing what works for you and wearing it with ease. This style has endured because it's practical, versatile, and genuinely cool. Master these fundamentals and you'll develop a personal take on American casual that feels both classic and contemporary. Remember, the best American casual looks appear effortless because they're built on quality basics worn with genuine confidence."
+    }
+  },
+  {
+    slug: "retro-vintage-modern-menswear",
+    title: "Retro Revival: Channeling Vintage Vibes into Modern Menswear",
+    date: "December 27, 2025",
+    excerpt: "Learn to incorporate vintage-inspired pieces into modern outfits—creating looks that honor the past while feeling contemporary and fresh...",
+    image: mensBusinessCasualHero,
+    content: {
+      intro: "Vintage-inspired fashion offers a way to stand out while honoring classic style. The key is selectively incorporating retro elements into modern outfits rather than creating costume-like looks. Understanding which vintage elements work today and how to blend them with contemporary pieces creates distinctive style that feels both nostalgic and current.",
+      sections: [
+        {
+          heading: "70s Inspiration",
+          content: "The 1970s offered bold style that translates well to modern wear. Wide collar shirts in warm colors paired with flared pants create authentic retro vibes. The key is modernizing proportions—contemporary fits prevent costume territory. Choose quality fabrics and subtle patterns for sophistication. Platform shoes or chunky sneakers complete the look. This approach works for creative settings and fashion-forward occasions. Balance vintage silhouettes with modern grooming and accessories for best results.",
+          image: styleClassic
+        },
+        {
+          heading: "Classic Denim Heritage",
+          content: "Vintage denim styling never goes out of fashion. A classic denim jacket and jeans combination represents timeless American style. The key is choosing quality denim with character—look for substantial weight and traditional construction. Pair with retro-inspired t-shirts and classic accessories. The beauty of denim is its versatility—it works casual or dressed up. Add a vintage watch or classic sunglasses for authentic period touches. This look honors denim's heritage while remaining completely wearable today.",
+          image: mensDoubleDenim
+        },
+        {
+          heading: "Vintage Accessories",
+          content: "Accessories offer the easiest way to incorporate vintage style. A classic watch, retro sunglasses, or vintage-style leather goods add character without overwhelming modern outfits. Choose pieces with authentic design details and quality construction. These accessories work with contemporary clothing, adding personality and distinction. The key is selecting items that complement rather than compete with your outfit. Vintage-inspired accessories demonstrate attention to detail and appreciation for classic design.",
+          image: mensFormalAccessories
+        },
+        {
+          heading: "Modern Vintage Fusion",
+          content: "Successfully blending vintage and modern requires understanding proportion and context. A retro-inspired silhouette works best with contemporary fabrics and modern fits. Vintage patterns pair well with modern basics. The goal is creating looks that feel inspired by the past without being dated. This approach demonstrates style sophistication—you're not following trends, you're creating your own timeless aesthetic. Balance is key—too much vintage becomes costume, too little loses the intended character.",
+          image: styleModern
+        }
+      ],
+      conclusion: "Incorporating vintage elements into modern style creates distinctive, personal fashion. It's about selective inspiration, not accurate recreation. Choose specific vintage elements—a silhouette, a pattern, an accessory—and blend them with contemporary pieces. This approach honors fashion history while remaining relevant and wearable. Master this balance and you'll develop a unique style that stands out while remaining sophisticated and current. Remember, the best vintage-inspired looks feel authentic to you, not borrowed from another era."
+    }
+  },
   {
     slug: "sharp-at-work-office-outfits",
     title: "Sharp at Work: 10 Office Outfits That Redefine Business Style",
