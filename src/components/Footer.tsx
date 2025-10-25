@@ -1,4 +1,5 @@
 import logoNew from "@/assets/logo-new.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,6 +13,26 @@ const Footer = () => {
             alt="The Style Chronicles" 
             className="h-12 w-auto"
           />
+          <nav className="flex gap-6 text-sm">
+            <Link 
+              to="/privacy-policy" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link 
+              to="/contact" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Contact
+            </Link>
+            <Link 
+              to="/about" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              About
+            </Link>
+          </nav>
           <p className="text-center text-sm text-muted-foreground">
             © {currentYear} thestylechronicles.com. All rights reserved.
           </p>
