@@ -127,6 +127,60 @@ import denimCollection from "@/assets/article/denim-collection.jpg";
 import styleClassic from "@/assets/article/style-classic.jpg";
 import styleModern from "@/assets/article/style-modern.jpg";
 
+// Occasion & Lifestyle Series - Hero Images
+import dateNightStyleHero from "@/assets/date-night-style-hero.jpg";
+import travelSmartHero from "@/assets/travel-smart-hero.jpg";
+import partyReadyHero from "@/assets/party-ready-hero.jpg";
+import cameraFriendlyHero from "@/assets/camera-friendly-hero.jpg";
+import jobInterviewHero from "@/assets/job-interview-hero.jpg";
+import mensAccessories101Hero from "@/assets/mens-accessories-101-hero.jpg";
+import shoeGameHero from "@/assets/shoe-game-hero.jpg";
+import colorMatchingHero from "@/assets/color-matching-hero.jpg";
+import bodyTypeHero from "@/assets/body-type-hero.jpg";
+import cleanStyleHero from "@/assets/clean-style-hero.jpg";
+
+// Occasion & Lifestyle Series - Detail Images
+import dateNightCasual from "@/assets/article/date-night-casual.jpg";
+import dateNightFormal from "@/assets/article/date-night-formal.jpg";
+import dateAccessories from "@/assets/article/date-accessories.jpg";
+import dateSmartCasual from "@/assets/article/date-smart-casual.jpg";
+import travelFlatlay from "@/assets/article/travel-flatlay.jpg";
+import travelComfort from "@/assets/article/travel-comfort.jpg";
+import travelAccessories from "@/assets/article/travel-accessories.jpg";
+import travelCapsule from "@/assets/article/travel-capsule.jpg";
+import partyBold from "@/assets/article/party-bold.jpg";
+import partyElegant from "@/assets/article/party-elegant.jpg";
+import partyAccessories from "@/assets/article/party-accessories.jpg";
+import partySmart from "@/assets/article/party-smart.jpg";
+import cameraNeutral from "@/assets/article/camera-neutral.jpg";
+import cameraProfessional from "@/assets/article/camera-professional.jpg";
+import cameraCasual from "@/assets/article/camera-casual.jpg";
+import cameraColors from "@/assets/article/camera-colors.jpg";
+import interviewFormal from "@/assets/article/interview-formal.jpg";
+import interviewBusinessCasual from "@/assets/article/interview-business-casual.jpg";
+import interviewDetails from "@/assets/article/interview-details.jpg";
+import interviewCasual from "@/assets/article/interview-casual.jpg";
+import accessoriesWatches from "@/assets/article/accessories-watches.jpg";
+import accessoriesLeather from "@/assets/article/accessories-leather.jpg";
+import accessoriesStyled from "@/assets/article/accessories-styled.jpg";
+import accessoriesMinimal from "@/assets/article/accessories-minimal.jpg";
+import shoesComparison from "@/assets/article/shoes-comparison.jpg";
+import shoesSneakerStyle from "@/assets/article/shoes-sneaker-style.jpg";
+import shoesFormalStyle from "@/assets/article/shoes-formal-style.jpg";
+import shoesCollection from "@/assets/article/shoes-collection.jpg";
+import colorWheel from "@/assets/article/color-wheel.jpg";
+import colorMonochrome from "@/assets/article/color-monochrome.jpg";
+import colorNeutrals from "@/assets/article/color-neutrals.jpg";
+import colorContrast from "@/assets/article/color-contrast.jpg";
+import bodyAthletic from "@/assets/article/body-athletic.jpg";
+import bodyBroader from "@/assets/article/body-broader.jpg";
+import bodySlim from "@/assets/article/body-slim.jpg";
+import bodyFitComparison from "@/assets/article/body-fit-comparison.jpg";
+import cleanWardrobe from "@/assets/article/clean-wardrobe.jpg";
+import cleanDetails from "@/assets/article/clean-details.jpg";
+import cleanMinimal from "@/assets/article/clean-minimal.jpg";
+import cleanBasics from "@/assets/article/clean-basics.jpg";
+
 export interface MensArticle {
   slug: string;
   title: string;
@@ -145,6 +199,336 @@ export interface MensArticle {
 }
 
 export const mensArticlesData: MensArticle[] = [
+  {
+    slug: "date-night-style-first-impressions",
+    title: "Date Night Style: First-Impression Outfits That Always Work",
+    date: "January 10, 2026",
+    excerpt: "Make a lasting impression with these fail-safe date night outfits that strike the perfect balance between effort and ease...",
+    image: dateNightStyleHero,
+    content: {
+      intro: "First dates and special evenings demand outfits that project confidence without trying too hard. The goal is looking effortlessly put-together—polished enough to show respect while relaxed enough to appear approachable. Let's explore outfit formulas that consistently work for romantic occasions.",
+      sections: [
+        {
+          heading: "The Dark Blazer Approach",
+          content: "A well-fitted dark blazer over a quality shirt (buttons undone at the collar) paired with dark jeans creates sophisticated casualness. This combination shows you made an effort without appearing overdressed. Add leather loafers or clean minimal sneakers depending on the venue. The blazer adds structure and maturity while dark jeans keep things relaxed and approachable. This outfit works for everything from wine bars to upscale casual restaurants.",
+          image: dateNightCasual
+        },
+        {
+          heading: "Elevated Smart Casual",
+          content: "For slightly more formal venues, pair tailored trousers with a fitted dress shirt (no tie) and leather dress shoes. Choose solid colors or subtle patterns—avoid loud prints on first dates. Roll sleeves to the elbow for a relaxed yet intentional look. This outfit strikes the perfect balance between dressy and accessible. It works for theater dates, nice restaurants, or any situation where you want to appear polished without the formality of a full suit.",
+          image: dateNightFormal
+        },
+        {
+          heading: "Accessory Details Matter",
+          content: "Subtle accessories elevate your look without overwhelming it. A quality watch, clean leather belt, and minimal cologne create polish. Avoid flashy jewelry or strong fragrances—less is more for first impressions. Your shoes should be clean and in good condition. These small details communicate attention to personal presentation. Remember: confidence comes from feeling comfortable in what you're wearing, so choose outfits you've worn before and know fit well.",
+          image: dateAccessories
+        },
+        {
+          heading: "The Premium Casual Option",
+          content: "A high-quality knit sweater over a collared shirt with dark jeans offers refined comfort. Choose merino wool or cashmere in neutral tones. This combination feels warm and approachable while maintaining sophistication. Pair with leather boots or quality sneakers. This outfit works particularly well for daytime dates or casual evening venues. The layering adds visual interest while the quality materials communicate taste and attention to detail.",
+          image: dateSmartCasual
+        }
+      ],
+      conclusion: "Date night style should enhance your confidence, not create anxiety. Choose outfits that feel authentic to your personal style while showing you made an effort. The best outfit is one that makes you feel like yourself—just the polished version. Focus on fit, quality, and appropriate styling for the venue. When you feel comfortable and confident in what you're wearing, that confidence becomes your most attractive accessory."
+    }
+  },
+  {
+    slug: "travel-smart-fashion-tips",
+    title: "Travel Smart: Fashion Tips for Looking Good on the Go",
+    date: "January 9, 2026",
+    excerpt: "Travel in style with these practical fashion strategies that keep you looking sharp from takeoff to touchdown...",
+    image: travelSmartHero,
+    content: {
+      intro: "Travel fashion requires strategic thinking—clothes must be comfortable, wrinkle-resistant, and versatile enough to create multiple outfits from few pieces. Whether traveling for business or pleasure, looking polished throughout your journey is achievable with the right approach. Let's explore smart packing and styling strategies.",
+      sections: [
+        {
+          heading: "The Strategic Travel Outfit",
+          content: "Your airport outfit sets the tone for comfortable travel. Wear your bulkiest items to save luggage space—quality sneakers or leather shoes, a jacket or blazer, and your heaviest pants. Choose breathable, wrinkle-resistant fabrics like merino wool or technical blends. A blazer over a t-shirt with comfortable pants creates smart casual style perfect for planes. This combination transitions easily from flight to first destination without requiring outfit changes.",
+          image: travelFlatlay
+        },
+        {
+          heading: "Comfort Meets Style in Transit",
+          content: "Long flights demand comfort without sacrificing style. Choose well-fitted joggers or chinos with a quality crew neck sweater. Avoid anything too tight or restrictive. Layer intelligently—planes fluctuate between cold and warm. A lightweight jacket you can easily remove and stow makes temperature regulation simple. Quality basics in neutral colors look intentional rather than sloppy. Remember: comfort that looks deliberate beats formal discomfort.",
+          image: travelComfort
+        },
+        {
+          heading: "Essential Travel Accessories",
+          content: "The right accessories make travel easier and more stylish. A quality leather weekender bag or carry-on looks professional while being functional. Include a travel wallet, sunglasses, and a watch—these small items elevate your entire look. Pack a lightweight scarf that works as a blanket, pillow, or style accent. Choose accessories in coordinating colors so everything works together. Quality travel accessories pay for themselves through years of reliable use.",
+          image: travelAccessories
+        },
+        {
+          heading: "Building a Minimal Travel Capsule",
+          content: "Pack strategically with versatile pieces that mix and match. Two pairs of pants (one dark jeans, one chinos), three shirts (two casual, one dress), one blazer, and two pairs of shoes create dozens of outfit combinations. Choose neutral colors that coordinate easily. Include one statement piece—a patterned shirt or colored sweater—for variety. Everything should work together, allowing you to pack light while maintaining style options throughout your trip.",
+          image: travelCapsule
+        }
+      ],
+      conclusion: "Smart travel fashion prioritizes versatility and quality over quantity. Invest in wrinkle-resistant, comfortable pieces that work across multiple contexts. The goal is packing light while maintaining style flexibility. Choose neutral foundations with one or two accent pieces. Proper planning means looking put-together throughout your journey without the stress of overpacked luggage. Travel smart, travel light, and arrive looking your best."
+    }
+  },
+  {
+    slug: "party-ready-standout-looks",
+    title: "Party-Ready Looks: 5 Outfits That Stand Out Under the Lights",
+    date: "January 8, 2026",
+    excerpt: "Command attention at any party with these bold yet sophisticated outfit combinations designed for nightlife...",
+    image: partyReadyHero,
+    content: {
+      intro: "Party outfits require different thinking than everyday wear—lighting, environment, and energy demand bolder choices. The goal is standing out while maintaining sophistication. Let's explore outfits that work under party lights and create memorable impressions.",
+      sections: [
+        {
+          heading: "The Textured Blazer Statement",
+          content: "A blazer with subtle texture or sheen paired with a fitted dark shirt creates immediate impact. Under party lighting, textured fabrics like jacquard or subtle patterns catch light beautifully. Keep pants simple and dark to balance the statement top. Add minimal accessories—a quality watch and clean shoes. This combination works for upscale lounges, cocktail parties, or any evening event where you want to make an impression without going over the top.",
+          image: partyBold
+        },
+        {
+          heading: "All-Black Sophistication",
+          content: "Monochrome black with varied textures creates sleek elegance perfect for evening events. Different fabric weights and finishes—matte cotton, subtle sheen, textured knits—add depth to an all-black outfit. This approach looks intentionally stylish under dim lighting. Add one metallic accent through a watch or minimal jewelry. All-black works universally for nightlife, from casual bars to exclusive clubs. The key is fit—everything must be perfectly tailored.",
+          image: partyElegant
+        },
+        {
+          heading: "Statement Accessories for Impact",
+          content: "Bold accessories elevate simple outfits instantly. A statement watch, distinctive glasses, or quality leather accessories become conversation starters. Under party lighting, metal details and quality materials catch light attractively. Keep the base outfit simple and let accessories create interest. This approach allows personality to shine without costume-like excess. Remember: one statement piece is strategic, multiple statement pieces become overwhelming.",
+          image: partyAccessories
+        },
+        {
+          heading: "Smart Casual Party Style",
+          content: "For less formal parties, premium polo shirts or quality knitwear with tailored trousers strike the right balance. Choose darker colors that work under various lighting. Add polished loafers or quality leather sneakers. This combination feels approachable while looking intentional. The fabric quality matters more in casual party wear—cheap materials look worse under party lighting. Invest in premium basics that photograph well and maintain their appearance throughout the night.",
+          image: partySmart
+        }
+      ],
+      conclusion: "Party style amplifies your usual approach—bolder colors, stronger contrasts, quality materials that work under artificial lighting. The goal is confidence and memorability without trying too hard. Choose outfits you feel comfortable in, as confidence matters more than any specific piece. Consider the venue, lighting, and crowd when selecting your outfit. When done right, party style feels natural rather than costumed—an enhanced version of your authentic self."
+    }
+  },
+  {
+    slug: "camera-friendly-outfits-natural-photos",
+    title: "Camera-Friendly Outfits: What to Wear to Look Natural in Photos",
+    date: "January 7, 2026",
+    excerpt: "Look your best in every photo with these camera-friendly styling strategies that photograph beautifully...",
+    image: cameraFriendlyHero,
+    content: {
+      intro: "Certain colors, patterns, and styles photograph better than others. Understanding camera-friendly fashion ensures you always look great in photos—whether for professional headshots, social media, or casual pictures. Let's explore what works best on camera.",
+      sections: [
+        {
+          heading: "Solid Colors Work Best",
+          content: "Solid, saturated colors photograph more cleanly than busy patterns. Navy, burgundy, forest green, and medium gray all work beautifully on camera. Avoid pure white or black as they can blow out or lose detail in photos. Solid colors direct attention to your face rather than your clothes. Medium tones provide depth without overwhelming. This principle applies whether you're taking professional photos or casual social media pictures. Solid colors simply photograph better.",
+          image: cameraNeutral
+        },
+        {
+          heading: "The Professional Photo Approach",
+          content: "For headshots and professional photos, a well-fitted blazer in navy or charcoal over a light blue or white shirt creates classic appeal. This combination photographs well under various lighting conditions. Avoid patterns that create moiré effects (thin stripes, small checks). Keep accessories minimal—a simple watch, no distracting jewelry. Professional photographers recommend this formula because it's universally flattering and timeless. The focus stays on your face and expression.",
+          image: cameraProfessional
+        },
+        {
+          heading: "Casual Photo-Ready Style",
+          content: "For casual photos, well-fitted jeans with a solid-colored t-shirt or henley work beautifully. Choose colors that complement your skin tone. Avoid graphic tees or obvious logos—they date photos quickly. Simple, clean styling ensures photos remain relevant years later. Good fit matters more than specific items. Clothes that fit properly always photograph better than trendy pieces that don't fit well. Invest time in finding perfect fits rather than chasing specific styles.",
+          image: cameraCasual
+        },
+        {
+          heading: "Color Palette for Photos",
+          content: "Certain colors photograph more flatteringly across skin tones. Medium blues, rich burgundies, and deeper greens work for almost everyone. Avoid neon or extremely light pastels that can wash you out. Test colors by taking quick photos—you'll immediately see what works for you. Create a photo-friendly wardrobe section with pieces you know photograph well. When you have important photo opportunities, you'll have reliable options ready.",
+          image: cameraColors
+        }
+      ],
+      conclusion: "Camera-friendly fashion prioritizes simplicity and fit over trends. Solid colors in flattering tones, proper fit, and minimal accessories ensure you look your best in every photo. The goal is drawing attention to you rather than your clothes. Invest in pieces you know photograph well, and you'll always feel confident when cameras appear. Remember: the best outfit for photos is one that feels authentically you—camera-friendly styling simply enhances what's already there."
+    }
+  },
+  {
+    slug: "job-interview-style-guide",
+    title: "Job Interview Style Guide: Dress for the Role You Want",
+    date: "January 6, 2026",
+    excerpt: "Make the right first impression at your job interview with outfit strategies tailored to different industries and roles...",
+    image: jobInterviewHero,
+    content: {
+      intro: "Interview attire communicates professionalism before you speak a word. While dress codes vary by industry, the principle remains constant: dress slightly more formally than the everyday office dress code. Let's explore interview outfits for various professional contexts.",
+      sections: [
+        {
+          heading: "Traditional Corporate Interviews",
+          content: "For finance, law, or corporate environments, a well-fitted navy or charcoal suit with white or light blue shirt and conservative tie remains the standard. Your shoes should be polished leather oxfords or derbys in black or dark brown. This classic approach signals respect for corporate culture and attention to professional standards. Everything should fit perfectly—have the suit tailored if necessary. This investment pays off through projecting competence and polish.",
+          image: interviewFormal
+        },
+        {
+          heading: "Business Casual Interviews",
+          content: "For less formal industries, a blazer with dress shirt (no tie) and chinos strikes the right balance. Choose a navy blazer—it's universally appropriate and professional. Add quality leather shoes, not sneakers. This outfit shows professionalism without stuffiness. It works for marketing agencies, consulting firms, or most modern office environments. The key is looking polished while accessible. Make sure everything is clean, pressed, and fits well.",
+          image: interviewBusinessCasual
+        },
+        {
+          heading: "Interview Day Details",
+          content: "Beyond the outfit, details matter. Carry a quality leather portfolio or briefcase. Ensure your belt matches your shoes. Wear a subtle, professional watch. Your grooming should be impeccable—fresh haircut, neat facial hair if applicable, clean nails. Avoid strong cologne or aftershave. These details create a complete professional package. Interviewers notice these small elements even if they don't consciously register them. Professional presentation builds credibility before the interview begins.",
+          image: interviewDetails
+        },
+        {
+          heading: "Creative Industry Approach",
+          content: "Tech startups and creative agencies appreciate individual style within professional boundaries. A quality blazer over a crew neck sweater with dark jeans shows personality while maintaining professionalism. Include one subtle personal touch—interesting glasses, quality sneakers, or minimal accessories. Research company culture beforehand—err slightly formal rather than too casual. Even in creative fields, looking like you took the interview seriously matters.",
+          image: interviewCasual
+        }
+      ],
+      conclusion: "Interview attire demonstrates respect for the opportunity and understanding of professional norms. Research the company culture and dress accordingly—when in doubt, slightly overdress. The outfit should make you feel confident, not uncomfortable. Practice sitting, standing, and moving in your interview outfit beforehand. Confidence in your appearance translates to confidence in your interview. Dress for the role you want, and you'll project the professionalism that role demands."
+    }
+  },
+  {
+    slug: "mens-accessories-101-instant-upgrade",
+    title: "Men's Accessories 101: 5 Pieces That Instantly Upgrade Your Look",
+    date: "January 5, 2026",
+    excerpt: "Elevate any outfit with these essential accessories that add polish and personality to your style...",
+    image: mensAccessories101Hero,
+    content: {
+      intro: "Accessories separate well-dressed men from those who merely wear clothes. The right pieces add personality, polish, and sophistication to even basic outfits. Quality accessories are investments that elevate your entire wardrobe. Let's explore five essential accessories every man should own.",
+      sections: [
+        {
+          heading: "The Quality Watch Investment",
+          content: "A quality watch is the most important accessory a man can own. Choose a versatile style—a leather strap dress watch or metal bracelet that works with various outfits. Avoid trendy smartwatches for formal occasions. Your watch should be proportionate to your wrist and complement your personal style. This is where investing pays off—a quality timepiece lasts decades and becomes more distinguished with age. Consider it an heirloom piece you'll pass down.",
+          image: accessoriesWatches
+        },
+        {
+          heading: "Leather Goods That Matter",
+          content: "Quality leather accessories—belt, wallet, shoes—should coordinate in color and finish. Choose full-grain leather that develops character over time. A quality leather belt lasts years and always looks intentional. Your wallet should be slim and organized, not bulging with unnecessary items. These leather pieces become better with age, developing patina that cheap alternatives never achieve. Invest in fewer, higher-quality leather goods rather than multiple cheap options.",
+          image: accessoriesLeather
+        },
+        {
+          heading: "Styling Subtle Additions",
+          content: "Accessories should enhance your outfit, not overwhelm it. A pocket square adds sophistication to blazers. Quality sunglasses protect your eyes while adding style. A tie bar keeps ties in place with elegant functionality. Choose accessories that serve a purpose rather than existing solely for decoration. The best accessories feel essential rather than excessive. When styled correctly, these pieces look like natural extensions of your outfit rather than added afterthoughts.",
+          image: accessoriesStyled
+        },
+        {
+          heading: "The Minimalist Approach",
+          content: "For everyday wear, stick to essentials: a quality watch, simple wedding band or signet ring if that's your style, and practical leather wallet. This minimalist approach ensures you never look over-accessorized. Each piece should be high quality and intentional. Less is genuinely more with men's accessories. The goal is looking polished, not decorated. Three well-chosen accessories have more impact than ten mediocre ones.",
+          image: accessoriesMinimal
+        }
+      ],
+      conclusion: "Accessories complete your look and communicate attention to detail. Invest in quality over quantity—one excellent watch beats ten cheap ones. Choose pieces that complement your personal style and lifestyle needs. The best accessories become part of your daily routine, feeling natural rather than forced. Start with the essentials and add gradually. Remember: accessories should enhance your style, never define it. They're the punctuation marks that complete your style sentence."
+    }
+  },
+  {
+    slug: "shoe-game-sneakers-dress-shoes",
+    title: "Step Up Your Shoe Game: Pairing Sneakers and Dress Shoes Like a Pro",
+    date: "January 4, 2026",
+    excerpt: "Master the art of footwear pairing with expert guidance on when to wear sneakers versus dress shoes...",
+    image: shoeGameHero,
+    content: {
+      intro: "Your shoes make or break an outfit. Understanding when to wear sneakers versus dress shoes—and how to style each appropriately—is fundamental to good style. The modern man needs both, styled correctly for different occasions. Let's explore strategic shoe choices.",
+      sections: [
+        {
+          heading: "Sneakers: The Modern Casual Standard",
+          content: "Quality white or minimalist sneakers work with almost any casual outfit—jeans, chinos, even some suits in creative environments. The key is keeping them clean and simple. Avoid loud colors or excessive branding for versatile wear. White leather sneakers pair beautifully with dark jeans and a blazer for smart casual style. They've become acceptable in contexts that once demanded dress shoes. However, know your environment—traditional offices and formal events still require dress shoes.",
+          image: shoesComparison
+        },
+        {
+          heading: "Sneaker Styling Strategies",
+          content: "Sneakers should complement, not dominate your outfit. With jeans, roll or cuff the hem slightly to showcase the shoes without dragging. With chinos, ensure a clean break at the ankle. White or neutral sneakers work as blank canvases, allowing the rest of your outfit to shine. For elevated casual looks, pair quality minimalist sneakers with a blazer and dark jeans. This combination works for creative workplaces, casual Fridays, or weekend events where you want to look put-together without formality.",
+          image: shoesSneakerStyle
+        },
+        {
+          heading: "Dress Shoes for Formal Occasions",
+          content: "Leather dress shoes remain essential for professional and formal contexts. Oxford or derby styles in black or dark brown work universally. Your dress shoes should be polished, in good condition, and proportionate to your build. With suits, shoes should match your belt and coordinate with your pants. Dark brown works with navy, grey, and lighter brown suits. Black is traditional with charcoal and black suits. These rules ensure cohesive, professional appearance.",
+          image: shoesFormalStyle
+        },
+        {
+          heading: "Building a Versatile Shoe Collection",
+          content: "Start with essentials: quality white sneakers for casual wear, brown leather shoes for business casual, black dress shoes for formal occasions. Add brown loafers for summer smart casual and boots for winter. This five-shoe collection covers virtually every situation. Invest in quality—well-made shoes last years and look better over time. Cheap shoes always appear cheap. Your shoe collection should grow slowly, prioritizing quality and versatility over quantity and trends.",
+          image: shoesCollection
+        }
+      ],
+      conclusion: "Strategic shoe choices complete your outfit appropriately for every context. Understanding the distinction between casual sneakers and formal dress shoes—and styling each correctly—is fundamental style knowledge. Invest in quality footwear and maintain it properly. Clean, well-maintained shoes communicate attention to detail and personal standards. Remember: people notice shoes. The right footwear choice shows you understand context and care about presentation. Build your collection thoughtfully, and you'll always have the right shoes for every occasion."
+    }
+  },
+  {
+    slug: "color-matching-men-perfect-outfits",
+    title: "Color Matching for Men: A Simple Guide to Perfect Outfits",
+    date: "January 3, 2026",
+    excerpt: "Master color coordination with these straightforward strategies that make creating harmonious outfits effortless...",
+    image: colorMatchingHero,
+    content: {
+      intro: "Color coordination intimidates many men, but it follows simple principles anyone can learn. Understanding basic color theory and safe combinations eliminates outfit anxiety. Let's explore practical color strategies that work every time.",
+      sections: [
+        {
+          heading: "Complementary Color Combinations",
+          content: "Navy and tan, grey and burgundy, olive and cream—these combinations work because they're complementary on the color wheel. Start with one neutral base (navy, grey, beige) and add one accent color. This formula never fails. Navy pants with a tan jacket, grey suit with burgundy tie—these combinations look intentional and sophisticated. Master these safe combinations before experimenting with bolder color contrasts.",
+          image: colorWheel
+        },
+        {
+          heading: "Monochromatic Styling",
+          content: "Wearing different shades of the same color creates sophisticated depth. All-navy outfit with varied tones—light blue shirt, medium navy trousers, dark navy jacket—adds visual interest without color-clash risk. This approach works with any color: browns, greys, even whites and creams. The key is varying the shades enough to create distinction while maintaining harmony. Monochromatic dressing looks intentionally stylish and is impossible to mess up.",
+          image: colorMonochrome
+        },
+        {
+          heading: "The Neutral Foundation",
+          content: "Building outfits on neutral foundations—black, white, grey, navy, beige—makes adding color easy. These neutrals work with virtually any accent color. Start with neutral pants and add colored shirts, jackets, or accessories. This strategy creates maximum versatility in your wardrobe. Three neutral pants colors can pair with dozens of colored tops. Investing in quality neutral pieces provides the foundation for countless outfit combinations.",
+          image: colorNeutrals
+        },
+        {
+          heading: "Creating Bold Contrast",
+          content: "Once comfortable with basics, add bold contrast strategically. A white shirt under a dark navy blazer creates classic high contrast. Burgundy accessories with grey create sophisticated color pop. The key is limiting bold colors to one or two pieces while keeping the rest neutral. This approach adds personality without overwhelming. One statement color piece on a neutral foundation always works better than multiple competing colors.",
+          image: colorContrast
+        }
+      ],
+      conclusion: "Color coordination follows learnable principles, not mystical instincts. Start with safe neutral bases and complementary combinations. As confidence grows, experiment with monochromatic looks and strategic bold accents. The goal isn't memorizing color theory but developing an eye for what works. Take photos of successful outfits to remember what combinations you like. Over time, color matching becomes intuitive. The confidence from knowing your colors work eliminates morning outfit stress and ensures you always look put-together."
+    }
+  },
+  {
+    slug: "dress-body-type-style-tips",
+    title: "Dress for Your Body Type: Style Tips for Every Shape and Size",
+    date: "January 2, 2026",
+    excerpt: "Discover flattering style strategies tailored to your specific body type for maximum confidence and appeal...",
+    image: bodyTypeHero,
+    content: {
+      intro: "Understanding your body type and dressing accordingly makes enormous difference in how clothes look and feel. The goal isn't changing your body but highlighting its strengths through strategic fit and styling. Let's explore tailored approaches for different builds.",
+      sections: [
+        {
+          heading: "Athletic Build Styling",
+          content: "Athletic frames with broad shoulders and defined waists should emphasize these natural advantages. Fitted shirts highlight your physique without being tight. Slim or athletic fit suits accentuate the V-shape naturally. Avoid overly loose clothes that hide your build or extremely tight clothes that look try-hard. Showcase your proportions through proper fit—tailored through the shoulders and waist while allowing comfortable movement. Your natural shape is an advantage—dress to highlight it, not hide it.",
+          image: bodyAthletic
+        },
+        {
+          heading: "Broader Build Strategies",
+          content: "Larger builds benefit from structured clothing with vertical details. Vertical stripes, single-breasted jackets, and proper shoulder fits create lengthening effects. Avoid horizontal stripes or overly tight clothes that emphasize width. Well-fitted clothes that follow your body line without clinging look infinitely better than loose, baggy alternatives. Dark colors naturally slim visual appearance. Focus on impeccable fit in the shoulders—this makes everything else fall properly. Quality tailoring is worth the investment.",
+          image: bodyBroader
+        },
+        {
+          heading: "Slim Build Approach",
+          content: "Slimmer builds should add visual weight through layering and texture. Multiple layers create dimension—cardigan over shirt, vest under jacket. Patterns and textures add visual interest that creates presence. Avoid extremely skinny cuts that emphasize slenderness. Choose regular or slim fits over super-slim. Shoulders should fit properly rather than hanging loose. Strategic layering makes the biggest difference—use cardigans, jackets, and textured pieces to add structure to your frame.",
+          image: bodySlim
+        },
+        {
+          heading: "The Importance of Fit",
+          content: "Regardless of body type, proper fit matters most. Clothes should follow your natural shape without pulling or bunching. Shoulders should sit at your shoulder point, not beyond or before. Pants should break cleanly at your shoes. Invest in tailoring—even inexpensive clothes look expensive when properly fitted. Take all new items to a tailor for adjustment. The difference between off-the-rack and tailored fit is dramatic. Fit transforms how clothes look and how you feel wearing them.",
+          image: bodyFitComparison
+        }
+      ],
+      conclusion: "Dressing for your body type means understanding your proportions and choosing clothes that complement them. The goal isn't hiding or changing your body but presenting it in the most flattering way. Proper fit, strategic styling, and understanding what works for your build creates confidence in your appearance. Don't fight your natural build—work with it. When clothes fit properly and suit your body type, you look better and feel more confident. That confidence shows in how you carry yourself."
+    }
+  },
+  {
+    slug: "power-clean-style-put-together",
+    title: "The Power of Clean Style: How to Look Put-Together Every Day",
+    date: "January 1, 2026",
+    excerpt: "Discover the simple principles of clean, minimal style that ensure you always look polished and intentional...",
+    image: cleanStyleHero,
+    content: {
+      intro: "Clean style prioritizes simplicity, fit, and attention to detail over trends or complexity. It's about looking polished without trying too hard—clothes that work together seamlessly and make you feel confident. Let's explore the principles of maintaining clean, put-together style daily.",
+      sections: [
+        {
+          heading: "The Minimal Wardrobe Foundation",
+          content: "Start with quality basics in neutral colors—white and blue shirts, grey and navy sweaters, black and khaki pants. These foundations mix endlessly while remaining timeless. Invest in the best quality you can afford in these basics—they're worn most frequently so quality matters. A streamlined wardrobe of versatile pieces eliminates decision fatigue while ensuring everything coordinates. Clean style begins with intentional wardrobe curation—keeping only what fits perfectly and works together.",
+          image: cleanWardrobe
+        },
+        {
+          heading: "Attention to Grooming Details",
+          content: "Clean style extends beyond clothes to grooming and maintenance. Pressed shirts, polished shoes, neat hair, and proper grooming elevate even basic outfits. Take time for these details daily. Clothes should be clean, wrinkle-free, and in good repair. Shoes should be polished and maintained. These small efforts compound into looking consistently put-together. The most stylish men prioritize these fundamentals over trendy purchases. Looking clean and groomed matters more than wearing expensive clothes.",
+          image: cleanDetails
+        },
+        {
+          heading: "The Monochrome Approach",
+          content: "Limiting color creates instant cohesion. All-white, all-black, or all-grey outfits with tonal variations look effortlessly styled. This monochromatic approach eliminates color-matching concerns while looking intentionally minimalist. Add one subtle accent—a watch, leather shoes—for visual interest. This strategy works universally and always appears polished. The simplicity is the point—clean lines and cohesive colors create understated sophistication.",
+          image: cleanMinimal
+        },
+        {
+          heading: "Quality Basics Over Trendy Pieces",
+          content: "Clean style invests in timeless quality rather than chasing trends. A perfect white t-shirt, well-made jeans, quality leather shoes—these basics form the foundation. They should fit impeccably and be made from premium materials. These pieces transcend trends, working year after year. Building a wardrobe of excellent basics costs more initially but saves money long-term. You'll wear them constantly, they'll last years, and they'll never look dated.",
+          image: cleanBasics
+        }
+      ],
+      conclusion: "Clean style is about intention, not expense. It prioritizes fit, quality, and simplicity over trends and complexity. The result is looking polished without appearing to try too hard. Start with quality neutral basics, maintain them properly, and pay attention to grooming details. This approach creates reliable daily style that builds confidence. You'll spend less time deciding what to wear and more time feeling good in what you chose. Clean style is sustainable, timeless, and universally flattering—the foundation of lasting personal style."
+    }
+  },
   {
     slug: "fall-winter-coats-scarves",
     title: "Fall/Winter Essentials: 10 Ways to Pair Coats and Scarves Like a Pro",
