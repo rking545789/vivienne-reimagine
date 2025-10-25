@@ -100,7 +100,7 @@ import autumnCoatsHero from "@/assets/autumn-coats-hero.jpg";
 import winterLayeringHero from "@/assets/winter-layering-hero.jpg";
 import springTransition from "@/assets/spring-transition.jpg";
 import minimalistColorHero from "@/assets/minimalist-color-hero.jpg";
-import frenchStyleHero from "@/assets/french-style.jpg";
+import frenchStyleHero from "@/assets/french-style-hero.jpg";
 
 // Seasonal Essentials & International Style - Detail Images
 import springLayers from "@/assets/article/spring-layers.jpg";
