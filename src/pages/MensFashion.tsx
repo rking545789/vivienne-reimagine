@@ -86,6 +86,7 @@ const MensFashion = () => {
                   key={article.slug}
                   title={article.title}
                   date={article.date}
+                  author={article.author}
                   excerpt={article.excerpt}
                   image={article.image}
                   slug={article.slug}

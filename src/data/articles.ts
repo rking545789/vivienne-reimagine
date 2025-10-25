@@ -184,6 +184,7 @@ export interface Article {
   slug: string;
   title: string;
   date: string;
+  author?: string;
   excerpt: string;
   image: string;
   content: {
@@ -202,6 +203,7 @@ export const articlesData: Article[] = [
     slug: "spring-2026-european-fashion-trends",
     title: "Spring 2026: The European Fashion Revolution",
     date: "November 2, 2025",
+    author: "Isabella Martinez",
     excerpt: "From Paris to Milan, discover the breathtaking trends defining Spring 2026 as fashion's most influential voices unveil their boldest visions yet...",
     image: spring2026Hero,
     content: {
@@ -249,6 +251,7 @@ export const articlesData: Article[] = [
     slug: "autumn-work-wardrobe-guide",
     title: "Autumn Work Wardrobe Guide: 5 Commute Outfit Ideas",
     date: "November 10, 2025",
+    author: "Sophia Anderson",
     excerpt: "Master these 5 practical outfit formulas for autumn and winter commuting that balance warmth with style, keeping you elegant and confident throughout the cold season...",
     image: autumnWorkWardrobeHero,
     content: {

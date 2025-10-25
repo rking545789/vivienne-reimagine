@@ -52,7 +52,15 @@ const ArticleDetail = () => {
               className="w-full h-96 object-cover rounded-lg mb-8"
             />
             
-            <p className="text-sm text-muted-foreground mb-4">{article.date}</p>
+            <div className="flex items-center gap-3 text-sm text-muted-foreground mb-4">
+              <span>{article.date}</span>
+              {article.author && (
+                <>
+                  <span>•</span>
+                  <span>By {article.author}</span>
+                </>
+              )}
+            </div>
             
             <h1 className="text-4xl md:text-5xl font-serif italic text-primary mb-6">
               {article.title}

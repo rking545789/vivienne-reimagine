@@ -4,12 +4,13 @@ import { Card } from "@/components/ui/card";
 interface ArticleCardProps {
   title: string;
   date: string;
+  author?: string;
   excerpt: string;
   image: string;
   slug: string;
 }
 
-const ArticleCard = ({ title, date, excerpt, image, slug }: ArticleCardProps) => {
+const ArticleCard = ({ title, date, author, excerpt, image, slug }: ArticleCardProps) => {
   return (
     <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
       <Link to={`/article/${slug}`}>
@@ -25,7 +26,15 @@ const ArticleCard = ({ title, date, excerpt, image, slug }: ArticleCardProps) =>
             {title}
           </h2>
         </Link>
-        <p className="text-sm text-muted-foreground mb-4">{date}</p>
+        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
+          <span>{date}</span>
+          {author && (
+            <>
+              <span>•</span>
+              <span>By {author}</span>
+            </>
+          )}
+        </div>
         <p className="text-foreground leading-relaxed mb-4">{excerpt}</p>
         <Link 
           to={`/article/${slug}`}
