@@ -41,6 +41,60 @@ import mensSummerLinen from "@/assets/article/mens-summer-linen.jpg";
 import mensResortWear from "@/assets/article/mens-resort-wear.jpg";
 import mensSummerAccessories from "@/assets/article/mens-summer-accessories.jpg";
 
+// New Urban Gentleman & Casual Series - Hero Images
+import sharpWorkOfficeHero from "@/assets/sharp-work-office-hero.jpg";
+import whiteShirtsStyleHero from "@/assets/white-shirts-style-hero.jpg";
+import suitStreetwearHero from "@/assets/suit-streetwear-hero.jpg";
+import monochromeMinimalistHero from "@/assets/monochrome-minimalist-hero.jpg";
+import modernWorkwearHero from "@/assets/modern-workwear-hero.jpg";
+import streetStyle2025Hero from "@/assets/street-style-2025-hero.jpg";
+import effortlesslyCoolHero from "@/assets/effortlessly-cool-hero.jpg";
+import denimDaysHero from "@/assets/denim-days-hero.jpg";
+import tshirtPantsHero from "@/assets/tshirt-pants-hero.jpg";
+import sportyChicHero from "@/assets/sporty-chic-hero.jpg";
+
+// New Series - Detail Images
+import officeOutfit1 from "@/assets/article/office-outfit-1.jpg";
+import officeOutfit2 from "@/assets/article/office-outfit-2.jpg";
+import officeOutfit3 from "@/assets/article/office-outfit-3.jpg";
+import officeOutfit4 from "@/assets/article/office-outfit-4.jpg";
+import whiteShirtCasual1 from "@/assets/article/white-shirt-casual-1.jpg";
+import whiteShirtFormal1 from "@/assets/article/white-shirt-formal-1.jpg";
+import whiteShirtLayered1 from "@/assets/article/white-shirt-layered-1.jpg";
+import whiteShirtCollection1 from "@/assets/article/white-shirt-collection-1.jpg";
+import suitStreet1 from "@/assets/article/suit-street-1.jpg";
+import suitStreet2 from "@/assets/article/suit-street-2.jpg";
+import suitStreet3 from "@/assets/article/suit-street-3.jpg";
+import suitStreet4 from "@/assets/article/suit-street-4.jpg";
+import monochromeBlack1 from "@/assets/article/monochrome-black-1.jpg";
+import monochromeWhite1 from "@/assets/article/monochrome-white-1.jpg";
+import monochromeGrey1 from "@/assets/article/monochrome-grey-1.jpg";
+import monochromeWardrobe1 from "@/assets/article/monochrome-wardrobe-1.jpg";
+import workwearCasual1 from "@/assets/article/workwear-casual-1.jpg";
+import workwearCasual2 from "@/assets/article/workwear-casual-2.jpg";
+import workwearAccessories1 from "@/assets/article/workwear-accessories-1.jpg";
+import workwearCardigan1 from "@/assets/article/workwear-cardigan-1.jpg";
+import street2025Look1 from "@/assets/article/street-2025-look-1.jpg";
+import street2025Look2 from "@/assets/article/street-2025-look-2.jpg";
+import street2025Vintage1 from "@/assets/article/street-2025-vintage-1.jpg";
+import streetAccessories1 from "@/assets/article/street-accessories-1.jpg";
+import everydayBasic1 from "@/assets/article/everyday-basic-1.jpg";
+import everydayWeekend1 from "@/assets/article/everyday-weekend-1.jpg";
+import everydayLayers1 from "@/assets/article/everyday-layers-1.jpg";
+import everydayFlatlay1 from "@/assets/article/everyday-flatlay-1.jpg";
+import denimClassic1 from "@/assets/article/denim-classic-1.jpg";
+import denimSmart1 from "@/assets/article/denim-smart-1.jpg";
+import denimStreet1 from "@/assets/article/denim-street-1.jpg";
+import denimVariety1 from "@/assets/article/denim-variety-1.jpg";
+import tshirtPremium1 from "@/assets/article/tshirt-premium-1.jpg";
+import tshirtChinos1 from "@/assets/article/tshirt-chinos-1.jpg";
+import tshirtLayered1 from "@/assets/article/tshirt-layered-1.jpg";
+import tshirtCollection1 from "@/assets/article/tshirt-collection-1.jpg";
+import athleisureSporty1 from "@/assets/article/athleisure-sporty-1.jpg";
+import athleisureLuxury1 from "@/assets/article/athleisure-luxury-1.jpg";
+import athleisureMinimal1 from "@/assets/article/athleisure-minimal-1.jpg";
+import athleisureFlatlay1 from "@/assets/article/athleisure-flatlay-1.jpg";
+
 export interface MensArticle {
   slug: string;
   title: string;
@@ -59,6 +113,336 @@ export interface MensArticle {
 }
 
 export const mensArticlesData: MensArticle[] = [
+  {
+    slug: "sharp-at-work-office-outfits",
+    title: "Sharp at Work: 10 Office Outfits That Redefine Business Style",
+    date: "December 28, 2025",
+    excerpt: "From Monday meetings to Friday presentations, discover 10 office outfit combinations that perfectly blend professionalism with modern style...",
+    image: sharpWorkOfficeHero,
+    content: {
+      intro: "The modern workplace demands a fresh approach to professional dressing. Gone are the days when business attire meant rigid suits and conservative colors. Today's sharp office style is about confidence, versatility, and personal expression within professional boundaries. These 10 carefully curated outfits will help you navigate every work scenario with style and assurance.",
+      sections: [
+        {
+          heading: "The Power of the Navy Blazer",
+          content: "Start your week strong with a perfectly tailored navy blazer paired with crisp chinos and a light blue dress shirt. This combination strikes the ideal balance between authority and approachability. The navy blazer is your secret weapon—it works for client meetings, presentations, and casual Fridays alike. Choose a slim fit that follows your body line without being restrictive. Brown leather oxford shoes and a minimalist leather belt complete this timeless look that never fails to impress.",
+          image: officeOutfit1
+        },
+        {
+          heading: "Monochrome Sophistication",
+          content: "Embrace the power of monochrome dressing with an all-grey ensemble. A light grey dress shirt paired with charcoal grey trousers and a darker grey tie creates visual interest through subtle tonal variations. This refined approach to office wear demonstrates attention to detail and sophisticated taste. Add a quality leather watch and simple cufflinks to elevate the look. The beauty of monochrome lies in its simplicity—it's professional without trying too hard.",
+          image: officeOutfit2
+        },
+        {
+          heading: "Smart Casual Excellence",
+          content: "For workplaces with relaxed dress codes, master the art of smart casual. A well-fitted button-down shirt in white or light blue paired with tailored navy chinos offers comfort without sacrificing professionalism. Roll up the sleeves for a more relaxed vibe during afternoon work sessions. Brown leather loafers or minimalist sneakers work equally well, depending on your office culture. This versatile outfit transitions seamlessly from desk work to after-work drinks.",
+          image: officeOutfit3
+        },
+        {
+          heading: "The Complete Professional Wardrobe",
+          content: "Building a comprehensive work wardrobe requires strategic planning. Invest in quality basics: three dress shirts (white, light blue, and pale pink), two pairs of well-fitted trousers (navy and charcoal), one perfect blazer, and two pairs of quality leather shoes. These pieces can be mixed and matched to create dozens of professional looks. Focus on fit above all else—even expensive clothes look cheap if they don't fit properly. Regular tailoring adjustments are worth every penny.",
+          image: officeOutfit4
+        }
+      ],
+      conclusion: "Professional dressing is about confidence and consistency. By building a thoughtful wardrobe of quality pieces and understanding how to combine them effectively, you'll never have to worry about what to wear to work. Remember, the goal is to dress well enough that people remember you, not your outfit. These combinations provide a foundation—adapt them to your personal style and office culture to create your signature professional look."
+    }
+  },
+  {
+    slug: "white-shirts-endless-style",
+    title: "White Shirts, Endless Style: 7 Ways to Elevate a Classic Look",
+    date: "December 27, 2025",
+    excerpt: "The white shirt is menswear's most versatile piece. Discover seven sophisticated ways to style this wardrobe essential for every occasion...",
+    image: whiteShirtsStyleHero,
+    content: {
+      intro: "The white dress shirt is the cornerstone of every man's wardrobe. It's the one piece that works for almost any occasion, from boardroom meetings to weekend brunches. But wearing a white shirt doesn't mean looking boring or predictable. With the right styling techniques, this classic piece becomes a canvas for endless style possibilities. Let's explore seven distinct ways to make the white shirt your own.",
+      sections: [
+        {
+          heading: "Effortlessly Casual",
+          content: "Transform your white shirt into weekend wear by pairing it with light-wash jeans and white sneakers. Leave the top two buttons undone and roll up the sleeves to the elbow for a relaxed, confident vibe. This combination works perfectly for casual Fridays, coffee dates, or weekend strolls. The key is ensuring your shirt is well-fitted—even casual looks should be intentional. Add a quality leather watch and you're ready for any informal setting.",
+          image: whiteShirtCasual1
+        },
+        {
+          heading: "Classic Formal Excellence",
+          content: "For formal occasions, pair your white shirt with a charcoal suit and silk tie. French cuffs with quality cufflinks add an extra touch of sophistication. Ensure your collar is crisp and your shirt is perfectly pressed—details matter in formal settings. Black oxford shoes and a leather dress belt complete this timeless look. This combination works for important meetings, formal events, and any situation where you need to make a strong first impression.",
+          image: whiteShirtFormal1
+        },
+        {
+          heading: "Layered Sophistication",
+          content: "Master the art of layering by wearing your white shirt under a camel V-neck sweater with dark jeans. This smart-casual approach is perfect for autumn and winter, offering warmth without bulk. The white collar and cuffs peeking out create clean lines and visual interest. Brown leather boots and a quality watch complete this refined yet approachable look. This outfit works beautifully for creative workplaces or upscale casual settings.",
+          image: whiteShirtLayered1
+        },
+        {
+          heading: "Building Your Shirt Collection",
+          content: "Not all white shirts are created equal. Build a versatile collection with different styles: a classic dress shirt with regular collar for formal wear, an Oxford cloth button-down for casual occasions, and a modern spread collar for contemporary looks. Pay attention to fabric—premium cotton with a subtle texture elevates the entire outfit. Each shirt should fit perfectly through the shoulders, chest, and waist. Invest in quality over quantity.",
+          image: whiteShirtCollection1
+        }
+      ],
+      conclusion: "The white shirt's enduring appeal lies in its versatility and timelessness. By understanding different styling approaches and investing in quality pieces that fit perfectly, you unlock endless outfit possibilities. Whether dressed up with a suit or dressed down with jeans, a well-chosen white shirt always looks sharp and intentional. Master these seven styling techniques and you'll never run out of ways to wear this wardrobe essential."
+    }
+  },
+  {
+    slug: "suit-with-streetwear-vibes",
+    title: "Not Just Formal: How to Rock a Suit with Streetwear Vibes",
+    date: "December 26, 2025",
+    excerpt: "Break the rules and redefine suiting by blending formal tailoring with street style elements for a fresh, contemporary look...",
+    image: suitStreetwearHero,
+    content: {
+      intro: "The traditional suit doesn't have to mean traditional styling. Modern fashion has opened up exciting possibilities for mixing formal tailoring with streetwear elements, creating looks that are both sophisticated and contemporary. This approach is perfect for creative professionals, fashion-forward individuals, and anyone who wants to bring personality to their formal wear. Let's explore how to successfully merge these two style worlds.",
+      sections: [
+        {
+          heading: "Suits Meet Sneakers",
+          content: "The easiest way to add streetwear flair to a suit is through footwear. Pair a well-tailored grey or navy suit with clean white leather sneakers for an instantly modern look. This combination works best with slim-fit suits and cropped pants that show off the sneakers. Skip the tie and leave the top button undone for a relaxed vibe. This outfit is perfect for creative industries, casual Fridays, or modern work environments where style innovation is appreciated.",
+          image: suitStreet1
+        },
+        {
+          heading: "Monochrome Street Sophistication",
+          content: "Create a powerful monochrome look by pairing a black suit with a black t-shirt and black sneakers. This all-black ensemble has strong streetwear roots while maintaining the structure and sophistication of formal wear. The key is varying textures—matte t-shirt, wool suit, and leather sneakers create visual interest despite the single color. Add a silver watch or chain for a subtle accent. This bold look makes a statement without saying a word.",
+          image: suitStreet2
+        },
+        {
+          heading: "Deconstructed Elegance",
+          content: "Wear your suit jacket as a separate piece over a graphic t-shirt or hoodie with tailored trousers. This deconstructed approach to suiting embraces streetwear's casual attitude while maintaining tailored sophistication. Choose subtle graphic tees or premium hoodies in neutral colors for best results. Finish with leather sneakers or chelsea boots. This look works particularly well for creative events, gallery openings, or fashion-forward workplaces.",
+          image: suitStreet3
+        },
+        {
+          heading: "Accessories Make the Mix",
+          content: "Successfully blending suit and streetwear often comes down to accessories. A sleek backpack instead of a briefcase, a baseball cap worn with confidence, or a statement watch can bridge the gap between formal and casual. Layer a hoodie under your blazer for an unexpected twist. The trick is maintaining balance—if you're going casual with accessories, keep the suit tailoring sharp. If the suit is more relaxed, keep accessories refined.",
+          image: suitStreet4
+        }
+      ],
+      conclusion: "Mixing suits with streetwear is about confidence and understanding proportion. The key is maintaining the quality and fit of your tailoring while introducing casual elements thoughtfully. This approach to dressing reflects modern life—we need versatility, comfort, and style all in one look. Experiment with these combinations to find what works for your personal style and lifestyle. Remember, fashion rules are meant to be broken creatively, not ignored completely."
+    }
+  },
+  {
+    slug: "monochrome-minimalist-fashion",
+    title: "Monochrome Magic: The Art of Minimalist Men's Fashion",
+    date: "December 25, 2025",
+    excerpt: "Discover the sophisticated simplicity of monochrome dressing—where less is more and every detail counts...",
+    image: monochromeMinimalistHero,
+    content: {
+      intro: "Monochrome dressing is the ultimate expression of minimalist style. By limiting your color palette to shades of a single color—or eliminating color altogether—you create looks that are sophisticated, timeless, and effortlessly elegant. This approach to dressing removes the complexity of color matching and forces you to focus on fit, texture, and proportion. The result is a wardrobe that's both easier to manage and more impactful.",
+      sections: [
+        {
+          heading: "The Power of All Black",
+          content: "An all-black outfit is the foundation of minimalist style. Black t-shirt, black jeans, black leather jacket, and black boots create a sleek, powerful silhouette that never goes out of style. The key to successful all-black dressing is playing with different textures—matte cotton, glossy leather, rough denim—to create visual interest. Ensure each piece fits perfectly; monochrome styling leaves no room for sloppy tailoring. This look works day or night, casual or dressed up.",
+          image: monochromeBlack1
+        },
+        {
+          heading: "Pure White Serenity",
+          content: "All-white outfits exude freshness and confidence. White t-shirt, white jeans, and white sneakers create a clean, modern look perfect for spring and summer. The challenge with white is maintaining crispness—everything must be spotlessly clean and well-pressed. Choose quality fabrics that don't show wear easily. White-on-white works best with varied textures and tones of white—cream, ivory, and pure white combined create subtle depth. This bold choice makes a memorable statement.",
+          image: monochromeWhite1
+        },
+        {
+          heading: "Grey Area Excellence",
+          content: "Grey is perhaps the most versatile monochrome choice. Layer different shades of grey—charcoal pants, medium grey sweater, light grey shirt—for a sophisticated, modern look. Grey works beautifully in professional and casual settings, offering more versatility than stark black or white. The beauty of grey monochrome is its subtlety; it's quietly confident rather than attention-seeking. Perfect for those who appreciate understated elegance.",
+          image: monochromeGrey1
+        },
+        {
+          heading: "Building a Monochrome Wardrobe",
+          content: "Creating a monochrome wardrobe requires careful curation. Focus on quality basics in your chosen color family—multiple shades allow for layering while maintaining the monochrome effect. Invest in pieces with interesting textures, quality fabrics, and perfect fits. Your wardrobe becomes more cohesive and getting dressed becomes simpler when everything works together. Include various weights and styles to handle different seasons and occasions.",
+          image: monochromeWardrobe1
+        }
+      ],
+      conclusion: "Monochrome dressing is about discipline and attention to detail. It's not about being boring—it's about being intentional. By mastering monochrome style, you develop a deeper understanding of fit, proportion, and quality. The simplicity of a single color palette allows your personal style to shine through texture, silhouette, and presence rather than flashy colors or patterns. Embrace the power of restraint and discover how impactful simplicity can be."
+    }
+  },
+  {
+    slug: "modern-workwear-smart-casual",
+    title: "Master the Modern Workwear Look: 5 Smart-Casual Tips Every Man Needs",
+    date: "December 24, 2025",
+    excerpt: "Navigate the evolving workplace dress code with confidence. Master smart-casual style that's professional yet personal...",
+    image: modernWorkwearHero,
+    content: {
+      intro: "The traditional workplace dress code is evolving. As offices become more casual and remote work blurs the lines between professional and personal, mastering smart-casual style has never been more important. This approach to dressing maintains professionalism while allowing for personal expression and comfort. Here are five essential tips for nailing modern workwear that works for virtual meetings, office days, and everything in between.",
+      sections: [
+        {
+          heading: "The Foundation: Quality Basics",
+          content: "Build your workwear wardrobe on quality basics. A well-fitted button-down shirt in light blue or white, perfectly tailored chinos in beige or navy, and a versatile blazer in grey or navy form the foundation. These pieces can be mixed and matched infinitely. The key is fit—ensure everything is tailored to your body. One perfectly fitted shirt is worth ten off-the-rack pieces. These basics work for video calls, office days, and after-work events.",
+          image: workwearCasual1
+        },
+        {
+          heading: "Smart Layering Techniques",
+          content: "Master the art of layering for versatility and style. A cardigan or lightweight sweater over a collared shirt offers warmth and visual interest without the formality of a blazer. This combination is perfect for air-conditioned offices and cooler months. Choose neutral colors that complement your base wardrobe. V-neck sweaters work particularly well, showing off your shirt collar while maintaining a neat silhouette. Layer thoughtfully—each piece should add value to the overall look.",
+          image: workwearCasual2
+        },
+        {
+          heading: "Accessorize Intentionally",
+          content: "In smart-casual environments, accessories become crucial style differentiators. A quality leather watch, simple leather belt, and refined leather shoes elevate basic outfits instantly. Choose timeless pieces over trendy ones—these investments should last years. Brown leather works with most colors; black is more formal. Keep accessories minimal but meaningful. A sleek leather portfolio or quality backpack replaces the traditional briefcase, maintaining professionalism while embracing modern work life.",
+          image: workwearAccessories1
+        },
+        {
+          heading: "The Cardigan Advantage",
+          content: "The cardigan is the secret weapon of modern workwear. More casual than a blazer but more polished than a hoodie, cardigans bridge the gap between formal and casual perfectly. A grey or navy cardigan over a white shirt with dark jeans works for almost any smart-casual setting. Choose quality knits that drape well and don't pill easily. Button it up for more structure or leave it open for a relaxed vibe. This versatile piece handles varying office temperatures and dress codes with ease.",
+          image: workwearCardigan1
+        }
+      ],
+      conclusion: "Modern workwear is about flexibility, comfort, and professionalism in equal measure. By investing in quality basics, mastering layering techniques, and choosing the right accessories, you create a wardrobe that handles any work situation with confidence. The goal isn't to dress down—it's to dress appropriately for today's diverse work environments. Remember, smart-casual done well is just as professional as a suit, but far more versatile for modern work life."
+    }
+  },
+  {
+    slug: "street-style-2025-trends",
+    title: "Street Style 2025: The Hottest Men's Casual Trends to Watch",
+    date: "December 23, 2025",
+    excerpt: "Stay ahead of the curve with 2025's most exciting street style trends—from oversized silhouettes to vintage revival...",
+    image: streetStyle2025Hero,
+    content: {
+      intro: "Street style continues to dominate men's fashion, influencing everything from runway shows to everyday wear. As we move through 2025, several key trends are shaping how style-conscious men dress casually. These trends emphasize individuality, comfort, and creative expression while maintaining wearability. Whether you're fashion-forward or just want to stay current, understanding these trends helps you make informed wardrobe choices.",
+      sections: [
+        {
+          heading: "Oversized Everything",
+          content: "The oversized trend continues strong into 2025. Baggy jeans, oversized hoodies, and loose-fitting shirts dominate street style. The key is balance—oversized pieces should look intentional, not sloppy. Pair an oversized jacket with fitted pants, or baggy jeans with a more structured top. This trend offers comfort and a relaxed aesthetic that resonates with casual lifestyle. Choose quality fabrics that drape well even in larger sizes. The oversized look works particularly well in neutral colors and earth tones.",
+          image: street2025Look1
+        },
+        {
+          heading: "Tech Wear Influence",
+          content: "Functional fashion with tech wear aesthetics is increasingly mainstream. Water-resistant fabrics, multiple pockets, adjustable straps, and utility-focused design elements are everywhere. Black remains the dominant color, but grey and olive green are gaining ground. This trend merges practicality with urban style—perfect for modern city living. Brands are making tech wear more accessible and wearable for everyday situations, not just outdoor adventures. Embrace pieces that offer both form and function.",
+          image: street2025Look2
+        },
+        {
+          heading: "Vintage Sportswear Revival",
+          content: "90s and early 2000s sportswear is experiencing a major comeback. Track jackets, retro sneakers, and vintage athletic pieces are street style staples. The key is authentic vintage pieces or high-quality retro-inspired designs—avoid cheap knockoffs. Pair vintage sportswear with modern pieces to keep the look current rather than costume-like. A vintage track jacket with contemporary jeans and fresh sneakers hits the perfect balance. This trend celebrates nostalgia while remaining firmly current.",
+          image: street2025Vintage1
+        },
+        {
+          heading: "Statement Accessories",
+          content: "Accessories are taking center stage in street style. Chunky silver jewelry, bucket hats, crossbody bags, and bold sunglasses add personality to simple outfits. Don't be afraid to mix metals or layer chains for impact. The key is choosing accessories that reflect your personality—street style is about individual expression. Quality matters even in statement pieces; choose well-made items that will last. These accessories transform basic t-shirt and jeans combinations into memorable outfits.",
+          image: streetAccessories1
+        }
+      ],
+      conclusion: "Street style in 2025 is about self-expression, comfort, and quality. These trends offer direction without dictating exact looks—interpret them through your personal style lens. The beauty of street style is its diversity; there's no single right way to do it. Invest in key pieces that resonate with your lifestyle, mix vintage with contemporary, and don't be afraid to experiment. Fashion should be fun, and street style embodies that spirit perfectly."
+    }
+  },
+  {
+    slug: "effortlessly-cool-everyday-outfits",
+    title: "Effortlessly Cool: Everyday Outfits for the Laid-Back Guy",
+    date: "December 22, 2025",
+    excerpt: "Master the art of looking stylish without trying too hard. Perfect everyday outfits for the modern casual lifestyle...",
+    image: effortlesslyCoolHero,
+    content: {
+      intro: "True style doesn't require effort—or at least, it shouldn't look like it does. The 'effortlessly cool' aesthetic is about having a wardrobe of reliable pieces that work together seamlessly, allowing you to look put-together with minimal morning stress. This approach to dressing prioritizes comfort, versatility, and timeless appeal over trend-chasing. Here's how to build an everyday wardrobe that works.",
+      sections: [
+        {
+          heading: "The Perfect Basic Combo",
+          content: "Start with the foundation: quality t-shirts, well-fitted jeans, and versatile sneakers. A plain white or grey t-shirt with dark slim jeans and clean white sneakers is unbeatable for everyday wear. The secret is fit and quality—even basic pieces should be well-made and properly fitted. This combination works for coffee runs, casual meetings, or weekend activities. Keep multiples of basics in your wardrobe so you always have this reliable outfit ready to go.",
+          image: everydayBasic1
+        },
+        {
+          heading: "Weekend Warrior Style",
+          content: "For more relaxed days, embrace comfortable separates that still look intentional. A relaxed-fit button-down shirt worn untucked with chinos and casual sneakers or loafers hits the sweet spot between comfort and style. Roll up the sleeves and leave the top button undone for maximum ease. This outfit handles brunch, shopping, casual dates, or just lounging with friends. Choose breathable fabrics and colors that don't show wear easily.",
+          image: everydayWeekend1
+        },
+        {
+          heading: "Layering for Versatility",
+          content: "Build outfits with layers for maximum versatility. A simple t-shirt with an unbuttoned flannel or denim shirt over it creates visual interest and practical comfort. Add a lightweight jacket when needed. This approach lets you adjust to changing temperatures and different settings throughout the day. Stick to complementary neutral colors for easy mixing and matching. Layers also add dimension to otherwise simple outfits.",
+          image: everydayLayers1
+        },
+        {
+          heading: "The Everyday Essentials",
+          content: "Build your everyday wardrobe systematically. You need: five quality t-shirts in neutral colors, three pairs of jeans in different washes, two casual button-down shirts, one versatile jacket, and two pairs of sneakers. These pieces create dozens of outfit combinations. Focus on fit, quality, and versatility. Every piece should work with multiple other pieces in your wardrobe. This curated approach means less clothes but more options—and less time deciding what to wear.",
+          image: everydayFlatlay1
+        }
+      ],
+      conclusion: "Effortless style is actually quite intentional—it requires building a thoughtful wardrobe of pieces you love and that work together seamlessly. By focusing on quality basics, proper fit, and versatile neutrals, you create a wardrobe that makes daily dressing easy and stress-free. The goal isn't to look like you don't care—it's to look like you have inherent style that doesn't require excessive effort. Invest wisely, keep it simple, and let quality do the talking."
+    }
+  },
+  {
+    slug: "denim-days-jeans-styling",
+    title: "Denim Days: 3 Ways to Style Your Jeans for Different Moods",
+    date: "December 21, 2025",
+    excerpt: "One pair of jeans, endless possibilities. Discover how to style denim for casual, smart, and street-inspired looks...",
+    image: denimDaysHero,
+    content: {
+      intro: "Denim is the most democratic fabric in fashion—it works across all style tribes, budgets, and occasions. A good pair of jeans is the foundation of most men's casual wardrobes, but many guys stick to the same styling formula day after day. Your jeans have more potential than you think. With the right complementary pieces, one pair of quality jeans can serve casual weekends, smart-casual occasions, and street style looks equally well.",
+      sections: [
+        {
+          heading: "Classic Casual Denim",
+          content: "For timeless casual style, pair dark wash jeans with a simple white t-shirt and a camel suede jacket. This combination is effortlessly cool without trying too hard. Brown leather boots or clean white sneakers complete the look depending on the occasion. The key is keeping proportions balanced—if your jeans are slim, your jacket can be slightly oversized; if jeans are relaxed, keep the top fitted. This outfit works for weekend coffee, casual dinners, or relaxed social gatherings.",
+          image: denimClassic1
+        },
+        {
+          heading: "Smart-Casual Elevation",
+          content: "Transform your jeans for smarter occasions by pairing them with a crisp button-down shirt and a tailored blazer. Dark indigo or black jeans work best for this elevated look. Add brown leather loafers or minimalist Chelsea boots to complete the smart-casual vibe. This combination is perfect for casual Fridays, dinner dates, or creative work environments. The trick is ensuring excellent fit throughout—sloppy jeans undermine the blazer's sophistication.",
+          image: denimSmart1
+        },
+        {
+          heading: "Street Style Edge",
+          content: "Give your jeans street style attitude by pairing them with an oversized hoodie, statement sneakers, and a bomber or coach jacket. Distressed or light-wash jeans work particularly well for this aesthetic. Layer a longline t-shirt under the hoodie for added dimension. Add accessories like a crossbody bag or baseball cap to complete the look. This outfit channels urban energy and youth culture—perfect for concerts, streetwear shopping, or casual hangouts with friends.",
+          image: denimStreet1
+        },
+        {
+          heading: "Denim Wash Guide",
+          content: "Understanding denim washes unlocks even more styling options. Dark indigo jeans are the most versatile—they work for almost any occasion and pair with any color. Medium wash denim is inherently casual, perfect for weekends. Light wash and distressed jeans have strong casual and street style vibes—they're less versatile but make stronger style statements. Black jeans bridge casual and formal, working with both sneakers and dress shoes. Invest in at least two washes for maximum wardrobe flexibility.",
+          image: denimVariety1
+        }
+      ],
+      conclusion: "Your jeans are only as limited as your styling imagination. By understanding how to pair denim with different pieces and accessories, you unlock multiple looks from a single pair. Quality matters—invest in well-made jeans that fit perfectly and will last years. Good denim ages beautifully, developing character with wear. Build your wardrobe around quality denim and you'll always have reliable styling options ready to go."
+    }
+  },
+  {
+    slug: "tshirt-pants-basics-reinvented",
+    title: "T-Shirt & Pants, Reinvented: How to Look Stylish with the Basics",
+    date: "December 20, 2025",
+    excerpt: "The simplest outfit combination gets a style upgrade. Elevate your t-shirt and pants game with these essential tips...",
+    image: tshirtPantsHero,
+    content: {
+      intro: "T-shirt and pants: it's the default outfit for millions of men, and for good reason—it's comfortable, easy, and works for most casual situations. But 'basic' doesn't have to mean 'boring.' With attention to fit, quality, and thoughtful details, this simple combination becomes the foundation of excellent casual style. The difference between looking sloppy and stylish often comes down to small details and intentional choices.",
+      sections: [
+        {
+          heading: "Premium Basics Make the Difference",
+          content: "Invest in quality t-shirts in premium fabrics. A well-made cotton t-shirt in white, grey, or black with perfect shoulder seams and appropriate length transforms your entire look. Pair with dark chinos or quality denim and minimalist sneakers. The fit should skim your body without being tight or loose. This elevated basic combination works for casual meetings, weekend activities, or relaxed social settings. Quality basics look intentional, not like you just rolled out of bed.",
+          image: tshirtPremium1
+        },
+        {
+          heading: "The Elevated Chinos Combination",
+          content: "Match a plain t-shirt with well-tailored chinos for instant polish. Beige or olive chinos with a white or navy t-shirt create a clean, modern aesthetic. Add brown leather loafers or white leather sneakers depending on the occasion. Ensure your t-shirt is tucked in neatly or falls at the right length if worn untucked. Roll up your chino cuffs slightly to show ankle and footwear. This combination is perfect for smart-casual settings where jeans feel too casual but suits are too formal.",
+          image: tshirtChinos1
+        },
+        {
+          heading: "Layering for Dimension",
+          content: "Add dimension to the basic t-shirt and pants combo through layering. Throw an open overshirt or lightweight jacket over your t-shirt for instant visual interest. A denim jacket, flannel shirt, or casual bomber transforms the outfit from basic to intentional. This approach works particularly well in transitional seasons and gives you flexibility for temperature changes. Stick to complementary neutral colors for easy coordination. Layering shows you put thought into your appearance.",
+          image: tshirtLayered1
+        },
+        {
+          heading: "Essential T-Shirt Collection",
+          content: "Build a proper t-shirt wardrobe with intention. You need quality basics in white, black, grey, and navy—at least two of each for rotation. Add a few subtle colors like olive, burgundy, or tan for variety. Ensure consistent fit across all pieces. Avoid graphic tees unless they're genuinely meaningful or exceptionally well-designed. A collection of perfect basic tees is more valuable than a closet full of statement pieces. Replace worn tees immediately—faded, stretched basics undermine your entire look.",
+          image: tshirtCollection1
+        }
+      ],
+      conclusion: "The t-shirt and pants combination is as fundamental as it gets, but that simplicity is its strength. By focusing on perfect fit, quality fabrics, and thoughtful details, you transform this basic outfit into a reliable style foundation. The goal isn't to be flashy—it's to look put-together and intentional with minimal effort. Invest in quality basics, ensure proper fit, and pay attention to small details. Master the basics and you'll always have a solid style foundation to build upon."
+    }
+  },
+  {
+    slug: "sporty-but-chic-athleisure",
+    title: "Sporty But Chic: 5 Athleisure Looks That Work Anywhere",
+    date: "December 19, 2025",
+    excerpt: "Athleisure isn't just for the gym anymore. Discover five versatile athletic-inspired looks for modern active lifestyles...",
+    image: sportyChicHero,
+    content: {
+      intro: "Athleisure has evolved from gym-only wear to a legitimate style category that works for multiple lifestyle situations. The modern man needs clothing that transitions from workout to work, from coffee shop to casual meetings. Athleisure perfectly serves this need, offering comfort and functionality without sacrificing style. The key is choosing pieces that look intentional rather than like you forgot to change after the gym.",
+      sections: [
+        {
+          heading: "The Performance Basics Look",
+          content: "Start with quality performance basics: fitted technical t-shirt, athletic joggers with tapered legs, and premium running sneakers. Stick to dark colors like black, navy, or charcoal for versatility and polish. A lightweight jacket or hoodie adds a finishing layer. This outfit works for actual workouts but also looks appropriate for grocery shopping, casual errands, or grabbing coffee. The key is ensuring everything fits well—baggy athletic wear looks sloppy outside the gym.",
+          image: athleisureSporty1
+        },
+        {
+          heading: "Elevated Athleisure",
+          content: "Blend athletic pieces with lifestyle items for elevated athleisure. Pair technical joggers with a premium hoodie or sweatshirt and add a sleek bomber jacket. Finish with minimalist sneakers in white or grey. This combination maintains athletic comfort while looking polished enough for casual social settings. Choose elevated fabrics and clean designs over overtly sporty pieces. Add a quality backpack and simple accessories to complete the modern, active lifestyle aesthetic.",
+          image: athleisureLuxury1
+        },
+        {
+          heading: "Monochrome Athletic Style",
+          content: "Create a sleek monochrome athletic look in all black or grey. Matching top and bottom in the same color family creates a cohesive, intentional appearance. Add subtle contrast through texture and material differences. This refined approach to athleisure works for more situations than busy patterns or bright colors. The monochrome aesthetic looks modern and sophisticated while maintaining athletic functionality. Perfect for men who want versatility without complexity.",
+          image: athleisureMinimal1
+        },
+        {
+          heading: "The Complete Athleisure Wardrobe",
+          content: "Build a functional athleisure wardrobe with essential pieces: three pairs of quality joggers in black, grey, and navy; five technical t-shirts; two hoodies; one lightweight jacket; and two pairs of versatile sneakers. These pieces should mix and match easily, creating multiple outfit combinations. Focus on quality over quantity—good athletic wear holds its shape and performance properties through many washes. Your athleisure wardrobe should serve both athletic activities and casual lifestyle needs seamlessly.",
+          image: athleisureFlatlay1
+        }
+      ],
+      conclusion: "Athleisure represents how modern men actually live—active, on-the-go, and seeking comfort without sacrificing appearance. By choosing quality athletic-inspired pieces and styling them thoughtfully, you create a wardrobe that serves multiple purposes. The best athleisure doesn't look like you're trying to make gym clothes work for regular life—it looks like intentional, modern style that happens to be incredibly functional. Invest in versatile pieces, keep fits contemporary, and embrace the comfort of athletic-inspired style."
+    }
+  },
   {
     slug: "mens-suit-styling-guide",
     title: "The Perfect Men's Suit Styling Guide",
