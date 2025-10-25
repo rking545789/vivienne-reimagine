@@ -200,6 +200,333 @@ export interface Article {
 
 export const articlesData: Article[] = [
   {
+    slug: "capsule-wardrobe-timeless-pieces",
+    title: "10 Timeless Pieces to Build Your Perfect Capsule Wardrobe",
+    date: "December 15, 2025",
+    author: "Emma Wilson",
+    excerpt: "Building a capsule wardrobe doesn't mean sacrificing style. These 10 essential pieces form the foundation of endless outfit possibilities...",
+    image: capsuleWardrobe,
+    content: {
+      intro: "What if I told you that you could have a closet with just 10 pieces and still look effortlessly chic every single day? That's the magic of a capsule wardrobe. It's not about limitation—it's about liberation. Freedom from decision fatigue, freedom from clutter, and freedom to focus on what truly makes you feel confident.",
+      sections: [
+        {
+          heading: "The Classic White Button-Down",
+          content: "Let's start with the obvious—but don't underestimate it. A crisp white button-down is THE most versatile piece you'll ever own. Wear it tucked into high-waisted jeans for brunch, half-tucked into a midi skirt for the office, or completely untucked over leggings for weekends. The trick? Find one that fits your shoulders perfectly. Everything else can be tailored, but shoulder fit is non-negotiable. I've worn mine to job interviews, date nights, and lazy Sundays. It's literally the hardest-working item in my closet.",
+          image: capsuleEssentials
+        },
+        {
+          heading: "Perfect Dark Denim",
+          content: "Not all jeans are created equal, and for a capsule wardrobe, you need THE pair. Dark wash, straight or slightly tapered leg, mid-to-high rise. This isn't about trends—it's about a cut that flatters your body and goes everywhere. I spent years buying cheap jeans that looked great for a month, then lost their shape. When I finally invested in quality denim, everything changed. They've lasted three years and look better with age.",
+          image: denimCollection
+        },
+        {
+          heading: "The Neutral Trench Coat",
+          content: "If you only buy one coat, make it a trench. Beige, camel, or khaki—whichever neutral speaks to you. This coat transitions through seasons, works with everything, and instantly elevates any outfit. I wear mine from September through May. Over dresses, suits, casual weekend looks—it just works. The investment is worth it: a well-made trench will outlive trends and become that piece people associate with your style.",
+          image: trenchDetails
+        },
+        {
+          heading: "Black Ankle Boots",
+          content: "Forget the idea that you need dozens of shoes. One pair of quality black ankle boots will carry you through most occasions. The key features? Comfortable heel (block or low), quality leather, and a sleek silhouette. I wear mine with everything—jeans, dresses, work pants, even summer dresses when the temperature drops. They're professional enough for meetings and edgy enough for nights out.",
+          image: shoeDisplay
+        },
+        {
+          heading: "The Little Black Dress",
+          content: "Cliché? Maybe. Essential? Absolutely. But here's the thing—your LBD should reflect YOUR style. Mine is a simple midi with long sleeves because that's what makes me feel confident. Someone else's might be sleeveless and knee-length. The point is finding a black dress that you can dress up with heels and jewelry or down with sneakers and a denim jacket. It should make you feel like yourself, just more polished.",
+          image: lbdCollection
+        }
+      ],
+      conclusion: "Here's what nobody tells you about capsule wardrobes: they're not about restriction—they're about clarity. These 10 pieces give you a foundation, but how you wear them is entirely personal. Mix them, layer them, accessorize them differently. The goal isn't to look the same every day; it's to always look like yourself. Start with these essentials, wear them, live in them, and you'll discover what else you truly need. Less really can be more—and infinitely more stylish."
+    }
+  },
+  {
+    slug: "summer-style-cool-chic",
+    title: "Summer Style Guide: How to Stay Cool and Look Effortlessly Chic",
+    date: "December 14, 2025",
+    author: "Sophia Anderson",
+    excerpt: "When temperatures soar, style doesn't have to suffer. Master the art of summer dressing with these genius strategies that keep you cool and collected...",
+    image: summerLinen,
+    content: {
+      intro: "Summer dressing presents a unique challenge: how do you look polished when you're literally melting? The secret isn't about wearing less—it's about wearing smart. Natural fabrics, strategic silhouettes, and a few key pieces transform summer from a style challenge into an opportunity to shine.",
+      sections: [
+        {
+          heading: "Fabric First: The Natural Choice",
+          content: "Cotton, linen, silk—these aren't just fabrics, they're your summer survival kit. Linen breathes like nothing else. Yes, it wrinkles, but that's part of its charm. A rumpled linen dress or oversized shirt looks intentionally relaxed, not sloppy. Cotton is your workhorse: tanks, tees, sundresses—all washable, all wearable on repeat. And silk? It's cooler than you think. A silk slip dress with sandals is summer perfection. Skip synthetic fabrics unless they're specifically designed for moisture-wicking sportswear. Your body will thank you.",
+          image: linenLifestyle
+        },
+        {
+          heading: "The Oversized Shirt Trick",
+          content: "Want to know my secret weapon? Men's oversized white cotton shirts. Wear one as a beach cover-up, over bike shorts for errands, belted as a dress, or unbuttoned over a tank. The loose fit allows air circulation while still looking intentional. I buy mine a few sizes up, roll the sleeves, and suddenly I have the easiest summer staple. Pair with anything: denim shorts, linen pants, swimsuit bottoms. It's the ultimate low-effort, high-impact piece.",
+          image: weekendOutfit
+        },
+        {
+          heading: "Color Psychology for Summer",
+          content: "Dark colors absorb heat—we all know this. But all-white isn't the only solution. Light neutrals like sand, cream, and soft gray reflect heat while being more practical than stark white. Pastels work beautifully: mint, lavender, soft yellow. And don't write off bold colors entirely—a vibrant coral or cobalt dress can be surprisingly cooling in breathable fabric. The key is choosing lighter shades within each color family. Think sky blue instead of navy, pale pink instead of fuchsia.",
+          image: spring2026Yellow
+        },
+        {
+          heading: "Strategic Silhouettes",
+          content: "Tight clothes trap heat and cling to sweaty skin—not cute. Looser silhouettes allow air flow and look infinitely chicer. Wide-leg pants, A-line dresses, oversized tunics—these aren't frumpy when styled right. The trick is one fitted element per outfit. Loose pants? Fitted tank. Oversized shirt? Slim shorts. This creates shape while maximizing comfort. My uniform: wide-leg linen pants, fitted tank, oversized linen shirt worn open. Looks like I tried, feels like pajamas.",
+          image: proportionBalance
+        },
+        {
+          heading: "The Minimalist Accessory Approach",
+          content: "Summer isn't the time for heavy statement jewelry. Think delicate gold chains, simple hoop earrings, maybe a silk scarf in your hair. A straw bag adds texture without weight. And sunglasses? Always. They're functional and instantly make any outfit look more considered. I keep accessories minimal in summer—the heat does enough to my hair and makeup without adding heavy jewelry to the mix. Less is definitely more when you're sweating through 90-degree days.",
+          image: accessoriesLuxury
+        }
+      ],
+      conclusion: "Summer style isn't about suffering for fashion—it's about working with the weather, not against it. Choose natural fabrics, embrace looser fits, and remember that comfort and style aren't mutually exclusive. The most chic thing you can do in summer? Look like you're not trying too hard. Because honestly, when it's this hot, you shouldn't have to."
+    }
+  },
+  {
+    slug: "white-shirt-five-ways",
+    title: "5 Ways to Style a Classic White Shirt: From Office to Weekend",
+    date: "December 13, 2025",
+    author: "Charlotte Morgan",
+    excerpt: "One white shirt, five completely different looks. From boardroom-ready to weekend-casual, discover how this wardrobe essential transforms to suit any occasion...",
+    image: outfitSpring,
+    content: {
+      intro: "I used to think white shirts were boring—until I realized I was wearing them wrong. A quality white button-down isn't a basic; it's a blank canvas. The styling possibilities are literally endless. Here are my five go-to ways to wear this wardrobe MVP.",
+      sections: [
+        {
+          heading: "Look 1: The Power Professional",
+          content: "For the office: Tuck your white shirt into high-waisted tailored trousers. Add a leather belt to define the waist, slip on pointed-toe heels, and grab a structured tote. Keep the top buttons done, sleeves down, and everything crisp. This is your 'I mean business' look. The white shirt provides a clean backdrop that lets your confidence do the talking. Add a blazer if you're presenting or meeting clients. Statement earrings work here—keep everything else minimal.",
+          image: workOutfit2
+        },
+        {
+          heading: "Look 2: The Weekend Casual",
+          content: "Saturdays call for comfort: Leave your shirt completely unbuttoned, wear it over a simple tank or tee, and pair with your favorite jeans—boyfriend, straight-leg, whatever you're feeling. Roll the sleeves to your elbows, leave the shirt untucked, and throw on sneakers or flat sandals. This is effortless without looking sloppy. The white shirt adds structure to an otherwise casual outfit. I do this constantly—it's basically my weekend uniform.",
+          image: weekendOutfit
+        },
+        {
+          heading: "Look 3: The Date Night Edit",
+          content: "Yes, you can absolutely wear a white shirt on a date. The trick? Style it unexpectedly. Half-tuck the front into a leather mini or sleek midi skirt, leave a few buttons undone to show a hint of skin, and add heeled sandals or ankle boots. Statement earrings and a bold lip make it feel special. This look says 'I put in effort but I'm not trying too hard'—which is exactly the vibe you want. Confident, stylish, approachable.",
+          image: outfitDress
+        },
+        {
+          heading: "Look 4: The Layering Essential",
+          content: "Fall and spring? Your white shirt becomes the perfect layering piece. Wear it under a chunky knit sweater with just the collar and cuffs showing. Or layer it under a slip dress for added coverage and texture contrast. This is where a crisp white shirt really proves its worth—it adds polish to cozy pieces and makes casual dresses work-appropriate. The white collar peeking out from a navy sweater? Classic. White cuffs under a blazer? Timeless.",
+          image: winterLayers
+        },
+        {
+          heading: "Look 5: The Monochrome Moment",
+          content: "All white, all sophisticated. Pair your white shirt with white jeans or white linen pants for a clean, modern look. This works surprisingly well for so many occasions—brunch, gallery openings, summer parties. The key is playing with textures: crisp cotton shirt with soft linen pants creates visual interest. Add tan or nude accessories to warm it up, or go bold with black shoes for contrast. This look photographs beautifully and always feels fresh.",
+          image: spring2026White
+        }
+      ],
+      conclusion: "Still think white shirts are basic? The beauty of this piece is its versatility—it adapts to your life, your style, your needs. Invest in one that fits you perfectly (shoulders are everything), and you'll wear it in ways you never imagined. Five looks here, but honestly? There are fifty more. The white shirt isn't just a staple—it's a style superpower."
+    }
+  },
+  {
+    slug: "dress-code-formula",
+    title: "What to Wear: A Foolproof Formula for Every Dress Code",
+    date: "December 12, 2025",
+    author: "Isabella Martinez",
+    excerpt: "Decoding dress codes doesn't have to be stressful. From business formal to smart casual, here's exactly what to wear when you have no idea what to wear...",
+    image: workWardrobe,
+    content: {
+      intro: "You know that panic when an invitation says 'smart casual' or 'business professional' and you have absolutely no idea what that means? Same. Dress codes are confusing because they're subjective—one person's casual is another person's dressy. But here's the good news: there ARE general guidelines, and once you understand them, getting dressed becomes so much easier.",
+      sections: [
+        {
+          heading: "Business Formal: The Suit Standard",
+          content: "This is the most traditional dress code. Think: corporate law firm, bank headquarters, important client meetings. For women, this means tailored suits (pants or skirt), closed-toe heels, minimal jewelry, and conservative colors. The suit should fit impeccably—have it tailored if needed. Blouses should be simple and professional. This isn't the time for trendy pieces or bold fashion statements. Your appearance should convey competence and authority. When in doubt, observe what senior people wear and take your cues from them.",
+          image: outfitBlazer
+        },
+        {
+          heading: "Business Casual: The Office Staple",
+          content: "This is where most offices land. It's professional but not formal. Translation: you don't need a full suit, but you still need to look polished. Think blazers with nice jeans (dark wash, no rips), blouses with tailored pants, dresses with cardigans. Flats are fine, sneakers usually aren't. The key word here is 'polished'—everything should look intentional and put-together. I like the formula: one professional piece (blazer, tailored pants, structured dress) plus one slightly more casual piece (nice jeans, simple tee, flat shoes).",
+          image: workOutfit1
+        },
+        {
+          heading: "Smart Casual: The Tricky Middle Ground",
+          content: "This is the dress code that confuses everyone because it's so context-dependent. Generally, it means elevated casual—nicer than jeans and a tee, but not office formal. For a restaurant or event: think midi dress with heels, nice pants with a silk top, or dark jeans with a blazer and heels. The 'smart' part means adding one dressy element. Clean sneakers might work, but heels or nice flats are safer. Avoid anything too casual (athletic wear, graphic tees) or too formal (business suits). Aim for 'I look like I tried without trying too hard.'",
+          image: outfitNavy
+        },
+        {
+          heading: "Cocktail Attire: The Party Dress Code",
+          content: "Cocktail attire means party time, but sophisticated party time. Think: wedding receptions, fancy birthday parties, upscale events. For women, this typically means a dress—knee-length to midi, in rich fabrics like silk or velvet. Heels are expected. Jewelry can be more statement-making here. The key is looking festive and elegant without being over-the-top. Avoid anything too casual (sundresses, flats) or too formal (floor-length gowns unless it's specified). My go-to: a sleek midi dress in a jewel tone with heeled sandals and statement earrings.",
+          image: outfitDress
+        },
+        {
+          heading: "Casual: Not As Simple As It Sounds",
+          content: "Casual is the most subjective dress code because it varies wildly by context. Casual for a tech startup might mean hoodies and sneakers. Casual for a country club might mean pressed khakis and polo shirts. The trick is reading the room (or asking someone). Generally, casual means comfortable but presentable—no athletic wear unless you're at the gym, no pajamas unless you're at home. Quality jeans, nice tees, casual dresses, comfortable shoes. Even in casual settings, fit and cleanliness matter. Sloppy and casual are not the same thing.",
+          image: weekendCasual
+        }
+      ],
+      conclusion: "The truth about dress codes? They're guidelines, not rigid rules. Use them as starting points, then adjust based on your personal style and the specific context. When in doubt, it's usually better to be slightly overdressed than underdressed—you can always remove a blazer or switch shoes. And remember: confidence is the best accessory for any dress code. Wear what makes you feel like yourself, just the most appropriate-for-the-occasion version of yourself."
+    }
+  },
+  {
+    slug: "investment-dressing-guide",
+    title: "Investment Dressing: The 7 Pieces Worth Splurging On This Year",
+    date: "December 11, 2025",
+    author: "Camille Dubois",
+    excerpt: "Not every piece deserves your hard-earned money. But these seven? They're worth every penny. Here's where to invest for maximum style impact...",
+    image: outfitCamel,
+    content: {
+      intro: "Investment dressing isn't about being expensive—it's about being strategic. Some items you should absolutely buy cheaply and replace often. Others? They deserve a real investment because they'll serve you for years and elevate everything you wear. After years of trial and error (and some expensive mistakes), here are the seven pieces that have genuinely been worth the splurge.",
+      sections: [
+        {
+          heading: "1. The Perfect Wool Coat",
+          content: "A quality wool coat is non-negotiable if you live anywhere with actual winter. This is the piece people see you in most—commuting, running errands, going to events. A cheap coat looks cheap, pills after one season, and won't keep you warm. A good one? Lasts a decade or more. Look for: 100% wool (or high wool content), quality lining, real buttons (not plastic), and classic silhouette. Camel, black, or navy are most versatile. I bought mine five years ago and wear it 100+ times per year. Cost per wear? Totally worth it.",
+          image: outfitCamel
+        },
+        {
+          heading: "2. Quality Leather Shoes",
+          content: "Cheap shoes hurt. They also fall apart after a season and never look quite right. Quality leather shoes—whether boots, loafers, or heels—mold to your feet, last for years with proper care, and always look polished. This doesn't mean you need to spend thousands, but spending a bit more makes a massive difference. Look for: genuine leather, comfortable footbed, solid construction. Take care of them (polish, weatherproof, resole when needed) and they'll outlast trendy fast-fashion shoes by years. Your feet and your style will thank you.",
+          image: shoeDisplay
+        },
+        {
+          heading: "3. The Investment Handbag",
+          content: "You don't need twenty bags. You need one or two really good ones. A quality leather bag ages beautifully, holds its shape, and makes every outfit look more expensive. The key is choosing a style you genuinely love and that fits your lifestyle—don't buy a structured tote if you're a crossbody person. Classic shapes in neutral colors are most versatile. Black, brown, or tan work with everything. I saved for months for mine, use it almost daily, and still love it years later. That's the definition of investment dressing.",
+          image: accessoriesLuxury
+        },
+        {
+          heading: "4. Tailored Blazer",
+          content: "A blazer that actually fits transforms your entire wardrobe. Off-the-rack blazers rarely fit perfectly, so budget for tailoring too. Shoulders should sit at your shoulder line, sleeves should hit at your wrist bone, and length should flatter your proportions. In the right blazer, you look polished instantly—even with jeans and a tee. Choose a neutral color first (black, navy, or camel) in a classic cut. This piece works for interviews, presentations, dinners, date nights. Its versatility alone makes it worth the investment.",
+          image: blazerCollection
+        },
+        {
+          heading: "5. The Perfect White Shirt",
+          content: "Not all white shirts are created equal. A truly perfect one—quality cotton, impeccable fit, crisp but not stiff—is worth paying for. The difference between a cheap white shirt and an expensive one is immediately visible: better fabric that doesn't wrinkle instantly, buttons that stay buttoned, a collar that maintains its shape. This piece works for literally everything. I probably wear mine twice a week. When you calculate cost per wear, suddenly the price makes sense. Invest in the fit first, fabric second.",
+          image: capsuleEssentials
+        },
+        {
+          heading: "6. Classic Denim",
+          content: "Good jeans are expensive, but they're also worth it. Quality denim holds its shape, doesn't stretch out after one wear, and develops character over time. Cheap jeans fade weirdly, lose their shape, and often fit poorly to begin with. Find a brand and style that works for your body, then stick with it. I'd rather have one pair of perfect jeans I wear constantly than five mediocre pairs I never reach for. Dark wash is most versatile—it works for almost any occasion and always looks polished.",
+          image: denimCollection
+        },
+        {
+          heading: "7. Luxury Knitwear",
+          content: "Cashmere, merino wool, quality knits—these feel completely different from cheap synthetics. They're softer, warmer, more breathable, and they last. A quality knit sweater won't pill after two washes, won't lose its shape, and feels amazing against your skin. In colder months, you'll live in these pieces. A cashmere crewneck or cardigan works for everything—layered over shirts, worn alone, dressed up or down. Yes, they require careful washing, but the longevity and luxury make them worth it.",
+          image: knitTextures
+        }
+      ],
+      conclusion: "Investment dressing is about value, not just cost. These seven pieces cost more upfront but pay dividends in longevity, versatility, and style impact. Meanwhile, save money on trendy pieces, basics you replace seasonally, and items that don't get heavy use. The goal isn't to spend more—it's to spend smarter. Build your wardrobe around quality foundational pieces, and everything else becomes easier. Trust me, your future self will thank you for investing in pieces that truly last."
+    }
+  },
+  {
+    slug: "personal-style-journey",
+    title: "Beyond Trends: How to Find and Embrace Your Personal Style",
+    date: "December 10, 2025",
+    author: "Victoria Chen",
+    excerpt: "Your style isn't about following trends—it's about discovering what makes you feel like the best version of yourself. Here's how to find your unique fashion voice...",
+    image: outfitNavy,
+    content: {
+      intro: "I spent years chasing trends. Every season, I'd buy what magazines said was 'in,' only to feel uncomfortable wearing it. My closet was full, but I had nothing to wear. Sound familiar? The turning point came when I stopped asking 'what's trendy?' and started asking 'what feels like me?' Developing personal style isn't about following rules—it's about understanding yourself.",
+      sections: [
+        {
+          heading: "Start With Your Lifestyle, Not Instagram",
+          content: "Your style should reflect your actual life, not someone else's curated feed. Are you in an office five days a week? Then most of your wardrobe should be work-appropriate pieces you genuinely enjoy wearing. Are you a stay-at-home parent? Then practical, comfortable pieces that still make you feel put-together are key. There's no point in buying party dresses if you rarely go out, or suits if you work from home. Be honest about your lifestyle and build from there. Personal style has to be personal—not aspirational.",
+          image: workWardrobe
+        },
+        {
+          heading: "Identify What Makes You Feel Confident",
+          content: "Think about outfits where you've felt unstoppable—what were you wearing? For me, it's high-waisted wide-leg pants with a tucked-in tee and blazer. For you, it might be a flowing dress, sharp tailoring, or oversized sweaters. Pay attention to patterns. Do you feel best in fitted or relaxed silhouettes? Bold colors or neutrals? Minimalist or statement pieces? Your style confidence comes from understanding what makes YOU feel good, not what looks good on someone else. Trust your instincts here.",
+          image: outfitBlazer
+        },
+        {
+          heading: "Create a Style Mood Board (Digital or Physical)",
+          content: "Save images that resonate with you—not because they're trendy, but because something about them speaks to you. After collecting 30-50 images, look for patterns. Are most outfits minimalist? Colorful? Romantic? Edgy? Do you gravitate toward certain silhouettes, colors, or aesthetics? This exercise reveals your true preferences, often surprising you. I thought I was a minimalist until my mood board was full of color and texture. Your mood board shows what you're drawn to, not what you think you should like. That's valuable insight.",
+          image: neutralPalette
+        },
+        {
+          heading: "Experiment Without Commitment",
+          content: "Trying new styles doesn't mean buying new clothes. Mix pieces you already own in unexpected ways. Try different proportions—oversized top with fitted pants, or vice versa. Play with accessories. Borrow from friends. Thrift shop. Give yourself permission to experiment without pressure. Some experiments will fail—that's the point. Each 'no' gets you closer to your 'yes.' When I tried maximalist jewelry, I hated it. But that taught me I'm a minimalist accessories person. Every experiment, successful or not, clarifies your style.",
+          image: accessoriesLuxury
+        },
+        {
+          heading: "Build a Capsule Around Your Core Pieces",
+          content: "Once you know what works, build intentionally around those pieces. If you love wearing jeans and blazers, invest in perfect-fitting jeans and blazers in various colors. If dresses are your thing, build a dress collection in styles you actually wear. The capsule wardrobe concept isn't about restriction—it's about clarity. Focus on pieces you reach for repeatedly, not items that 'might' work someday. Your personal style should make getting dressed easier, not harder. When everything in your closet feels like you, every outfit works.",
+          image: capsuleWardrobe
+        }
+      ],
+      conclusion: "Personal style is a journey, not a destination. It evolves as you do—and that's not just okay, it's the point. What worked five years ago might not work now, and that's growth. The key is staying connected to yourself, not external validation. Trends will come and go, but your personal style—rooted in self-knowledge and confidence—is timeless. Stop trying to dress like someone else. Dress like the most authentic version of yourself. That's when style becomes truly personal."
+    }
+  },
+  {
+    slug: "flattering-silhouettes-guide",
+    title: "Dress for Your Shape: Flattering Silhouettes for Every Body Type",
+    date: "December 9, 2025",
+    author: "Grace Montgomery",
+    excerpt: "Understanding your body shape isn't about limitation—it's about empowerment. Discover which silhouettes enhance your natural proportions and make you feel amazing...",
+    image: proportionStyling,
+    content: {
+      intro: "Let me be clear: you can wear anything you want, regardless of body type. 'Rules' are outdated. But understanding which silhouettes tend to be most flattering on your body type? That's just helpful information. Think of this as a starting point, not a prescription. The goal is feeling confident and comfortable in your clothes.",
+      sections: [
+        {
+          heading: "Understanding Body Proportions",
+          content: "Body types are about proportions, not size. You can be any weight and any shape. The main categories—apple, pear, hourglass, rectangle, inverted triangle—simply describe where you carry weight and your natural proportions. Apple shapes carry weight in the midsection. Pears are wider in the hips. Hourglasses have defined waists. Rectangles are balanced without much waist definition. Inverted triangles have broader shoulders than hips. None of these is better or worse—they're just different starting points for understanding what might work for your proportions.",
+          image: flatteringSilhouettes
+        },
+        {
+          heading: "For Pear Shapes: Balance Is Key",
+          content: "If you're wider through the hips and thighs with narrower shoulders, the goal is often creating balance. That means drawing attention upward or creating shoulder width. Try: boat neck tops, statement sleeves, structured jackets, and darker bottoms with lighter tops. A-line skirts and dresses are incredibly flattering, skimming hips without clinging. Wide-leg pants balance proportions beautifully. Avoid: overly tight pants, bottoms with lots of details/pockets, and tops that end right at the widest part of your hips. But remember—these are suggestions, not rules. If you love skinny jeans, wear them confidently.",
+          image: balanceProportions
+        },
+        {
+          heading: "For Apple Shapes: Define and Elongate",
+          content: "If you carry weight in your midsection with slimmer legs, you'll often look great in pieces that create a waistline and show off those legs. Try: wrap dresses, empire waists, V-necks, and longer tops that skim rather than cling. Structured jackets create shape. Show off your legs with skirts and dresses—this is your asset. Avoid: clingy fabrics around the middle, crop tops that end at the widest point, and shapeless sacks that hide everything. The goal is definition, not hiding. You're creating shape through strategic styling.",
+          image: waistDefinition
+        },
+        {
+          heading: "For Rectangle Shapes: Create Curves",
+          content: "If your shoulders, waist, and hips are similarly proportioned, you can create the illusion of curves through styling. Try: belted dresses, peplum tops, fit-and-flare dresses, and horizontal stripes. Playing with texture and layers adds dimension. Cropped jackets and high-waisted pants create a waist where there isn't much natural definition. Avoid: straight up-and-down silhouettes without shape, unless that's the aesthetic you're going for. Many models are rectangle shapes and work it beautifully—you can embrace the streamlined silhouette or create curves through styling.",
+          image: proportionBalance
+        },
+        {
+          heading: "For Hourglass Shapes: Embrace the Waist",
+          content: "If your shoulders and hips are balanced with a defined waist, showing that waist is usually flattering. Try: wrap dresses, belted coats, high-waisted everything, and fitted (not tight) pieces that follow your curves. You can pull off bodycon better than most body types if that's your style. Avoid: shapeless, boxy styles that hide your waist, and drop-waist silhouettes. The key is enhancement, not restriction—you want clothes that acknowledge your curves without being overly tight. Your proportions are balanced; let that show.",
+          image: flatteringSilhouettes
+        },
+        {
+          heading: "For Inverted Triangle Shapes: Balance the Shoulders",
+          content: "If your shoulders are broader than your hips, you might want to balance by adding volume on bottom or minimizing on top. Try: V-necks, raglan sleeves, darker tops with lighter bottoms, A-line skirts, wide-leg pants, and details on the lower half. Avoid: shoulder pads, boat necks, and cap sleeves if they make you feel unbalanced. But here's the thing—many inverted triangles embrace their strong shoulders. If that's you, own it. These guidelines are about proportion, but confidence trumps everything.",
+          image: balanceProportions
+        }
+      ],
+      conclusion: "Body type guidelines are tools, not rules. Use them when they help, ignore them when they don't. The most important thing? Wearing what makes you feel good. Style is subjective, bodies are diverse, and confidence makes everything look better. Understanding your proportions gives you a starting point for shopping and styling, but your personal preference always wins. Dress for the body you have, not the body you think you should have. And remember: fashion rules are meant to be broken by anyone brave enough to try."
+    }
+  },
+  {
+    slug: "colorful-outfits-beginner-guide",
+    title: "Unlock Your Palette: A Beginner's Guide to Building Colorful Outfits",
+    date: "December 8, 2025",
+    author: "Elena Rodriguez",
+    excerpt: "Tired of wearing black and navy? Color can transform your wardrobe—and it's easier than you think. Start your colorful journey here...",
+    image: colorTheoryHero,
+    content: {
+      intro: "I lived in black and gray for years. Safe? Yes. Boring? Also yes. Then I started experimenting with color and everything changed—not just my wardrobe, but my mood. Color is powerful. It catches attention, expresses personality, and honestly, it's just fun. But if you're used to neutrals, color can feel scary. Where do you even start? Here's your beginner-friendly guide to embracing color without feeling overwhelmed.",
+      sections: [
+        {
+          heading: "Start With One Statement Color",
+          content: "Don't overhaul your entire wardrobe overnight. Start with one color you love—maybe it's a shade you're drawn to but never wear. Buy one statement piece in that color: a blazer, dress, or even just a bold top. Wear it with your usual neutrals. A cobalt blue blazer over black pants and a white tee? Instantly more interesting. A coral dress with nude shoes? Fresh and approachable. Starting with one piece lets you test the waters without commitment. You might discover you love wearing color—or that you prefer it in small doses. Both are fine.",
+          image: colorBlockOutfit
+        },
+        {
+          heading: "Understanding Color Families",
+          content: "Colors have temperatures: warm (yellows, oranges, reds with yellow undertones) and cool (blues, purples, pinks with blue undertones). Most people look better in one temperature than the other—it's about what complements your skin's undertones. Cool skin tones typically look great in jewel tones: emerald, sapphire, ruby. Warm skin tones glow in earth tones: rust, mustard, olive. Not sure? Hold different colored fabrics near your face and see what makes you look vibrant versus washed out. This isn't a hard rule, but it's a helpful starting point.",
+          image: warmEarthTones
+        },
+        {
+          heading: "The Foolproof Color Combinations",
+          content: "Nervous about clashing? Stick with these tried-and-true combos: Navy + White + Red (classic Americana), Camel + Cream + Black (sophisticated neutral mix), Blush + Gray (soft and modern), Olive + Rust + Cream (earthy bohemian), Black + any bright color (instantly chic). Monochromatic looks (different shades of the same color) are also beginner-friendly and surprisingly sophisticated. All blue outfit? Yes. Different shades of pink? Absolutely. This takes the guesswork out of mixing colors.",
+          image: neutralHarmonyHero
+        },
+        {
+          heading: "Pattern as a Color Gateway",
+          content: "Patterns are sneaky ways to wear color. A striped shirt with navy and white is technically colorful but feels safe. A floral dress gives you multiple colors without committing to solid brights. Use patterns to introduce colors gradually. Plus, patterns naturally show you which colors work together—let the print be your guide. If a scarf combines pink, orange, and red, those colors obviously work together. Wear them in solid pieces too. Patterns are like color training wheels.",
+          image: patternCoordination
+        },
+        {
+          heading: "Building Confidence With Color",
+          content: "The mental shift matters as much as the clothes. Wearing color attracts attention—that's the point. If you're used to blending in with neutrals, brighter colors might feel vulnerable at first. Start with colors in cuts you're comfortable in. If you love jeans and blazers, try a colored blazer instead of black. If dresses are your thing, same dress style but in a bold hue. Familiar silhouettes + new colors = confidence. And remember: people respond positively to color. You'll get compliments. Soak them in—they're confirmation you're on the right track.",
+          image: spring2026Yellow
+        }
+      ],
+      conclusion: "Embracing color doesn't mean abandoning neutrals—it means expanding your options. Color adds joy, personality, and energy to your wardrobe. Start small, experiment with what feels good, and don't pressure yourself to suddenly become a rainbow. Even adding one or two colorful pieces to your neutral foundation creates impact. The goal isn't to wear every color all the time; it's to give yourself permission to play. Life's too short to only wear black. Add some color—your wardrobe (and your mood) will thank you."
+    }
+  },
+  {
     slug: "spring-2026-european-fashion-trends",
     title: "Spring 2026: The European Fashion Revolution",
     date: "November 2, 2025",
