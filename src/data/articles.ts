@@ -288,6 +288,7 @@ export const articlesData: Article[] = [
     slug: "french-style-secrets",
     title: "What Are the Key Elements of French Style?",
     date: "November 9, 2025",
+    author: "Camille Dubois",
     excerpt: "The essence of French style isn't about complex outfits, but mastering classic pieces and the effortless chic attitude. Let's unveil the secrets that keep French women forever stylish...",
     image: frenchStyleHero,
     content: {
@@ -324,6 +325,7 @@ export const articlesData: Article[] = [
     slug: "autumn-2025-niche-bags",
     title: "5 Must-Have Niche Bags for Autumn 2025",
     date: "November 8, 2025",
+    author: "Victoria Chen",
     excerpt: "Tired of mainstream designer logos? These niche brand bags are equally refined and exquisite, while better showcasing your unique taste...",
     image: autumnBagsHero,
     content: {
@@ -360,6 +362,7 @@ export const articlesData: Article[] = [
     slug: "jennie-airport-style-breakdown",
     title: "Jennie Airport Style Breakdown",
     date: "November 7, 2025",
+    author: "Min-Ji Park",
     excerpt: "Every airport appearance by BLACKPINK's Jennie is a fashion moment. Let's analyze her styling secrets and learn how to create airport style that's both comfortable and chic...",
     image: jennieAirportHero,
     content: {
@@ -396,6 +399,7 @@ export const articlesData: Article[] = [
     slug: "color-elegance-guide",
     title: "How to Elevate Your Presence with Color",
     date: "November 6, 2025",
+    author: "Elena Rodriguez",
     excerpt: "Color is the most powerful style tool, yet many don't know how to use it correctly. Master these color secrets to instantly elevate your presence...",
     image: colorEleganceHero,
     content: {
@@ -432,6 +436,7 @@ export const articlesData: Article[] = [
     slug: "denim-styling-five-ways",
     title: "5 Ways to Style the Same Pair of Jeans",
     date: "November 5, 2025",
+    author: "Rachel Thompson",
     excerpt: "A quality pair of jeans can be transformed into countless looks. Master these 5 classic styling formulas to maximize your denim's versatility...",
     image: denimStylingHero,
     content: {
@@ -468,6 +473,7 @@ export const articlesData: Article[] = [
     slug: "timeless-trench-coat",
     title: "The Timeless Trench Coat: Your Ultimate Investment Piece",
     date: "October 24, 2025",
+    author: "Olivia Bennett",
     excerpt: "Every woman needs a classic trench coat in her wardrobe...",
     image: outfitTrench,
     content: {
@@ -498,6 +504,7 @@ export const articlesData: Article[] = [
     slug: "modern-blazer-guide",
     title: "Power Dressing: The Modern Blazer Guide",
     date: "October 23, 2025",
+    author: "Alexandra Hayes",
     excerpt: "The tailored blazer has evolved from corporate staple to fashion essential...",
     image: outfitBlazer,
     content: {
@@ -528,6 +535,7 @@ export const articlesData: Article[] = [
     slug: "building-neutral-wardrobe",
     title: "Building Your Perfect Neutral Wardrobe",
     date: "October 22, 2025",
+    author: "Charlotte Morgan",
     excerpt: "Creating a cohesive wardrobe doesn't have to be complicated...",
     image: outfitCamel,
     content: {
@@ -558,6 +566,7 @@ export const articlesData: Article[] = [
     slug: "cozy-knit-styling",
     title: "Cozy Knit Styling for Fall",
     date: "October 21, 2025",
+    author: "Emma Wilson",
     excerpt: "Master the art of layering with luxurious knitwear...",
     image: outfitKnit,
     content: {
@@ -588,6 +597,7 @@ export const articlesData: Article[] = [
     slug: "navy-white-classic",
     title: "The Navy & White Classic Combination",
     date: "October 20, 2025",
+    author: "Grace Montgomery",
     excerpt: "Discover the timeless elegance of this nautical-inspired palette...",
     image: outfitNavy,
     content: {
@@ -618,6 +628,7 @@ export const articlesData: Article[] = [
     slug: "silk-elegance",
     title: "Silk Elegance: Luxe Fabric Guide",
     date: "October 19, 2025",
+    author: "Natalie Foster",
     excerpt: "Everything you need to know about styling and caring for silk...",
     image: outfitSilk,
     content: {
@@ -648,6 +659,7 @@ export const articlesData: Article[] = [
     slug: "little-black-dress",
     title: "The Little Black Dress: A Modern Take",
     date: "October 18, 2025",
+    author: "Julia Richards",
     excerpt: "Reimagining the most iconic wardrobe staple...",
     image: outfitDress,
     content: {
@@ -678,6 +690,7 @@ export const articlesData: Article[] = [
     slug: "monochrome-styling",
     title: "Mastering Monochrome: All-Black Everything",
     date: "October 17, 2025",
+    author: "Melissa Carter",
     excerpt: "The art of creating depth and interest in single-color outfits...",
     image: outfitBlack,
     content: {
@@ -708,6 +721,7 @@ export const articlesData: Article[] = [
     slug: "jewelry-layering",
     title: "The Art of Jewelry Layering",
     date: "October 16, 2025",
+    author: "Diana Laurent",
     excerpt: "Create stunning, personalized looks with layered jewelry...",
     image: jewelryLayering,
     content: {
@@ -737,6 +751,7 @@ export const articlesData: Article[] = [
     slug: "spring-transition-dressing",
     title: "Spring Transition Dressing",
     date: "October 15, 2025",
+    author: "Lily Patterson",
     excerpt: "Navigate unpredictable weather with style and ease...",
     image: outfitSpring,
     content: {
@@ -766,6 +781,7 @@ export const articlesData: Article[] = [
     slug: "minimalist-wardrobe",
     title: "The Minimalist Wardrobe: Less is More",
     date: "October 14, 2025",
+    author: "Sarah Mitchell",
     excerpt: "Discover the freedom of a curated, intentional closet...",
     image: wardrobeMinimal,
     content: {
@@ -796,6 +812,7 @@ export const articlesData: Article[] = [
     slug: "luxury-accessories",
     title: "Investing in Luxury Accessories",
     date: "October 13, 2025",
+    author: "Madeleine Clarke",
     excerpt: "Smart strategies for building a collection of timeless pieces...",
     image: accessoriesLuxury,
     content: {
@@ -825,6 +842,7 @@ export const articlesData: Article[] = [
     slug: "capsule-wardrobe-guide",
     title: "Creating Your Perfect Capsule Wardrobe",
     date: "October 12, 2025",
+    author: "Katherine Ellis",
     excerpt: "A comprehensive guide to building a versatile, cohesive closet...",
     image: capsuleWardrobe,
     content: {
@@ -855,6 +873,7 @@ export const articlesData: Article[] = [
     slug: "shoe-collection-essentials",
     title: "Building Your Essential Shoe Collection",
     date: "October 11, 2025",
+    author: "Audrey Reynolds",
     excerpt: "The only shoes you really need for a complete wardrobe...",
     image: shoesCollection,
     content: {
@@ -885,6 +904,7 @@ export const articlesData: Article[] = [
     slug: "denim-styling-guide",
     title: "The Ultimate Denim Styling Guide",
     date: "October 10, 2025",
+    author: "Harper Collins",
     excerpt: "From casual to sophisticated, master the art of wearing denim...",
     image: denimStyle,
     content: {
@@ -915,6 +935,7 @@ export const articlesData: Article[] = [
     slug: "proportion-styling",
     title: "Mastering Proportion in Your Outfits",
     date: "October 9, 2025",
+    author: "Penelope James",
     excerpt: "The secret to creating balanced, flattering silhouettes...",
     image: proportionStyling,
     content: {
@@ -945,6 +966,7 @@ export const articlesData: Article[] = [
     slug: "belt-styling-guide",
     title: "The Belt: Your Secret Styling Weapon",
     date: "October 8, 2025",
+    author: "Beatrice Stone",
     excerpt: "Transform your outfits with this often-overlooked accessory...",
     image: beltStyling,
     content: {
@@ -1005,6 +1027,7 @@ export const articlesData: Article[] = [
     slug: "pattern-mixing-guide",
     title: "Pattern Mixing: Breaking the Rules with Style",
     date: "October 6, 2025",
+    author: "Vivienne Brooks",
     excerpt: "Master the art of combining prints for sophisticated looks...",
     image: patternMixing,
     content: {
@@ -1035,6 +1058,7 @@ export const articlesData: Article[] = [
     slug: "color-blocking-techniques",
     title: "Color Blocking: Bold and Beautiful",
     date: "October 5, 2025",
+    author: "Scarlett Davies",
     excerpt: "Create striking outfits with strategic color combinations...",
     image: colorBlocking,
     content: {
@@ -1065,6 +1089,7 @@ export const articlesData: Article[] = [
     slug: "winter-layering-mastery",
     title: "Winter Layering: Warmth Meets Style",
     date: "October 4, 2025",
+    author: "Amelia Porter",
     excerpt: "Stay cozy without sacrificing your silhouette...",
     image: winterLayering,
     content: {
@@ -1095,6 +1120,7 @@ export const articlesData: Article[] = [
     slug: "work-wardrobe-essentials",
     title: "Building Your Professional Wardrobe",
     date: "October 3, 2025",
+    author: "Claire Ashford",
     excerpt: "Look polished and confident in any professional setting...",
     image: workWardrobe,
     content: {
@@ -1125,6 +1151,7 @@ export const articlesData: Article[] = [
     slug: "evening-style-guide",
     title: "Evening Style: From Cocktail to Black Tie",
     date: "October 2, 2025",
+    author: "Arabella Sinclair",
     excerpt: "Navigate formal dress codes with confidence and grace...",
     image: eveningStyle,
     content: {
@@ -1155,6 +1182,7 @@ export const articlesData: Article[] = [
     slug: "summer-linen-styling",
     title: "Summer Linen: Effortless Warm-Weather Style",
     date: "October 1, 2025",
+    author: "Josephine Blake",
     excerpt: "Embrace the season's most breathable fabric with sophistication...",
     image: summerLinen,
     content: {
@@ -1185,6 +1213,7 @@ export const articlesData: Article[] = [
     slug: "neckline-guide",
     title: "The Complete Neckline Guide",
     date: "September 30, 2025",
+    author: "Rosalie Ward",
     excerpt: "Choose the most flattering necklines for your features...",
     image: necklineGuide,
     content: {
@@ -1215,6 +1244,7 @@ export const articlesData: Article[] = [
     slug: "perfect-pants-fit",
     title: "Finding Your Perfect Pants Fit",
     date: "September 29, 2025",
+    author: "Chloe Maxwell",
     excerpt: "The ultimate guide to pants that flatter and feel great...",
     image: pantsFit,
     content: {
@@ -1245,6 +1275,7 @@ export const articlesData: Article[] = [
     slug: "sleeve-styling-guide",
     title: "Sleeve Styling: The Details That Matter",
     date: "September 28, 2025",
+    author: "Juliette Armstrong",
     excerpt: "Master the art of sleeve styling for polished looks...",
     image: sleeveStyling,
     content: {
@@ -1275,6 +1306,7 @@ export const articlesData: Article[] = [
     slug: "spring-transition-pieces",
     title: "Essential Spring Transition Pieces",
     date: "September 27, 2025",
+    author: "Seraphina Cross",
     excerpt: "Navigate the season change with versatile, layerable pieces...",
     image: springTransition,
     content: {
@@ -1305,6 +1337,7 @@ export const articlesData: Article[] = [
     slug: "texture-mixing-mastery",
     title: "Texture Mixing: Adding Depth to Your Outfits",
     date: "September 26, 2025",
+    author: "Margot Sullivan",
     excerpt: "Create visual interest through strategic fabric combinations...",
     image: textureMixing,
     content: {
@@ -1335,6 +1368,7 @@ export const articlesData: Article[] = [
     slug: "weekend-casual-style",
     title: "Weekend Casual: Elevated Comfort Dressing",
     date: "September 25, 2025",
+    author: "Delphine White",
     excerpt: "Look polished and feel comfortable on your days off...",
     image: weekendCasual,
     content: {
@@ -1365,6 +1399,7 @@ export const articlesData: Article[] = [
     slug: "color-theory-masterclass",
     title: "Color Theory Masterclass: The Science of Looking Good",
     date: "September 24, 2025",
+    author: "Cordelia Hunt",
     excerpt: "Learn the color combinations that create harmonious, eye-catching outfits...",
     image: colorTheoryHero,
     content: {
