@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
               <section className="mb-8">
                 <h2 className="text-2xl font-medium text-foreground mb-4">Introduction</h2>
                 <p className="text-foreground leading-relaxed mb-4">
-                  Welcome to The Style Chronicles. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website and subscribe to our newsletter.
+                  Welcome to The Mode Diary. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website and subscribe to our newsletter.
                 </p>
               </section>
 

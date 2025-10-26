@@ -14,7 +14,7 @@ const About = () => {
           <div className="lg:col-span-2">
             <article className="prose prose-lg max-w-none">
               <h1 className="text-4xl font-serif italic text-primary mb-6">
-                About The Style Chronicles
+                About The Mode Diary
               </h1>
               
               <img 
@@ -28,7 +28,7 @@ const About = () => {
               </h2>
               
               <p className="leading-relaxed mb-6">
-                The Style Chronicles was born from a simple realization: we don't need more clothes, we need better wardrobes. In a world of fast fashion and endless options, it's easy to feel overwhelmed and still have nothing to wear.
+                The Mode Diary was born from a simple realization: we don't need more clothes, we need better wardrobes. In a world of fast fashion and endless options, it's easy to feel overwhelmed and still have nothing to wear.
               </p>
 
               <p className="leading-relaxed mb-6">
@@ -82,7 +82,7 @@ const About = () => {
               </h2>
 
               <p className="leading-relaxed mb-6">
-                The Style Chronicles is more than just a blog—it's a community of women who are rethinking their relationship with fashion. We're here to support each other in building wardrobes we love, shopping more intentionally, and developing personal style with confidence.
+                The Mode Diary is more than just a blog—it's a community of women who are rethinking their relationship with fashion. We're here to support each other in building wardrobes we love, shopping more intentionally, and developing personal style with confidence.
               </p>
 
               <p className="leading-relaxed mb-6">

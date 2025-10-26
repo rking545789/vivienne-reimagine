@@ -14,7 +14,7 @@ const StartHere = () => {
           <div className="lg:col-span-2">
             <article className="prose prose-lg max-w-none">
               <h1 className="text-4xl font-serif italic text-primary mb-6">
-                Welcome to The Style Chronicles
+                Welcome to The Mode Diary
               </h1>
               
               <img 
@@ -24,15 +24,15 @@ const StartHere = () => {
               />
 
               <p className="text-lg leading-relaxed mb-6">
-                Thank you for visiting The Style Chronicles! If you're new here, you might be wondering what this blog is all about and how it can help you develop your personal style.
+                Thank you for visiting The Mode Diary! If you're new here, you might be wondering what this blog is all about and how it can help you develop your personal style.
               </p>
 
               <h2 className="text-2xl font-medium text-foreground mt-8 mb-4">
-                What is The Style Chronicles?
+                What is The Mode Diary?
               </h2>
               
               <p className="leading-relaxed mb-6">
-                The Style Chronicles is a personal style blog that takes a unique approach to building a wardrobe. Instead of following fast fashion trends, we focus on creating carefully-curated capsule wardrobes based on timeless color palettes inspired by art, nature, and classic design.
+                The Mode Diary is a personal style blog that takes a unique approach to building a wardrobe. Instead of following fast fashion trends, we focus on creating carefully-curated capsule wardrobes based on timeless color palettes inspired by art, nature, and classic design.
               </p>
 
               <p className="leading-relaxed mb-6">

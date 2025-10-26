@@ -14,24 +14,24 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
               <p className="text-muted-foreground">
-                By accessing and using The Style Chronicles website, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to these terms, please do not use our website.
+                By accessing and using The Mode Diary website, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to these terms, please do not use our website.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">2. Use License</h2>
               <p className="text-muted-foreground mb-4">
-                Permission is granted to temporarily download one copy of the materials (information or software) on The Style Chronicles website for personal, non-commercial transitory viewing only.
+                Permission is granted to temporarily download one copy of the materials (information or software) on The Mode Diary website for personal, non-commercial transitory viewing only.
               </p>
               <p className="text-muted-foreground">
-                This license shall automatically terminate if you violate any of these restrictions and may be terminated by The Style Chronicles at any time.
+                This license shall automatically terminate if you violate any of these restrictions and may be terminated by The Mode Diary at any time.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">3. Content Disclaimer</h2>
               <p className="text-muted-foreground mb-4">
-                The materials on The Style Chronicles website are provided on an 'as is' basis. The Style Chronicles makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation:
+                The materials on The Mode Diary website are provided on an 'as is' basis. The Mode Diary makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
                 <li>Implied warranties or conditions of merchantability</li>
@@ -43,7 +43,7 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">4. Intellectual Property</h2>
               <p className="text-muted-foreground">
-                All content on this website, including but not limited to text, images, graphics, logos, and articles, is the property of The Style Chronicles or its content suppliers and is protected by international copyright laws.
+                All content on this website, including but not limited to text, images, graphics, logos, and articles, is the property of The Mode Diary or its content suppliers and is protected by international copyright laws.
               </p>
             </section>
 
@@ -55,28 +55,28 @@ const TermsOfService = () => {
                 <li>Attempt to gain unauthorized access to any portion of the website</li>
                 <li>Interfere with or disrupt the website or servers</li>
                 <li>Reproduce, duplicate, or copy material from the website without permission</li>
-                <li>Redistribute content from The Style Chronicles without authorization</li>
+                <li>Redistribute content from The Mode Diary without authorization</li>
               </ul>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">6. Limitations of Liability</h2>
               <p className="text-muted-foreground">
-                In no event shall The Style Chronicles or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on The Style Chronicles website.
+                In no event shall The Mode Diary or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on The Mode Diary website.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">7. External Links</h2>
               <p className="text-muted-foreground">
-                The Style Chronicles has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by The Style Chronicles. Use of any such linked website is at the user's own risk.
+                The Mode Diary has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by The Mode Diary. Use of any such linked website is at the user's own risk.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">8. Modifications</h2>
               <p className="text-muted-foreground">
-                The Style Chronicles may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
+                The Mode Diary may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
               </p>
             </section>
 
