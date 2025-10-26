@@ -215,13 +215,13 @@ export interface Article {
 export const articlesData: Article[] = [
   {
     slug: "redefining-modern-style-story",
-    title: "Redefining Modern Style — The Story Behind The Style Chronicles",
+    title: "Redefining Modern Style — The Story Behind The Mode Diary",
     date: "November 21, 2025",
-    author: "The Style Chronicles Editorial Team",
-    excerpt: "In a world where trends shift faster than the seasons, true style is not about keeping up—it's about standing still long enough to understand what moves you. Discover the philosophy behind The Style Chronicles...",
+    author: "The Mode Diary Editorial Team",
+    excerpt: "In a world where trends shift faster than the seasons, true style is not about keeping up—it's about standing still long enough to understand what moves you. Discover the philosophy behind The Mode Diary...",
     image: modernStyleStoryHero,
     content: {
-      intro: "In a world where trends shift faster than the seasons, true style is not about keeping up—it's about standing still long enough to understand what moves you. The Style Chronicles was born from this idea: that fashion is more than clothes, and design is more than aesthetics. It's a language. A story. A way of seeing the world.",
+      intro: "In a world where trends shift faster than the seasons, true style is not about keeping up—it's about standing still long enough to understand what moves you. The Mode Diary was born from this idea: that fashion is more than clothes, and design is more than aesthetics. It's a language. A story. A way of seeing the world.",
       sections: [
         {
           heading: "Beyond the Surface: Fashion as Philosophy",
@@ -230,7 +230,7 @@ export const articlesData: Article[] = [
         },
         {
           heading: "The Intersection of Modern and Timeless",
-          content: "At The Style Chronicles, we explore the spaces between modern design and timeless creativity. From the runways of New York to the quiet corners of independent studios, we look for stories that connect emotion, craftsmanship, and identity. Each article, image, and interview is an invitation to slow down and look deeper. We're not interested in telling you what to wear or what's 'in' this season. Instead, we want to help you discover your own visual language—the one that's been there all along, waiting to be articulated. Modern doesn't mean trendy; it means relevant to your life right now. Timeless doesn't mean boring; it means enduring beyond the moment.",
+          content: "At The Mode Diary, we explore the spaces between modern design and timeless creativity. From the runways of New York to the quiet corners of independent studios, we look for stories that connect emotion, craftsmanship, and identity. Each article, image, and interview is an invitation to slow down and look deeper. We're not interested in telling you what to wear or what's 'in' this season. Instead, we want to help you discover your own visual language—the one that's been there all along, waiting to be articulated. Modern doesn't mean trendy; it means relevant to your life right now. Timeless doesn't mean boring; it means enduring beyond the moment.",
           image: modernStyleUrban
         },
         {
@@ -240,10 +240,10 @@ export const articlesData: Article[] = [
         },
         {
           heading: "A Living Archive of Human Expression",
-          content: "As you read through The Style Chronicles, think of it not as a magazine, but as a living archive of human expression. A place where fashion meets philosophy, and design meets meaning. We document not just what people wear, but why they wear it. Not just how things look, but what they mean. This is about more than aesthetics—it's about the stories behind the choices, the intention behind the design, the humanity in the creative process. Every article is researched, every image carefully selected, every perspective considered. We take this work seriously because we believe style matters. Not in a superficial way, but in a profound one. How we present ourselves to the world shapes how we experience it."
+          content: "As you read through The Mode Diary, think of it not as a magazine, but as a living archive of human expression. A place where fashion meets philosophy, and design meets meaning. We document not just what people wear, but why they wear it. Not just how things look, but what they mean. This is about more than aesthetics—it's about the stories behind the choices, the intention behind the design, the humanity in the creative process. Every article is researched, every image carefully selected, every perspective considered. We take this work seriously because we believe style matters. Not in a superficial way, but in a profound one. How we present ourselves to the world shapes how we experience it."
         }
       ],
-      conclusion: "Welcome to The Style Chronicles — where trends fade, but style endures. This is a space for anyone who believes that fashion is more than consumption, that design is more than decoration, that style is a form of self-knowledge. Whether you're here to discover new perspectives, refine your personal aesthetic, or simply find inspiration in the everyday, we're honored to have you. Let's explore what it means to dress with intention, to live with creativity, and to express ourselves authentically through the visual choices we make every single day. Thank you for being here. Your journey starts now."
+      conclusion: "Welcome to The Mode Diary — where trends fade, but style endures. This is a space for anyone who believes that fashion is more than consumption, that design is more than decoration, that style is a form of self-knowledge. Whether you're here to discover new perspectives, refine your personal aesthetic, or simply find inspiration in the everyday, we're honored to have you. Let's explore what it means to dress with intention, to live with creativity, and to express ourselves authentically through the visual choices we make every single day. Thank you for being here. Your journey starts now."
     }
   },
   {

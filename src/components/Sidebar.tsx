@@ -60,11 +60,11 @@ const Sidebar = () => {
       <div className="bg-secondary/30 p-6 rounded-lg text-center">
         <div className="mb-4">
           <h2 className="text-3xl font-serif italic text-primary mb-2">
-            The <span className="text-4xl">Style</span> Chronicles
+            The <span className="text-4xl">Mode</span> Diary
           </h2>
         </div>
         <p className="text-sm leading-relaxed text-foreground mb-4">
-          The Style Chronicles is a unique personal style blog with carefully-selected capsule wardrobes based on color palettes drawn from works of art, nature, and more. It helps women buy less clothing, and to love what they buy.
+          The Mode Diary is a unique personal style blog with carefully-selected capsule wardrobes based on color palettes drawn from works of art, nature, and more. It helps women buy less clothing, and to love what they buy.
         </p>
         <Link to="/about">
           <Button variant="link" className="text-primary hover:text-primary/80">
