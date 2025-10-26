@@ -216,7 +216,7 @@ export const articlesData: Article[] = [
   {
     slug: "redefining-modern-style-story",
     title: "Redefining Modern Style — The Story Behind The Style Chronicles",
-    date: "December 21, 2025",
+    date: "November 21, 2025",
     author: "The Style Chronicles Editorial Team",
     excerpt: "In a world where trends shift faster than the seasons, true style is not about keeping up—it's about standing still long enough to understand what moves you. Discover the philosophy behind The Style Chronicles...",
     image: modernStyleStoryHero,
@@ -249,7 +249,7 @@ export const articlesData: Article[] = [
   {
     slug: "style-is-language",
     title: "Style Is Language: The Silent Power of Design and Identity",
-    date: "December 20, 2025",
+    date: "November 20, 2025",
     author: "Victoria Chen",
     excerpt: "Before we speak a word, our clothing tells a story. Explore how fashion transcends aesthetics to become a profound form of communication, shaping identity and influencing perception in ways we're only beginning to understand...",
     image: styleLanguageHero,
@@ -293,7 +293,7 @@ export const articlesData: Article[] = [
   {
     slug: "capsule-wardrobe-timeless-pieces",
     title: "10 Timeless Pieces to Build Your Perfect Capsule Wardrobe",
-    date: "December 15, 2025",
+    date: "November 15, 2025",
     author: "Emma Wilson",
     excerpt: "Building a capsule wardrobe doesn't mean sacrificing style. These 10 essential pieces form the foundation of endless outfit possibilities...",
     image: capsuleWardrobe,
@@ -332,7 +332,7 @@ export const articlesData: Article[] = [
   {
     slug: "summer-style-cool-chic",
     title: "Summer Style Guide: How to Stay Cool and Look Effortlessly Chic",
-    date: "December 14, 2025",
+    date: "November 14, 2025",
     author: "Sophia Anderson",
     excerpt: "When temperatures soar, style doesn't have to suffer. Master the art of summer dressing with these genius strategies that keep you cool and collected...",
     image: summerLinen,
@@ -371,7 +371,7 @@ export const articlesData: Article[] = [
   {
     slug: "white-shirt-five-ways",
     title: "5 Ways to Style a Classic White Shirt: From Office to Weekend",
-    date: "December 13, 2025",
+    date: "November 13, 2025",
     author: "Charlotte Morgan",
     excerpt: "One white shirt, five completely different looks. From boardroom-ready to weekend-casual, discover how this wardrobe essential transforms to suit any occasion...",
     image: outfitSpring,
@@ -410,7 +410,7 @@ export const articlesData: Article[] = [
   {
     slug: "dress-code-formula",
     title: "What to Wear: A Foolproof Formula for Every Dress Code",
-    date: "December 12, 2025",
+    date: "November 12, 2025",
     author: "Isabella Martinez",
     excerpt: "Decoding dress codes doesn't have to be stressful. From business formal to smart casual, here's exactly what to wear when you have no idea what to wear...",
     image: workWardrobe,
@@ -449,7 +449,7 @@ export const articlesData: Article[] = [
   {
     slug: "investment-dressing-guide",
     title: "Investment Dressing: The 7 Pieces Worth Splurging On This Year",
-    date: "December 11, 2025",
+    date: "November 11, 2025",
     author: "Camille Dubois",
     excerpt: "Not every piece deserves your hard-earned money. But these seven? They're worth every penny. Here's where to invest for maximum style impact...",
     image: outfitCamel,
@@ -498,7 +498,7 @@ export const articlesData: Article[] = [
   {
     slug: "personal-style-journey",
     title: "Beyond Trends: How to Find and Embrace Your Personal Style",
-    date: "December 10, 2025",
+    date: "October 30, 2025",
     author: "Victoria Chen",
     excerpt: "Your style isn't about following trends—it's about discovering what makes you feel like the best version of yourself. Here's how to find your unique fashion voice...",
     image: outfitNavy,
@@ -537,7 +537,7 @@ export const articlesData: Article[] = [
   {
     slug: "flattering-silhouettes-guide",
     title: "Dress for Your Shape: Flattering Silhouettes for Every Body Type",
-    date: "December 9, 2025",
+    date: "October 29, 2025",
     author: "Grace Montgomery",
     excerpt: "Understanding your body shape isn't about limitation—it's about empowerment. Discover which silhouettes enhance your natural proportions and make you feel amazing...",
     image: proportionStyling,
@@ -581,7 +581,7 @@ export const articlesData: Article[] = [
   {
     slug: "colorful-outfits-beginner-guide",
     title: "Unlock Your Palette: A Beginner's Guide to Building Colorful Outfits",
-    date: "December 8, 2025",
+    date: "October 28, 2025",
     author: "Elena Rodriguez",
     excerpt: "Tired of wearing black and navy? Color can transform your wardrobe—and it's easier than you think. Start your colorful journey here...",
     image: colorTheoryHero,
@@ -2481,7 +2481,7 @@ export const articlesData: Article[] = [
   {
     slug: "personal-style-system-building",
     title: "From 'Looking Good' to 'Having Style': Building Your Personal Style System",
-    date: "December 1, 2025",
+    date: "October 1, 2025",
     excerpt: "True style isn't about following trends—it's about developing a personal system that reflects who you are. Learn how to evolve from simply looking good to having a distinctive, authentic style...",
     image: personalStyleSystemHero,
     content: {
@@ -2517,7 +2517,7 @@ export const articlesData: Article[] = [
   {
     slug: "style-archetypes-analysis",
     title: "Analyzing Your Style Archetype: Natural, Classic, Dramatic & More",
-    date: "December 2, 2025",
+    date: "September 28, 2025",
     excerpt: "Understanding your style archetype is the foundation of building a cohesive wardrobe. Discover whether you're a Natural, Classic, Dramatic, or blend of multiple archetypes...",
     image: styleArchetypesHero,
     content: {
@@ -2553,7 +2553,7 @@ export const articlesData: Article[] = [
   {
     slug: "wardrobe-color-strategy-system",
     title: "Wardrobe Color Strategy: Creating Your Personal Palette",
-    date: "December 3, 2025",
+    date: "September 25, 2025",
     excerpt: "A strategic color palette is the secret to a cohesive wardrobe where everything works together. Learn how to build your signature color system...",
     image: wardrobeColorSystemHero,
     content: {
@@ -2589,7 +2589,7 @@ export const articlesData: Article[] = [
   {
     slug: "minimalist-layering-dimension",
     title: "How to Create Layers in Minimalist Style",
-    date: "December 4, 2025",
+    date: "September 20, 2025",
     excerpt: "Minimalist style doesn't have to be flat or boring. Discover how to add depth and interest through strategic layering, texture, and proportion...",
     image: minimalistLayeringHero,
     content: {
@@ -2625,7 +2625,7 @@ export const articlesData: Article[] = [
   {
     slug: "knit-cardigan-three-ways",
     title: "Three Ways to Style a Knit Cardigan",
-    date: "December 5, 2025",
+    date: "September 15, 2025",
     excerpt: "One cardigan, endless possibilities. Master three distinct styling approaches that take this wardrobe staple from casual to professional to elegant...",
     image: knitCardiganStylingHero,
     content: {
@@ -2653,7 +2653,7 @@ export const articlesData: Article[] = [
   {
     slug: "basics-designer-styling",
     title: "How to Make Basic Pieces Look Designer",
-    date: "December 6, 2025",
+    date: "September 10, 2025",
     excerpt: "The secret to expensive-looking style isn't a designer wardrobe—it's knowing how to elevate basics. Learn the styling techniques that make simple pieces look luxe...",
     image: basicsDesignerLookHero,
     content: {
@@ -2689,7 +2689,7 @@ export const articlesData: Article[] = [
   {
     slug: "french-japanese-minimalist-style-differences",
     title: "French, Japanese, and Minimalist Style: What Makes Them Different?",
-    date: "December 8, 2025",
+    date: "September 5, 2025",
     excerpt: "Three iconic style philosophies that embrace simplicity—yet each tells a completely different story. Discover the nuanced differences between French chic, Japanese minimalism, and pure minimalist style...",
     image: styleComparisonHero,
     content: {
@@ -2725,7 +2725,7 @@ export const articlesData: Article[] = [
   {
     slug: "personal-style-archive-wardrobe-organization",
     title: "Creating Your Personal Style Archive: 5 Steps to Organize Your Wardrobe",
-    date: "December 9, 2025",
+    date: "August 28, 2025",
     excerpt: "Transform your closet from chaotic collection to curated archive. A systematic approach to organizing your wardrobe that reveals your true style and simplifies daily dressing...",
     image: styleArchetypeHero,
     content: {
@@ -2763,7 +2763,7 @@ export const articlesData: Article[] = [
   {
     slug: "style-personality-classic-vs-natural",
     title: "Style Personality Analysis: Are You Classic or Natural Type?",
-    date: "December 10, 2025",
+    date: "August 20, 2025",
     excerpt: "Understanding your style personality transforms how you dress. Discover whether you're Classic or Natural type, and learn to dress authentically for your aesthetic...",
     image: frenchStyleHero,
     content: {
@@ -2799,7 +2799,7 @@ export const articlesData: Article[] = [
   {
     slug: "minimalist-commute-outfits",
     title: "Commute Style: 5 Minimalist Yet Stylish Outfit Ideas",
-    date: "December 11, 2025",
+    date: "August 15, 2025",
     excerpt: "Commuting doesn't mean sacrificing style. Master five minimalist outfit formulas that take you from transit to office in sophisticated simplicity...",
     image: commuteOutfitsHero,
     content: {
@@ -2837,7 +2837,7 @@ export const articlesData: Article[] = [
   {
     slug: "travel-packing-style-guide",
     title: "Travel Packing List for Style: Light Yet Fashionable",
-    date: "December 12, 2025",
+    date: "August 10, 2025",
     excerpt: "Master the art of packing light without sacrificing style. A systematic approach to building a travel wardrobe that's versatile, chic, and fits in a carry-on...",
     image: autumnWorkWardrobeHero,
     content: {
@@ -2874,7 +2874,7 @@ export const articlesData: Article[] = [
   {
     slug: "date-outfit-inspiration-gentle-authentic",
     title: "Date Outfit Inspiration: Gentle But Not Pretentious",
-    date: "December 13, 2025",
+    date: "August 5, 2025",
     excerpt: "Master the art of romantic dressing that's feminine, authentic, and approachable. Date outfit ideas that express gentle confidence without trying too hard...",
     image: autumnBagsHero,
     content: {
@@ -2911,7 +2911,7 @@ export const articlesData: Article[] = [
   {
     slug: "autumn-winter-layering-without-bulk",
     title: "Autumn/Winter Layering Without Looking Bulky",
-    date: "December 18, 2025",
+    date: "July 25, 2025",
     excerpt: "Master the art of cold-weather dressing that keeps you warm without adding visual weight. Strategic layering techniques for a slim, elegant silhouette...",
     image: winterLayering,
     content: {
@@ -2948,7 +2948,7 @@ export const articlesData: Article[] = [
   {
     slug: "choosing-tailored-coats-premium-quality",
     title: "How to Choose High-Quality Tailored Coats",
-    date: "December 17, 2025",
+    date: "July 20, 2025",
     excerpt: "Learn the secrets of identifying premium tailoring and construction. What to look for when investing in a coat that will last for years...",
     image: tailoringFit,
     content: {
@@ -2985,7 +2985,7 @@ export const articlesData: Article[] = [
   {
     slug: "affordable-brands-luxury-look",
     title: "Can Affordable Brands Look Luxurious?",
-    date: "December 16, 2025",
+    date: "July 15, 2025",
     excerpt: "The truth about creating expensive-looking outfits on a budget. Which affordable pieces can pass for luxury and how to style them...",
     image: luxeEleganceHero,
     content: {
@@ -3022,7 +3022,7 @@ export const articlesData: Article[] = [
   {
     slug: "color-psychology-elevate-presence",
     title: "Using Color to Elevate Your Presence",
-    date: "December 15, 2025",
+    date: "July 10, 2025",
     excerpt: "The psychological power of color in fashion. How strategic color choices affect perception, confidence, and the impression you make...",
     image: colorEleganceHero,
     content: {
@@ -3059,7 +3059,7 @@ export const articlesData: Article[] = [
   {
     slug: "body-optimization-beyond-black",
     title: "Slimming Isn't Just Black: Body Optimization Formula",
-    date: "December 14, 2025",
+    date: "July 5, 2025",
     excerpt: "The truth about dressing for your body shape beyond wearing black. Strategic styling techniques that create balanced, flattering proportions...",
     image: winterSlimmingHero,
     content: {
@@ -3096,7 +3096,7 @@ export const articlesData: Article[] = [
   {
     slug: "fashion-mindset-clothing-psychology",
     title: "Fashion and Mindset: What You Wear Is a Choice",
-    date: "December 13, 2025",
+    date: "June 28, 2025",
     excerpt: "The psychological relationship between clothing and identity. How intentional dressing shapes confidence, mood, and how you show up in the world...",
     image: workWardrobe,
     content: {
