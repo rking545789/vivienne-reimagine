@@ -761,7 +761,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "japanese-minimalist-style",
     title: "The Clean Japanese Look: Minimalism Meets Elegance",
-    date: "December 31, 2025",
+    date: "June 30, 2025",
     author: "Kenji Yamamoto",
     excerpt: "Discover the principles of Japanese minimalist fashion—where simplicity, quality, and attention to detail create effortlessly elegant style...",
     image: minimalistColorHero,
@@ -795,7 +795,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "french-effortless-sophistication",
     title: "French Men's Style: The Secret to Effortless Sophistication",
-    date: "December 30, 2025",
+    date: "June 25, 2025",
     author: "Pierre Dubois",
     excerpt: "Unlock the secrets of French men's style—where casual elegance, quality basics, and subtle confidence create timeless appeal...",
     image: frenchStyleHero,
@@ -829,7 +829,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "korean-fresh-polished-style",
     title: "Korean Men's Fashion Guide: The Power of a Fresh, Polished Look",
-    date: "December 29, 2025",
+    date: "June 20, 2025",
     author: "Min-Jun Park",
     excerpt: "Explore Korean men's fashion aesthetics—where modern silhouettes, layered styling, and fresh details create sophisticated contemporary looks...",
     image: mensCoatStylingHero,
@@ -863,7 +863,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "american-casual-street-style",
     title: "American Casual Comeback: How to Nail the Easygoing Street Look",
-    date: "December 28, 2025",
+    date: "June 15, 2025",
     author: "Luke Johnson",
     excerpt: "Rediscover American casual style—where denim, t-shirts, and classic sneakers create the relaxed, confident look that defined a generation...",
     image: mensWeekendStyleHero,
@@ -897,7 +897,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "retro-vintage-modern-menswear",
     title: "Retro Revival: Channeling Vintage Vibes into Modern Menswear",
-    date: "December 27, 2025",
+    date: "June 10, 2025",
     author: "Oscar Bennett",
     excerpt: "Learn to incorporate vintage-inspired pieces into modern outfits—creating looks that honor the past while feeling contemporary and fresh...",
     image: mensBusinessCasualHero,
@@ -931,7 +931,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "sharp-at-work-office-outfits",
     title: "Sharp at Work: 10 Office Outfits That Redefine Business Style",
-    date: "December 28, 2025",
+    date: "June 5, 2025",
     author: "Benjamin Clarke",
     excerpt: "From Monday meetings to Friday presentations, discover 10 office outfit combinations that perfectly blend professionalism with modern style...",
     image: sharpWorkOfficeHero,
@@ -965,7 +965,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "white-shirts-endless-style",
     title: "White Shirts, Endless Style: 7 Ways to Elevate a Classic Look",
-    date: "December 27, 2025",
+    date: "May 30, 2025",
     author: "Ethan Williams",
     excerpt: "The white shirt is menswear's most versatile piece. Discover seven sophisticated ways to style this wardrobe essential for every occasion...",
     image: whiteShirtsStyleHero,
@@ -999,7 +999,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "suit-with-streetwear-vibes",
     title: "Not Just Formal: How to Rock a Suit with Streetwear Vibes",
-    date: "December 26, 2025",
+    date: "May 25, 2025",
     author: "Jordan Hayes",
     excerpt: "Break the rules and redefine suiting by blending formal tailoring with street style elements for a fresh, contemporary look...",
     image: suitStreetwearHero,
@@ -1033,7 +1033,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "monochrome-minimalist-fashion",
     title: "Monochrome Magic: The Art of Minimalist Men's Fashion",
-    date: "December 25, 2025",
+    date: "May 20, 2025",
     author: "Sebastian White",
     excerpt: "Discover the sophisticated simplicity of monochrome dressing—where less is more and every detail counts...",
     image: monochromeMinimalistHero,
@@ -1067,7 +1067,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "modern-workwear-smart-casual",
     title: "Master the Modern Workwear Look: 5 Smart-Casual Tips Every Man Needs",
-    date: "December 24, 2025",
+    date: "May 15, 2025",
     author: "Nathan Cooper",
     excerpt: "Navigate the evolving workplace dress code with confidence. Master smart-casual style that's professional yet personal...",
     image: modernWorkwearHero,
@@ -1101,7 +1101,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "street-style-2025-trends",
     title: "Street Style 2025: The Hottest Men's Casual Trends to Watch",
-    date: "December 23, 2025",
+    date: "May 10, 2025",
     author: "Tyler Martinez",
     excerpt: "Stay ahead of the curve with 2025's most exciting street style trends—from oversized silhouettes to vintage revival...",
     image: streetStyle2025Hero,
@@ -1135,7 +1135,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "effortlessly-cool-everyday-outfits",
     title: "Effortlessly Cool: Everyday Outfits for the Laid-Back Guy",
-    date: "December 22, 2025",
+    date: "May 5, 2025",
     author: "Connor Davis",
     excerpt: "Master the art of looking stylish without trying too hard. Perfect everyday outfits for the modern casual lifestyle...",
     image: effortlesslyCoolHero,
@@ -1169,7 +1169,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "denim-days-jeans-styling",
     title: "Denim Days: 3 Ways to Style Your Jeans for Different Moods",
-    date: "December 21, 2025",
+    date: "April 28, 2025",
     author: "Blake Richards",
     excerpt: "One pair of jeans, endless possibilities. Discover how to style denim for casual, smart, and street-inspired looks...",
     image: denimDaysHero,
@@ -1203,7 +1203,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "tshirt-pants-basics-reinvented",
     title: "T-Shirt & Pants, Reinvented: How to Look Stylish with the Basics",
-    date: "December 20, 2025",
+    date: "April 20, 2025",
     author: "Austin Ford",
     excerpt: "The simplest outfit combination gets a style upgrade. Elevate your t-shirt and pants game with these essential tips...",
     image: tshirtPantsHero,
@@ -1237,7 +1237,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "sporty-but-chic-athleisure",
     title: "Sporty But Chic: 5 Athleisure Looks That Work Anywhere",
-    date: "December 19, 2025",
+    date: "April 15, 2025",
     author: "Derek Mason",
     excerpt: "Athleisure isn't just for the gym anymore. Discover five versatile athletic-inspired looks for modern active lifestyles...",
     image: sportyChicHero,
@@ -1271,7 +1271,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-suit-styling-guide",
     title: "The Perfect Men's Suit Styling Guide",
-    date: "December 18, 2025",
+    date: "April 10, 2025",
     author: "Harrison Scott",
     excerpt: "From fabric selection to detail coordination, master the art of suit styling that makes you stand out confidently in any occasion...",
     image: mensSuitGuideHero,
@@ -1300,7 +1300,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-business-casual-guide",
     title: "The Complete Business Casual Style Guide",
-    date: "December 17, 2025",
+    date: "April 5, 2025",
     author: "Maxwell Turner",
     excerpt: "Find the perfect balance between professionalism and comfort, creating the ideal wardrobe for modern workplace men...",
     image: mensBusinessCasualHero,
@@ -1324,7 +1324,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-weekend-casual-style",
     title: "Perfect Weekend Casual Style Guide",
-    date: "December 16, 2025",
+    date: "March 28, 2025",
     author: "Cameron Hughes",
     excerpt: "The workweek is over—time to showcase your personal style. Effortlessly create weekend looks that are both comfortable and stylish...",
     image: mensWeekendStyleHero,
@@ -1353,7 +1353,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-winter-coat-styling",
     title: "Winter Coat Styling Secrets",
-    date: "December 15, 2025",
+    date: "March 20, 2025",
     author: "Preston Walsh",
     excerpt: "In the cold winter season, let an elegant coat become your signature piece, showcasing the charm of a mature gentleman...",
     image: mensCoatStylingHero,
@@ -1382,7 +1382,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-athleisure-style-guide",
     title: "The Perfect Athleisure Style Guide",
-    date: "December 14, 2025",
+    date: "March 15, 2025",
     author: "Garrett Price",
     excerpt: "The perfect blend of sport and fashion, creating energetic looks for modern urban men...",
     image: mensAthleisureHero,
@@ -1411,7 +1411,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-accessories-essentials",
     title: "Essential Men's Accessories Guide",
-    date: "December 13, 2025",
+    date: "March 10, 2025",
     author: "Spencer Knight",
     excerpt: "Details determine taste—master these accessory pairing techniques to make your look more refined and perfect...",
     image: mensAccessoriesHero,
@@ -1440,7 +1440,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-denim-styling-guide",
     title: "Complete Denim Styling Guide",
-    date: "December 12, 2025",
+    date: "March 5, 2025",
     author: "Wyatt Coleman",
     excerpt: "From classic to innovative, explore the endless possibilities of denim pieces and create your own denim style...",
     image: mensDenimStyleHero,
@@ -1469,7 +1469,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-shirt-styling-guide",
     title: "Complete Shirt Styling Manual",
-    date: "December 11, 2025",
+    date: "February 25, 2025",
     author: "Clayton Rogers",
     excerpt: "From formal to casual, master all shirt styling techniques to create versatile men's styles...",
     image: mensShirtsGuideHero,
@@ -1498,7 +1498,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-formal-wear-guide",
     title: "Formal Occasion Dress Guide",
-    date: "December 10, 2025",
+    date: "February 15, 2025",
     author: "Dominic Pierce",
     excerpt: "Weddings, galas, award ceremonies... Master formal wear etiquette to showcase perfect presence at important occasions...",
     image: mensFormalWearHero,
@@ -1527,7 +1527,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-summer-style-guide",
     title: "Summer Fresh Style Guide",
-    date: "December 9, 2025",
+    date: "February 5, 2025",
     author: "Landon Foster",
     excerpt: "In the scorching summer, how to stay cool while showcasing elegant taste? Master these summer styling techniques...",
     image: mensSummerStyleHero,
