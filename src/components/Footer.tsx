@@ -11,7 +11,7 @@ const Footer = () => {
           <img 
             src={logoNew} 
             alt="The Mode Diary" 
-            className="h-12 w-auto"
+            className="h-18 w-auto"
           />
           <nav className="flex gap-6 text-sm">
             <Link 

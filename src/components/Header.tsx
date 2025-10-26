@@ -26,7 +26,7 @@ const Header = () => {
               <img 
                 src={logoNew} 
                 alt="The Mode Diary" 
-                className="h-16"
+                className="h-24"
               />
             </Link>
             <div className="flex-1 flex justify-center">
