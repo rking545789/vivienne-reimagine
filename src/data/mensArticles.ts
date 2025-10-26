@@ -206,7 +206,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "modern-mans-guide-effortless-style",
     title: "The Modern Man's Guide to Effortless Style",
-    date: "January 15, 2026",
+    date: "November 15, 2025",
     author: "Marcus Chen",
     excerpt: "True style isn't about strict rules or fleeting trends. It's about understanding who you are and translating that into what you wear with confidence and intention...",
     image: effortlesslyCoolHero,
@@ -251,7 +251,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "date-night-style-first-impressions",
     title: "Date Night Style: First-Impression Outfits That Always Work",
-    date: "January 10, 2026",
+    date: "November 10, 2025",
     author: "Marcus Chen",
     excerpt: "Make a lasting impression with these fail-safe date night outfits that strike the perfect balance between effort and ease...",
     image: dateNightStyleHero,
@@ -285,7 +285,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "travel-smart-fashion-tips",
     title: "Travel Smart: Fashion Tips for Looking Good on the Go",
-    date: "January 9, 2026",
+    date: "November 9, 2025",
     author: "Jake Morrison",
     excerpt: "Travel in style with these practical fashion strategies that keep you looking sharp from takeoff to touchdown...",
     image: travelSmartHero,
@@ -319,7 +319,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "party-ready-standout-looks",
     title: "Party-Ready Looks: 5 Outfits That Stand Out Under the Lights",
-    date: "January 8, 2026",
+    date: "November 8, 2025",
     author: "Adrian Stone",
     excerpt: "Command attention at any party with these bold yet sophisticated outfit combinations designed for nightlife...",
     image: partyReadyHero,
@@ -353,7 +353,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "camera-friendly-outfits-natural-photos",
     title: "Camera-Friendly Outfits: What to Wear to Look Natural in Photos",
-    date: "January 7, 2026",
+    date: "November 7, 2025",
     author: "David Park",
     excerpt: "Look your best in every photo with these camera-friendly styling strategies that photograph beautifully...",
     image: cameraFriendlyHero,
@@ -387,7 +387,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "job-interview-style-guide",
     title: "Job Interview Style Guide: Dress for the Role You Want",
-    date: "January 6, 2026",
+    date: "November 6, 2025",
     author: "Robert Taylor",
     excerpt: "Make the right first impression at your job interview with outfit strategies tailored to different industries and roles...",
     image: jobInterviewHero,
@@ -421,7 +421,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-accessories-101-instant-upgrade",
     title: "Men's Accessories 101: 5 Pieces That Instantly Upgrade Your Look",
-    date: "January 5, 2026",
+    date: "November 5, 2025",
     author: "Thomas Reed",
     excerpt: "Elevate any outfit with these essential accessories that add polish and personality to your style...",
     image: mensAccessories101Hero,
@@ -455,7 +455,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "shoe-game-sneakers-dress-shoes",
     title: "Step Up Your Shoe Game: Pairing Sneakers and Dress Shoes Like a Pro",
-    date: "January 4, 2026",
+    date: "October 28, 2025",
     author: "Chris Anderson",
     excerpt: "Master the art of footwear pairing with expert guidance on when to wear sneakers versus dress shoes...",
     image: shoeGameHero,
@@ -489,7 +489,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "color-matching-men-perfect-outfits",
     title: "Color Matching for Men: A Simple Guide to Perfect Outfits",
-    date: "January 3, 2026",
+    date: "October 25, 2025",
     author: "Samuel Brooks",
     excerpt: "Master color coordination with these straightforward strategies that make creating harmonious outfits effortless...",
     image: colorMatchingHero,
@@ -523,7 +523,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "dress-body-type-style-tips",
     title: "Dress for Your Body Type: Style Tips for Every Shape and Size",
-    date: "January 2, 2026",
+    date: "October 22, 2025",
     author: "Vincent Lee",
     excerpt: "Discover flattering style strategies tailored to your specific body type for maximum confidence and appeal...",
     image: bodyTypeHero,
@@ -557,7 +557,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "power-clean-style-put-together",
     title: "The Power of Clean Style: How to Look Put-Together Every Day",
-    date: "January 1, 2026",
+    date: "October 20, 2025",
     author: "Daniel Wright",
     excerpt: "Discover the simple principles of clean, minimal style that ensure you always look polished and intentional...",
     image: cleanStyleHero,
@@ -591,7 +591,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "fall-winter-coats-scarves",
     title: "Fall/Winter Essentials: 10 Ways to Pair Coats and Scarves Like a Pro",
-    date: "January 5, 2026",
+    date: "October 18, 2025",
     author: "Alexander Hunt",
     excerpt: "Master the art of layering with coats and scarves. Discover 10 sophisticated combinations that keep you warm while looking effortlessly stylish...",
     image: autumnCoatsHero,
@@ -625,7 +625,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "mens-summer-style-guide",
     title: "Stay Cool & Stylish: Men's Summer Outfits That Actually Work",
-    date: "January 4, 2026",
+    date: "October 15, 2025",
     author: "Michael Torres",
     excerpt: "Beat the heat without sacrificing style. Explore practical summer outfit ideas that keep you comfortable and looking sharp in warm weather...",
     image: mensSummerStyleHero,
@@ -659,7 +659,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "spring-layering-refresh",
     title: "Spring Refresh: Layering Ideas to Upgrade Your Look This Season",
-    date: "January 3, 2026",
+    date: "October 12, 2025",
     author: "Ryan Mitchell",
     excerpt: "Transition your wardrobe into spring with smart layering techniques that handle unpredictable weather while keeping you stylish...",
     image: mensSpringLayersHero,
@@ -693,7 +693,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "winter-layering-warm-stylish",
     title: "Winter Layers Done Right: Stay Warm Without Losing Style",
-    date: "January 2, 2026",
+    date: "October 10, 2025",
     author: "Nicholas Gray",
     excerpt: "Conquer winter weather with expert layering techniques that maintain your style while providing maximum warmth...",
     image: winterLayeringHero,
@@ -727,7 +727,7 @@ export const mensArticlesData: MensArticle[] = [
   {
     slug: "summer-head-to-toe-guide",
     title: "Head-to-Toe Summer Style Guide for the Modern Man",
-    date: "January 1, 2026",
+    date: "October 8, 2025",
     author: "Patrick Collins",
     excerpt: "A comprehensive guide to summer dressing, from sunglasses to shoes, ensuring you look polished in every detail...",
     image: mensAccessoriesHero,
