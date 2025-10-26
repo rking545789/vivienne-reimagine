@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/" className="flex-shrink-0">
               <img 
                 src={logoNew} 
-                alt="The Style Chronicles" 
+                alt="The Mode Diary" 
                 className="h-16"
               />
             </Link>

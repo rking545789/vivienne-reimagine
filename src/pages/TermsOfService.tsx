@@ -90,7 +90,7 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">10. Contact Information</h2>
               <p className="text-muted-foreground">
-                If you have any questions about these Terms of Service, please contact us through our contact page or email us at contact@thestylechronicles.com.
+                If you have any questions about these Terms of Service, please contact us through our contact page or email us at contact@themodediary.com.
               </p>
             </section>
 

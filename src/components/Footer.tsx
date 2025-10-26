@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <img 
             src={logoNew} 
-            alt="The Style Chronicles" 
+            alt="The Mode Diary" 
             className="h-12 w-auto"
           />
           <nav className="flex gap-6 text-sm">
@@ -40,7 +40,7 @@ const Footer = () => {
             </Link>
           </nav>
           <p className="text-center text-sm text-muted-foreground">
-            © {currentYear} thestylechronicles.com. All rights reserved.
+            © {currentYear} themodediary.com. All rights reserved.
           </p>
         </div>
       </div>
