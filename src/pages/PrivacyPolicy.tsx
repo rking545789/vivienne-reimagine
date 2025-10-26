@@ -108,8 +108,7 @@ const PrivacyPolicy = () => {
                   If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at:
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  <strong>Email:</strong> privacy@themodediary.com<br />
-                  <strong>Address:</strong> The Mode Diary, Fashion District, New York, NY 10013
+                  <strong>Email:</strong> privacy@themodediary.com
                 </p>
               </section>
 
