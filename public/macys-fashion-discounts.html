@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Macy’s Fashion Discount Playbook | The Mode Diary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The Mode Diary’s ultimate guide to Macy’s discounts, sale and clearance. Learn how to shop smart, pick the right pieces and click straight into live deals before they’re gone." />
+  <style>
+    :root {
+      --primary: #111827;
+      --accent: #ef4444;
+      --accent-soft: #fee2e2;
+      --bg: #f9fafb;
+      --text: #111827;
+      --muted: #6b7280;
+      --card-bg: #ffffff;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+    }
+
+    /* 顶部网站入口 / 导航 */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      padding: 6px 0 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .site-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .site-brand-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #111827, #4b5563);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #f9fafb;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .site-brand-text-main {
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--primary);
+    }
+    .site-brand-text-sub {
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .site-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .site-nav-link {
+      color: var(--muted);
+    }
+    .site-nav-link-cta {
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background-color: #ffffff;
+      color: var(--primary);
+      font-size: 12px;
+    }
+    .site-nav-link-cta:hover {
+      background-color: #f3f4f6;
+      text-decoration: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      background-color: #e5f2ff;
+      color: #1d4ed8;
+      margin-bottom: 12px;
+    }
+    .badge span { font-size: 16px; }
+
+    .hero {
+      background: linear-gradient(135deg, #fef2f2, #eff6ff);
+      border-radius: 20px;
+      padding: 24px 22px 22px;
+      border: 1px solid var(--border);
+      margin-bottom: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle at center, rgba(248, 113, 113, 0.18), transparent 60%);
+      pointer-events: none;
+    }
+    .hero-title {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 4px 0 8px;
+      letter-spacing: -0.03em;
+      max-width: 720px;
+    }
+    .hero-subtitle {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 680px;
+      margin-bottom: 16px;
+    }
+    .hero-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .hero-pill {
+      padding: 6px 10px;
+      background-color: var(--card-bg);
+      border-radius: 999px;
+      border: 1px dashed #fecaca;
+      font-size: 12px;
+      color: #b91c1c;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .hero-pill span { font-size: 14px; }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 20px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 15px;
+      box-shadow: 0 10px 20px rgba(239, 68, 68, 0.25);
+      text-decoration: none;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    .btn-primary span { font-size: 18px; }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 28px rgba(239, 68, 68, 0.35);
+      text-decoration: none;
+    }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 9px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background-color: rgba(255, 255, 255, 0.9);
+      color: var(--primary);
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    .btn-ghost span { font-size: 16px; }
+    .btn-ghost:hover {
+      background-color: #f3f4f6;
+      text-decoration: none;
+    }
+
+    .hero-media {
+      margin-top: 10px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hero-image {
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      max-width: 260px;
+      flex: 1 1 180px;
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 8px;
+      max-width: 650px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.4fr);
+      gap: 22px;
+      margin-bottom: 32px;
+    }
+
+    .section-card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 18px 18px 16px;
+      margin-bottom: 22px;
+    }
+    .section-card h2 {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    .section-card h3 {
+      font-size: 16px;
+      margin: 14px 0 6px;
+    }
+    .section-card p {
+      font-size: 14px;
+      color: var(--text);
+    }
+    .section-card ul {
+      padding-left: 18px;
+      margin: 6px 0 10px;
+      font-size: 14px;
+    }
+    .section-card li { margin-bottom: 4px; }
+
+    .label {
+      display: inline-block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 2px;
+    }
+
+    .highlight-box {
+      border-radius: 14px;
+      border: 1px dashed #fecaca;
+      background-color: var(--accent-soft);
+      padding: 10px 12px;
+      font-size: 13px;
+      color: #7f1d1d;
+      margin-top: 8px;
+    }
+
+    .tip-list li { padding-left: 4px; }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .checklist-item {
+      border-radius: 12px;
+      border: 1px dashed var(--border);
+      padding: 8px 10px;
+      font-size: 13px;
+      background-color: #f9fafb;
+    }
+    .checklist-item strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 13px;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .image-gallery-item {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background-color: #fff;
+    }
+    .image-gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .image-caption {
+      font-size: 12px;
+      padding: 6px 8px 7px;
+      color: var(--muted);
+    }
+
+    .deal-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .deal-item {
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background-color: #ffffff;
+      padding: 12px 11px 10px;
+      font-size: 13px;
+    }
+    .deal-item-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      font-size: 13px;
+    }
+    .deal-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background-color: #fee2e2;
+      color: #b91c1c;
+      font-size: 11px;
+      margin-bottom: 6px;
+    }
+
+    .mini-list {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+    .faq-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .side-card-small {
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .cta-section {
+      background: linear-gradient(135deg, #111827, #1f2937);
+      color: #f9fafb;
+      border-radius: 18px;
+      padding: 20px 20px 22px;
+      margin-top: 8px;
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: "";
+      position: absolute;
+      left: -60px;
+      bottom: -80px;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle at center, rgba(248, 250, 252, 0.12), transparent 65%);
+      pointer-events: none;
+    }
+    .cta-section h2 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+    .cta-section p {
+      margin: 4px 0 12px;
+      font-size: 14px;
+      color: #e5e7eb;
+      max-width: 640px;
+    }
+    .cta-buttons { position: relative; z-index: 1; }
+
+    .site-footer-note {
+      margin-top: 18px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .site-footer-note a {
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    @media (max-width: 800px) {
+      .two-column { grid-template-columns: 1fr; }
+      .hero { padding: 20px 16px 18px; }
+      .hero-title { font-size: 24px; }
+      .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+      }
+      .site-nav-links {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- 顶部：网站入口 / 导航 -->
+    <header class="site-header">
+      <a href="https://themodediary.com/" class="site-brand">
+        <div class="site-brand-logo">M</div>
+        <div>
+          <div class="site-brand-text-main">The Mode Diary</div>
+          <div class="site-brand-text-sub">Style notes • Smart shopping</div>
+        </div>
+      </a>
+      <nav class="site-nav-links">
+        <a href="https://themodediary.com/" class="site-nav-link">Home</a>
+        <a href="https://themodediary.com/category/style/" class="site-nav-link">Style Guides</a>
+        <a href="https://themodediary.com/" class="site-nav-link-cta">← Back to The Mode Diary</a>
+      </nav>
+    </header>
+
+    <!-- HERO 区：标题 + 强力 CTA + 图片 -->
+    <section class="hero">
+      <div class="badge">
+        <span>★</span>
+        The Mode Diary • Macy’s Discount Playbook
+      </div>
+      <h1 class="hero-title">
+        Macy’s Fashion Discounts: Click Into Sale &amp; Clearance Before the Best Pieces Disappear
+      </h1>
+      <p class="hero-subtitle">
+        If you love the look but hate paying full price, this page is for you. We’ve turned Macy’s huge sale and
+        clearance sections into a simple, step-by-step guide – so you can spot the real deals, skip the noise and
+        jump straight into outfits that look expensive (but definitely weren’t).
+      </p>
+
+      <div class="hero-highlights">
+        <div class="hero-pill">
+          <span>💸</span> Learn how to never pay full price again
+        </div>
+        <div class="hero-pill">
+          <span>🛍</span> Build whole outfits from sale &amp; clearance
+        </div>
+        <div class="hero-pill">
+          <span>⚡</span> One click to today’s live Macy’s deals
+        </div>
+      </div>
+
+      <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" class="btn-primary" target="_blank" rel="nofollow sponsored">
+        <span>→</span> Open Macy’s Fashion Deals in a New Tab
+      </a>
+      <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" class="btn-ghost" target="_blank" rel="nofollow sponsored">
+        Take Me to Sale &amp; Clearance Only
+        <span>♡</span>
+      </a>
+
+      <div class="hero-media">
+        <!-- TODO: 换成你自己网站里的图片地址 -->
+        <div class="hero-image">
+          <img src="https://themodediary.com/wp-content/uploads/macys-hero-look-1.jpg" alt="Street style outfit you can recreate from Macy’s sale" />
+        </div>
+        <div class="hero-image">
+          <img src="https://themodediary.com/wp-content/uploads/macys-hero-look-2.jpg" alt="Neutral wardrobe basics from Macy’s discounts" />
+        </div>
+        <div class="hero-image">
+          <img src="https://themodediary.com/wp-content/uploads/macys-hero-look-3.jpg" alt="Evening dress and heels found on promotion" />
+        </div>
+      </div>
+
+      <p class="disclaimer">
+        Note: Some links on this page are affiliate links. If you choose to shop via our link, we may earn a small
+        commission at no extra cost to you. We only highlight discounts and ideas we genuinely think are worth your time.
+      </p>
+    </section>
+
+    <!-- 主体内容：两栏布局 -->
+    <section class="two-column">
+
+      <!-- 左侧：详细教程 + 选购知识 + 穿搭灵感 -->
+      <div>
+
+        <!-- 1. 为什么值得逛 + 价值感 -->
+        <div class="section-card">
+          <span class="label">Why this matters</span>
+          <h2>Macy’s Is a Goldmine – If You Know Where to Click</h2>
+          <p>
+            Macy’s is packed with great brands, but if you just scroll the homepage, you’ll mostly see full-price pieces.
+            The real magic – the “how is this this cheap?” kind of magic – happens in sale, promo and clearance sections.
+            This guide shows you exactly how to get there and what to put in your cart.
+          </p>
+          <p>
+            Used right, Macy’s can be where you:
+          </p>
+          <ul>
+            <li>Stock up on high-quality basics for less than fast-fashion prices</li>
+            <li>Grab statement pieces for events at a tiny fraction of the original tag</li>
+            <li>Upgrade shoes, bags and outerwear without blowing your budget</li>
+          </ul>
+          <div class="highlight-box">
+            <strong>Fast track:</strong> Open Macy’s via the buttons on this page, go straight to sale &amp; clearance,
+            then use our checklists below to decide what’s really worth clicking “add to bag”.
+          </div>
+        </div>
+
+        <!-- 2. 步骤教程：如何在10分钟内找到好折扣 -->
+        <div class="section-card">
+          <span class="label">Step-by-step</span>
+          <h2>In 10 Minutes: From “Just Browsing” to “Wow, That Was a Good Deal”</h2>
+
+          <h3>Step 1 – Go Straight to Sale, Promo &amp; Clearance</h3>
+          <p>
+            Skip “What’s New” for now. First, click into the sale or clearance sections for the categories you actually wear:
+          </p>
+          <ul class="tip-list">
+            <li>Women’s clothing – dresses, tops, denim, knitwear, outerwear</li>
+            <li>Shoes – sneakers, boots, heels, sandals</li>
+            <li>Accessories – bags, belts, jewelry, hats</li>
+          </ul>
+          <p>Then immediately:</p>
+          <ul class="tip-list">
+            <li><strong>Filter by your size</strong> so you only see things you can actually buy.</li>
+            <li><strong>Set a price range</strong> that feels realistic for each item type.</li>
+            <li><strong>Sort by “best value” or “customer favorite”</strong> when possible.</li>
+          </ul>
+
+          <h3>Step 2 – Use the “3-Outfit Rule” Before You Click “Add to Bag”</h3>
+          <p>
+            Before any sale piece goes into your bag, it needs to pass this test:
+          </p>
+          <ul class="tip-list">
+            <li>Can I style this with at least <strong>three items</strong> I already own?</li>
+            <li>Can I wear it in <strong>at least two situations</strong> (work, weekend, evenings, travel)?</li>
+            <li>Would I still be happy to wear it <strong>next season</strong>?</li>
+          </ul>
+          <p>
+            If you can’t say “yes” to at least two of those questions, it’s not a bargain – it’s just a distraction.
+          </p>
+
+          <h3>Step 3 – Stack Your Savings</h3>
+          <p>
+            Macy’s often combines multiple ways to save. Before you check out, quickly:
+          </p>
+          <ul class="tip-list">
+            <li>Look for banners like <strong>“Extra X% off sale”</strong> – that’s where the crazy prices happen.</li>
+            <li>Check whether your category (dresses, shoes, denim, etc.) has a dedicated promo.</li>
+            <li>Decide if adding one small basic to hit free shipping actually saves you more overall.</li>
+          </ul>
+
+          <div class="highlight-box">
+            <strong>Try it now:</strong>
+            <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" target="_blank" rel="nofollow sponsored"><strong>open Macy’s in a new tab</strong></a>,
+            go to sale &amp; clearance, and use this page as your real-time shopping checklist.
+          </div>
+        </div>
+
+        <!-- 3. 选购知识：材质 / 版型 / 尺码 / 时机 -->
+        <div class="section-card">
+          <span class="label">Shopping knowledge</span>
+          <h2>How to Choose Pieces You’ll Actually Wear (and Not Regret)</h2>
+          <p>
+            A smart sale shopper doesn’t just look at the discount – they look at <em>value</em>. Here’s how to make sure
+            your Macy’s deals become longtime wardrobe heroes, not one-night stands.
+          </p>
+
+          <div class="checklist">
+            <div class="checklist-item">
+              <strong>1. Fabric first</strong>
+              <span>
+                For everyday pieces, look for cotton, linen, wool or good blends. They tend to sit better on the body,
+                breathe more and survive more washes – especially important for basics you’ll wear on repeat.
+              </span>
+            </div>
+            <div class="checklist-item">
+              <strong>2. Fit over label</strong>
+              <span>
+                Don’t buy a “bargain” that doesn’t fit your body. Read size notes, look at the model’s height, and use
+                reviews to see if something runs small, big or short.
+              </span>
+            </div>
+            <div class="checklist-item">
+              <strong>3. Color story</strong>
+              <span>
+                Stick to a small palette that already exists in your closet (e.g. black, white, beige, navy). That way,
+                almost everything you buy can be mixed and matched without effort.
+              </span>
+            </div>
+            <div class="checklist-item">
+              <strong>4. Cost per wear</strong>
+              <span>
+                Ask yourself: “If I wear this 20–30 times, does today’s price feel like a win?” If yes, it’s a true deal.
+                If no, keep browsing.
+              </span>
+            </div>
+          </div>
+
+          <h3>When to Buy What at Macy’s</h3>
+          <ul class="tip-list">
+            <li><strong>Coats &amp; boots</strong> – best right after the main season, when they move to clearance.</li>
+            <li><strong>Dresses &amp; occasion pieces</strong> – buy ahead of events when you see deep promos.</li>
+            <li><strong>Basics &amp; activewear</strong> – grab during store-wide “extra % off” events.</li>
+          </ul>
+        </div>
+
+        <!-- 4. 穿搭灵感 + 图片 -->
+        <div class="section-card">
+          <span class="label">Outfit inspiration</span>
+          <h2>Outfit Ideas You Can Build From Discounted Pieces Only</h2>
+          <p>
+            Screenshot these formulas, then recreate them using only items from Macy’s sale and clearance sections.
+            You’ll look full-price without paying it.
+          </p>
+
+          <h3>Look 1 – Weekend City Walk</h3>
+          <ul class="tip-list">
+            <li>Relaxed straight-leg or wide-leg jeans from the sale section</li>
+            <li>Soft neutral knit or graphic tee</li>
+            <li>Clean white sneakers</li>
+            <li>Crossbody bag + simple gold jewelry</li>
+          </ul>
+
+          <h3>Look 2 – Effortless Office Chic</h3>
+          <ul class="tip-list">
+            <li>Tailored trousers or midi skirt in black/navy/beige</li>
+            <li>Lightweight knit or polished blouse</li>
+            <li>Loafers or low block heels</li>
+            <li>Structured tote bag big enough for your laptop</li>
+          </ul>
+
+          <h3>Look 3 – Dinner &amp; Drinks</h3>
+          <ul class="tip-list">
+            <li>Little black dress or printed wrap dress from promos</li>
+            <li>Heeled sandals or ankle boots</li>
+            <li>Cropped jacket or faux-leather layer</li>
+            <li>Statement earrings + shoulder bag</li>
+          </ul>
+
+          <div class="image-gallery">
+            <!-- TODO: 这里换成你自己的穿搭图，增强视觉冲击 -->
+            <div class="image-gallery-item">
+              <img src="https://themodediary.com/wp-content/uploads/macys-outfit-1.jpg" alt="Relaxed denim and blazer outfit" />
+              <div class="image-caption">Weekend denim + blazer – build this look from sale jeans and outerwear.</div>
+            </div>
+            <div class="image-gallery-item">
+              <img src="https://themodediary.com/wp-content/uploads/macys-outfit-2.jpg" alt="Neutral knit and tailored pants outfit" />
+              <div class="image-caption">Office-ready neutrals: knit + trousers from discounted wardrobe essentials.</div>
+            </div>
+            <div class="image-gallery-item">
+              <img src="https://themodediary.com/wp-content/uploads/macys-outfit-3.jpg" alt="Evening dress and heels outfit" />
+              <div class="image-caption">Dinner outfit: dress + heels picked from promotion and clearance sections.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 右侧：快捷入口 + 站内入口 + FAQ -->
+      <aside>
+
+        <!-- 快速跳转 Macy's 各个折扣区 -->
+        <div class="section-card">
+          <span class="label">One-click deal finder</span>
+          <h2>Jump Straight Into Macy’s Discount Sections</h2>
+          <p>
+            Don’t wander the homepage. Use these shortcuts to head straight to the areas where we usually find the
+            strongest fashion savings.
+          </p>
+
+          <div class="deal-list">
+            <div class="deal-item">
+              <div class="deal-tag">Women’s Sale</div>
+              <div class="deal-item-title">Women’s Fashion Deals</div>
+              <p>
+                Dresses, tops, denim and more marked down from original prices. Perfect for building everyday outfits on a budget.
+              </p>
+              <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" target="_blank" rel="nofollow sponsored">Browse women’s sale →</a>
+            </div>
+
+            <div class="deal-item">
+              <div class="deal-tag">Big Reductions</div>
+              <div class="deal-item-title">Clearance &amp; Last-Chance</div>
+              <p>
+                Deeper markdowns on end-of-season styles. Ideal for coats, knitwear and event pieces you’ll wear later.
+              </p>
+              <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" target="_blank" rel="nofollow sponsored">Shop clearance deals →</a>
+            </div>
+
+            <div class="deal-item">
+              <div class="deal-tag">Shoes &amp; Bags</div>
+              <div class="deal-item-title">Footwear &amp; Accessories</div>
+              <p>
+                Sneakers, boots, heels and bags that often sneak into category-wide promos and limited-time offers.
+              </p>
+              <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" target="_blank" rel="nofollow sponsored">See shoe &amp; bag offers →</a>
+            </div>
+
+            <div class="deal-item">
+              <div class="deal-tag">Style Essentials</div>
+              <div class="deal-item-title">Wardrobe Basics</div>
+              <p>
+                T-shirts, underwear, loungewear and activewear – best to grab when stacked with extra % off events.
+              </p>
+              <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" target="_blank" rel="nofollow sponsored">View basics on sale →</a>
+            </div>
+          </div>
+
+          <div class="mini-list">
+            Tiny hack: open two or three of these in new tabs, keep this guide beside you, and “yes/no” your way through
+            the best deals in under 10 minutes.
+          </div>
+        </div>
+
+        <!-- 网站入口：回到 The Mode Diary / 浏览更多内容 -->
+        <div class="section-card">
+          <span class="label">From The Mode Diary</span>
+          <h2>Want More Style &amp; Shopping Guides?</h2>
+          <p>
+            This Macy’s discount playbook is part of our bigger mission at <strong>The Mode Diary</strong>:
+            helping you look put-together without overspending or doom-scrolling every store on the internet.
+          </p>
+          <p class="side-card-small">
+            Explore more articles, outfit breakdowns and smart-shopping how-tos back on the main site:
+          </p>
+          <ul class="tip-list">
+            <li><a href="https://themodediary.com/" target="_blank">Visit The Mode Diary homepage →</a></li>
+            <li><a href="https://themodediary.com/category/style/" target="_blank">Browse all style &amp; outfit guides →</a></li>
+          </ul>
+          <p class="side-card-small">
+            You can always come back to this page when you’re ready to hunt Macy’s deals again – we’ll be here waiting
+            with your discount game plan.
+          </p>
+        </div>
+
+        <!-- FAQ + 再次强调价值 -->
+        <div class="section-card">
+          <span class="label">Questions</span>
+          <h2>Quick FAQ Before You Dive Into the Deals</h2>
+
+          <div class="faq-item">
+            <strong>Do you control Macy’s prices or stock?</strong>
+            <span>No. Prices, promotions and inventory are handled by Macy’s. We simply point you toward sections and strategies that usually offer the strongest value.</span>
+          </div>
+
+          <div class="faq-item">
+            <strong>Why should I click through from The Mode Diary?</strong>
+            <span>
+              When you shop via our links, we may earn a small commission at no extra cost to you. It’s a simple way to
+              support more honest edits, styling advice and deep-dive shopping guides like this one.
+            </span>
+          </div>
+
+          <div class="faq-item">
+            <strong>Will these tips work all year?</strong>
+            <span>
+              Exact deals change almost daily, but the method doesn’t: head to sale &amp; clearance, filter smartly,
+              read the details and think in outfits, not random pieces.
+            </span>
+          </div>
+
+          <div class="highlight-box">
+            <strong>If you’re still reading, your next move is simple:</strong>
+            open Macy’s via any button on this page, apply these tips, and watch how different your cart feels when
+            everything inside is both discounted <em>and</em> genuinely wearable.
+          </div>
+        </div>
+
+      </aside>
+    </section>
+
+    <!-- 底部大号 CTA -->
+    <section class="cta-section">
+      <h2>Ready to Catch the Good Deals Before They’re Gone?</h2>
+      <p>
+        The best sale pieces never sit around for long. Open Macy’s in a new tab now, keep this guide next to you,
+        and give yourself 10 focused minutes to build a smarter, more stylish wardrobe for less.
+      </p>
+      <div class="cta-buttons">
+        <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" class="btn-primary" target="_blank" rel="nofollow sponsored">
+          <span>🛒</span> Click Here to Shop Macy’s Fashion Discounts
+        </a>
+        <a href="https://www.macys.com/?cjdata=MXxOfDB8WXwxNzYzODY0NDcwODcz&amp;cjevent=eacc0329c29211f0801001570a1cb82b&amp;clickid=eacc0329c29211f0801001570a1cb82b&amp;m_sc=aff&amp;m_sb=aff&amp;m_pl=Ebates+Performance+Marketing%2C+Inc.+dba+Rakuten+Rewards&amp;m_si=46157&amp;flexid=" class="btn-ghost" target="_blank" rel="nofollow sponsored">
+          I Only Want Sale &amp; Clearance → 
+        </a>
+      </div>
+      <p class="disclaimer">
+        You stay in control of what you buy – we just show you where the smart discounts live. Happy shopping from The Mode Diary. ♡
+      </p>
+    </section>
+
+    <!-- 底部网站入口 -->
+    <div class="site-footer-note">
+      Looking for more fashion content?  
+      <a href="https://themodediary.com/" target="_blank">Return to The Mode Diary</a> and discover more style stories and shopping guides.
+    </div>
+
+  </div>
+</body>
+</html>
