@@ -19,26 +19,36 @@ import TermsOfService from "./pages/TermsOfService";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+
+/** ⭐ 改成你真实的正式域名（现在这个是对的） */
 const SITE = "https://themodediary.com";
 
 /**
- * ✅ 不依赖 Helmet 的 canonical 注入
- * Google 和 GSC 都能识别
+ * ⭐ 绝对生效的 canonical 注入
+ * - 不依赖第三方库
+ * - Google / GSC 可识别
  */
 function CanonicalInjector() {
   const location = useLocation();
 
   useEffect(() => {
-    const pathname = (location.pathname || "/").replace(/\/+$/, "") || "/";
-    const canonicalUrl = SITE + pathname;
+    const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+    const canonicalUrl = SITE + path;
 
-    let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+    let link = document.querySelector(
+      'link[rel="canonical"]'
+    ) as HTMLLinkElement | null;
+
     if (!link) {
       link = document.createElement("link");
       link.setAttribute("rel", "canonical");
       document.head.appendChild(link);
     }
+
     link.setAttribute("href", canonicalUrl);
+
+    // 🔍 调试用（你确认看到一次即可，以后可以删）
+    console.log("CANONICAL SET:", canonicalUrl);
   }, [location.pathname]);
 
   return null;
