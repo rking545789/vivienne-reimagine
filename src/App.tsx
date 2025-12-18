@@ -5,7 +5,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 import Index from "./pages/Index";
 import StartHere from "./pages/StartHere";
@@ -19,24 +19,29 @@ import TermsOfService from "./pages/TermsOfService";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
-
-// ✅ 你的正式域名（如有变更只改这一行）
 const SITE = "https://themodediary.com";
 
-function CanonicalTag() {
+/**
+ * ✅ 不依赖 Helmet 的 canonical 注入
+ * Google 和 GSC 都能识别
+ */
+function CanonicalInjector() {
   const location = useLocation();
 
-  // 规范化 pathname：去掉末尾多余 /
-  const pathname = (location.pathname || "/").replace(/\/+$/, "") || "/";
+  useEffect(() => {
+    const pathname = (location.pathname || "/").replace(/\/+$/, "") || "/";
+    const canonicalUrl = SITE + pathname;
 
-  // 规范化 search：一般 canonical 不需要保留跟踪参数；这里直接不带 search
-  const canonical = `${SITE}${pathname}`;
+    let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+    if (!link) {
+      link = document.createElement("link");
+      link.setAttribute("rel", "canonical");
+      document.head.appendChild(link);
+    }
+    link.setAttribute("href", canonicalUrl);
+  }, [location.pathname]);
 
-  return (
-    <Helmet>
-      <link rel="canonical" href={canonical} />
-    </Helmet>
-  );
+  return null;
 }
 
 export default function App() {
@@ -47,8 +52,7 @@ export default function App() {
         <Sonner />
 
         <BrowserRouter>
-          {/* ✅ 必须在 BrowserRouter 里面 */}
-          <CanonicalTag />
+          <CanonicalInjector />
           <ScrollToTop />
 
           <Routes>
@@ -68,6 +72,3 @@ export default function App() {
     </QueryClientProvider>
   );
 }
-
-
-export default App;
